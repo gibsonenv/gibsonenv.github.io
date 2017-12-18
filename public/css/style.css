@@ -492,22 +492,107 @@ body.mobile-nav-active #mobile-nav-toggle {
 ------------------------------------------------------*/
 /*video as background; container element makes it responsive */
 video#video-bg.video-bg {
-  width: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 75%;
   height: auto;
   background: transparent url('960x360.png') no-repeat;
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  display: block
+  display: block;
 }
 
 /* disable video (e.g. in a media query) by setting .video-container to display: none; as appropriate */
 .video-container {
   width: 100%;
-  height: 100%;
   max-width: 960px;
   overflow: hidden;
 }
+
+/* Visual Section
+--------------------------------*/
+#visual {
+  background: #ffffff;
+  padding: 50px 0;
+}
+
+#visual .title {
+  margin:0 0 20px 0;
+}
+
+#visual h5 {
+  margin:0 0 0 0;
+}
+
+#visual .visual-container .background {
+  min-height: 300px;
+  background: url(../img/about-img.jpg) center top no-repeat;
+  margin-bottom: 10px;
+}
+
+#visual .visual-container .content {
+  background: #ffffff;
+}
+
+#visual .visual-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+@media (max-width: 768px) {
+  #visual .visual-container .title {
+    padding-top: 15px;
+  }
+}
+
+#visual .visual-container p {
+  line-height: 26px;
+}
+
+#visual .visual-container p:last-child {
+  margin-bottom: 0;
+}
+
+#visual .visual-container .icon-box {
+  background: #f7f7f7;
+  background-size: cover;
+  padding: 0 0 30px 0;
+}
+
+#visual .visual-container .icon-box .icon {
+  float: left;
+  background: #fff;
+  padding: 16px;
+  border-radius: 50%;
+  border: 2px solid #2dc997;
+}
+
+#visual .visual-container .icon-box .icon i {
+  color: #2dc997;
+  font-size: 24px;
+}
+
+#visual .visual-container .icon-box .title {
+  margin-left: 80px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#visual .visual-container .icon-box .title a {
+  color: #111;
+}
+
+#visual .visual-container .icon-box .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
 
 /* About Us Section
 --------------------------------*/
