@@ -495,7 +495,7 @@ video#video-bg.video-bg {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  width: 75%;
+  width: 80%;
   height: auto;
   background: transparent url('960x360.png') no-repeat;
   background-size: cover;
@@ -507,7 +507,6 @@ video#video-bg.video-bg {
 /* disable video (e.g. in a media query) by setting .video-container to display: none; as appropriate */
 .video-container {
   width: 100%;
-  max-width: 960px;
   overflow: hidden;
 }
 
@@ -519,7 +518,7 @@ video#video-bg.video-bg {
 }
 
 #visual .title {
-  margin:0 0 20px 0;
+  margin:0 0 0px 0;
 }
 
 #visual h5 {
