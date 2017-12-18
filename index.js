@@ -1,6 +1,7 @@
 var express = require('express');
 var exphbs  = require('express-handlebars');
 var helpers = require('handlebars-helpers')();
+var path = require('path');
 var app = express();
 var router = express.Router();
 
@@ -9,7 +10,9 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 
-app.use(express.static(__dirname + '/public/'))
+//app.use(express.static(__dirname + '../public/'))
+app.use('/static', express.static(path.join(__dirname, '/public')));
+//app.use(express.static('public'))
 app.use('/',router)
 app.enable('view cache');
 
