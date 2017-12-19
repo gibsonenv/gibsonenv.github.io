@@ -262,6 +262,7 @@
   </section><!-- #contact -->
 
   <script type="text/javascript">
+
     // Wrap every letter in a span
     $('.ml11 .letters').each(function(){
       $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
@@ -393,14 +394,16 @@
     var visual_visibility = VisSense(visual[0], { fullyvisible: 0.45 });
     var visual_monitor = visual_visibility.monitor({
       fullyvisible: function() {
-        if (!started) {
-          VisualTexts[0].show();
-          animateText1();
-          started = true;
-        }
-        window.setInterval(function(){
+        video.on("loadeddata", function() {
+          if (!started) {
+            VisualTexts[0].show();
+            animateText1();
+            started = true;
+          };
+          window.setInterval(function(){
             toggleVisualText();
           }, WaitInterval);
+        });
       }
     }).start();
   </script>
