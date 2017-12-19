@@ -23,9 +23,9 @@ router.get('/',function(req, res){
 	})
 });
 
-router.get('/models',function(req, res){
-    res.render('models', {
-		title: "Models"
+router.get('/challenge',function(req, res){
+    res.render('challenge', {
+		title: "Challenge"
 	});
 });
 

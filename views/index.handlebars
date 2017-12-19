@@ -18,16 +18,15 @@
   <section id="visual">
     <div class="container">
       <div class="row visual-container">
-
         <div class="col-lg-12 content order-lg-1 order-1 text-center">
           <h5>Bridging the Gap between </h5>
-          <h2 class="ml11 title" id="visual1">
+          <h2 class="ml11 title visual1">
             <span class="text-wrapper">
               <span class="line line1"></span>
               <span class="letters">Real World and Simulation</span>
             </span>
           </h2>
-          <h2 class="ml11 title" id="visual2">
+          <h2 class="ml11 title visual2">
             <span class="text-wrapper">
               <span class="line line1"></span>
               <span class="letters">Perception and Action</span>
@@ -40,64 +39,54 @@
               <source src="/static/video/gibson1.mp4" type="video/mp4" alt="HTML5 background video">
             </video>
           </div>  
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <p class="text visual1">
+            <b>"You shouldn't play video games all day, so shouldn't your AI."</b> Gibson is a virtual environment built with real world complexity, using RGBD scanning.
+          </p>
+          <p class="text visual2">
+            <b>"We must perceive in order to move, but we must also move in order to perceive." --- James J. Gibson</b> Gibson enables training AI algorithms that explores both perception and action. 
           </p>
         </div>
       </div>
 
     </div>
   </section><!-- #about -->
-  <section id="about">
-    <div class="container">
-      <div class="row about-container">
-
-        <div class="col-lg-12 content order-lg-1 order-1 text-center">
-          <h2 class="title">Multimodal Real World Environment</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
-          <div class="row">
-            <div class="diagram">
-              <div class="col-12 text-center">
-                <img class="img-responsive" width="100%" src="/static/img/figure0.jpg" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
   <!--==========================
     Facts Section
   ============================-->
   <section id="services">
     <div class="container wow fadeIn">
       <div class="section-header">
-        <h3 class="section-title">Key Components</h3>
-        <p class="section-description">Our main contributions are made of four key components. </p>
+        <h3 class="section-title">Get Started</h3>
+        <div class="row section-predescription">
+          <div class="diagram">
+            <div class="col-12 text-center">
+              <img class="img-responsive" width="100%" src="/static/img/figure0.jpg" />
+            </div>
+          </div>
+        </div>
+        <p class="section-description">Use our opensource platform to explore active perception. If you find it interesting, we encourage reading about how we made it. </p>
+
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-12">
           <div class="box">
+            <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
+            <h4 class="title"><a href="">Gibson Platform</a></h4>
+            <p class="description">Gibson Environment for Real-World Perception Learning. We are opensourced on Github. Check it out, deploy, and start training perceptual agents right now.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="box">
             <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
-            <h4 class="title"><a href="">ModelNet</a></h4>
+            <h4 class="title"><a href="">Model Database</a></h4>
             <p class="description">Up to 1000 RGBD scanning models, collected in indoor scenes using RGBD camera. State-of-the-art model complexity.</p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="box">
-            <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
-            <h4 class="title"><a href="">View Synthesis</a></h4>
-            <p class="description">Neural network for reconstructing realistic rendering from pont cloud.</p>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-12">
-          <div class="box">
             <div class="icon"><a href=""><i class="fa fa-road"></i></a></div>
-            <h4 class="title"><a href="">Embodied Physics Environment</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <h4 class="title"><a href="">How We Did it</a></h4>
+            <p class="description">Learn about our deep view synthesis pipeline, physics integration, and experiment results in Gibson Environment. </p>
           </div>
         </div>
 
@@ -105,7 +94,7 @@
           <div class="box">
             <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
             <h4 class="title"><a href="">Domain Adaptation</a></h4>
-            <p class="description">We propose a domain adaptation mechanism called "Goggle", which ensures that results achieved in Cambria environment can trasfer to real world.</p>
+            <p class="description">We propose a domain adaptation mechanism called "Goggle", which ensures that results in Gibson can trasfer to real world.</p>
           </div>
         </div>
         </div>
@@ -122,7 +111,7 @@
       <div class="row">
         <div class="col-lg-9 text-center text-lg-left">
           <h3 class="cta-title">Call To Action</h3>
-          <p class="cta-text"> Participate in our real environment challenge! </br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="cta-text"> Participate in our real environment challenge! </br> To facilitate the next generation of powerful perceptive algorithms, we propose Gibson Challenge: a set of predefined tasks including navigation, object retrieval, collision avoidance, locomotion, etc. Try them out with your algorithms.</p>
         </div>
         <div class="col-lg-3 cta-btn-container text-center">
           <a class="cta-btn align-middle" href="#">Participate</a>
@@ -268,37 +257,40 @@
       $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
     });
 
-    var VisualTexts = [ $(".ml11#visual1"), $(".ml11#visual2") ];
+    var VisualTexts = [ $(".visual1"), $(".visual2") ];
+    VisualTexts[0].hide()
+    VisualTexts[1].hide()
     var VisualCurrent = 1;
-    var VisualDelay = [11000, 15000];
+    //var VisualDelay = [11000, 15000];
+    var VisualDelay = [5000, 5000];
     var VisualAnimation = [
-      200 + 800 + 300 + $(".ml11#visual1 .letter").length * 34 + 500,
-      200 + 800 + 300 + $(".ml11#visual2 .letter").length * 34 + 1500
+      200 + 800 + 300 + $(".ml11.visual1 .letter").length * 34 + 500,
+      200 + 800 + 300 + $(".ml11.visual2 .letter").length * 34 + 1500
     ]
 
     // Visual text 1
     function animateText1() {
       anime.timeline({loop: false})
         .add({
-          targets: '.ml11#visual1',
+          targets: '.ml11.visual1',
           opacity: 1,
           duration: 1,
           easing: "easeOutExpo"
         }).add({
-          targets: '.ml11#visual1 .line',
+          targets: '.ml11.visual1 .line',
           scaleY: [0,1],
           opacity: [0.5,1],
           easing: "easeOutExpo",
           duration: 200
         })
         .add({
-          targets: '.ml11#visual1 .line',
-          translateX: [0,$(".ml11#visual1 .letters").width()],
+          targets: '.ml11.visual1 .line',
+          translateX: [0,$(".ml11.visual1 .letters").width()],
           easing: "easeOutExpo",
-          duration: $(".ml11#visual1 .letter").length * 34,
+          duration: $(".ml11.visual1 .letter").length * 34,
           delay: 300
         }).add({
-          targets: '.ml11#visual1 .letter',
+          targets: '.ml11.visual1 .letter',
           opacity: [0,1],
           easing: "easeOutExpo",
           duration: 300,
@@ -307,7 +299,7 @@
             return 34 * (i+1)
           }
         }).add({
-          targets: '.ml11#visual1',
+          targets: '.ml11.visual1',
           opacity: 0,
           duration: 500,
           easing: "easeOutExpo",
@@ -319,24 +311,24 @@
     function animateText2() {
       anime.timeline({loop: false})
         .add({
-          targets: '.ml11#visual2',
+          targets: '.ml11.visual2',
           opacity: 1,
           duration: 1,
           easing: "easeOutExpo"
         }).add({
-          targets: '.ml11#visual2 .line',
+          targets: '.ml11.visual2 .line',
           scaleY: [0,1],
           opacity: [0.5,1],
           easing: "easeOutExpo",
           duration: 200
         }).add({
-          targets: '.ml11#visual2 .line',
-          translateX: [0,$(".ml11#visual2 .letters").width()],
+          targets: '.ml11.visual2 .line',
+          translateX: [0,$(".ml11.visual2 .letters").width()],
           easing: "easeOutExpo",
-          duration: $(".ml11#visual1 .letter").length * 34,
+          duration: $(".ml11.visual1 .letter").length * 34,
           delay: 300
         }).add({
-          targets: '.ml11#visual2 .letter',
+          targets: '.ml11.visual2 .letter',
           opacity: [0,1],
           easing: "easeOutExpo",
           duration: 300,
@@ -345,7 +337,7 @@
             return 34 * (i+1)
           }
         }).add({
-          targets: '.ml11#visual2',
+          targets: '.ml11.visual2',
           opacity: 0,
           duration: 1500,
           easing: "easeOutExpo",
@@ -353,17 +345,15 @@
         });
     };
 
-    VisualTexts[0].hide()
-    VisualTexts[1].hide()
-
     var WaitInterval = 1000;
     var WaitCurrent = 0;
     var started = false
+    var activated = false
 
     function toggleVisualText() {
       WaitCurrent += WaitInterval;
       if (VisualCurrent === 1) {
-        if (WaitCurrent === VisualDelay[0]) {
+        if (WaitCurrent >= VisualDelay[0]) {
           VisualCurrent = 2;
           VisualTexts[0].hide();
           VisualTexts[1].show();  
@@ -371,7 +361,7 @@
           WaitCurrent = 0;
         }
       } else {
-        if (WaitCurrent == VisualDelay[1]) {
+        if (WaitCurrent >= VisualDelay[1]) {
           VisualCurrent = 1;
           VisualTexts[0].show();
           VisualTexts[1].hide();
@@ -381,7 +371,22 @@
       }
     }
 
+    function activateVisuals() {
+      if (!started) {
+        VisualTexts[0].show();
+        animateText1();
+        started = true;
+      };
+      if (!activated) {
+        window.setInterval(function(){
+          toggleVisualText();
+        }, WaitInterval);  
+        activated = true;
+      };
+    }
+
     var video = $('video'); 
+    var video_loaded = false;
     video[0].pause()
     var video_visibility = VisSense(video[0], { fullyvisible: 0.75 });
     var video_monitor = video_visibility.monitor({
@@ -389,21 +394,22 @@
         video[0].play();
       }
     }).start();
+
+    video.on("loadeddata", function() {
+      video_loaded = true;
+    });
     
     var visual = $('#visual'); 
     var visual_visibility = VisSense(visual[0], { fullyvisible: 0.45 });
     var visual_monitor = visual_visibility.monitor({
       fullyvisible: function() {
         video.on("loadeddata", function() {
-          if (!started) {
-            VisualTexts[0].show();
-            animateText1();
-            started = true;
-          };
-          window.setInterval(function(){
-            toggleVisualText();
-          }, WaitInterval);
+          video_loaded = true;
+          activateVisuals();
         });
+        if (video_loaded) {
+          activateVisuals();
+        }
       }
     }).start();
   </script>

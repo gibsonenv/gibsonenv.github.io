@@ -474,7 +474,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header .section-title {
   font-size: 32px;
   color: #111;
-  text-transform: uppercase;
   text-align: center;
   font-weight: 700;
   margin-bottom: 5px;
@@ -483,7 +482,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header .section-description {
   text-align: center;
   padding-bottom: 40px;
-  color: #999;
+}
+
+.section-header .section-predescription img{
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.section-header .section-predescription{
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 
@@ -555,7 +564,7 @@ video#video-bg.video-bg {
 }
 
 #visual .title {
-  margin:0 0 15px 0;
+  margin:0 0 0px 0;
 }
 
 #visual h5 {
@@ -576,6 +585,12 @@ video#video-bg.video-bg {
   color: #333;
   font-weight: 700;
   font-size: 36px;
+}
+
+.visual-container p {
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
 }
 
 @media (max-width: 768px) {
@@ -735,7 +750,7 @@ video#video-bg.video-bg {
 /* Services Section
 --------------------------------*/
 #services {
-  background: #fff;
+  background: #f7f7f7;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -757,7 +772,7 @@ video#video-bg.video-bg {
   transition: 0.2s;
   border-radius: 50%;
   display: inline-block;
-  border: 6px solid #fff;
+  border: 6px solid #f7f7f7;
 }
 
 #services .icon a {
@@ -770,7 +785,7 @@ video#video-bg.video-bg {
 }
 
 #services .icon i {
-  color: #fff;
+  color: #f7f7f7;
   font-size: 24px;
 }
 
@@ -780,14 +795,13 @@ video#video-bg.video-bg {
 
 #services .box:hover .icon a {
   color: #2dc997;
-  background: #fff;
+  background: #f7f7f7;
 }
 
 #services .title {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
-  text-transform: uppercase;
 }
 
 #services .title a {
