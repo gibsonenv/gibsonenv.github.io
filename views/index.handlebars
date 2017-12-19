@@ -3,8 +3,8 @@
 ============================-->
 <section id="hero">
   <div class="hero-container">
-    <h1>Cambria</h1>
-    <h2>Embodied Real-World Active Perception</h2>
+    <h1>Gibson</h1>
+    <h2>Real-World Perception Learning Environment</h2>
     <a href="#visual" class="btn-get-started">Get Started</a>
     <a href="#about" class="btn-get-started">View on Github</a>
   </div>
@@ -21,11 +21,23 @@
 
         <div class="col-lg-12 content order-lg-1 order-1 text-center">
           <h5>Bridging the Gap between </h5>
-          <h2 class="title">Real World and Simulation</h2>
+          <h2 class="ml11 title" id="visual1">
+            <span class="text-wrapper">
+              <span class="line line1"></span>
+              <span class="letters">Real World and Simulation</span>
+            </span>
+          </h2>
+          <h2 class="ml11 title" id="visual2">
+            <span class="text-wrapper">
+              <span class="line line1"></span>
+              <span class="letters">Perception and Action</span>
+            </span>
+          </h2>
+          <h2 class="title"></h2>
           <div class="col-lg-12 content video-container embed-responsive embed-responsive-21by9">
             <video autoplay center loop muted class="video-bg" id="video-bg"> <!--this id is only used for the toggle function; can be removed if you don't need an event -->
               <!-- whatever video you put here will be (effectively) cropped to fit container size; make sure you're okay with it shrinking to the top left corner of the video at your specified minimum dimensions -->
-              <source src="/static/video/cambria1.mp4" type="video/mp4" alt="HTML5 background video">
+              <source src="/static/video/gibson1.mp4" type="video/mp4" alt="HTML5 background video">
             </video>
           </div>  
           <p>
@@ -64,7 +76,7 @@
     <div class="container wow fadeIn">
       <div class="section-header">
         <h3 class="section-title">Key Components</h3>
-        <p class="section-description">Our main contributions are made of four key components. Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+        <p class="section-description">Our main contributions are made of four key components. </p>
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-12">
@@ -92,9 +104,8 @@
         <div class="col-lg-6 col-md-12">
           <div class="box">
             <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
-            <h4 class="title"><a href="">Goggle Mechanism</a></h4>
-            <p class="description">Novel domain adaptation mechanism to ensure that results achieved in Cambria environment can trasfer to real world.</p>
-
+            <h4 class="title"><a href="">Domain Adaptation</a></h4>
+            <p class="description">We propose a domain adaptation mechanism called "Goggle", which ensures that results achieved in Cambria environment can trasfer to real world.</p>
           </div>
         </div>
         </div>
@@ -250,4 +261,147 @@
     </div>
   </section><!-- #contact -->
 
+  <script type="text/javascript">
+    // Wrap every letter in a span
+    $('.ml11 .letters').each(function(){
+      $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+    });
+
+    var VisualTexts = [ $(".ml11#visual1"), $(".ml11#visual2") ];
+    var VisualCurrent = 1;
+    var VisualDelay = [11000, 15000];
+    var VisualAnimation = [
+      200 + 800 + 300 + $(".ml11#visual1 .letter").length * 34 + 500,
+      200 + 800 + 300 + $(".ml11#visual2 .letter").length * 34 + 1500
+    ]
+
+    // Visual text 1
+    function animateText1() {
+      anime.timeline({loop: false})
+        .add({
+          targets: '.ml11#visual1',
+          opacity: 1,
+          duration: 1,
+          easing: "easeOutExpo"
+        }).add({
+          targets: '.ml11#visual1 .line',
+          scaleY: [0,1],
+          opacity: [0.5,1],
+          easing: "easeOutExpo",
+          duration: 200
+        })
+        .add({
+          targets: '.ml11#visual1 .line',
+          translateX: [0,$(".ml11#visual1 .letters").width()],
+          easing: "easeOutExpo",
+          duration: $(".ml11#visual1 .letter").length * 34,
+          delay: 300
+        }).add({
+          targets: '.ml11#visual1 .letter',
+          opacity: [0,1],
+          easing: "easeOutExpo",
+          duration: 300,
+          offset: '-=775',
+          delay: function(el, i) {
+            return 34 * (i+1)
+          }
+        }).add({
+          targets: '.ml11#visual1',
+          opacity: 0,
+          duration: 500,
+          easing: "easeOutExpo",
+          delay: VisualDelay[0] - VisualAnimation[0],  // static time for caption
+        });
+    }
+
+    //Visual Text 2
+    function animateText2() {
+      anime.timeline({loop: false})
+        .add({
+          targets: '.ml11#visual2',
+          opacity: 1,
+          duration: 1,
+          easing: "easeOutExpo"
+        }).add({
+          targets: '.ml11#visual2 .line',
+          scaleY: [0,1],
+          opacity: [0.5,1],
+          easing: "easeOutExpo",
+          duration: 200
+        }).add({
+          targets: '.ml11#visual2 .line',
+          translateX: [0,$(".ml11#visual2 .letters").width()],
+          easing: "easeOutExpo",
+          duration: $(".ml11#visual1 .letter").length * 34,
+          delay: 300
+        }).add({
+          targets: '.ml11#visual2 .letter',
+          opacity: [0,1],
+          easing: "easeOutExpo",
+          duration: 300,
+          offset: '-=775',
+          delay: function(el, i) {
+            return 34 * (i+1)
+          }
+        }).add({
+          targets: '.ml11#visual2',
+          opacity: 0,
+          duration: 1500,
+          easing: "easeOutExpo",
+          delay: VisualDelay[1] - VisualAnimation[1] // static time for caption
+        });
+    };
+
+    VisualTexts[0].hide()
+    VisualTexts[1].hide()
+
+    var WaitInterval = 1000;
+    var WaitCurrent = 0;
+    var started = false
+
+    function toggleVisualText() {
+      WaitCurrent += WaitInterval;
+      if (VisualCurrent === 1) {
+        if (WaitCurrent === VisualDelay[0]) {
+          VisualCurrent = 2;
+          VisualTexts[0].hide();
+          VisualTexts[1].show();  
+          animateText2();
+          WaitCurrent = 0;
+        }
+      } else {
+        if (WaitCurrent == VisualDelay[1]) {
+          VisualCurrent = 1;
+          VisualTexts[0].show();
+          VisualTexts[1].hide();
+          animateText1();
+          WaitCurrent = 0;
+        }
+      }
+    }
+
+    var video = $('video'); 
+    video[0].pause()
+    var video_visibility = VisSense(video[0], { fullyvisible: 0.75 });
+    var video_monitor = video_visibility.monitor({
+      fullyvisible: function() { 
+        video[0].play();
+      }
+    }).start();
+    
+    var visual = $('#visual'); 
+    var visual_visibility = VisSense(visual[0], { fullyvisible: 0.45 });
+    var visual_monitor = visual_visibility.monitor({
+      fullyvisible: function() {
+        if (!started) {
+          VisualTexts[0].show();
+          animateText1();
+          started = true;
+        }
+        window.setInterval(function(){
+            toggleVisualText();
+          }, WaitInterval);
+      }
+    }).start();
+  </script>
 </main>
