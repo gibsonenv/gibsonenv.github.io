@@ -1,0 +1,398 @@
+/* Platform introduction Section
+--------------------------------*/
+#platform-intro {
+  background: #f7f7f7;
+  background-size: cover;
+  padding: 80px 0 0px 0;
+}
+
+#platform-intro .navigation {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#platform-intro .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 200px;
+  position: relative;
+  background: #fafafa;
+}
+
+#platform-intro .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  display: inline-block;
+  border: 6px solid #f7f7f7;
+}
+
+#platform-intro .icon a {
+  display: inline-block;
+  background: #2dc997;
+  border: 2px solid #2dc997;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+#platform-intro .icon i {
+  color: #f7f7f7;
+  font-size: 24px;
+}
+
+#platform-intro .box:hover .icon i {
+  color: #2dc997;
+}
+
+#platform-intro .box:hover .icon a {
+  color: #2dc997;
+  background: #f7f7f7;
+}
+
+#platform-intro .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+
+#platform-intro .platform-intro-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#platform-intro .platform-intro-container p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+
+#platform-intro .title a {
+  color: #111;
+}
+
+#platform-intro-container .description {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+/* Platform About Section
+--------------------------------*/
+#platform-about {
+  background: #ffffff;
+  padding: 60px 0;
+}
+
+#platform-about .title {
+  margin:0 0 20px 0;
+}
+
+#platform-about h5 {
+  margin:0 0 0 0;
+}
+
+#platform-about .platform-about-container .diagram img{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#platform-about .platform-about-container p{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#platform-about .platform-about-container .background {
+  min-height: 300px;
+  background: url(../img/about-img.jpg) center top no-repeat;
+  margin-bottom: 10px;
+}
+
+#platform-about .platform-about-container .content {
+  background: #ffffff;
+}
+
+#platform-about .platform-about-container .section-title {
+  color: #555;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+#platform-about .platform-about-container .section-second-title{
+  color: #555;
+  font-weight: 550;
+  font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  #platform-about .platform-about-container .title {
+    padding-top: 15px;
+  }
+}
+
+#platform-about .platform-about-container p {
+  line-height: 26px;
+}
+
+#platform-about .platform-about-container p:last-child {
+  margin-bottom: 0;
+}
+
+#platform-about .platform-about-container .icon-box {
+  background: #ffffff;
+  background-size: cover;
+  padding: 0 0 30px 0;
+}
+
+#platform-about .platform-about-container .icon-box .icon {
+  float: left;
+  background: #fff;
+  padding: 16px;
+  border-radius: 50%;
+  border: 2px solid #2dc997;
+}
+
+
+#platform-about .section-description {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#platform-about .platform-about-container .icon-box .icon i {
+  color: #2dc997;
+  font-size: 24px;
+}
+
+#platform-about .platform-about-container .icon-box .title {
+  margin-left: 80px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#platform-about .platform-about-container .icon-box .title a {
+  color: #111;
+}
+
+#platform-about .platform-about-container .icon-box .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+#platform-about .counters span {
+  font-size: 48px;
+  display: block;
+  color: #2dc997;
+}
+
+#platform-about .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+}
+
+/* Platform Specs Section
+--------------------------------*/
+#platform-specs {
+  background: #f7f7f7;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#platform-specs .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 200px;
+  position: relative;
+  background: #fafafa;
+}
+
+#platform-specs .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  display: inline-block;
+  border: 6px solid #f7f7f7;
+}
+
+#platform-specs .icon a {
+  display: inline-block;
+  background: #2dc997;
+  border: 2px solid #2dc997;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+#platform-specs .icon i {
+  color: #f7f7f7;
+  font-size: 24px;
+}
+
+#platform-specs .box:hover .icon i {
+  color: #2dc997;
+}
+
+#platform-specs .box:hover .icon a {
+  color: #2dc997;
+  background: #f7f7f7;
+}
+
+#platform-specs .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+
+#platform-specs .platform-specs-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+
+#platform-specs .title a {
+  color: #111;
+}
+
+#platform-specs .description {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Platform Data Section
+--------------------------------*/
+#platform-data {
+  background: #ffffff;
+  padding: 20px 0;
+}
+
+#platform-data .platform-data-container .title {
+  color: #333;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#platform-data .platform-data-container .diagram img{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#platform-data .section-description {
+  text-align: center;
+  margin: 0;
+}
+
+#platform-about .title {
+  margin:0 0 20px 0;
+}
+
+#platform-data #platform-data-wrapper {
+  padding-right: 15px;
+}
+
+#platform-data #platform-data-flters {
+  padding: 0;
+  margin: 0 0 45px 0;
+  list-style: none;
+  text-align: center;
+}
+
+#platform-data #platform-data-flters li {
+  cursor: pointer;
+  margin: 0 10px;
+  display: inline-block;
+  padding: 10px 22px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: #fff;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+#platform-data #platform-data-flters li:hover, #platform-data #platform-data-flters li.filter-active {
+  background: #2dc997;
+  color: #fff;
+}
+
+#platform-data .platform-data-item {
+  position: relative;
+  height: 200px;
+  overflow: hidden !important;
+  margin-bottom: 15px;
+  transition: all 350ms ease;
+  transform: scale(1);
+}
+
+#platform-data .platform-data-item a {
+  display: block;
+  margin-right: 15px;
+}
+
+#platform-data .platform-data-item img {
+  position: relative;
+  top: 0;
+  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#platform-data .platform-data-item .details {
+  height: 50px;
+  background: #2dc997;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: -50px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#platform-data .platform-data-item .details h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  padding: 8px 0 2px 8px;
+  margin: 0;
+}
+
+#platform-data .platform-data-item .details span {
+  display: block;
+  color: #fff;
+  font-size: 13px;
+  padding-left: 8px;
+}
+
+#platform-data .platform-data-item:hover .details {
+  bottom: 0;
+}
+
+#platform-data .platform-data-item:hover img {
+  top: -30px;
+}
