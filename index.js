@@ -35,9 +35,9 @@ router.get('/platform',function(req, res){
 	});
 });
 
-router.get('/paper',function(req, res){
-  res.render('paper', {
-		title : "Paper"
+router.get('/method',function(req, res){
+  res.render('method', {
+		title : "Method"
 	});
 });
 
