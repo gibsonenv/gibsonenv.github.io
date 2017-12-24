@@ -19,9 +19,16 @@
   margin-bottom: 5px;
 }
 
+#method .section-description {
+  text-align: left;
+  width: 90%;
+  margin: auto;
+}
+
 #method .section-intro {
-  text-align: center;
-  margin: 0 0 0 0;
+  text-align: left;
+  width: 90%;
+  margin: auto;
 }
 
 #method img {
