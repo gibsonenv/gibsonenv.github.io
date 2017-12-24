@@ -28,7 +28,7 @@
           <p class="section-description">
           </p>
           <h3 class="section-second-title">Point Cloud Rendering</h3>
-          <div class="col-12 text-center">
+          <div class="offset-1 col-10 text-center">
             <img class="img-responsive" width="100%" src="/static/img/method/fig1.png" />
           </div>
           <p class="section-description">
@@ -37,7 +37,7 @@
             We Instead adopt a two-stage approach, with the first stage being rendering point clouds. Our CUDA point cloud renderer is neural network-friendly, and can render 1024x2048 video streams with 10M points at 80fps. Details of our renderer can be found in the paper.
           </p>
           <h3 class="section-second-title">Neural Network Based Rendering</h3>
-          <div class="col-12 text-center">
+          <div class="offset-1 col-10 text-center">
             <img class="img-responsive" width="100%" src="/static/img/method/fig2.jpg" />
           </div>
 
@@ -52,21 +52,66 @@
 
         <div class="section-header">
           <h3 class="section-title">Domain Adaptation: Goggles</h3>
-          <p class="section-intro">Adapt to real world. </p>
-          <div class="offset-2 col-8 text-center">
+          <p class="section-intro">We propose a novel domain adaptation mechanism, resembling corrective lense, which we refer to as <b>goggles</b>. We showthat our goggle adaptation approach effectively minimizesthe gap with real world from the learning’s perspective </p>
+          <div class="offset-3 col-6 text-center">
             <img class="img-responsive" width="100%" src="/static/img/figure4.jpg" />
           </div>
+          <p class="section-description">With all the imperfections in point cloud rendering, it is difficult to get photo-realistic rendering with neural network fixes. Therefore, we formulate the rendering problem as forming a joint space ensuring correspondence between rendered views and real images, and consequently reducing no domain gap. 
+
+          We add another network u for target and minimize the domain gap between f(I) and u(I). We use the same network structure for f and u. The function u(I) is trained to alter the observation in real-world, I_t, to look like the corresponding I_s and consequently dissolve the gap. Detailed formulation and discussion of the mechanism can be found in the paper.
+          </p>
+          <h3 class="section-second-title">Domain Adaptation Results</h3>
+          <div class="offset-1 col-10 text-center">
+            <img class="img-responsive img-align" src="/static/img/method/fig4-transfer.png" />
+            <img class="img-responsive img-align" src="/static/img/method/fig4-coral.png" />
+            <img class="img-responsive img-align" src="/static/img/method/fig4-mmd.png" />
+          </div>
           <p class="section-description">
+            We evaluate our <b>goggles</b> mechanism on classical perception tasks (depth estimation and scene classification) as well as examined the image distributions themselves. We adopt two metrics MMD and CORAL, to test how well f(I_s) and u(I_t) domains are aligned. We included more evaluation results in our paper.
+          </p>
+        </div>
+
+        <div class="section-header">
+          <h3 class="section-title">Physical Embodiment</h3>
+          <p class="section-intro">A Mujoco humanoid model is dropped onto a stairway demonstrating a physically plausible fall along with the corresponding visual observations by the humanoid's eyes.</p>
+          <div class="offset-1 col-10 text-center">
+            <img class="img-responsive" width="100%" src="/static/img/method/fig3.jpg" />
+          </div>
+          <p class="section-description">
+            To enable our agents to learn about physical interactions in our environment, we integrate our environment with physical engine. This allows us to expose our agents to physical phenomena such as collision, gravity, friction, etc. We base our physical simulator on Bullet Physics Engine, which supports rigid body and soft body simulation with discrete and continuous collision detection. Using GPU and OpenCL optimization, our environment supports learning physical interactions in 100x real-time speed. We also use Bullet Physics' built-in fast collision handling system to record each agent's interaction with the environment, such as how many times it collides with environment. This allows us to compare different control algorithms in terms of their obstacle avoidance performance.
+
+            Because scanned models do not come with material textures by default, our physical scenes do not offer realistic physical properties, such as material friction. We use Coulomb friction model by default. To reduce computational complexity, we also do not model airflow in our physics engine unless activated by the user. Instead, we offer linear damping function for rigid body movements.
           </p>
         </div>
 
         <div class="section-header">
           <h3 class="section-title">Reinforcement Learning</h3>
-          <p class="section-intro">Results of reinforcement learning achieved in our environment. </p>
-          <div class="offset-2 col-8 text-center">
-            <img class="img-responsive" width="100%" src="/static/img/figure4.jpg" />
+          <p class="section-intro">Results of reinforcement learning achieved in our environment. We choose (1) visual local planning and obstacle avoidance, (2) visual global planning and navigation, and (3) visuomotor control for complex locomotion tasks.</p>
+          <h3 class="section-second-title">Visual Local Planning</h3>
+          <div class="col-12 text-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3tLr3m9RiPU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
           </div>
-          <p class="section-description">
+          <p class="section-description"> In this task we create an agent to do visual obstacle avoidance. The agent receives a continuous stream of Depth frames and decides where to move. 
+
+          We trained two husky agents with PPO algorithm for 150 episodes (300 iterations, 150k frames). The average reward over 10 iterations are plotted. The agent with perception achieves a higher score and developed obstacle avoidance behavior to reach the goal faster.
+          </p>
+          <h3 class="section-second-title">Visual Navigation</h3>
+          <div class="col-12 text-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tWtcw91f2RE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+          <p class="section-description"> In this task, we set a fixed target B, and train the agent to go back to B from an arbitrary location with random initialization. The agent receives RGB only input without any external odometry or GPS target information. This has useful applications in robotics such as auto-docking. We train our agent end-to-end.
+
+          Global navigation behavior emerges after 1700 episodes (680k frames) training inside our environment. Compared with a baseline non-perceptual agent, whose input is its torque and wheel speed, the perceptual agent learns to navigate in complex environments, with robustness to randomization in its initial position. 
+
+          Furthermore, we do an active domain adaption experiment using the trained policy and measure the policy discrepency in terms of L2 distance of output logits across different domains. Our results (see paper) shows that the domain adaptation is effective.
+          </p>
+          <h3 class="section-second-title">Complex Locomotion</h3>
+          <div class="col-12 text-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9uW1vjLqlvM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+          <p class="section-description"> In this task, we study the use of perception for the active agent in developing locomotion in complex environments. Locomotive agents trained with deep reinforcement learning are known to have difficulty generalizing to unseen environments and obstacles. We demonstrate that this difficulty can be reduced by adding perceptions.
+
+          We train two ant agents to climb downstairs, using sensor-only network and sensor-vision fusion network with depth camera input. We train both agents at fixed initial location, and observe that they start to acquire stair-climbing skills after 1700 episodes (700k time steps). The perceptual agent learns slower due to higher input dimension but has better generalizability as we test them with randomized initial location. During test time, perceptual agents performs 70% better than sensor-only agent.
           </p>
         </div>
 

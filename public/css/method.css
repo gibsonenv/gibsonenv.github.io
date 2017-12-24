@@ -26,10 +26,15 @@
 
 #method img {
   width: 100%;
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   object-fit: contain; 
+}
+
+#method img.img-align {
+  display: inline-block;
+  width: 30%;
 }
 
 #method .title {
