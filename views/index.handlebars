@@ -38,12 +38,12 @@
               <!-- whatever video you put here will be (effectively) cropped to fit container size; make sure you're okay with it shrinking to the top left corner of the video at your specified minimum dimensions -->
               <source src="/static/video/gibson1.mp4" type="video/mp4" alt="HTML5 background video">
             </video>
-          </div>  
+          </div>
           <p class="text visual1">
             <b>"You shouldn't play video games all day, so shouldn't your AI."</b> Gibson is a virtual environment built with real world complexity, using RGBD scanning.
           </p>
           <p class="text visual2">
-            <b>"We must perceive in order to move, but we must also move in order to perceive." --- James J. Gibson</b> Gibson enables training AI algorithms that explores both perception and action. 
+            <b>"We must perceive in order to move, but we must also move in order to perceive." --- James J. Gibson</b> Gibson enables training AI algorithms that explores both perception and action.
           </p>
         </div>
       </div>
@@ -149,7 +149,7 @@
         <div class="col-lg-3 col-md-6">
           <div class="member">
             <div class="pic"><img src="/static/img/jerry.png" alt=""></div>
-            <h4>Zhi-Yang He</h4>
+            <h4><a href="http://zhi-yang.me/">Zhi-Yang He</a></h4>
             <span>hzyjerry@stanford.edu</span>
           </div>
         </div>
@@ -288,7 +288,7 @@
         if (WaitCurrent >= VisualDelay[0]) {
           VisualCurrent = 2;
           VisualTexts[0].hide();
-          VisualTexts[1].show();  
+          VisualTexts[1].show();
           animateText2();
           WaitCurrent = 0;
         }
@@ -312,17 +312,17 @@
       if (!activated) {
         window.setInterval(function(){
           toggleVisualText();
-        }, WaitInterval);  
+        }, WaitInterval);
         activated = true;
       };
     }
 
-    var video = $('video'); 
+    var video = $('video');
     var video_loaded = false;
     video[0].pause()
     var video_visibility = VisSense(video[0], { fullyvisible: 0.75 });
     var video_monitor = video_visibility.monitor({
-      fullyvisible: function() { 
+      fullyvisible: function() {
         video[0].play();
       }
     }).start();
@@ -330,8 +330,8 @@
     video.on("loadeddata", function() {
       video_loaded = true;
     });
-    
-    var visual = $('#visual'); 
+
+    var visual = $('#visual');
     var visual_visibility = VisSense(visual[0], { fullyvisible: 0.45 });
     var visual_monitor = visual_visibility.monitor({
       fullyvisible: function() {
