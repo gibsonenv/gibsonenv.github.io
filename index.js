@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 var router = express.Router();
 
-app.set('port', (process.env.PORT || 5000))
+app.set('port', (process.env.PORT || 80))
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
