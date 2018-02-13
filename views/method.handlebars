@@ -17,7 +17,7 @@
           <p class="section-intro">Checkout our <a href="#method">paper</a>, <a href="#method">supplementary material</a>, <a href="#method">bibtex</a>, <a href="#method">poster</a>. </p>
           <img src="/static/img/paper.jpg" />
           <p class="section-description">
-            The paper is in submission to CVPR 2018. Feel free to contact us for more information.
+            Feel free to contact us for more information.
           </p>
 
         </div>
@@ -32,9 +32,9 @@
             <img class="img-responsive" width="100%" src="/static/img/method/fig1.png" />
           </div>
           <p class="section-description">
-            There are a couple major issues of using real-world scanning data. First, the scans are sparse, meaning that a certain extent of view interpolation is required. Second, the quality of depth image and 3D mesh are limited to equipment and reconstruction algorithms. Details such as vegetation and small objects cannot be properly reconstructed most of the time. Reflective surfaces, such as windows and countertops will leave holes on the reconstructed mesh. All these factors prevent us from directly rendering from the meshes. 
+            There are a number of major hurdles associated with using real-world scanning data. First, the scans locations are sparse, meaning that a certain extent of view interpolation is required. Second, the quality of depth image and 3D mesh outputs are limited to equipment and reconstruction algorithms, and often suffer from noticeable artifacts. Details such as vegetation and small objects cannot be properly reconstructed most of the time. Reflective surfaces, such as windows and countertops, will leave holes on the reconstructed mesh. All of these issues prevent us from using a rendering of meshes, or results of conventianl Image Based Rendering pipelines, as our final RGB output. 
 
-            We Instead adopt a two-stage approach, with the first stage being rendering point clouds. Our CUDA point cloud renderer is neural network-friendly, and can render 1024x2048 video streams with 10M points at 80fps. Details of our renderer can be found in the paper.
+            We instead adopt a two-stage approach, with the first stage being a purely geometric rendering from a point clouds. Our CUDA point cloud renderer can render 1024x2048 video streams with 10M points at 80fps. Details of our renderer can be found in the paper.
           </p>
           <h3 class="section-second-title">Neural Network Based Rendering</h3>
           <div class="offset-1 col-10 text-center">
@@ -42,7 +42,7 @@
           </div>
 
           <p class="section-description">
-          A number of pathological artifacts common in fully geometric and image based rendering pipelines, such as stitching marks, lighting inconsistencies, and issues caused by imperfections in the underlying mesh and RGBD scanner output, appear in our point cloud based rendering results. We use a neural network to alleviate these issues (e.g. fill in dis-occluded regions, remove geometric artifacts caused by errors in mesh, remove stitch marks, etc) as well as baking in a domain adaptation mechanism named Goggles. The architecture and hyperparameters of our convolutional neural network filler are detailed in supplementary materials. There are a number of new key components incorporated in this part, including a stochastic identity initialization, and a perceptual loss with hierarchical moment matching for color fidelity, and utilizing a fast bilinear interpolation. Details of our neural network filler architecture can be found in the paper and supplementary material.          </p>
+          As mentioned above, a number of pathological artifacts common in fully geometric and image based rendering pipelines, such as stitching marks, lighting inconsistencies, and all issues caused by imperfections in the underlying mesh and RGBD scanner output, appear in our point cloud based rendering results as well. We use a neural network to alleviate these issues (e.g. fill in dis-occluded regions, remove geometric artifacts caused by errors in mesh, remove stitch marks, etc) as well as baking in a domain adaptation mechanism named Goggles. The architecture and hyperparameters of our convolutional neural network filler are detailed in supplementary materials. There are a number of new key components incorporated in this part, including a stochastic identity initialization, and a perceptual loss with hierarchical moment matching for color fidelity, and utilizing a fast bilinear interpolation. Details of our neural network filler architecture can be found in the paper and supplementary material.          </p>
           
         </div>
 
