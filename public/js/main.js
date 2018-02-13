@@ -1,5 +1,16 @@
 jQuery(document).ready(function( $ ) {
-
+  // auto play iframe video when scrolled over
+    var iframe = document.getElementById("autoplay-video"),
+        disableAutoPlay = false;
+    function isScrolledIntoView(el) {
+        var elemTop = el.getBoundingClientRect().top,
+            elemBottom = el.getBoundingClientRect().bottom,
+            isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+        return isVisible;
+    }
+    $(iframe).on("mouseleave", function () {
+        disableAutoPlay = true;
+    });
   // Header fixed and Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -8,6 +19,16 @@ jQuery(document).ready(function( $ ) {
     } else {
       $('.back-to-top').fadeOut('slow');
       $('#header').removeClass('header-fixed');
+    }
+
+    if (!disableAutoPlay) {
+        if (isScrolledIntoView(iframe)) {
+            console.log("in view")
+            iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+        } else {
+          console.log("not in view")
+            iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+        }
     }
   });
   $('.back-to-top').click(function(){
@@ -137,28 +158,6 @@ jQuery(document).ready(function( $ ) {
   google.maps.event.addDomListener(window, 'load', initialize_google_map);
 
 // custom code
-  // auto play iframe video when scrolled over
-    var iframe = document.getElementById("autoplay-video"),
-        disableAutoPlay = false;
-    function isScrolledIntoView(el) {
-        var elemTop = el.getBoundingClientRect().top,
-            elemBottom = el.getBoundingClientRect().bottom,
-            isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
-        return isVisible;
-    }
-    $(window).scroll(function () {
-        if (!disableAutoPlay) {
-            if (isScrolledIntoView(iframe)) {
-                console.log("in view")
-                iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-            } else {
-              console.log("not in view")
-                iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
-            }
-        }
-    });
-    $(iframe).on("mouseleave", function () {
-        disableAutoPlay = true;
-    });
+  
 
 });
