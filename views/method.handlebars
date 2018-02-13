@@ -31,7 +31,7 @@
             <img class="img-responsive" width="100%" src="/static/img/method/fig1.png" />
           </div>
           <p class="section-description">
-            There are a number of major hurdles associated with using real-world scanning data. First, the scans locations are sparse, meaning that a certain extent of view interpolation is required. Second, the quality of depth image and 3D mesh outputs are limited to equipment and reconstruction algorithms, and often suffer from noticeable artifacts. Details such as vegetation and small objects cannot be properly reconstructed most of the time. Reflective surfaces, such as windows and countertops, will leave holes on the reconstructed mesh. All of these issues prevent us from using a rendering of meshes, or results of conventianl Image Based Rendering pipelines, as our final RGB output. 
+            There are a number of major hurdles associated with using real-world scanning data. First, the scans locations are sparse, meaning that a certain extent of view interpolation is required. Second, the quality of depth image and 3D mesh outputs are limited to equipment and reconstruction algorithms, and often suffer from noticeable artifacts. Details such as vegetation and small objects cannot be properly reconstructed most of the time. Reflective surfaces, such as windows and countertops, will leave holes on the reconstructed mesh. All of these issues prevent us from using a rendering of meshes, or results of conventional Image Based Rendering pipelines, as our final RGB output. 
 
             We instead adopt a two-stage approach, with the first stage being a purely geometric rendering from a point clouds. Our CUDA point cloud renderer can render 1024x2048 video streams with 10M points at 80fps. Details of our renderer can be found in the paper.
           </p>
@@ -63,7 +63,7 @@
             <img class="img-responsive img-align" src="/static/img/method/fig4-mmd.png" />
           </div>
           <p class="section-description">
-            We evaluate our <b>goggles</b> mechanism on classical perception tasks (depth estimation and scene classification) as well as examined the distribution gaps on source and target images. We adopt two metrics MMD and CORAL, to test how well f(I_s) and u(I_t) domains are aligned. The detailted evaluations can be found in the paper.
+            We evaluate our <b>goggles</b> mechanism on classical perception tasks (depth estimation and scene classification) as well as examined the distribution gaps on source and target images. We adopt two metrics MMD and CORAL, to test how well f(I_s) and u(I_t) domains are aligned. The detailed evaluations can be found in the paper.
           </p>
         </div>
 
@@ -99,7 +99,7 @@
 
           Global navigation behavior emerges after 1700 episodes (680k frames) training inside our environment. Compared with a baseline non-visual proprioceptual agent, whose input is its torque and wheel speed, the perceptual agent learns to navigate in complex environments, especially when there is randomization in its initial position. 
 
-          Furthermore, we do an active domain adaption experiment using the trained policy and measure the policy discrepency in terms of L2 distance of output logits across different domains. Our results (see paper) shows that the domain adaptation is effective when evaluated for an active task as well.
+          Furthermore, we do an active domain adaptation experiment using the trained policy and measure the policy discrepancy in terms of L2 distance of output logits across different domains. Our results (see paper) shows that the domain adaptation is effective when evaluated for an active task as well.
           </p>
           <h3 class="section-second-title">Complex Locomotion</h3>
           <div class="col-12 text-center">
