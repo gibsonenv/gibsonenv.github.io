@@ -1,6 +1,6 @@
 jQuery(document).ready(function( $ ) {
   // auto play iframe video when scrolled over
-    var iframe = document.getElementById("autoplay-video"),
+    var iframes = Array.prototype.slice.call(document.getElementsByClassName("autoplay-video")),
         disableAutoPlay = false;
     function isScrolledIntoView(el) {
         var elemTop = el.getBoundingClientRect().top,
@@ -8,8 +8,10 @@ jQuery(document).ready(function( $ ) {
             isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
         return isVisible;
     }
-    $(iframe).on("mouseleave", function () {
-        disableAutoPlay = true;
+    iframes.forEach(function(iframe) {
+      $(iframe).on("mouseleave", function () {
+          disableAutoPlay = true;
+      });
     });
   // Header fixed and Back to top button
   $(window).scroll(function() {
@@ -22,13 +24,13 @@ jQuery(document).ready(function( $ ) {
     }
 
     if (!disableAutoPlay) {
+      iframes.forEach(function(iframe) {
         if (isScrolledIntoView(iframe)) {
-            console.log("in view")
             iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
         } else {
-          console.log("not in view")
             iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
         }
+      });
     }
   });
   $('.back-to-top').click(function(){
