@@ -7,7 +7,7 @@
       <div class="col-lg-12 content order-lg-1 order-1 text-center">
         <h2 class="title">Gibson Environment</h2>
         <p>
-          Gibson Environment stands for <b>Gibson Environment for Real-World Perception Learning</b>. There are two main components of it: Gibson simulation platform and Gibson real model database.
+          Gibson Environment stands for <b>Gibson Environment for Real-World Perception Learning</b>. There are two main components in our environment for real-world perception learning: Gibson simulation platform and Gibson real model database.
         </p>
       </div>
     </div>
@@ -16,7 +16,7 @@
         <div class="box">
           <div class="icon"><a href="#platform-about"><i class="fa fa-bar-chart"></i></a></div>
           <h4 class="title"><a href="#platform-about">Gibson Platform</a></h4>
-          <p class="description">Gibson Environment for Real-World Perception Learning. We are opensourced on Github. Check it out, deploy, and start training perceptual agents right now.</p>
+          <p class="description">Gibson Environment for Real-World Perception Learning. We are opensourced on Github. Check it out, deploy, and start training perceptual agents.</p>
         </div>
       </div>
       <div class="col-lg-6 col-md-12">
@@ -48,21 +48,17 @@
         </br>
         </br>
         <div class="row counters">
-          <div class="col-lg-3 col-6 text-center">
+          <div class="col-lg-4 col-6 text-center">
             <span data-toggle="counter-up">4</span>
             <p>Agents</p>
           </div>
-          <div class="col-lg-3 col-6 text-center">
+          <div class="col-lg-4 col-6 text-center">
             <span data-toggle="counter-up">1000</span>
             <p>Environments</p>
           </div>
-          <div class="col-lg-3 col-6 text-center">
+          <div class="col-lg-4 col-6 text-center">
             <span data-toggle="counter-up">16</span>
             <p>Defined Tasks</p>
-          </div>
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">150</span>
-            <p>Participants</p>
           </div>
         </div>
         </br>
@@ -82,7 +78,7 @@
         <h2 class="section-second-title">Optimized for Speed</h2>
         <p class="section-description">Rendering speed is crucial for reinforcement learning. It is our guideline when building an environment to providevery high frame rate, such that we can simulate our envi-ronment at much faster speed than real time. We implemented our CUDA-optimized rendering pipeline for this purpose. We also offer different rendering resolutions, to account for different speed requirements.</p>
         <div class="col-12 text-center">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/h1_f_-zCOjU?autoplay=1&loop=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          <iframe width="560" height="315" class="autoplay-video" src="https://www.youtube.com/embed/h1_f_-zCOjU?version=3&autoplay=1&enablejsapi=1&loop=1&playlist=h1_f_-zCOjU&rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
       
@@ -95,7 +91,7 @@
     <div class="container wow fadeIn">
       <div class="section-header">
         <h3 class="section-title">Platform Specifications</h3>
-        <p class="section-description">Our platform offers significant advantage over exiting simulation platforms, including</p>
+        <p class="section-description"></p>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6">
@@ -127,7 +123,7 @@
     <div class="container platform-data-container">
       <div class="section-header">
         <h3 class="title">3D Models</h3>
-        <p> Our 3D model dataset are collected from indoor environment, powered by the fast-advancing 3D reconstruction and scanning technology. Using such datasets can further narrow down the discrepency between virtual environment and real world. We provide a total of <b>2646 scenes</b>. For each scene, we provide: RGBD, depth, surface normal, semantic information.
+        <p> Our 3D model dataset are collected from indoor environment, powered by the fast-advancing 3D reconstruction and scanning technology. Using such datasets can further narrow down the discrepency between virtual environment and real world.  For each scene, we provide: RGB, depth, surface normal, and for a fraction of the spaces, semantic object annotations.
         <div class="diagram">
           <div class="col-12 text-center">
             <img class="img-responsive" width="100%" src="/static/img/figure1.jpg" />
@@ -143,7 +139,6 @@
             <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
             <li data-filter=".filter-app">House</li>
             <li data-filter=".filter-card">Venues</li>
-            <li data-filter=".filter-logo">Outdoor</li>
             <li data-filter=".filter-web">Others</li>
           </ul>
         </div>
@@ -230,7 +225,7 @@
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 platform-data-item filter-logo">
+        <div class="col-lg-3 col-md-6 platform-data-item filter-app">
           <a href="">
             <img src="/static/img/models_small/rsz_9_hospital.png" alt="">
             <div class="details">
@@ -240,7 +235,7 @@
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 platform-data-item filter-logo">
+        <div class="col-lg-3 col-md-6 platform-data-item filter-card">
           <a href="">
             <img src="/static/img/models_small/rsz_10_factory.png" alt="">
             <div class="details">
@@ -250,7 +245,7 @@
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 platform-data-item filter-web">
+        <div class="col-lg-3 col-md-6 platform-data-item filter-app">
           <a href="">
             <img src="/static/img/models_small/rsz_11_factory.png" alt="">
             <div class="details">
@@ -260,7 +255,7 @@
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 platform-data-item filter-logo">
+        <div class="col-lg-3 col-md-6 platform-data-item filter-card">
           <a href="">
             <img src="/static/img/models_small/rsz_12_factory.png" alt="">
             <div class="details">
@@ -270,7 +265,7 @@
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 platform-data-item filter-logo">
+        <div class="col-lg-3 col-md-6 platform-data-item filter-app">
           <a href="">
             <img src="/static/img/models_small/rsz_13_room.png" alt="">
             <div class="details">
@@ -280,7 +275,7 @@
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 platform-data-item filter-logo">
+        <div class="col-lg-3 col-md-6 platform-data-item filter-card">
           <a href="">
             <img src="/static/img/models_small/rsz_14_house.png" alt="">
             <div class="details">
@@ -290,7 +285,7 @@
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 platform-data-item filter-logo">
+        <div class="col-lg-3 col-md-6 platform-data-item filter-card">
           <a href="">
             <img src="/static/img/models_small/rsz_15_office.png" alt="">
             <div class="details">
@@ -300,7 +295,7 @@
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 platform-data-item filter-logo">
+        <div class="col-lg-3 col-md-6 platform-data-item filter-app">
           <a href="">
             <img src="/static/img/models_small/rsz_16_house.png" alt="">
             <div class="details">
@@ -310,7 +305,7 @@
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 platform-data-item filter-logo">
+        <div class="col-lg-3 col-md-6 platform-data-item filter-app">
           <a href="">
             <img src="/static/img/models_small/rsz_17_house.png" alt="">
             <div class="details">
@@ -320,7 +315,7 @@
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 platform-data-item filter-logo">
+        <div class="col-lg-3 col-md-6 platform-data-item filter-card">
           <a href="">
             <img src="/static/img/models_small/rsz_18_gates.png" alt="">
             <div class="details">
@@ -330,7 +325,7 @@
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 platform-data-item filter-logo">
+        <div class="col-lg-3 col-md-6 platform-data-item filter-app">
           <a href="">
             <img src="/static/img/models_small/rsz_19_psych.png" alt="">
             <div class="details">
@@ -340,7 +335,7 @@
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 platform-data-item filter-logo">
+        <div class="col-lg-3 col-md-6 platform-data-item filter-app">
           <a href="">
             <img src="/static/img/models_small/rsz_20_psych.png" alt="">
             <div class="details">
@@ -350,7 +345,7 @@
           </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 platform-data-item filter-logo">
+        <div class="col-lg-3 col-md-6 platform-data-item filter-card">
           <a href="">
             <img src="/static/img/models_small/rsz_21_packard.png" alt="">
             <div class="details">

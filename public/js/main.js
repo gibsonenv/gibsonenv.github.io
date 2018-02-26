@@ -1,5 +1,18 @@
 jQuery(document).ready(function( $ ) {
-
+  // auto play iframe video when scrolled over
+    var iframes = Array.prototype.slice.call(document.getElementsByClassName("autoplay-video")),
+        disableAutoPlay = false;
+    function isScrolledIntoView(el) {
+        var elemTop = el.getBoundingClientRect().top,
+            elemBottom = el.getBoundingClientRect().bottom,
+            isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+        return isVisible;
+    }
+    iframes.forEach(function(iframe) {
+      $(iframe).on("mouseleave", function () {
+          disableAutoPlay = true;
+      });
+    });
   // Header fixed and Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -8,6 +21,16 @@ jQuery(document).ready(function( $ ) {
     } else {
       $('.back-to-top').fadeOut('slow');
       $('#header').removeClass('header-fixed');
+    }
+
+    if (!disableAutoPlay) {
+      iframes.forEach(function(iframe) {
+        if (isScrolledIntoView(iframe)) {
+            iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+        } else {
+            iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+        }
+      });
     }
   });
   $('.back-to-top').click(function(){
@@ -137,5 +160,6 @@ jQuery(document).ready(function( $ ) {
   google.maps.event.addDomListener(window, 'load', initialize_google_map);
 
 // custom code
+  
 
 });
