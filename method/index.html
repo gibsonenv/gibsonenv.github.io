@@ -14,23 +14,23 @@
   <meta property='og:url' content="http://gibson.vision" />
 
   <!-- Favicons -->
-  <link href="public/img/favicon-g.ico" rel="icon">
-  <link href="public/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="../public/img/favicon-g.ico" rel="icon">
+  <link href="../public/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="public/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../public/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="public/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="public/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="../public/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../public/lib/animate/animate.min.css" rel="stylesheet">
 
   <!-- Stylesheet File -->
-  <link href="public/css/style.css" rel="stylesheet">
-  <link href="public/css/platform.css" rel="stylesheet">
-  <link href="public/css/method.css" rel="stylesheet">
+  <link href="../public/css/style.css" rel="stylesheet">
+  <link href="../public/css/platform.css" rel="stylesheet">
+  <link href="../public/css/method.css" rel="stylesheet">
 
   <!-- Javascript Font Library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
@@ -54,12 +54,12 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="http://ai.stanford.edu/"><img src="public/img/stanford-logo2.png" height="50" alt="" title="" /></img></a>
+        <a href="http://ai.stanford.edu/"><img src="../public/img/stanford-logo2.png" height="50" alt="" title="" /></img></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
       <div id="logo" class="pull-left">
-        <a href="http://bair.berkeley.edu/"><img src="public/img/berkeley-logo.png" height="50" alt="" title="" /></img></a>
+        <a href="http://bair.berkeley.edu/"><img src="../public/img/berkeley-logo.png" height="50" alt="" title="" /></img></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
@@ -67,9 +67,9 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="{{#is title 'Home'}}menu-active{{/is}}"><a href="/">Home</a></li>
-          <li class="{{#is title 'Platform'}}menu-active{{/is}}"><a href="platform.html">Platform</a></li>
-          <li class="{{#is title 'Method'}}menu-active{{/is}}"><a href="method.html">Method</a></li>
+          <li class="{{#is title 'Home'}}menu-active{{/is}}"><a href="../">Home</a></li>
+          <li class="{{#is title 'Platform'}}menu-active{{/is}}"><a href="../platform/">Platform</a></li>
+          <li class="{{#is title 'Method'}}menu-active{{/is}}"><a href="/">Method</a></li>
           <!-- 
           <li class="{{#is title 'Challenge'}}menu-active{{/is}}"><a href="challenge">Challenge</a></li>-->
           <li class=""><a href="/#team">Team</a></li>
@@ -94,7 +94,7 @@
         <div class="section-header">
           <h3 class="section-title">Publication</h3>
           <p class="section-intro">Checkout our <a href="#method">paper</a>, <a href="#method">supplementary material</a>, <a href="#method">bibtex</a>. </p>
-          <img src="public/img/paper.jpg" />
+          <img src="../public/img/paper.jpg" />
           <p class="section-description">
             Feel free to contact us for more information.
           </p>
@@ -108,7 +108,7 @@
           </p>
           <h3 class="section-second-title">Point Cloud Rendering</h3>
           <div class="offset-1 col-10 text-center">
-            <img class="img-responsive" width="100%" src="public/img/method/fig1.png" />
+            <img class="img-responsive" width="100%" src="../public/img/method/fig1.png" />
           </div>
           <p class="section-description">
             There are a number of major hurdles associated with using real-world scanning data. First, the scans locations are sparse, meaning that a certain extent of view interpolation is required. Second, the quality of depth image and 3D mesh outputs are limited to equipment and reconstruction algorithms, and often suffer from noticeable artifacts. Details such as vegetation and small objects cannot be properly reconstructed most of the time. Reflective surfaces, such as windows and countertops, will leave holes on the reconstructed mesh. All of these issues prevent us from using a rendering of meshes, or results of conventional Image Based Rendering pipelines, as our final RGB output. 
@@ -117,7 +117,7 @@
           </p>
           <h3 class="section-second-title">Neural Network Based Rendering</h3>
           <div class="offset-1 col-10 text-center">
-            <img class="img-responsive" width="100%" src="public/img/method/fig2.jpg" />
+            <img class="img-responsive" width="100%" src="../public/img/method/fig2.jpg" />
           </div>
 
           <p class="section-description">
@@ -130,7 +130,7 @@
           <h3 class="section-title">Domain Adaptation: Goggles</h3>
           <p class="section-intro">We propose a novel domain adaptation mechanism, resembling corrective lense, which we refer to as <b>goggles</b>. We show that our goggle adaptation approach can effectively minimizes the gap between the synthesized and real world frames from the learner’s perspective </p>
           <div class="offset-3 col-6 text-center">
-            <img class="img-responsive" width="100%" src="public/img/figure4.jpg" />
+            <img class="img-responsive" width="100%" src="../public/img/figure4.jpg" />
           </div>
           <p class="section-description">With all the imperfections in point cloud rendering, it has been proven difficult to get completely photo-realistic rendering with neural network fixes. The remaining issues make a domain gap between the synthesized and real images. Therefore, we formulate the rendering problem as forming a joint space ensuring a correspondence between rendered and real images, rather than trying to (unsuccessfuly) render images that are identical to real ones. This provides a deterministic pathway for traversing across these domains and hence undoing the gap. 
 
@@ -138,9 +138,9 @@
           </p>
           <h3 class="section-second-title">Domain Adaptation Results</h3>
           <div class="offset-1 col-10 text-center">
-            <img class="img-responsive img-align" src="public/img/method/fig4-transfer.png" />
-            <img class="img-responsive img-align" src="public/img/method/fig4-coral.png" />
-            <img class="img-responsive img-align" src="public/img/method/fig4-mmd.png" />
+            <img class="img-responsive img-align" src="../public/img/method/fig4-transfer.png" />
+            <img class="img-responsive img-align" src="../public/img/method/fig4-coral.png" />
+            <img class="img-responsive img-align" src="../public/img/method/fig4-mmd.png" />
           </div>
           <p class="section-description">
             We evaluate our <b>goggles</b> mechanism on classical perception tasks (depth estimation and scene classification) as well as examined the distribution gaps on source and target images. We adopt two metrics MMD and CORAL, to test how well f(I_s) and u(I_t) domains are aligned. The detailed evaluations can be found in the paper.
@@ -151,7 +151,7 @@
           <h3 class="section-title">Physical Embodiment</h3>
           <p class="section-intro">The figure below shows a Mujoco humanoid model dropped onto a stairway demonstrating a physically plausible fall along with the corresponding visual observations by the humanoid's eyes.</p>
           <div class="offset-1 col-10 text-center">
-            <img class="img-responsive" width="100%" src="public/img/method/fig3.jpg" />
+            <img class="img-responsive" width="100%" src="../public/img/method/fig3.jpg" />
           </div>
           <p class="section-description">
             To make the perceptual agents subject to constraints of physics and space, we integrate our environment with a physics engine. This allows us to expose our agents to physical phenomena such as collision, gravity, friction, etc. We base our physical simulator on Bullet Physics Engine, which supports rigid body and soft body simulation with discrete and continuous collision detection. Using GPU and OpenGL optimization, our environment supports learning physical interactions in 100x real-time speed. We also use Bullet Physics' built-in fast collision handling system to record each agent's interaction with the environment, such as how many times a collision happens. This allows us to compare different control algorithms in terms of their obstacle avoidance performance.
@@ -239,23 +239,23 @@
 
 
   <!-- JavaScript Libraries -->
-  <script src="public/lib/jquery/jquery.min.js"></script>
-  <script src="public/lib/jquery/jquery-migrate.min.js"></script>
-  <script src="public/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="public/lib/easing/easing.min.js"></script>
-  <script src="public/lib/wow/wow.min.js"></script>
-  <script src="public/https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+  <script src="../public/lib/jquery/jquery.min.js"></script>
+  <script src="../public/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="../public/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../public/lib/easing/easing.min.js"></script>
+  <script src="../public/lib/wow/wow.min.js"></script>
+  <script src="../public/https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
 
-  <script src="public/lib/waypoints/waypoints.min.js"></script>
-  <script src="public/lib/counterup/counterup.min.js"></script>
-  <script src="public/lib/superfish/hoverIntent.js"></script>
-  <script src="public/lib/superfish/superfish.min.js"></script>
+  <script src="../public/lib/waypoints/waypoints.min.js"></script>
+  <script src="../public/lib/counterup/counterup.min.js"></script>
+  <script src="../public/lib/superfish/hoverIntent.js"></script>
+  <script src="../public/lib/superfish/superfish.min.js"></script>
 
   <!-- Contact Form JavaScript File -->
-  <script src="public/contactform/contactform.js"></script>
+  <script src="../public/contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="public/js/main.js"></script>
+  <script src="../public/js/main.js"></script>
 
 
 </body>
