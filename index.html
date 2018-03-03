@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Gibson Environment</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Preview thumbnails -->
+  <meta property='og:title' content="Gibson Environment"/>
+  <meta property='og:image' content="https://i.imgur.com/TtwdVKx.png"/>
+  <meta property='og:description' content="Opensourced Environment for Embodied Real-World Active Perception. Developed by Stanford Vision and Learning Lab."/>
+  <meta property='og:url' content="http://gibson.vision" />
+
+  <!-- Favicons -->
+  <link href="public/img/favicon-g.ico" rel="icon">
+  <link href="public/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="public/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="public/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="public/lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Stylesheet File -->
+  <link href="public/css/style.css" rel="stylesheet">
+  <link href="public/css/platform.css" rel="stylesheet">
+  <link href="public/css/method.css" rel="stylesheet">
+
+  <!-- Javascript Font Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vissense/0.10.0/vissense.min.js"></script>
+  
+  <!-- =======================================================
+    Theme Name: Regna
+    Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <a href="http://ai.stanford.edu/"><img src="public/img/stanford-logo2.png" height="50" alt="" title="" /></img></a>
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
+      <div id="logo" class="pull-left">
+        <a href="http://bair.berkeley.edu/"><img src="public/img/berkeley-logo.png" height="50" alt="" title="" /></img></a>
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
+
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="{{#is title 'Home'}}menu-active{{/is}}"><a href="/">Home</a></li>
+          <li class="{{#is title 'Platform'}}menu-active{{/is}}"><a href="platform.html">Platform</a></li>
+          <li class="{{#is title 'Method'}}menu-active{{/is}}"><a href="method.html">Method</a></li>
+          <!-- 
+          <li class="{{#is title 'Challenge'}}menu-active{{/is}}"><a href="challenge">Challenge</a></li>-->
+          <li class=""><a href="/#team">Team</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Gibson Environment</h1>
+      <h2>For Embodied Real-World Active Perception</h2>
+      <p>(page under construction -- Gibson Environments will be released in February 2018)</p>
+      <a href="#visual" class="btn-get-started">Get Started</a>
+      <a href="https://github.com/StanfordVL/GibsonEnv" class="btn-get-started">View on Github</a>
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+    <section id="overview">
+      <div class="container">
+        <div class="row overview-container">
+          <div class="col-lg-12 content order-lg-1 order-1 text-center">
+            <div class="section-header">
+              <h3 class="section-title">Overview</h3>
+            </div>
+            <br/>
+            <div class="col-12 text-center video-wrapper">
+              <iframe width="100%" height="100%" class="autoplay-video" src="https://www.youtube.com/embed/KdxuZjemyjc?version=3&loop=1&enablejsapi=1&autoplay=1&rel=0&playlist=KdxuZjemyjc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="visual">
+      <div class="container">
+        <div class="row visual-container">
+          <div class="col-lg-12 content order-lg-1 order-1 text-center">
+            <h5>Bridging the Gap between </h5>
+            <h2 class="ml11 title visual1">
+              <span class="text-wrapper">
+                <span class="line line1"></span>
+                <span class="letters">Real World and Simulation</span>
+              </span>
+            </h2>
+            <h2 class="ml11 title visual2">
+              <span class="text-wrapper">
+                <span class="line line1"></span>
+                <span class="letters">Perception and Action</span>
+              </span>
+            </h2>
+            <h2 class="title"></h2>
+            <div class="col-lg-12 content video-container embed-responsive embed-responsive-21by9">
+              <video autoplay center loop muted class="video-bg" id="video-bg" poster="public/img/loading.gif"> <!--this id is only used for the toggle function; can be removed if you don't need an event -->
+                <!-- whatever video you put here will be (effectively) cropped to fit container size; make sure you're okay with it shrinking to the top left corner of the video at your specified minimum dimensions -->
+                <source src="public/video/gibson1.mp4" type="video/mp4" alt="HTML5 background video">
+              </video>
+            </div>
+            <p class="text visual1">
+              <b>"You shouldn't play video games all day, so shouldn't your AI."</b> Gibson is a virtual environment built with real world complexity, using RGBD scanning.
+            </p>
+            <p class="text visual2">
+              <b>"We must perceive in order to move, but we must also move in order to perceive." --- James J. Gibson</b> Gibson enables training AI algorithms that explores both perception and action.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+    <!--==========================
+      Facts Section
+    ============================-->
+    <section id="services">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Get Started</h3>
+          <div class="row section-predescription">
+            <div class="diagram">
+              <div class="col-12 text-center">
+                <img class="img-responsive" width="100%" src="public/img/figure0.jpg" />
+              </div>
+            </div>
+          </div>
+          <p class="section-description">Use our opensource platform to explore active perception. If you find it interesting, we encourage reading about how we made it. </p>
+
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
+              <h4 class="title"><a href="">Gibson Platform</a></h4>
+              <p class="description">Gibson Environment for Real-World Perception Learning. We are opensourced on Github. <a href="https://github.com/StanfordVL/GibsonEnv">Check it out </a>, deploy, and start training perceptual agents.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
+              <h4 class="title"><a href="">Model Database</a></h4>
+              <p class="description">Up to 1000 RGBD scanning models, collected in indoor scenes using RGBD camera. State-of-the-art model complexity.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-road"></i></a></div>
+              <h4 class="title"><a href="">How We Did it</a></h4>
+              <p class="description">Learn about our deep view synthesis pipeline, physics integration, and experiment results in Gibson Environment. </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
+              <h4 class="title"><a href="">Domain Adaptation</a></h4>
+              <p class="description">We propose a domain adaptation mechanism called "Goggle", which ensures that results in Gibson can trasfer to real world.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #facts -->
+
+
+    <!--==========================
+    Call To Action Section
+    ============================-->
+    <!-- Here starts the main contents pane
+    <section id="call-to-action">
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Call To Action</h3>
+            <p class="cta-text"> Participate in our real environment challenge! </br> To facilitate the next generation of powerful perceptive algorithms, we propose Gibson Challenge: a set of predefined tasks including navigation, object retrieval, collision avoidance, locomotion, etc. Try them out with your algorithms.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Participate (Coming soon)</a>
+          </div>
+        </div>
+
+      </div>
+    </section>--><!-- #call-to-action -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">Team</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="public/img/amir.png" alt=""></div>
+              <h4><a href="http://cs.stanford.edu/~amirz/">Amir Zamir</a></h4>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="public/img/feixia.png" alt=""></div>
+              <h4><a href="http://fxia.me">Fei Xia</a></h4>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="public/img/jerry.png" alt=""></div>
+              <h4><a href="http://zhi-yang.me/">Zhi-Yang He</a></h4>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="public/img/sasha.jpg" alt=""></div>
+              <h4><a href="https://alexsax.github.io/">Sasha Sax</a></h4>
+              <span></span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="public/img/silvio.jpg" alt=""></div>
+              <h4><a href="http://cvgl.stanford.edu/silvio/">Silvio Savarese</a></h4>
+              <span></span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="public/img/malik.png" alt=""></div>
+              <h4><a href="https://people.eecs.berkeley.edu/~malik/">Jitendra Malik</a></h4>
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #team -->
+    <script type="text/javascript">
+
+      // Wrap every letter in a span
+      $('.ml11 .letters').each(function(){
+        $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+      });
+
+      var VisualTexts = [ $(".visual1"), $(".visual2") ];
+      VisualTexts[0].hide()
+      VisualTexts[1].hide()
+      var VisualCurrent = 1;
+      //var VisualDelay = [11000, 15000];
+      var VisualDelay = [5000, 5000];
+      var VisualAnimation = [
+        200 + 800 + 300 + $(".ml11.visual1 .letter").length * 34 + 500,
+        200 + 800 + 300 + $(".ml11.visual2 .letter").length * 34 + 1500
+      ]
+
+      // Visual text 1
+      function animateText1() {
+        anime.timeline({loop: false})
+          .add({
+            targets: '.ml11.visual1',
+            opacity: 1,
+            duration: 1,
+            easing: "easeOutExpo"
+          }).add({
+            targets: '.ml11.visual1 .line',
+            scaleY: [0,1],
+            opacity: [0.5,1],
+            easing: "easeOutExpo",
+            duration: 200
+          })
+          .add({
+            targets: '.ml11.visual1 .line',
+            translateX: [0,$(".ml11.visual1 .letters").width()],
+            easing: "easeOutExpo",
+            duration: $(".ml11.visual1 .letter").length * 34,
+            delay: 300
+          }).add({
+            targets: '.ml11.visual1 .letter',
+            opacity: [0,1],
+            easing: "easeOutExpo",
+            duration: 300,
+            offset: '-=775',
+            delay: function(el, i) {
+              return 34 * (i+1)
+            }
+          }).add({
+            targets: '.ml11.visual1',
+            opacity: 0,
+            duration: 500,
+            easing: "easeOutExpo",
+            delay: VisualDelay[0] - VisualAnimation[0],  // static time for caption
+          });
+      }
+
+      //Visual Text 2
+      function animateText2() {
+        anime.timeline({loop: false})
+          .add({
+            targets: '.ml11.visual2',
+            opacity: 1,
+            duration: 1,
+            easing: "easeOutExpo"
+          }).add({
+            targets: '.ml11.visual2 .line',
+            scaleY: [0,1],
+            opacity: [0.5,1],
+            easing: "easeOutExpo",
+            duration: 200
+          }).add({
+            targets: '.ml11.visual2 .line',
+            translateX: [0,$(".ml11.visual2 .letters").width()],
+            easing: "easeOutExpo",
+            duration: $(".ml11.visual1 .letter").length * 34,
+            delay: 300
+          }).add({
+            targets: '.ml11.visual2 .letter',
+            opacity: [0,1],
+            easing: "easeOutExpo",
+            duration: 300,
+            offset: '-=775',
+            delay: function(el, i) {
+              return 34 * (i+1)
+            }
+          }).add({
+            targets: '.ml11.visual2',
+            opacity: 0,
+            duration: 1500,
+            easing: "easeOutExpo",
+            delay: VisualDelay[1] - VisualAnimation[1] // static time for caption
+          });
+      };
+
+      var WaitInterval = 1000;
+      var WaitCurrent = 0;
+      var started = false
+      var activated = false
+
+      function toggleVisualText() {
+        WaitCurrent += WaitInterval;
+        if (VisualCurrent === 1) {
+          if (WaitCurrent >= VisualDelay[0]) {
+            VisualCurrent = 2;
+            VisualTexts[0].hide();
+            VisualTexts[1].show();
+            animateText2();
+            WaitCurrent = 0;
+          }
+        } else {
+          if (WaitCurrent >= VisualDelay[1]) {
+            VisualCurrent = 1;
+            VisualTexts[0].show();
+            VisualTexts[1].hide();
+            animateText1();
+            WaitCurrent = 0;
+          }
+        }
+      }
+
+      function activateVisuals() {
+        if (!started) {
+          VisualTexts[0].show();
+          animateText1();
+          started = true;
+        };
+        if (!activated) {
+          window.setInterval(function(){
+            toggleVisualText();
+          }, WaitInterval);
+          activated = true;
+        };
+      }
+
+      var video = $('video');
+      var video_loaded = false;
+      video[0].pause()
+      var video_visibility = VisSense(video[0], { fullyvisible: 0.75 });
+      var video_monitor = video_visibility.monitor({
+        fullyvisible: function() {
+          video[0].play();
+        }
+      }).start();
+
+      video.on("loadeddata", function() {
+        video_loaded = true;
+      });
+
+      var visual = $('#visual');
+      var visual_visibility = VisSense(visual[0], { fullyvisible: 0.45 });
+      var visual_monitor = visual_visibility.monitor({
+        fullyvisible: function() {
+          video.on("loadeddata", function() {
+            video_loaded = true;
+            activateVisuals();
+          });
+          if (video_loaded) {
+            activateVisuals();
+          }
+        }
+      }).start();
+    </script>
+  </main>
+
+ <!--
+  <!-- Start of StatCounter Code for Default Guide -->
+  <script type="text/javascript">
+  var sc_project=11628934; 
+  var sc_invisible=1; 
+  var sc_security="8b943126"; 
+  </script>
+  <script type="text/javascript"
+  src="https://www.statcounter.com/counter/counter.js"
+  async></script>
+  <noscript><div class="statcounter"><a title="site stats"
+  href="http://statcounter.com/" target="_blank"><img
+  class="statcounter"
+  src="//c.statcounter.com/11628934/0/8b943126/1/" alt="site
+  stats"></a></div></noscript>
+  <!-- End of StatCounter Code for Default Guide -->
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Stanford Vision and Learning Group 2017-2018</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+
+        Bootstrap Templates by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="public/lib/jquery/jquery.min.js"></script>
+  <script src="public/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="public/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="public/lib/easing/easing.min.js"></script>
+  <script src="public/lib/wow/wow.min.js"></script>
+  <script src="public/https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+
+  <script src="public/lib/waypoints/waypoints.min.js"></script>
+  <script src="public/lib/counterup/counterup.min.js"></script>
+  <script src="public/lib/superfish/hoverIntent.js"></script>
+  <script src="public/lib/superfish/superfish.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="public/contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="public/js/main.js"></script>
+
+
+</body>
+</html>
