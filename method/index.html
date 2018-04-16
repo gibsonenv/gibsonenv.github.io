@@ -102,8 +102,8 @@
 				  	<a href="./Gibson_CVPR2018.pdf">[Paper]</a>
 				  	<a href="./Gibson_supp_CVPR2018.pdf">[Supplementary]</a>
 				  	<a href="https://github.com/StanfordVL/GibsonEnv">[Code]</a>	
-            <br>            
-          <img src="../public/img/gibson_paper_thumbnail.jpg"  width="20%">           
+            <br>     
+            <img class="img-responsive" width="20%" src="../public/img/gibson_paper_thumbnail.jpg" />		   
           </p>
         </div>
 
@@ -133,7 +133,7 @@
 
 
         <div class="section-header">
-          <h3 class="section-title">Domain Adaptation: Goggles</h3>
+          <h3 class="section-title">Transferring to Real-World: Goggles</h3>
           <p class="section-intro">We propose a novel domain adaptation mechanism, resembling corrective lense, which we refer to as <b>goggles</b>. We show that our goggle adaptation approach can effectively minimizes the gap between the synthesized and real world frames from the learner’s perspective </p>
           <div class="offset-3 col-6 text-center">
             <img class="img-responsive" width="100%" src="../public/img/figure4.jpg" />
@@ -142,7 +142,7 @@
 
           We add another network "u" for target image (I_t) and define the rendering loss to minimize the distance between f(I_s) and u(I_t), where "f" and "I_s" represent the filler neural network and point cloud rendering output, respectively (see the loss in above figure). We use the same network structure for f and u. The function u(I) is trained to alter the observation in real-world, I_t, to look like the corresponding I_s and consequently dissolve the gap. We named the u network goggles, as it resembles corrective lenses for the anget for deploymen in real world. Detailed formulation and discussion of the mechanism can be found in the paper.
           </p>
-          <h3 class="section-second-title">Domain Adaptation Results</h3>
+          <h3 class="section-second-title">From Gibson to Real-World Perceptual Transfer Results</h3>
           <div class="offset-1 col-10 text-center">
             <img class="img-responsive img-align" src="../public/img/method/fig4-transfer.png" />
             <img class="img-responsive img-align" src="../public/img/method/fig4-coral.png" />
