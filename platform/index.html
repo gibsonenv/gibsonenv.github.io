@@ -37,6 +37,13 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vissense/0.10.0/vissense.min.js"></script>
   
+  <!-- PhotoSwipe Library -->
+  <link rel="stylesheet" href="./photoswipe.css"> 
+  <link rel="stylesheet" href="./default-skin/default-skin.css">
+  <link rel="stylesheet" type="text/css" href="./platform-custom.css"> 
+  <script src="./photoswipe.min.js"></script> 
+  <script src="./photoswipe-ui-default.min.js"></script> 
+
   <!-- =======================================================
     Theme Name: Regna
     Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
@@ -213,7 +220,8 @@
         <p class="section-description">We have the largest state-of-the-art 3D model set. You can use the following browser to browse the models</p>
 
       </div>
-      <div class="row">
+
+      <div class="row" id="gallery">
 
         <div class="col-lg-12">
           <ul id="platform-data-flters">
@@ -438,23 +446,139 @@
       </div>
 
     </div>
+
+
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+            <!-- Container that holds slides. 
+                PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                Don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                          <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div> 
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-gallery container platform-data-container" id='platform-data-wrapper' itemscope itemtype="http://schema.org/ImageGallery">
+
+      <div class="row" id="platform-data-wrapper">
+        <div class="col-lg-3 col-md-6 platform-data-item filter-card">
+          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="../public/img/models_small/rsz_19_psych.png" itemprop="contentUrl" data-size="1024x1024">
+                <img src="../public/img/models_small/rsz_19_psych.png" itemprop="thumbnail" alt="Image description" />
+            </a>
+            <figcaption itemprop="caption description">Image caption  1</figcaption>                                              
+          </figure>
+          <div class="details">
+            <h4>Model 19</h4>
+            <span>Psych Building</span>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 platform-data-item filter-card">
+          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="../public/img/models_small/rsz_19_psych.png" itemprop="contentUrl" data-size="964x1024">
+                <img src="../public/img/models_small/rsz_19_psych.png" itemprop="thumbnail" alt="Image description" />
+            </a>
+            <figcaption itemprop="caption description">Image caption 2</figcaption>
+          </figure>
+          <div class="details">
+            <h4>Model 19</h4>
+            <span>Psych Building</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 platform-data-item filter-card">
+          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="../public/img/models_small/rsz_19_psych.png" itemprop="contentUrl" data-size="1024x683">
+                <img src="../public/img/models_small/rsz_19_psych.png" itemprop="thumbnail" alt="Image description" />
+            </a>
+            <figcaption itemprop="caption description">Image caption 3</figcaption>
+          </figure>
+          <div class="details">
+            <h4>Model 19</h4>
+            <span>Psych Building</span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 platform-data-item filter-card">
+          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="../public/img/models_small/rsz_19_psych.png" itemprop="contentUrl" data-size="1024x768">
+                <img src="../public/img/models_small/rsz_19_psych.png" itemprop="thumbnail" alt="Image description" />
+            </a>
+            <figcaption itemprop="caption description">Image caption 4</figcaption>
+            <div class="details">
+              <h4>Model 19</h4>
+              <span>Psych Building</span>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12" id="gallery-page-nav">
+          <ul id="platform-data-flters" id="gallery-page-nav-list">
+
+          </ul>
+        </div>
+    </div>
+
+
   </section><!-- #portfolio -->
 </main>
- <!--
+
+  <!-- PhotoSwipe script -->
+  <script type="text/javascript" src="./platform-gallery.js" async></script>
+  <!-- Generate page list script -->
+  <script type="text/javascript" src="./platform-pages.js" async></script>
+
+
   <!-- Start of StatCounter Code for Default Guide -->
   <script type="text/javascript">
-  var sc_project=11628934; 
-  var sc_invisible=1; 
-  var sc_security="8b943126"; 
+    var sc_project=11628934; 
+    var sc_invisible=1; 
+    var sc_security="8b943126"; 
   </script>
-  <script type="text/javascript"
-  src="https://www.statcounter.com/counter/counter.js"
-  async></script>
+  <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
   <noscript><div class="statcounter"><a title="site stats"
   href="http://statcounter.com/" target="_blank"><img
   class="statcounter"
   src="//c.statcounter.com/11628934/0/8b943126/1/" alt="site
   stats"></a></div></noscript>
+
   <!-- End of StatCounter Code for Default Guide -->
   <!--==========================
     Footer
