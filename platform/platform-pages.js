@@ -1,6 +1,6 @@
 
 num_page = 30;
-
+num_image = 20;
 
 page_nav_data = '<a href="?page={0}"><li data-filter=".filter-app" class="{1}">{2}</li> </a>';
 
@@ -20,7 +20,8 @@ var parseCurrentPage = function() {
 	if (!params['page'])  {
 		params['page'] = 1;
 	}
-	console.log(params)
+	//console.log(params)
+	generateGalleryCardList();
 	generatePageLinkList(params['page']);
 }
 
@@ -30,6 +31,23 @@ var goToGallery = function() {
 }
 
 
+// Create array of gallery cards (buildings) for display
+var generateGalleryCardList = function(data) {
+	var generateGalleryCard = function(info) {
+		$('#gallery-data-wrapper').append(createOneGalleryCard(info));
+	}
+	for (var i = 0; i < num_page; i++) {
+		info = {
+			'img_b': "../public/img/models_small/rsz_19_psych.png",
+			'img_m': "../public/img/models_small/rsz_19_psych.png",
+			'caption': "Image Caption",
+			'title': "Model",
+			'subtitle': "Psych Building"
+		}
+		generateGalleryCard(info);
+	}
+}
+
 // Generate list of gallery page redirection links
 var generatePageLinkList = function (curr_index) {
 	var generatePageLink = function(index) {
@@ -38,11 +56,36 @@ var generatePageLinkList = function (curr_index) {
 			class_name = "filter-active"
 		}
 		$('#gallery-page-nav ul').append(page_nav_data.format(index, class_name, index));
-		console.log("Generating index of", index);
+		//console.log("Generating index of", index);
 	}
-	for (var i = 1; i < num_page + 1; i++) {
+	for (var i = 1; i < num_image + 1; i++) {
 		generatePageLink(i);
 	}
+}
+
+
+var createOneGalleryCard = function (info) {
+	/*
+	Param: Info
+		img_b: thumbnail image,
+		img_m: large image,
+		caption: image description
+		title: image title
+		subtitle: small title appearing beneath title
+	*/
+	gallery_card_data = ' <div class="col-lg-3 col-md-6 platform-data-item filter-card">		\
+          <figure itemprop="associatedMedia" itemscope>	\
+            <a href={0} itemprop="contentUrl" data-size="1024x768">\
+                <img src={1} itemprop="thumbnail" alt="Image description" />\
+            </a>\
+            <figcaption itemprop="caption description">{2}</figcaption>\
+            <div class="details">\
+              <h4>{3}</h4>\
+              <span>{4}</span>\
+            </div>\
+          </figure>\
+        </div>'
+    return gallery_card_data.format(info['img_b'], info['img_m'], info['caption'], info['title'], info['subtitle'])
 }
 
 
