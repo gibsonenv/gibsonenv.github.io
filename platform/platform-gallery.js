@@ -12,6 +12,9 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             item;
 
         for(var i = 0; i < numNodes; i++) {
+            console.log("node" + i)
+            console.log(thumbElements[i])
+
 
             figureEl = thumbElements[i]; // <figure> element
             // include only element nodes 
@@ -171,6 +174,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         }
 
         // Pass data to PhotoSwipe and initialize it
+        console.log(items)
         gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
         gallery.init();
     };
@@ -191,4 +195,4 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 };
 
 // execute above function
-initPhotoSwipeFromDOM('.my-gallery');
+//initPhotoSwipeFromDOM('.my-gallery #gallery-data-wrapper div.platform-data-item');

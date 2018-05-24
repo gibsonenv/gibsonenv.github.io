@@ -1,6 +1,6 @@
 
 .my-gallery img {
-  width: 100%;
+  width: 150%;
   height: auto;
 }
 .my-gallery figure {
@@ -9,4 +9,16 @@
 }
 .my-gallery figcaption {
   display: none;
+}
+
+#platform-data img.pswp__img {
+	/*left: -25% !important;
+	width:130% !important;*/
+	width:80% !important;
+	height: auto !important;
+}
+
+#platform-data img.pswp__img.mesh {
+	width:80% !important;
+	height: auto !important;
 }
