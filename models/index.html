@@ -31,11 +31,15 @@
   <link href="../public/css/style.css" rel="stylesheet">
   <link href="../public/css/platform.css" rel="stylesheet">
   <link href="../public/css/method.css" rel="stylesheet">
+  <link href="../public/css/models.css" rel="stylesheet">
+
 
   <!-- Javascript Font Library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vissense/0.10.0/vissense.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/77/three.min.js
+"></script>
   
   <!-- PhotoSwipe Library -->
   <link rel="stylesheet" href="./photoswipe.css"> 
@@ -43,6 +47,7 @@
   <link rel="stylesheet" type="text/css" href="./platform-custom.css"> 
   <script src="./photoswipe.min.js"></script> 
   <script src="./photoswipe-ui-default.min.js"></script> 
+
 
   <!-- =======================================================
     Theme Name: Regna
@@ -75,8 +80,8 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class=""><a href="../">Home</a></li>
-          <li class="menu-active"><a href="/">Platform</a></li>
-          <li class=""><a href="../models/">Models</a></li>
+          <li class=""><a href="../platform/">Platform</a></li>
+          <li class="menu-active"><a href="/">Models</a></li>
           <li class=""><a href="../method/">Method</a></li>
           <!-- 
           <li class="{{#is title 'Challenge'}}menu-active{{/is}}"><a href="challenge">Challenge</a></li>-->
@@ -91,124 +96,7 @@
   <!--==========================
     Platform Intro Section
   ============================-->
-  <section id="platform-intro">
-    <div class="row platform-intro-container">
-      <div class="col-lg-12 content order-lg-1 order-1 text-center">
-        <h2 class="title">Gibson Environment</h2>
-        <p>
-          Gibson Environment stands for <b>Gibson Environment for Real-World Perception Learning</b>. There are two main components in our environment for real-world perception learning: Gibson simulation platform and Gibson real model database.
-        </p>
-      </div>
-    </div>
-    <div class="row navigation">
-       <div class="col-lg-6 col-md-12">
-        <div class="box">
-          <div class="icon"><a href="#platform-about"><i class="fa fa-bar-chart"></i></a></div>
-          <h4 class="title"><a href="#platform-about">Gibson Platform</a></h4>
-          <p class="description">Gibson Environment for Real-World Perception Learning. We are opensourced on Github. Check it out, deploy, and start training perceptual agents.</p>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-12">
-        <div class="box">
-          <div class="icon"><a href="#platform-data"><i class="fa fa-desktop"></i></a></div>
-          <h4 class="title"><a href="#platform-data">Model Database</a></h4>
-          <p class="description">Up to 1000 RGBD scanning models, collected in indoor scenes using RGBD camera. State-of-the-art model complexity.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="platform-about">
-    <div class="platform-about-container container">
-      <div class="section-header">
-
-        <div class="col-lg-12 content order-lg-1 order-1 text-center">
-          <h2 class="section-title">Multimodal Real World Environment</h2>
-          <p>
-            We provide RGB from point clouds, as well as multimodal sensor data: surface normal, depth, and semantics. The environment is also RL ready and can be wrapped as an OpenAI gym environment. We provide two different modes for running simulation: human mode and headless mode, for debugging/visualzation and training purposes respectively.
-          </p>
-          <div class="row">
-            <div class="diagram">
-              <div class="col-12 text-center">
-                <img class="img-responsive" width="100%" src="../public/img/figure0.png" />
-              </div>
-            </div>
-          </div>
-        </div>
-        </br>
-        </br>
-        <div class="row counters">
-          <div class="col-lg-4 col-6 text-center">
-            <span data-toggle="counter-up">7</span>
-            <p>Robotic Agents</p>
-          </div>
-          <div class="col-lg-4 col-6 text-center">
-            <span data-toggle="counter-up">1440</span>
-            <p>Environments</p>
-          </div>
-          <div class="col-lg-4 col-6 text-center">
-            <span data-toggle="counter-up">16</span>
-            <p>Defined Tasks</p>
-          </div>
-        </div>
-        </br>
-        <h2 class="section-second-title">Integrated Physics Engine</h2>
-        <div class="col-lg-12 content order-lg-1 order-1 text-center">
-          <p class="section-description">We integrate our environment with physical engine. This allows us to expose our agents to physical phenomena such as collision, gravity, friction, etc. We base our physical simulator on Bullet Physics Engine, which supports rigid body and soft body simulation with discrete and continuous collision detection. 
-          <br/>
-          We also provide a selection of different agents. Currently we support: humanoid, ant, drone and quadruped.</p>
-        </div> 
-        <div class="row">
-          <div class="diagram">
-            <div class="col-12 text-center">
-              <img class="img-responsive" width="100%" src="../public/img/figure3.jpg" />
-            </div>
-          </div>
-        </div>            
-        <h2 class="section-second-title">Optimized for Speed</h2>
-        <p class="section-description">Rendering speed is crucial for reinforcement learning. It is our guideline when building an environment to providevery high frame rate, such that we can simulate our envi-ronment at much faster speed than real time. We implemented our CUDA-optimized rendering pipeline for this purpose. We also offer different rendering resolutions, to account for different speed requirements.</p>
-        <div class="col-12 text-center">
-          <iframe width="560" height="315" class="autoplay-video" src="https://www.youtube.com/embed/h1_f_-zCOjU?version=3&autoplay=1&enablejsapi=1&loop=1&playlist=h1_f_-zCOjU&rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-      
-  </section><!-- #facts -->
-
-  <!--==========================
-    Services Section
-  ============================-->
-  <section id="platform-specs">
-    <div class="container wow fadeIn">
-      <div class="section-header">
-        <h3 class="section-title">Platform Specifications</h3>
-        <p class="section-description"></p>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="box">
-            <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
-            <h4 class="title"><a href="">Real-world Complexity</a></h4>
-            <p class="description">Our images and models are sampled from real environments (3D scanning), which offers complexity of real-world environments. Compared to House3D dataset, ours offers 160% higher navigation complexity and 72.9% higher surface complexity.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="box">
-            <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
-            <h4 class="title"><a href="">Highly Optimized</a></h4>
-            <p class="description">Our environment renders at higher speed than real time. This ensures that we can train agents efficiently inside our simulation, which offers advantage over training in real world.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="box">
-            <div class="icon"><a href=""><i class="fa fa-paper-plane"></i></a></div>
-            <h4 class="title"><a href="">RL Ready</a></h4>
-            <p class="description">Our environment is RL ready and compatible with OpenAI gym. This means that you can deploy and start training your agents in no time. We also provide sample code for training agents, and pretrained results.</p>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-  </section><!-- #services -->
-  <section id="platform-data">
+  <section id="platform-data"   style="padding-top:60px">
     <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="pswp__bg"></div>
         <!-- Slides wrapper with overflow:hidden. -->
@@ -252,7 +140,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
     <div class="container platform-data-container">
       <div class="section-header">
         <h3 class="title">3D Models</h3>
@@ -275,12 +163,79 @@
             <li data-filter=".filter-card">Venues</li>
             <li data-filter=".filter-web">Others</li>
           </ul>
-        </div>
+        </div> 
       </div>
 
-      <div class="my-gallery container platform-data-container" id='platform-data-wrapper' itemscope>
-
+      <div class="my-gallery container platform-data-container" id="platform-data-wrapper" itemscope>
         <div class="row" id="gallery-data-wrapper">
+            <div class="col-lg-4 col-md-4 platform-data-item filter-card">
+                <div class="box">
+                  <div class="row">
+                      <div class="col-lg-12">
+                        <canvas id="viewer_0"></canvas>
+                      </div>
+                      <div class="col-lg-12">
+                        <figure itemprop="associatedMedia" style="text-align: center" itemscope> 
+                            <a href="../public/record/1KCnQXrMnZg/1KCnQXrMnZg_0.gif" itemprop="contentUrl" data-size="1024x768">
+                            <img src="../public/mesh/1ptLxazXvzx_0.png" text-align="center" itemprop="thumbnail" alt="Image description" />
+                            </a>
+                            <figcaption itemprop="caption description">Model Name</figcaption>
+                        </figure>
+                        <figure itemprop="associatedMedia" style="text-align: center" itemscope> 
+                            <a href="../public/record/1KCnQXrMnZg/1KCnQXrMnZg_0.gif" itemprop="contentUrl" data-size="1024x768">
+                            <img src="" text-align="center" itemprop="thumbnail" alt="Click to see it in Gibson" />
+                            </a>
+                            <figcaption itemprop="caption description">Model Name</figcaption>
+                        </figure>
+                        <figure itemprop="associatedMedia" style="text-align: center" itemscope> 
+                            <a href="../public/pano/1KCnQXrMnZg/1KCnQXrMnZg_0.png" itemprop="contentUrl" data-size="1024x768">
+                            <img src="" text-align="center" itemprop="thumbnail"/>
+                            </a>
+                            <figcaption itemprop="caption description">Model Name</figcaption>
+                        </figure>
+                        <figure itemprop="associatedMedia" style="text-align: center" itemscope> 
+                            <a href="../public/mesh/1KCnQXrMnZg_0.png" itemprop="contentUrl" data-size="1024x768">
+                            <img src="" text-align="center" itemprop="thumbnail"/>
+                            </a>
+                            <figcaption itemprop="caption description">Model Name</figcaption>
+                        </figure>
+                        <figure itemprop="associatedMedia" style="text-align: center" itemscope> 
+                            <a href="../public/pano/1KCnQXrMnZg/1KCnQXrMnZg_0.png" itemprop="contentUrl" data-size="1024x768">
+                            <img src="" text-align="center" itemprop="thumbnail"/>
+                            </a>
+                            <figcaption itemprop="caption description">Model Name</figcaption>
+                        </figure>
+                        <!--div class="details">
+                          <h4>123</h4>
+                          <span>123</span>
+                        </div-->
+                        </figure>
+                      </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 platform-data-item filter-card">
+                <div class="box">
+                  <div class="row">
+                      <div class="col-lg-12">
+                        <canvas id="viewer_1"></canvas>
+                      </div>
+                      <div class="col-lg-12">
+                        <figure itemprop="associatedMedia" style="text-align: center" itemscope> 
+                        <a href="../public/record/1ptLxazXvzx/1ptLxazXvzx_0.gif" itemprop="contentUrl" data-size="1024x768">
+                            <img src="../public/mesh/1ptLxazXvzx_0.png" text-align="center" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description">123</figcaption>
+                        <!--div class="details">
+                          <h4>123</h4>
+                          <span>123</span>
+                        </div-->
+                        </figure>
+                      </div>
+                  </div>
+                </div>
+            </div>
         </div>
       </div>
     </div>
@@ -294,9 +249,19 @@
   </section><!-- #portfolio -->
 </main>
 
+  <script type="text/javascript">
+    String.prototype.format = function() {
+      a = this;
+      for (k in arguments) {
+        a = a.replace("{" + k + "}", arguments[k])
+      }
+      return a
+    }
+  </script>
   <!-- PhotoSwipe script -->
   <script type="text/javascript" src="./platform-gallery.js" async></script>
   <!-- Generate page list script -->
+  <script type="text/javascript" src="./render.js"></script> 
   <script type="text/javascript" src="./platform-pages.js" async></script>
 
 
@@ -356,6 +321,7 @@
 
   <!-- Template Main Javascript File -->
   <script src="../public/js/main.js"></script>
+
 
 
 </body>

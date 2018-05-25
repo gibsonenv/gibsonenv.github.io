@@ -1,0 +1,33 @@
+
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+}
+.my-gallery figcaption {
+  display: none;
+}
+
+#platform-data img.pswp__img {
+	/*left: -25% !important;
+	width:130% !important;*/
+	width:80% !important;
+	height: auto !important;
+}
+
+#platform-data img.pswp__img.mesh {
+	width:80% !important;
+	height: auto !important;
+}
+
+#platform-data .my-gallery .box {
+	height: auto;
+}
+
+
+#platform-data .platform-data-item.filter-card {
+	height: auto;
+}

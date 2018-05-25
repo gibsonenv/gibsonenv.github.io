@@ -1,0 +1,225 @@
+/* Platform introduction Section
+--------------------------------*/
+#platform-data {
+  background: #f7f7f7;
+  background-size: cover;
+  padding: 80px 0 0px 0;
+}
+
+#platform-data .navigation {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.platform-data-item {
+  height: 800px;
+}
+
+#platform-data .box {
+  padding: 50px 20px 20px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 800px;
+  position: relative;
+  background: #fafafa;
+}
+
+#platform-data .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  display: inline-block;
+  border: 6px solid #f7f7f7;
+}
+
+#platform-data .icon a {
+  display: inline-block;
+  background: #2dc997;
+  border: 2px solid #2dc997;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+#platform-data .icon i {
+  color: #f7f7f7;
+  font-size: 24px;
+}
+
+#platform-data .box:hover .icon i {
+  color: #2dc997;
+}
+
+#platform-data .box:hover .icon a {
+  color: #2dc997;
+  background: #f7f7f7;
+}
+
+#platform-data .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+
+#platform-data .platform-data-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#platform-data .platform-data-container p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+
+#platform-data .title a {
+  color: #111;
+}
+
+#platform-data-container .description {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+
+/* Platform Data Section
+--------------------------------*/
+#platform-data {
+  background: #ffffff;
+  padding: 20px 0;
+}
+
+#platform-data .platform-data-container .title {
+  color: #333;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#platform-data .platform-data-container .diagram img{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#platform-data .section-description {
+  text-align: center;
+  margin: 0;
+}
+
+#platform-about .title {
+  margin:0 0 20px 0;
+}
+
+#platform-data #platform-data-wrapper {
+  padding-right: 15px;
+}
+
+#platform-data #platform-data-flters {
+  padding: 0;
+  margin: 0 0 45px 0;
+  list-style: none;
+  text-align: center;
+}
+
+#platform-data #platform-data-flters li {
+  cursor: pointer;
+  margin: 0 10px;
+  display: inline-block;
+  padding: 10px 22px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: #fff;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+#platform-data #platform-data-flters li:hover, #platform-data #platform-data-flters li.filter-active {
+  background: #2dc997;
+  color: #fff;
+}
+
+#platform-data .platform-data-item {
+  position: relative;
+  height: 800px;
+  overflow: hidden !important;
+  margin-bottom: 15px;
+  transition: all 350ms ease;
+  transform: scale(1);
+}
+
+#platform-data .platform-data-item a {
+  display: block;
+}
+
+#platform-data .platform-data-item img {
+  position: relative;
+  top: 0;
+  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#platform-data .platform-data-item .details {
+  height: 50px;
+  background: #2dc997;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: -50px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#platform-data .platform-data-item .details h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  padding: 8px 0 2px 8px;
+  margin: 0;
+}
+
+#platform-data .platform-data-item .details span {
+  display: block;
+  color: #fff;
+  font-size: 13px;
+  padding-left: 8px;
+}
+
+#platform-data .platform-data-item:hover .details {
+  bottom: 0;
+}
+
+#platform-data .platform-data-item:hover img {
+  top: 0px;
+}
+
+
+.container.platform-data-container {
+
+}
+
+/*#platform-data .platform-data-item img {
+  width: 60%;
+}*/
+
+#platform-data .my-gallery.platform-data-container .platform-data-item .crop {
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
+}
+
+#platform-data .platform-data-container .platform-data-item img {
+}
