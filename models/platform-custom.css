@@ -19,7 +19,7 @@
 }
 
 #platform-data img.pswp__img.mesh {
-	width:80% !important;
+	width:100% !important;
 	height: auto !important;
 }
 
@@ -30,4 +30,8 @@
 
 #platform-data .platform-data-item.filter-card {
 	height: auto;
+}
+
+.platform-data-container.container {
+	max-width: 1500px;
 }

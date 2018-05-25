@@ -1,5 +1,5 @@
 num_page = 30;
-num_image = 20;
+num_image = 12;
 panoramas = []
 
 page_nav_data = '<a href="?page={0}"><li data-filter=".filter-app" class="{1}">{2}</li> </a>';
@@ -16,7 +16,7 @@ $.getJSON('data.json', function(data) {
   generateGalleryCardList(params['page']);
   generatePageLinkList(params['page']);
   initPhotoSwipeFromDOM('.my-gallery #gallery-data-wrapper div.platform-data-item');
-  render(num_image);
+  render(num_image, panoramas);
 })
 
 
@@ -156,7 +156,10 @@ var generateGalleryCardList = function(curr_page) {
 		}*/
 
     model_info = platform_data[curr_img_index];
-    info = constructInfoObject(model_info)
+    //info = constructInfoObject(model_info);
+
+    info = {'id': platform_data[curr_img_index]['id'],
+            'index': i}
 		generateGalleryCard(info);
 	}
 }
@@ -177,6 +180,53 @@ var generatePageLinkList = function (curr_index) {
 } 
 
 
+template = '<div class="col-lg-3 col-md-3 platform-data-item filter-card">\
+                <div class="box">\
+                  <div class="row">\
+                      <div class="col-lg-12">\
+                        <canvas id="viewer_{1}"></canvas>\
+                      </div>\
+                      <div class="col-lg-12">\
+                        <figure itemprop="associatedMedia" style="text-align: center" itemscope> \
+                            <a href="../public/record/{0}/{0}_0.gif" itemprop="contentUrl" data-size="1024x768">\
+                            <img src="../public/mesh/{0}_3.png" text-align="center" itemprop="thumbnail" alt="Image description" />\
+                            </a>\
+                            <figcaption itemprop="caption description">Model Name</figcaption>\
+                        </figure>\
+                        <figure itemprop="associatedMedia" style="text-align: center" itemscope> \
+                            <a href="../public/record/{0}/{0}_1.gif" itemprop="contentUrl" data-size="1024x768">\
+                            <figure>\
+                            <figcaption itemprop="caption description">Model Name</figcaption>\
+                        </figure>\
+                        <figure itemprop="associatedMedia" style="text-align: center" itemscope> \
+                            <a href="../public/pano/{0}/{0}_1.png" itemprop="contentUrl" data-size="1024x768">\
+                            <img src="" text-align="center" itemprop="thumbnail"/>\
+                            </a>\
+                            <figcaption itemprop="caption description">Model Name</figcaption>\
+                        </figure>\
+                        <figure itemprop="associatedMedia" style="text-align: center" itemscope> \
+                            <a href="../public/mesh/{0}_1.png" itemprop="contentUrl" data-size="1024x768">\
+                            <img src="" text-align="center" itemprop="thumbnail"/>\
+                            </a>\
+                            <figcaption itemprop="caption description">Model Name</figcaption>\
+                        </figure>\
+                        <figure itemprop="associatedMedia" style="text-align: center" itemscope> \
+                            <a href="../public/pano/{0}/{0}_2.png" itemprop="contentUrl" data-size="1024x768">\
+                            <img src="" text-align="center" itemprop="thumbnail"/>\
+                            </a>\
+                            <figcaption itemprop="caption description">Model Name</figcaption>\
+                        </figure>\
+                        <!--div class="details">\
+                          <h4>123</h4>\
+                          <span>123</span>\
+                        </div-->\
+                        </figure>\
+                      </div>\
+                  </div>\
+                </div>\
+            </div>'
+
+
 var createOneGalleryCard = function (info) {
 	/*
 	Param: Info
@@ -186,7 +236,8 @@ var createOneGalleryCard = function (info) {
 		title: image title
 		subtitle: small title appearing beneath title
 	*/
-	gallery_card_data = ' <div class="col-lg-12 col-md-12 platform-data-item filter-card">\
+	
+  /*gallery_card_data = ' <div class="col-lg-12 col-md-12 platform-data-item filter-card">\
                         <div class="box">';
   for (var i = 0; i < info.length; i++) {
       gallery_card_data += ' \
@@ -203,8 +254,10 @@ var createOneGalleryCard = function (info) {
     
   }
   gallery_card_data += '</div></div>'
+  */
+  gallery_card_data = template.format(info['id'], info['index']);
 
-  return gallery_card_data
+  return gallery_card_data;
 }
 
 

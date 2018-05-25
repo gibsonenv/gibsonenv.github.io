@@ -8,7 +8,7 @@
             "area": 343.461
         },
         "split_tiny": "train",
-        "id": "15QS77cXJaZ",
+        "id": "Hanson",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-1"
@@ -22,7 +22,7 @@
             "area": 269.431
         },
         "split_tiny": "train",
-        "id": "1KCnQXrMnZg",
+        "id": "Merom",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-2"
@@ -36,7 +36,7 @@
             "area": 1171.902
         },
         "split_tiny": "none",
-        "id": "1ptLxazXvzx",
+        "id": "Brinnon",
         "split_full": "validation",
         "split_medium": "validation",
         "name": "model-3"
@@ -50,24 +50,10 @@
             "area": 53.595
         },
         "split_tiny": "none",
-        "id": "1QEeUs1GjbQ",
+        "id": "Arbutus",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-4"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 3.365,
-            "ssa": 0.843,
-            "floor": 4,
-            "area": 348.422
-        },
-        "split_tiny": "none",
-        "id": "1su8sK2bQG9",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-5"
     },
     {
         "stats": {
@@ -78,7 +64,7 @@
             "area": 62.127
         },
         "split_tiny": "none",
-        "id": "29whgtiRRQu",
+        "id": "Espanola",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-6"
@@ -92,24 +78,10 @@
             "area": 660.009
         },
         "split_tiny": "none",
-        "id": "2bapZRSU6PU",
+        "id": "Reserve",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-7"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 3.723,
-            "ssa": 1.741,
-            "floor": 2,
-            "area": 111.735
-        },
-        "split_tiny": "none",
-        "id": "2ceWsm9gqAf",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-8"
     },
     {
         "stats": {
@@ -120,7 +92,7 @@
             "area": 151.967
         },
         "split_tiny": "none",
-        "id": "2eFbsNhneU8",
+        "id": "Castor",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-9"
@@ -134,7 +106,7 @@
             "area": 234.973
         },
         "split_tiny": "none",
-        "id": "2fmfVaS1Shs",
+        "id": "Munsons",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-10"
@@ -148,7 +120,7 @@
             "area": 533.456
         },
         "split_tiny": "none",
-        "id": "2hq66hEH8Eq",
+        "id": "Ballou",
         "split_full": "validation",
         "split_medium": "none",
         "name": "model-11"
@@ -162,7 +134,7 @@
             "area": 82.938
         },
         "split_tiny": "none",
-        "id": "2hrMufepMAP",
+        "id": "Woonsocket",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-12"
@@ -176,7 +148,7 @@
             "area": 90.196
         },
         "split_tiny": "none",
-        "id": "2jHDboYdMBH",
+        "id": "Foyil",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-13"
@@ -190,7 +162,7 @@
             "area": 81.331
         },
         "split_tiny": "none",
-        "id": "2oD93WF26A3",
+        "id": "Creede",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-14"
@@ -204,24 +176,10 @@
             "area": 326.346
         },
         "split_tiny": "none",
-        "id": "2Pm2G5PMk7M",
+        "id": "Eagan",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-15"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 2.352,
-            "ssa": 1.505,
-            "floor": 1,
-            "area": 62.098
-        },
-        "split_tiny": "none",
-        "id": "2Q9V7ETLJ2x",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-16"
     },
     {
         "stats": {
@@ -232,7 +190,7 @@
             "area": 232.438
         },
         "split_tiny": "none",
-        "id": "2RKiN6gk5bQ",
+        "id": "Adairsville",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-17"
@@ -246,7 +204,7 @@
             "area": 220.462
         },
         "split_tiny": "none",
-        "id": "2tE7mZggAXt",
+        "id": "Superior",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-18"
@@ -260,7 +218,7 @@
             "area": 1618.439
         },
         "split_tiny": "train",
-        "id": "36EK2Fw6AL5",
+        "id": "Klickitat",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-19"
@@ -274,7 +232,7 @@
             "area": 116.738
         },
         "split_tiny": "none",
-        "id": "3cFi1BmW9fb",
+        "id": "Rancocas",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-20"
@@ -288,7 +246,7 @@
             "area": 92.354
         },
         "split_tiny": "none",
-        "id": "3e8nDct5pkr",
+        "id": "Ossipee",
         "split_full": "validation",
         "split_medium": "none",
         "name": "model-21"
@@ -302,24 +260,10 @@
             "area": 57.048
         },
         "split_tiny": "none",
-        "id": "3fSpTPEqjkL",
+        "id": "Matoaca",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-22"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 2.184,
-            "ssa": 2.077,
-            "floor": 1,
-            "area": 57.408
-        },
-        "split_tiny": "none",
-        "id": "3iEp5xAGLjR",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-23"
     },
     {
         "stats": {
@@ -330,7 +274,7 @@
             "area": 378.932
         },
         "split_tiny": "none",
-        "id": "3JGTvYUbcFP",
+        "id": "Tansboro",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-24"
@@ -344,7 +288,7 @@
             "area": 776.583
         },
         "split_tiny": "none",
-        "id": "3S8rmZYef7c",
+        "id": "Cottonport",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-25"
@@ -358,7 +302,7 @@
             "area": 216.845
         },
         "split_tiny": "none",
-        "id": "3vP8MmeuvyG",
+        "id": "Tyler",
         "split_full": "test",
         "split_medium": "test",
         "name": "model-26"
@@ -372,7 +316,7 @@
             "area": 564.827
         },
         "split_tiny": "none",
-        "id": "42o7mRL1FVM",
+        "id": "Sugarville",
         "split_full": "test",
         "split_medium": "test",
         "name": "model-27"
@@ -386,7 +330,7 @@
             "area": 258.383
         },
         "split_tiny": "none",
-        "id": "43a5aPJnbtA",
+        "id": "Martinville",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-28"
@@ -400,7 +344,7 @@
             "area": 455.855
         },
         "split_tiny": "none",
-        "id": "43AiramvdFV",
+        "id": "Vacherie",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-29"
@@ -414,24 +358,10 @@
             "area": 537.735
         },
         "split_tiny": "none",
-        "id": "45VqAGo5Cn2",
+        "id": "Haaswood",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-30"
-    },
-    {
-        "stats": {
-            "room": 1,
-            "navigation_complexity": 4.028,
-            "ssa": 2.07,
-            "floor": 1,
-            "area": 67.995
-        },
-        "split_tiny": "none",
-        "id": "4DCAC7RPB4Z",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-31"
     },
     {
         "stats": {
@@ -442,7 +372,7 @@
             "area": 359.128
         },
         "split_tiny": "none",
-        "id": "4FwwBJswgTN",
+        "id": "Ihlen",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-32"
@@ -456,24 +386,10 @@
             "area": 129.048
         },
         "split_tiny": "none",
-        "id": "4gbCjzBo4d7",
+        "id": "Caruthers",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-33"
-    },
-    {
-        "stats": {
-            "room": 9,
-            "navigation_complexity": 1.0,
-            "ssa": 1.533,
-            "floor": 1,
-            "area": 81.688
-        },
-        "split_tiny": "none",
-        "id": "4pUqKdCRV8v",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-34"
     },
     {
         "stats": {
@@ -484,7 +400,7 @@
             "area": 437.136
         },
         "split_tiny": "none",
-        "id": "4RFieHruK7t",
+        "id": "Hacienda",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-35"
@@ -498,7 +414,7 @@
             "area": 19.183
         },
         "split_tiny": "none",
-        "id": "4xcMzFxxsNJ",
+        "id": "Convoy",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-36"
@@ -512,7 +428,7 @@
             "area": 65.459
         },
         "split_tiny": "none",
-        "id": "4yhBT1UPvoS",
+        "id": "Roane",
         "split_full": "validation",
         "split_medium": "none",
         "name": "model-37"
@@ -526,7 +442,7 @@
             "area": 396.693
         },
         "split_tiny": "none",
-        "id": "55PSUWynter",
+        "id": "Ellaville",
         "split_full": "test",
         "split_medium": "none",
         "name": "model-38"
@@ -540,7 +456,7 @@
             "area": 47.725
         },
         "split_tiny": "none",
-        "id": "55qRwZBTApr",
+        "id": "Ogilvie",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-39"
@@ -554,7 +470,7 @@
             "area": 398.26
         },
         "split_tiny": "none",
-        "id": "59ohbJogedG",
+        "id": "Chilhowie",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-40"
@@ -568,7 +484,7 @@
             "area": 335.329
         },
         "split_tiny": "none",
-        "id": "5jTW4sXDMjH",
+        "id": "Darrtown",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-41"
@@ -582,7 +498,7 @@
             "area": 415.188
         },
         "split_tiny": "none",
-        "id": "5LRsjqtuMe1",
+        "id": "Tomales",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-42"
@@ -596,7 +512,7 @@
             "area": 549.54
         },
         "split_tiny": "none",
-        "id": "5qs5rd7FypF",
+        "id": "Springhill",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-43"
@@ -610,38 +526,10 @@
             "area": 1155.826
         },
         "split_tiny": "none",
-        "id": "5shT3w79Uk7",
+        "id": "Shellsburg",
         "split_full": "test",
         "split_medium": "none",
         "name": "model-44"
-    },
-    {
-        "stats": {
-            "room": 37,
-            "navigation_complexity": 16.449,
-            "ssa": 1.847,
-            "floor": 2,
-            "area": 3134.479
-        },
-        "split_tiny": "none",
-        "id": "5vuzw7aHRgT",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-45"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 7.747,
-            "ssa": 1.847,
-            "floor": 3,
-            "area": 526.822
-        },
-        "split_tiny": "none",
-        "id": "6bmVUJ6Hv6p",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-46"
     },
     {
         "stats": {
@@ -652,7 +540,7 @@
             "area": 123.959
         },
         "split_tiny": "none",
-        "id": "6CBd1HfWq55",
+        "id": "Chrisney",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-47"
@@ -666,24 +554,10 @@
             "area": 345.962
         },
         "split_tiny": "none",
-        "id": "6ctSsTpxr58",
+        "id": "Silas",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-48"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 2.571,
-            "ssa": 1.151,
-            "floor": 3,
-            "area": 510.112
-        },
-        "split_tiny": "none",
-        "id": "6CxW8kPfunu",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-49"
     },
     {
         "stats": {
@@ -694,7 +568,7 @@
             "area": 594.258
         },
         "split_tiny": "none",
-        "id": "6dc3CeUfQp3",
+        "id": "Clive",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-50"
@@ -708,24 +582,10 @@
             "area": 560.797
         },
         "split_tiny": "none",
-        "id": "6Fj8psdkGTV",
+        "id": "Rutherford",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-51"
-    },
-    {
-        "stats": {
-            "room": 20,
-            "navigation_complexity": 3.866,
-            "ssa": 1.791,
-            "floor": 4,
-            "area": 741.691
-        },
-        "split_tiny": "none",
-        "id": "6jqHAANEWYN",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-52"
     },
     {
         "stats": {
@@ -736,7 +596,7 @@
             "area": 58.748
         },
         "split_tiny": "none",
-        "id": "6RFBsNcCpFJ",
+        "id": "Laytonsville",
         "split_full": "test",
         "split_medium": "none",
         "name": "model-53"
@@ -750,24 +610,10 @@
             "area": 282.689
         },
         "split_tiny": "none",
-        "id": "6SgxC4ngfae",
+        "id": "Mullica",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-54"
-    },
-    {
-        "stats": {
-            "room": 18,
-            "navigation_complexity": 1.0,
-            "ssa": 1.931,
-            "floor": 4,
-            "area": 419.476
-        },
-        "split_tiny": "none",
-        "id": "6VsQ8xUKH7e",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-55"
     },
     {
         "stats": {
@@ -778,24 +624,10 @@
             "area": 152.69
         },
         "split_tiny": "none",
-        "id": "6x7uCcQiAbp",
+        "id": "Chireno",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-56"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 2.852,
-            "ssa": 1.229,
-            "floor": 1,
-            "area": 122.66
-        },
-        "split_tiny": "none",
-        "id": "6xh5FT82Yfm",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-57"
     },
     {
         "stats": {
@@ -806,24 +638,10 @@
             "area": 86.161
         },
         "split_tiny": "none",
-        "id": "6XZhwpXvLLM",
+        "id": "Bonfield",
         "split_full": "validation",
         "split_medium": "none",
         "name": "model-58"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 4.095,
-            "ssa": 1.165,
-            "floor": 3,
-            "area": 1303.692
-        },
-        "split_tiny": "none",
-        "id": "6ZatcAP2fKf",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-59"
     },
     {
         "stats": {
@@ -834,7 +652,7 @@
             "area": 284.04
         },
         "split_tiny": "none",
-        "id": "71mQCd4RCZt",
+        "id": "Lynchburg",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-60"
@@ -848,7 +666,7 @@
             "area": 185.459
         },
         "split_tiny": "none",
-        "id": "74YgSHAHUVk",
+        "id": "Halfway",
         "split_full": "validation",
         "split_medium": "none",
         "name": "model-61"
@@ -862,7 +680,7 @@
             "area": 569.168
         },
         "split_tiny": "none",
-        "id": "7fCpPvzf9HV",
+        "id": "Merlin",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-62"
@@ -876,7 +694,7 @@
             "area": 660.51
         },
         "split_tiny": "none",
-        "id": "7h3ZfVyuMAr",
+        "id": "Baneberry",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-63"
@@ -890,24 +708,10 @@
             "area": 568.497
         },
         "split_tiny": "none",
-        "id": "7KnjULNKgCX",
+        "id": "Connoquenessing",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-64"
-    },
-    {
-        "stats": {
-            "room": 23,
-            "navigation_complexity": 2.892,
-            "ssa": 1.7,
-            "floor": 3,
-            "area": 1153.639
-        },
-        "split_tiny": "none",
-        "id": "7MnEW6kePvi",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-65"
     },
     {
         "stats": {
@@ -918,7 +722,7 @@
             "area": 659.372
         },
         "split_tiny": "none",
-        "id": "7NhkiN6PYqy",
+        "id": "Hendrix",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-66"
@@ -932,7 +736,7 @@
             "area": 172.84
         },
         "split_tiny": "none",
-        "id": "7NXg3xEVkbB",
+        "id": "Hortense",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-67"
@@ -946,7 +750,7 @@
             "area": 792.206
         },
         "split_tiny": "none",
-        "id": "7pToqQU4Lkz",
+        "id": "Nimmons",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-68"
@@ -960,7 +764,7 @@
             "area": 315.287
         },
         "split_tiny": "none",
-        "id": "7UTNocq8Etr",
+        "id": "Tokeland",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-69"
@@ -974,7 +778,7 @@
             "area": 477.22
         },
         "split_tiny": "none",
-        "id": "7V7iMPMUegQ",
+        "id": "Wesley",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-70"
@@ -988,7 +792,7 @@
             "area": 40.383
         },
         "split_tiny": "none",
-        "id": "7ZjU1e9tPoa",
+        "id": "Idanha",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-71"
@@ -1002,7 +806,7 @@
             "area": 645.828
         },
         "split_tiny": "none",
-        "id": "81P11eJ4Lh5",
+        "id": "McCloud",
         "split_full": "test",
         "split_medium": "none",
         "name": "model-72"
@@ -1016,24 +820,10 @@
             "area": 243.042
         },
         "split_tiny": "none",
-        "id": "8A7KRFcYJbR",
+        "id": "Maricopa",
         "split_full": "test",
         "split_medium": "none",
         "name": "model-73"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 5.571,
-            "ssa": 1.863,
-            "floor": 3,
-            "area": 182.294
-        },
-        "split_tiny": "train",
-        "id": "8BCmnUrojRt",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-74"
     },
     {
         "stats": {
@@ -1044,24 +834,10 @@
             "area": 660.449
         },
         "split_tiny": "none",
-        "id": "8CiECGs9vaU",
+        "id": "Cousins",
         "split_full": "test",
         "split_medium": "test",
         "name": "model-75"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 4.016,
-            "ssa": 1.203,
-            "floor": 4,
-            "area": 915.082
-        },
-        "split_tiny": "none",
-        "id": "8CkuMo6KoZD",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-76"
     },
     {
         "stats": {
@@ -1072,24 +848,10 @@
             "area": 850.745
         },
         "split_tiny": "none",
-        "id": "8opBhMyPrH6",
+        "id": "Tomkins",
         "split_full": "validation",
         "split_medium": "none",
         "name": "model-77"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 3.094,
-            "ssa": 1.732,
-            "floor": 3,
-            "area": 158.824
-        },
-        "split_tiny": "none",
-        "id": "8rCjy9Bkty5",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-78"
     },
     {
         "stats": {
@@ -1100,7 +862,7 @@
             "area": 550.098
         },
         "split_tiny": "train",
-        "id": "8TbxJVBHSLS",
+        "id": "Maguayo",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-79"
@@ -1114,38 +876,10 @@
             "area": 1204.837
         },
         "split_tiny": "none",
-        "id": "8tqBvqfnP8n",
+        "id": "Muleshoe",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-80"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 4.273,
-            "ssa": 1.617,
-            "floor": 3,
-            "area": 608.869
-        },
-        "split_tiny": "none",
-        "id": "8Y6ngu9ha9a",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-81"
-    },
-    {
-        "stats": {
-            "room": 9,
-            "navigation_complexity": 1.436,
-            "ssa": 1.617,
-            "floor": 1,
-            "area": 70.216
-        },
-        "split_tiny": "none",
-        "id": "8zEYN1MoW7t",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-82"
     },
     {
         "stats": {
@@ -1156,7 +890,7 @@
             "area": 269.365
         },
         "split_tiny": "none",
-        "id": "92z4WjhkUky",
+        "id": "Ovalo",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-83"
@@ -1170,7 +904,7 @@
             "area": 977.135
         },
         "split_tiny": "none",
-        "id": "95e1imH3E2Y",
+        "id": "Leilani",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-84"
@@ -1184,38 +918,10 @@
             "area": 165.31
         },
         "split_tiny": "none",
-        "id": "9cZasFcRvXG",
+        "id": "Sundown",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-85"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 2.737,
-            "ssa": 1.287,
-            "floor": 1,
-            "area": 730.717
-        },
-        "split_tiny": "none",
-        "id": "9dffihabXx9",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-86"
-    },
-    {
-        "stats": {
-            "room": 26,
-            "navigation_complexity": 2.073,
-            "ssa": 1.046,
-            "floor": 3,
-            "area": 612.688
-        },
-        "split_tiny": "none",
-        "id": "9knJcQvm2JP",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-87"
     },
     {
         "stats": {
@@ -1226,7 +932,7 @@
             "area": 684.211
         },
         "split_tiny": "none",
-        "id": "9mG12Q3YJ3H",
+        "id": "Waimea",
         "split_full": "test",
         "split_medium": "none",
         "name": "model-88"
@@ -1240,7 +946,7 @@
             "area": 1626.834
         },
         "split_tiny": "none",
-        "id": "9ndm5iibmrF",
+        "id": "Grassy",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-89"
@@ -1254,7 +960,7 @@
             "area": 185.89
         },
         "split_tiny": "none",
-        "id": "9oLjM5aMURA",
+        "id": "Monticello",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-90"
@@ -1268,7 +974,7 @@
             "area": 83.084
         },
         "split_tiny": "none",
-        "id": "9tGNjPPeAVJ",
+        "id": "Benicia",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-91"
@@ -1282,7 +988,7 @@
             "area": 857.078
         },
         "split_tiny": "none",
-        "id": "9vig7fxUaTh",
+        "id": "Portal",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-92"
@@ -1296,7 +1002,7 @@
             "area": 355.121
         },
         "split_tiny": "none",
-        "id": "9Y9JXtFVK7j",
+        "id": "Texasville",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-93"
@@ -1310,7 +1016,7 @@
             "area": 132.303
         },
         "split_tiny": "none",
-        "id": "AaFgxrrRLga",
+        "id": "Kinney",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-94"
@@ -1324,52 +1030,10 @@
             "area": 1049.473
         },
         "split_tiny": "none",
-        "id": "AAKbLbpsFFv",
+        "id": "Melstone",
         "split_full": "validation",
         "split_medium": "validation",
         "name": "model-95"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 3.574,
-            "ssa": 1.778,
-            "floor": 4,
-            "area": 469.434
-        },
-        "split_tiny": "none",
-        "id": "adsYfNn6egJ",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-96"
-    },
-    {
-        "stats": {
-            "room": 18,
-            "navigation_complexity": 1.43,
-            "ssa": 1.372,
-            "floor": 4,
-            "area": 426.819
-        },
-        "split_tiny": "none",
-        "id": "ae3rtd6bqnD",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-97"
-    },
-    {
-        "stats": {
-            "room": 18,
-            "navigation_complexity": 4.395,
-            "ssa": 1.372,
-            "floor": 4,
-            "area": 799.666
-        },
-        "split_tiny": "none",
-        "id": "aFARe95ufV9",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-98"
     },
     {
         "stats": {
@@ -1380,52 +1044,10 @@
             "area": 918.933
         },
         "split_tiny": "train",
-        "id": "AfhTQF2Ywi1",
+        "id": "Gough",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-99"
-    },
-    {
-        "stats": {
-            "room": 9,
-            "navigation_complexity": 1.0,
-            "ssa": 1.027,
-            "floor": 1,
-            "area": 155.706
-        },
-        "split_tiny": "none",
-        "id": "aFvt1eg9A9u",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-100"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 8.813,
-            "ssa": 1.352,
-            "floor": 3,
-            "area": 464.624
-        },
-        "split_tiny": "none",
-        "id": "aghwurDcpVh",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-101"
-    },
-    {
-        "stats": {
-            "room": 10,
-            "navigation_complexity": 2.109,
-            "ssa": 1.352,
-            "floor": 3,
-            "area": 153.132
-        },
-        "split_tiny": "none",
-        "id": "agq1kHM2oxN",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-102"
     },
     {
         "stats": {
@@ -1436,7 +1058,7 @@
             "area": 442.52
         },
         "split_tiny": "none",
-        "id": "Akbxkaqkm5N",
+        "id": "Moberly",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-103"
@@ -1450,38 +1072,10 @@
             "area": 776.972
         },
         "split_tiny": "none",
-        "id": "AMy73jp8oAM",
+        "id": "Cutlerville",
         "split_full": "validation",
         "split_medium": "none",
         "name": "model-104"
-    },
-    {
-        "stats": {
-            "room": 10,
-            "navigation_complexity": 1.518,
-            "ssa": 2.064,
-            "floor": 3,
-            "area": 143.953
-        },
-        "split_tiny": "none",
-        "id": "an3P3ewyeQM",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-105"
-    },
-    {
-        "stats": {
-            "room": 24,
-            "navigation_complexity": 5.794,
-            "ssa": 2.064,
-            "floor": 4,
-            "area": 636.256
-        },
-        "split_tiny": "none",
-        "id": "aPEGQUtT8aA",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-106"
     },
     {
         "stats": {
@@ -1492,7 +1086,7 @@
             "area": 345.828
         },
         "split_tiny": "none",
-        "id": "APvTtMMqv7R",
+        "id": "Frankfort",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-107"
@@ -1506,24 +1100,10 @@
             "area": 85.135
         },
         "split_tiny": "none",
-        "id": "AqVTUva3TK6",
+        "id": "Quantico",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-108"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 3.227,
-            "ssa": 1.238,
-            "floor": 3,
-            "area": 570.3
-        },
-        "split_tiny": "none",
-        "id": "aR1KSUXgJE4",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-109"
     },
     {
         "stats": {
@@ -1534,7 +1114,7 @@
             "area": 221.741
         },
         "split_tiny": "none",
-        "id": "ARhbRxGYfdn",
+        "id": "Gilbert",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-110"
@@ -1548,24 +1128,10 @@
             "area": 797.823
         },
         "split_tiny": "none",
-        "id": "AStvardv8vJ",
+        "id": "Southfield",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-111"
-    },
-    {
-        "stats": {
-            "room": 13,
-            "navigation_complexity": 3.632,
-            "ssa": 1.609,
-            "floor": 3,
-            "area": 298.35
-        },
-        "split_tiny": "none",
-        "id": "atrUkCbbk28",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-112"
     },
     {
         "stats": {
@@ -1576,7 +1142,7 @@
             "area": 425.898
         },
         "split_tiny": "none",
-        "id": "AtSSPMrfhTo",
+        "id": "Imbery",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-113"
@@ -1590,7 +1156,7 @@
             "area": 367.827
         },
         "split_tiny": "none",
-        "id": "AuEqCsavb1d",
+        "id": "Goodyear",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-114"
@@ -1604,24 +1170,10 @@
             "area": 215.282
         },
         "split_tiny": "validation",
-        "id": "AvNcoGGf7mj",
+        "id": "Waukeenah",
         "split_full": "validation",
         "split_medium": "validation",
         "name": "model-115"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 3.503,
-            "ssa": 1.613,
-            "floor": 4,
-            "area": 636.509
-        },
-        "split_tiny": "none",
-        "id": "aYfGf1CzjJC",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-116"
     },
     {
         "stats": {
@@ -1632,7 +1184,7 @@
             "area": 266.125
         },
         "split_tiny": "none",
-        "id": "AzGAfsYsiFn",
+        "id": "Albertville",
         "split_full": "validation",
         "split_medium": "none",
         "name": "model-117"
@@ -1646,38 +1198,10 @@
             "area": 296.255
         },
         "split_tiny": "none",
-        "id": "B2DeRDLrf9o",
+        "id": "Pocopson",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-118"
-    },
-    {
-        "stats": {
-            "room": 9,
-            "navigation_complexity": 2.347,
-            "ssa": 1.431,
-            "floor": 3,
-            "area": 265.929
-        },
-        "split_tiny": "none",
-        "id": "b6uhXPN5Rn1",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-119"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 2.087,
-            "ssa": 1.431,
-            "floor": 2,
-            "area": 114.409
-        },
-        "split_tiny": "none",
-        "id": "bB9kWtQGDdb",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-120"
     },
     {
         "stats": {
@@ -1688,7 +1212,7 @@
             "area": 430.311
         },
         "split_tiny": "none",
-        "id": "BboczBkv8iV",
+        "id": "Auburn",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-121"
@@ -1702,7 +1226,7 @@
             "area": 865.108
         },
         "split_tiny": "none",
-        "id": "BDKKKx3HzSZ",
+        "id": "Landing",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-122"
@@ -1716,24 +1240,10 @@
             "area": 499.522
         },
         "split_tiny": "none",
-        "id": "BdPwoJqMV4V",
+        "id": "Ackermanville",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-123"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 1.346,
-            "ssa": 1.187,
-            "floor": 4,
-            "area": 275.265
-        },
-        "split_tiny": "none",
-        "id": "bgbkQKtxptW",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-124"
     },
     {
         "stats": {
@@ -1744,24 +1254,10 @@
             "area": 411.203
         },
         "split_tiny": "none",
-        "id": "BjiGqAXWpQY",
+        "id": "Copemish",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-125"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 2.129,
-            "ssa": 1.182,
-            "floor": 3,
-            "area": 266.079
-        },
-        "split_tiny": "none",
-        "id": "bLmKzRNSWju",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-126"
     },
     {
         "stats": {
@@ -1772,7 +1268,7 @@
             "area": 694.299
         },
         "split_tiny": "none",
-        "id": "BS8eSRb6CAa",
+        "id": "Terrell",
         "split_full": "test",
         "split_medium": "none",
         "name": "model-127"
@@ -1786,24 +1282,10 @@
             "area": 37.079
         },
         "split_tiny": "none",
-        "id": "BsfVKp6d17G",
+        "id": "Eudora",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-128"
-    },
-    {
-        "stats": {
-            "room": 13,
-            "navigation_complexity": 1.977,
-            "ssa": 1.208,
-            "floor": 4,
-            "area": 194.383
-        },
-        "split_tiny": "none",
-        "id": "bVK8uC6ehEj",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-129"
     },
     {
         "stats": {
@@ -1814,7 +1296,7 @@
             "area": 674.595
         },
         "split_tiny": "none",
-        "id": "BX5myHsqVVy",
+        "id": "Andover",
         "split_full": "test",
         "split_medium": "none",
         "name": "model-130"
@@ -1828,38 +1310,10 @@
             "area": 616.935
         },
         "split_tiny": "none",
-        "id": "BYoNM8s4LMC",
+        "id": "Uvalda",
         "split_full": "validation",
         "split_medium": "validation",
         "name": "model-131"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 4.798,
-            "ssa": 1.174,
-            "floor": 1,
-            "area": 70.734
-        },
-        "split_tiny": "none",
-        "id": "c2XPoJ28iic",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-132"
-    },
-    {
-        "stats": {
-            "room": 30,
-            "navigation_complexity": 1.001,
-            "ssa": 1.956,
-            "floor": 4,
-            "area": 465.267
-        },
-        "split_tiny": "none",
-        "id": "c3WEPRaqp4q",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-133"
     },
     {
         "stats": {
@@ -1870,7 +1324,7 @@
             "area": 394.078
         },
         "split_tiny": "none",
-        "id": "C5tbbLbRpeM",
+        "id": "Leavittsburg",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-134"
@@ -1884,24 +1338,10 @@
             "area": 188.722
         },
         "split_tiny": "none",
-        "id": "CDK9tFwkriv",
+        "id": "Monson",
         "split_full": "validation",
         "split_medium": "none",
         "name": "model-135"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 1.976,
-            "ssa": 0.909,
-            "floor": 3,
-            "area": 400.83
-        },
-        "split_tiny": "none",
-        "id": "cf5eooPoLMY",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-136"
     },
     {
         "stats": {
@@ -1912,66 +1352,10 @@
             "area": 736.625
         },
         "split_tiny": "train",
-        "id": "CHPcyWCtt7q",
+        "id": "Wiconisco",
         "split_full": "train",
         "split_medium": "train",
         "name": "model-137"
-    },
-    {
-        "stats": {
-            "room": 42,
-            "navigation_complexity": 6.679,
-            "ssa": 1.827,
-            "floor": 2,
-            "area": 3121.66
-        },
-        "split_tiny": "none",
-        "id": "cHwxkfv6ojT",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-138"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 3.452,
-            "ssa": 1.152,
-            "floor": 2,
-            "area": 103.567
-        },
-        "split_tiny": "none",
-        "id": "ciBh9CTHsCD",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-139"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 2.504,
-            "ssa": 1.152,
-            "floor": 1,
-            "area": 61.886
-        },
-        "split_tiny": "none",
-        "id": "cJMChjFE18o",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-140"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 1.117,
-            "ssa": 1.87,
-            "floor": 1,
-            "area": 273.683
-        },
-        "split_tiny": "none",
-        "id": "cjMjcyuFmrD",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-141"
     },
     {
         "stats": {
@@ -1982,52 +1366,10 @@
             "area": 187.518
         },
         "split_tiny": "none",
-        "id": "CMur6Jic6HX",
+        "id": "Applewold",
         "split_full": "test",
         "split_medium": "none",
         "name": "model-142"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 3.402,
-            "ssa": 1.134,
-            "floor": 3,
-            "area": 621.968
-        },
-        "split_tiny": "none",
-        "id": "cs4voRjH1JK",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-143"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 2.543,
-            "ssa": 1.134,
-            "floor": 1,
-            "area": 45.35
-        },
-        "split_tiny": "none",
-        "id": "CUFp7gxkKaY",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-144"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 1.67,
-            "ssa": 1.561,
-            "floor": 1,
-            "area": 882.38
-        },
-        "split_tiny": "none",
-        "id": "cuRCe38zsmh",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-145"
     },
     {
         "stats": {
@@ -2038,38 +1380,10 @@
             "area": 477.51
         },
         "split_tiny": "none",
-        "id": "Cy7VSxTXixD",
+        "id": "Anthoston",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-146"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 3.569,
-            "ssa": 1.837,
-            "floor": 3,
-            "area": 649.14
-        },
-        "split_tiny": "none",
-        "id": "d4r63mcrmpK",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-147"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 2.238,
-            "ssa": 1.837,
-            "floor": 5,
-            "area": 286.735
-        },
-        "split_tiny": "none",
-        "id": "d6XE3bpAgKN",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-148"
     },
     {
         "stats": {
@@ -2080,7 +1394,7 @@
             "area": 2363.378
         },
         "split_tiny": "none",
-        "id": "D8a926HgEi6",
+        "id": "Grainola",
         "split_full": "validation",
         "split_medium": "validation",
         "name": "model-149"
@@ -2094,52 +1408,10 @@
             "area": 59.25
         },
         "split_tiny": "none",
-        "id": "D8Pq9rz9yrm",
+        "id": "Gaylord",
         "split_full": "validation",
         "split_medium": "none",
         "name": "model-150"
-    },
-    {
-        "stats": {
-            "room": 24,
-            "navigation_complexity": 6.441,
-            "ssa": 0.9,
-            "floor": 3,
-            "area": 662.264
-        },
-        "split_tiny": "none",
-        "id": "d8rCDuveGDY",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-151"
-    },
-    {
-        "stats": {
-            "room": 37,
-            "navigation_complexity": 4.842,
-            "ssa": 0.9,
-            "floor": 4,
-            "area": 844.615
-        },
-        "split_tiny": "none",
-        "id": "dadJQ2Z5uXL",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-152"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 3.17,
-            "ssa": 1.008,
-            "floor": 1,
-            "area": 73.469
-        },
-        "split_tiny": "none",
-        "id": "DbDDj35KgCx",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-153"
     },
     {
         "stats": {
@@ -2150,24 +1422,10 @@
             "area": 108.069
         },
         "split_tiny": "none",
-        "id": "DCvxWJs3zCj",
+        "id": "Whitethorn",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-154"
-    },
-    {
-        "stats": {
-            "room": 27,
-            "navigation_complexity": 4.32,
-            "ssa": 1.661,
-            "floor": 3,
-            "area": 593.908
-        },
-        "split_tiny": "none",
-        "id": "dFQwM5fiNiw",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-155"
     },
     {
         "stats": {
@@ -2178,122 +1436,10 @@
             "area": 109.787
         },
         "split_tiny": "none",
-        "id": "DgMbX7xAakB",
+        "id": "Circleville",
         "split_full": "test",
         "split_medium": "none",
         "name": "model-156"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 3.922,
-            "ssa": 1.38,
-            "floor": 1,
-            "area": 585.206
-        },
-        "split_tiny": "none",
-        "id": "DhtQwRBZ5mc",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-157"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 2.058,
-            "ssa": 1.38,
-            "floor": 3,
-            "area": 402.563
-        },
-        "split_tiny": "none",
-        "id": "di9SdUETiRp",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-158"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 1.354,
-            "ssa": 1.113,
-            "floor": 1,
-            "area": 99.565
-        },
-        "split_tiny": "none",
-        "id": "dJ6UnuvUZQi",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-159"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 3.581,
-            "ssa": 1.113,
-            "floor": 1,
-            "area": 95.079
-        },
-        "split_tiny": "none",
-        "id": "dJqt6EU6B5J",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-160"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 1.6,
-            "ssa": 1.046,
-            "floor": 4,
-            "area": 296.948
-        },
-        "split_tiny": "none",
-        "id": "dNaoUQbtiRp",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-161"
-    },
-    {
-        "stats": {
-            "room": 20,
-            "navigation_complexity": 3.123,
-            "ssa": 1.046,
-            "floor": 4,
-            "area": 535.171
-        },
-        "split_tiny": "none",
-        "id": "DoygSpkVPY9",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-162"
-    },
-    {
-        "stats": {
-            "room": 11,
-            "navigation_complexity": 2.404,
-            "ssa": 1.553,
-            "floor": 1,
-            "area": 162.014
-        },
-        "split_tiny": "none",
-        "id": "dP2vFBA63cn",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-163"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 3.886,
-            "ssa": 1.553,
-            "floor": 1,
-            "area": 61.215
-        },
-        "split_tiny": "none",
-        "id": "drcY6isT2wu",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-164"
     },
     {
         "stats": {
@@ -2304,24 +1450,10 @@
             "area": 920.049
         },
         "split_tiny": "none",
-        "id": "DS7um4c74gK",
+        "id": "Clarkridge",
         "split_full": "train",
         "split_medium": "none",
         "name": "model-165"
-    },
-    {
-        "stats": {
-            "room": 11,
-            "navigation_complexity": 1.611,
-            "ssa": 1.277,
-            "floor": 4,
-            "area": 494.275
-        },
-        "split_tiny": "none",
-        "id": "dsiZVLauN2V",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-166"
     },
     {
         "stats": {
@@ -2332,5679 +1464,9 @@
             "area": 337.942
         },
         "split_tiny": "none",
-        "id": "DSQ64Mh9LVL",
+        "id": "Gladstone",
         "split_full": "test",
         "split_medium": "none",
         "name": "model-167"
-    },
-    {
-        "stats": {
-            "room": 14,
-            "navigation_complexity": 3.89,
-            "ssa": 1.179,
-            "floor": 3,
-            "area": 360.365
-        },
-        "split_tiny": "none",
-        "id": "DUQ8nJkGyeJ",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-168"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 5.051,
-            "ssa": 1.665,
-            "floor": 1,
-            "area": 444.709
-        },
-        "split_tiny": "none",
-        "id": "dVSvPP5cMEw",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-169"
-    },
-    {
-        "stats": {
-            "room": 14,
-            "navigation_complexity": 1.583,
-            "ssa": 1.665,
-            "floor": 3,
-            "area": 394.14
-        },
-        "split_tiny": "none",
-        "id": "dvYumjpK4LM",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-170"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 1.236,
-            "ssa": 0.498,
-            "floor": 3,
-            "area": 551.319
-        },
-        "split_tiny": "none",
-        "id": "E2aBFLrgaah",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-171"
-    },
-    {
-        "stats": {
-            "room": 29,
-            "navigation_complexity": 2.006,
-            "ssa": 0.498,
-            "floor": 4,
-            "area": 374.441
-        },
-        "split_tiny": "none",
-        "id": "e36GUPwGeoi",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-172"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 1.539,
-            "ssa": 1.342,
-            "floor": 1,
-            "area": 37.044
-        },
-        "split_tiny": "none",
-        "id": "e76re7qcWzc",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-173"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 2.372,
-            "ssa": 1.342,
-            "floor": 4,
-            "area": 338.51
-        },
-        "split_tiny": "none",
-        "id": "ecs6NoMeav6",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-174"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 2.64,
-            "ssa": 1.091,
-            "floor": 1,
-            "area": 788.23
-        },
-        "split_tiny": "none",
-        "id": "EDuKj7FsPii",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-175"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 4.037,
-            "ssa": 1.091,
-            "floor": 1,
-            "area": 67.226
-        },
-        "split_tiny": "none",
-        "id": "ef8ooNGuK44",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-176"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 1.262,
-            "ssa": 0.916,
-            "floor": 2,
-            "area": 23.62
-        },
-        "split_tiny": "none",
-        "id": "ehdJ7VzwDCi",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-177"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 3.099,
-            "ssa": 0.916,
-            "floor": 3,
-            "area": 146.903
-        },
-        "split_tiny": "none",
-        "id": "eHPkcYuJfRu",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-178"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 2.498,
-            "ssa": 1.437,
-            "floor": 3,
-            "area": 349.003
-        },
-        "split_tiny": "none",
-        "id": "ekZp37U4ut9",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-179"
-    },
-    {
-        "stats": {
-            "room": 31,
-            "navigation_complexity": 1.597,
-            "ssa": 1.437,
-            "floor": 4,
-            "area": 455.396
-        },
-        "split_tiny": "none",
-        "id": "eLTvXSUBv9p",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-180"
-    },
-    {
-        "stats": {
-            "room": 28,
-            "navigation_complexity": 7.456,
-            "ssa": 1.56,
-            "floor": 3,
-            "area": 1106.305
-        },
-        "split_tiny": "none",
-        "id": "emx4v8dhWuz",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-181"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 5.28,
-            "ssa": 1.56,
-            "floor": 3,
-            "area": 348.101
-        },
-        "split_tiny": "none",
-        "id": "EPHkvW5wTJx",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-182"
-    },
-    {
-        "stats": {
-            "room": 23,
-            "navigation_complexity": 3.133,
-            "ssa": 1.012,
-            "floor": 3,
-            "area": 905.911
-        },
-        "split_tiny": "none",
-        "id": "EqkvkZB5eu2",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-183"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 5.342,
-            "ssa": 1.012,
-            "floor": 3,
-            "area": 248.132
-        },
-        "split_tiny": "none",
-        "id": "ErgomFFXxAA",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-184"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 1.483,
-            "ssa": 1.442,
-            "floor": 1,
-            "area": 56.185
-        },
-        "split_tiny": "none",
-        "id": "EVcR5s5Zpb4",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-185"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 2.827,
-            "ssa": 1.442,
-            "floor": 3,
-            "area": 629.038
-        },
-        "split_tiny": "none",
-        "id": "Eww3CoTqSEo",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-186"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 1.0,
-            "ssa": 1.662,
-            "floor": 1,
-            "area": 105.358
-        },
-        "split_tiny": "none",
-        "id": "eysVge6XpeC",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-187"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 1.786,
-            "ssa": 1.662,
-            "floor": 2,
-            "area": 154.358
-        },
-        "split_tiny": "none",
-        "id": "F2obnRJhNpw",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-188"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 3.23,
-            "ssa": 1.091,
-            "floor": 1,
-            "area": 385.662
-        },
-        "split_tiny": "none",
-        "id": "f2sfZWikjhR",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-189"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 4.294,
-            "ssa": 1.091,
-            "floor": 4,
-            "area": 581.725
-        },
-        "split_tiny": "none",
-        "id": "F5FmLRWnMjK",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-190"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 1.041,
-            "ssa": 1.195,
-            "floor": 4,
-            "area": 258.626
-        },
-        "split_tiny": "none",
-        "id": "f5j2tZpoGHM",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-191"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 1.791,
-            "ssa": 1.195,
-            "floor": 4,
-            "area": 734.661
-        },
-        "split_tiny": "none",
-        "id": "fCMFaodmMMv",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-192"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 2.257,
-            "ssa": 1.413,
-            "floor": 3,
-            "area": 272.066
-        },
-        "split_tiny": "none",
-        "id": "fD1SUX7eJQZ",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-193"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 3.506,
-            "ssa": 1.413,
-            "floor": 4,
-            "area": 375.196
-        },
-        "split_tiny": "none",
-        "id": "FETVaRvELLC",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-194"
-    },
-    {
-        "stats": {
-            "room": 32,
-            "navigation_complexity": 4.747,
-            "ssa": 1.16,
-            "floor": 1,
-            "area": 1387.564
-        },
-        "split_tiny": "none",
-        "id": "FF8NiMqpQG7",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-195"
-    },
-    {
-        "stats": {
-            "room": 29,
-            "navigation_complexity": 2.112,
-            "ssa": 1.16,
-            "floor": 3,
-            "area": 2697.304
-        },
-        "split_tiny": "none",
-        "id": "fGYLwyzxiLV",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-196"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 4.327,
-            "ssa": 1.455,
-            "floor": 4,
-            "area": 734.48
-        },
-        "split_tiny": "none",
-        "id": "FhNQW1xc7di",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-197"
-    },
-    {
-        "stats": {
-            "room": 9,
-            "navigation_complexity": 4.085,
-            "ssa": 1.455,
-            "floor": 3,
-            "area": 276.521
-        },
-        "split_tiny": "none",
-        "id": "FJZTwBCF6KB",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-198"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 1.697,
-            "ssa": 1.546,
-            "floor": 2,
-            "area": 64.944
-        },
-        "split_tiny": "none",
-        "id": "fmyEGXVfnLu",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-199"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 3.967,
-            "ssa": 1.546,
-            "floor": 4,
-            "area": 440.36
-        },
-        "split_tiny": "none",
-        "id": "FN6YScBnRnp",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-200"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 3.41,
-            "ssa": 1.275,
-            "floor": 3,
-            "area": 727.746
-        },
-        "split_tiny": "none",
-        "id": "fNKQC4sv35y",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-201"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 2.345,
-            "ssa": 1.275,
-            "floor": 3,
-            "area": 573.641
-        },
-        "split_tiny": "none",
-        "id": "FNPsi4VeuP8",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-202"
-    },
-    {
-        "stats": {
-            "room": 9,
-            "navigation_complexity": 6.629,
-            "ssa": 1.821,
-            "floor": 1,
-            "area": 284.58
-        },
-        "split_tiny": "none",
-        "id": "FoEJ4vqm7M7",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-203"
-    },
-    {
-        "stats": {
-            "room": 24,
-            "navigation_complexity": 1.622,
-            "ssa": 1.821,
-            "floor": 4,
-            "area": 603.61
-        },
-        "split_tiny": "none",
-        "id": "FQvnWfWo3JL",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-204"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 3.851,
-            "ssa": 1.483,
-            "floor": 1,
-            "area": 188.151
-        },
-        "split_tiny": "none",
-        "id": "fsmJZ6g8bB2",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-205"
-    },
-    {
-        "stats": {
-            "room": 45,
-            "navigation_complexity": 2.001,
-            "ssa": 1.483,
-            "floor": 5,
-            "area": 1234.302
-        },
-        "split_tiny": "none",
-        "id": "fUct11B5nH5",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-206"
-    },
-    {
-        "stats": {
-            "room": 26,
-            "navigation_complexity": 5.979,
-            "ssa": 1.069,
-            "floor": 4,
-            "area": 1178.619
-        },
-        "split_tiny": "none",
-        "id": "FUJ9kNeqLnd",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-207"
-    },
-    {
-        "stats": {
-            "room": 9,
-            "navigation_complexity": 3.187,
-            "ssa": 1.069,
-            "floor": 1,
-            "area": 125.348
-        },
-        "split_tiny": "none",
-        "id": "Fvrwdi9dBeK",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-208"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 5.134,
-            "ssa": 1.868,
-            "floor": 3,
-            "area": 851.942
-        },
-        "split_tiny": "none",
-        "id": "FxXXNceZKSc",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-209"
-    },
-    {
-        "stats": {
-            "room": 30,
-            "navigation_complexity": 2.051,
-            "ssa": 1.868,
-            "floor": 4,
-            "area": 737.666
-        },
-        "split_tiny": "none",
-        "id": "FYUwBF4pSem",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-210"
-    },
-    {
-        "stats": {
-            "room": 18,
-            "navigation_complexity": 4.242,
-            "ssa": 1.104,
-            "floor": 4,
-            "area": 365.543
-        },
-        "split_tiny": "none",
-        "id": "Fzk6MSSrBVk",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-211"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 6.9,
-            "ssa": 1.104,
-            "floor": 6,
-            "area": 1398.591
-        },
-        "split_tiny": "train",
-        "id": "G3sMN1gJkKJ",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-212"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 6.722,
-            "ssa": 1.433,
-            "floor": 3,
-            "area": 448.802
-        },
-        "split_tiny": "none",
-        "id": "G3ykKH2uyEM",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-213"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 2.561,
-            "ssa": 1.433,
-            "floor": 3,
-            "area": 484.365
-        },
-        "split_tiny": "none",
-        "id": "g5Ds1HSUXxx",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-214"
-    },
-    {
-        "stats": {
-            "room": 18,
-            "navigation_complexity": 2.058,
-            "ssa": 1.992,
-            "floor": 4,
-            "area": 560.051
-        },
-        "split_tiny": "none",
-        "id": "g7zLC8sv24x",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-215"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 1.858,
-            "ssa": 1.992,
-            "floor": 4,
-            "area": 159.084
-        },
-        "split_tiny": "none",
-        "id": "G91GNbR8n4Q",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-216"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 2.876,
-            "ssa": 1.303,
-            "floor": 1,
-            "area": 124.735
-        },
-        "split_tiny": "none",
-        "id": "gc52MUpK85x",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-217"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 1.021,
-            "ssa": 1.303,
-            "floor": 3,
-            "area": 463.599
-        },
-        "split_tiny": "none",
-        "id": "geeDLL5tktS",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-218"
-    },
-    {
-        "stats": {
-            "room": 27,
-            "navigation_complexity": 5.877,
-            "ssa": 1.156,
-            "floor": 3,
-            "area": 530.688
-        },
-        "split_tiny": "none",
-        "id": "GeHEo7BL9Aw",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-219"
-    },
-    {
-        "stats": {
-            "room": 38,
-            "navigation_complexity": 2.707,
-            "ssa": 1.156,
-            "floor": 1,
-            "area": 733.268
-        },
-        "split_tiny": "none",
-        "id": "GjsrSRys5s7",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-220"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 3.396,
-            "ssa": 1.398,
-            "floor": 1,
-            "area": 75.131
-        },
-        "split_tiny": "none",
-        "id": "gkviPQan8b5",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-221"
-    },
-    {
-        "stats": {
-            "room": 23,
-            "navigation_complexity": 2.814,
-            "ssa": 1.398,
-            "floor": 3,
-            "area": 391.372
-        },
-        "split_tiny": "none",
-        "id": "gqKrzBtebcY",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-222"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 1.695,
-            "ssa": 1.356,
-            "floor": 3,
-            "area": 557.674
-        },
-        "split_tiny": "none",
-        "id": "GqWu1xgr2iF",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-223"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 1.0,
-            "ssa": 1.356,
-            "floor": 4,
-            "area": 218.453
-        },
-        "split_tiny": "none",
-        "id": "guXVk1JVGRj",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-224"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 1.313,
-            "ssa": 1.526,
-            "floor": 2,
-            "area": 97.904
-        },
-        "split_tiny": "none",
-        "id": "GV7u13TrTAw",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-225"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 1.145,
-            "ssa": 1.526,
-            "floor": 3,
-            "area": 261.927
-        },
-        "split_tiny": "none",
-        "id": "gw6Y6ytdxbP",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-226"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 4.354,
-            "ssa": 1.821,
-            "floor": 1,
-            "area": 269.619
-        },
-        "split_tiny": "none",
-        "id": "GxmqxNDmzv5",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-227"
-    },
-    {
-        "stats": {
-            "room": 9,
-            "navigation_complexity": 2.157,
-            "ssa": 1.821,
-            "floor": 2,
-            "area": 103.245
-        },
-        "split_tiny": "none",
-        "id": "HcCG66NjDrE",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-228"
-    },
-    {
-        "stats": {
-            "room": 20,
-            "navigation_complexity": 8.586,
-            "ssa": 1.637,
-            "floor": 4,
-            "area": 610.147
-        },
-        "split_tiny": "train",
-        "id": "HDs9ZnFUNyB",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-229"
-    },
-    {
-        "stats": {
-            "room": 18,
-            "navigation_complexity": 1.885,
-            "ssa": 1.637,
-            "floor": 3,
-            "area": 680.296
-        },
-        "split_tiny": "none",
-        "id": "hE7HpbDR9kF",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-230"
-    },
-    {
-        "stats": {
-            "room": 13,
-            "navigation_complexity": 1.747,
-            "ssa": 1.043,
-            "floor": 3,
-            "area": 410.224
-        },
-        "split_tiny": "none",
-        "id": "HeMuqyJTYY5",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-231"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 2.012,
-            "ssa": 1.043,
-            "floor": 3,
-            "area": 335.837
-        },
-        "split_tiny": "none",
-        "id": "HgDCaB1USdS",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-232"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 2.482,
-            "ssa": 1.398,
-            "floor": 1,
-            "area": 57.115
-        },
-        "split_tiny": "none",
-        "id": "hipy97CnNH6",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-233"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 1.71,
-            "ssa": 1.398,
-            "floor": 3,
-            "area": 505.398
-        },
-        "split_tiny": "none",
-        "id": "HJ1pEFagTvS",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-234"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 2.954,
-            "ssa": 1.219,
-            "floor": 3,
-            "area": 353.106
-        },
-        "split_tiny": "none",
-        "id": "hJsGrKa11cD",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-235"
-    },
-    {
-        "stats": {
-            "room": 20,
-            "navigation_complexity": 2.945,
-            "ssa": 1.219,
-            "floor": 3,
-            "area": 760.574
-        },
-        "split_tiny": "none",
-        "id": "hMhHGno6ZxK",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-236"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 2.365,
-            "ssa": 1.609,
-            "floor": 3,
-            "area": 554.521
-        },
-        "split_tiny": "none",
-        "id": "Hn6nMTnrSbL",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-237"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 3.233,
-            "ssa": 1.609,
-            "floor": 3,
-            "area": 383.756
-        },
-        "split_tiny": "none",
-        "id": "HozPDhP2i4f",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-238"
-    },
-    {
-        "stats": {
-            "room": 14,
-            "navigation_complexity": 2.552,
-            "ssa": 1.575,
-            "floor": 4,
-            "area": 372.016
-        },
-        "split_tiny": "none",
-        "id": "HqHNKgMnXqZ",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-239"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 1.494,
-            "ssa": 1.575,
-            "floor": 3,
-            "area": 587.497
-        },
-        "split_tiny": "none",
-        "id": "HsgrbkVnfvL",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-240"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 2.762,
-            "ssa": 1.094,
-            "floor": 4,
-            "area": 457.536
-        },
-        "split_tiny": "none",
-        "id": "HsUXzr4KVVX",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-241"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 2.481,
-            "ssa": 1.094,
-            "floor": 1,
-            "area": 30.097
-        },
-        "split_tiny": "none",
-        "id": "HWuMRN3qgcH",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-242"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 2.193,
-            "ssa": 1.105,
-            "floor": 3,
-            "area": 359.046
-        },
-        "split_tiny": "none",
-        "id": "hX7C2R9N48u",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-243"
-    },
-    {
-        "stats": {
-            "room": 39,
-            "navigation_complexity": 2.656,
-            "ssa": 1.105,
-            "floor": 4,
-            "area": 1254.255
-        },
-        "split_tiny": "none",
-        "id": "hXcgK67QrNP",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-244"
-    },
-    {
-        "stats": {
-            "room": 26,
-            "navigation_complexity": 8.402,
-            "ssa": 0.498,
-            "floor": 4,
-            "area": 1357.157
-        },
-        "split_tiny": "train",
-        "id": "hyKEvjdqQcZ",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-245"
-    },
-    {
-        "stats": {
-            "room": 20,
-            "navigation_complexity": 5.092,
-            "ssa": 0.498,
-            "floor": 3,
-            "area": 3351.796
-        },
-        "split_tiny": "none",
-        "id": "hzL3LMM96oN",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-246"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 1.341,
-            "ssa": 1.725,
-            "floor": 1,
-            "area": 40.268
-        },
-        "split_tiny": "none",
-        "id": "HzV7Chs22CN",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-247"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 1.585,
-            "ssa": 1.725,
-            "floor": 4,
-            "area": 322.951
-        },
-        "split_tiny": "none",
-        "id": "ibBq2ZCuPeB",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-248"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 8.021,
-            "ssa": 1.241,
-            "floor": 4,
-            "area": 375.791
-        },
-        "split_tiny": "train",
-        "id": "ieE2Y4ei1kb",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-249"
-    },
-    {
-        "stats": {
-            "room": 18,
-            "navigation_complexity": 3.337,
-            "ssa": 1.241,
-            "floor": 3,
-            "area": 626.12
-        },
-        "split_tiny": "none",
-        "id": "iHW1imATxqJ",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-250"
-    },
-    {
-        "stats": {
-            "room": 18,
-            "navigation_complexity": 3.308,
-            "ssa": 1.494,
-            "floor": 3,
-            "area": 390.532
-        },
-        "split_tiny": "none",
-        "id": "ikeA1tPZxi6",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-251"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 1.708,
-            "ssa": 1.494,
-            "floor": 1,
-            "area": 62.01
-        },
-        "split_tiny": "none",
-        "id": "iKieJrUzYyS",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-252"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 2.596,
-            "ssa": 1.568,
-            "floor": 1,
-            "area": 61.868
-        },
-        "split_tiny": "none",
-        "id": "ikMk1Tifdk4",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-253"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 2.31,
-            "ssa": 1.568,
-            "floor": 1,
-            "area": 303.213
-        },
-        "split_tiny": "none",
-        "id": "ivHY9c67C17",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-254"
-    },
-    {
-        "stats": {
-            "room": 27,
-            "navigation_complexity": 7.157,
-            "ssa": 2.173,
-            "floor": 4,
-            "area": 740.969
-        },
-        "split_tiny": "test",
-        "id": "izgDpKaC1Xr",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-255"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 3.898,
-            "ssa": 2.173,
-            "floor": 1,
-            "area": 303.378
-        },
-        "split_tiny": "none",
-        "id": "J27tESM4e3C",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-256"
-    },
-    {
-        "stats": {
-            "room": 43,
-            "navigation_complexity": 4.051,
-            "ssa": 1.574,
-            "floor": 7,
-            "area": 1481.287
-        },
-        "split_tiny": "train",
-        "id": "J4No6Kj2FFx",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-257"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 1.335,
-            "ssa": 1.574,
-            "floor": 4,
-            "area": 440.851
-        },
-        "split_tiny": "none",
-        "id": "JBivSzYXb95",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-258"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 4.153,
-            "ssa": 1.251,
-            "floor": 1,
-            "area": 321.079
-        },
-        "split_tiny": "none",
-        "id": "jf7NJzSUyTd",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-259"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 1.681,
-            "ssa": 1.251,
-            "floor": 3,
-            "area": 458.149
-        },
-        "split_tiny": "none",
-        "id": "JFgNEjiBR75",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-260"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 1.835,
-            "ssa": 1.438,
-            "floor": 1,
-            "area": 69.349
-        },
-        "split_tiny": "none",
-        "id": "JHvr3JmGwAj",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-261"
-    },
-    {
-        "stats": {
-            "room": 25,
-            "navigation_complexity": 1.967,
-            "ssa": 1.438,
-            "floor": 5,
-            "area": 331.766
-        },
-        "split_tiny": "none",
-        "id": "jKNYTjHMqaM",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-262"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 1.0,
-            "ssa": 1.82,
-            "floor": 1,
-            "area": 128.299
-        },
-        "split_tiny": "none",
-        "id": "jkSHZgeNmrx",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-263"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 4.151,
-            "ssa": 1.82,
-            "floor": 4,
-            "area": 308.385
-        },
-        "split_tiny": "none",
-        "id": "jMDUGQqUYnc",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-264"
-    },
-    {
-        "stats": {
-            "room": 33,
-            "navigation_complexity": 4.907,
-            "ssa": 1.337,
-            "floor": 1,
-            "area": 664.17
-        },
-        "split_tiny": "none",
-        "id": "jQ6yFmy6VLn",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-265"
-    },
-    {
-        "stats": {
-            "room": 14,
-            "navigation_complexity": 2.112,
-            "ssa": 1.337,
-            "floor": 3,
-            "area": 366.231
-        },
-        "split_tiny": "none",
-        "id": "JSskxAaAY8G",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-266"
-    },
-    {
-        "stats": {
-            "room": 23,
-            "navigation_complexity": 2.735,
-            "ssa": 1.44,
-            "floor": 5,
-            "area": 909.584
-        },
-        "split_tiny": "none",
-        "id": "jTdpgpyGErA",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-267"
-    },
-    {
-        "stats": {
-            "room": 39,
-            "navigation_complexity": 7.826,
-            "ssa": 1.44,
-            "floor": 1,
-            "area": 913.224
-        },
-        "split_tiny": "none",
-        "id": "JypGXxVHjvV",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-268"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 1.438,
-            "ssa": 1.643,
-            "floor": 4,
-            "area": 441.747
-        },
-        "split_tiny": "none",
-        "id": "Jz1DQMWynCL",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-269"
-    },
-    {
-        "stats": {
-            "room": 11,
-            "navigation_complexity": 4.147,
-            "ssa": 1.643,
-            "floor": 3,
-            "area": 262.672
-        },
-        "split_tiny": "none",
-        "id": "k4qjBuh2qZD",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-270"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 2.825,
-            "ssa": 1.363,
-            "floor": 5,
-            "area": 522.602
-        },
-        "split_tiny": "none",
-        "id": "K9Ha8koYgc1",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-271"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 1.0,
-            "ssa": 1.363,
-            "floor": 1,
-            "area": 67.901
-        },
-        "split_tiny": "none",
-        "id": "K9xDNXvX55p",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-272"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 1.003,
-            "ssa": 1.247,
-            "floor": 4,
-            "area": 205.509
-        },
-        "split_tiny": "none",
-        "id": "KaGZwUqaBfV",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-273"
-    },
-    {
-        "stats": {
-            "room": 26,
-            "navigation_complexity": 4.976,
-            "ssa": 1.247,
-            "floor": 3,
-            "area": 789.459
-        },
-        "split_tiny": "none",
-        "id": "kaRUGMS5JDK",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-274"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 2.058,
-            "ssa": 0.939,
-            "floor": 3,
-            "area": 1955.06
-        },
-        "split_tiny": "none",
-        "id": "KAUcRZk6i9c",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-275"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 1.257,
-            "ssa": 0.939,
-            "floor": 3,
-            "area": 521.686
-        },
-        "split_tiny": "none",
-        "id": "kAVu1rQw1tP",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-276"
-    },
-    {
-        "stats": {
-            "room": 28,
-            "navigation_complexity": 2.533,
-            "ssa": 1.664,
-            "floor": 4,
-            "area": 701.684
-        },
-        "split_tiny": "none",
-        "id": "kBwFq1JCEt4",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-277"
-    },
-    {
-        "stats": {
-            "room": 10,
-            "navigation_complexity": 1.519,
-            "ssa": 1.664,
-            "floor": 3,
-            "area": 323.7
-        },
-        "split_tiny": "none",
-        "id": "Kd3wZz8Zhja",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-278"
-    },
-    {
-        "stats": {
-            "room": 18,
-            "navigation_complexity": 3.045,
-            "ssa": 1.946,
-            "floor": 3,
-            "area": 307.377
-        },
-        "split_tiny": "none",
-        "id": "kezQEn9bja8",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-279"
-    },
-    {
-        "stats": {
-            "room": 31,
-            "navigation_complexity": 8.482,
-            "ssa": 1.946,
-            "floor": 5,
-            "area": 2287.132
-        },
-        "split_tiny": "none",
-        "id": "kG75PsWSYhQ",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-280"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 6.659,
-            "ssa": 1.21,
-            "floor": 4,
-            "area": 1581.764
-        },
-        "split_tiny": "none",
-        "id": "kGi8KPe99iF",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-281"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 1.313,
-            "ssa": 1.21,
-            "floor": 3,
-            "area": 122.258
-        },
-        "split_tiny": "none",
-        "id": "KmZQihPVEP5",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-282"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 3.346,
-            "ssa": 1.403,
-            "floor": 2,
-            "area": 83.141
-        },
-        "split_tiny": "none",
-        "id": "koR6syPrccm",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-283"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 2.423,
-            "ssa": 1.403,
-            "floor": 1,
-            "area": 104.041
-        },
-        "split_tiny": "none",
-        "id": "KuZunFpCkAz",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-284"
-    },
-    {
-        "stats": {
-            "room": 31,
-            "navigation_complexity": 4.05,
-            "ssa": 1.067,
-            "floor": 4,
-            "area": 782.684
-        },
-        "split_tiny": "none",
-        "id": "KvRMD7RVRGN",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-285"
-    },
-    {
-        "stats": {
-            "room": 27,
-            "navigation_complexity": 2.558,
-            "ssa": 1.067,
-            "floor": 4,
-            "area": 420.228
-        },
-        "split_tiny": "none",
-        "id": "kWZByanLQv9",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-286"
-    },
-    {
-        "stats": {
-            "room": 29,
-            "navigation_complexity": 1.0,
-            "ssa": 1.781,
-            "floor": 4,
-            "area": 426.996
-        },
-        "split_tiny": "none",
-        "id": "kXd2Nug3HmQ",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-287"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 6.736,
-            "ssa": 1.781,
-            "floor": 5,
-            "area": 514.149
-        },
-        "split_tiny": "train",
-        "id": "KYNqhts73Qb",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-288"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 3.36,
-            "ssa": 0.493,
-            "floor": 6,
-            "area": 4371.903
-        },
-        "split_tiny": "none",
-        "id": "LBM5SJ4caZj",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-289"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 3.62,
-            "ssa": 0.493,
-            "floor": 7,
-            "area": 740.584
-        },
-        "split_tiny": "none",
-        "id": "LEpniuwZecS",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-290"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 1.473,
-            "ssa": 1.271,
-            "floor": 4,
-            "area": 544.508
-        },
-        "split_tiny": "none",
-        "id": "LFdKqFLSYU9",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-291"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 2.651,
-            "ssa": 1.271,
-            "floor": 4,
-            "area": 605.518
-        },
-        "split_tiny": "none",
-        "id": "LgcXryrXjZv",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-292"
-    },
-    {
-        "stats": {
-            "room": 20,
-            "navigation_complexity": 1.93,
-            "ssa": 1.227,
-            "floor": 3,
-            "area": 583.318
-        },
-        "split_tiny": "none",
-        "id": "Lj1XRKtuUqi",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-293"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 1.213,
-            "ssa": 1.227,
-            "floor": 1,
-            "area": 123.683
-        },
-        "split_tiny": "none",
-        "id": "LjQpDtsxSZi",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-294"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 5.611,
-            "ssa": 1.593,
-            "floor": 1,
-            "area": 239.244
-        },
-        "split_tiny": "none",
-        "id": "LmrMvBQDYGK",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-295"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 10.038,
-            "ssa": 1.593,
-            "floor": 3,
-            "area": 577.136
-        },
-        "split_tiny": "train",
-        "id": "LPkkZ5Faad2",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-296"
-    },
-    {
-        "stats": {
-            "room": 13,
-            "navigation_complexity": 2.337,
-            "ssa": 0.944,
-            "floor": 3,
-            "area": 359.709
-        },
-        "split_tiny": "none",
-        "id": "LuZ2MyicWYH",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-297"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 3.213,
-            "ssa": 0.944,
-            "floor": 1,
-            "area": 66.793
-        },
-        "split_tiny": "none",
-        "id": "LV91e3atxrd",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-298"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 5.686,
-            "ssa": 1.764,
-            "floor": 6,
-            "area": 1071.716
-        },
-        "split_tiny": "train",
-        "id": "LWpWAKxVDA6",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-299"
-    },
-    {
-        "stats": {
-            "room": 14,
-            "navigation_complexity": 1.331,
-            "ssa": 1.764,
-            "floor": 4,
-            "area": 394.612
-        },
-        "split_tiny": "none",
-        "id": "Lzcz95DQytX",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-300"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 2.763,
-            "ssa": 1.153,
-            "floor": 2,
-            "area": 107.755
-        },
-        "split_tiny": "none",
-        "id": "M4Dh7HLg4pb",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-301"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 2.709,
-            "ssa": 1.153,
-            "floor": 1,
-            "area": 59.6
-        },
-        "split_tiny": "none",
-        "id": "m6AnicchJQk",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-302"
-    },
-    {
-        "stats": {
-            "room": 1,
-            "navigation_complexity": 1.0,
-            "ssa": 1.008,
-            "floor": 1,
-            "area": 70.337
-        },
-        "split_tiny": "none",
-        "id": "M8ZtuidLjxS",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-303"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 1.03,
-            "ssa": 1.008,
-            "floor": 4,
-            "area": 484.984
-        },
-        "split_tiny": "none",
-        "id": "mBSAtW5ADAW",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-304"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 4.126,
-            "ssa": 1.988,
-            "floor": 3,
-            "area": 154.83
-        },
-        "split_tiny": "none",
-        "id": "MBtwtRm6yTV",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-305"
-    },
-    {
-        "stats": {
-            "room": 26,
-            "navigation_complexity": 4.31,
-            "ssa": 1.988,
-            "floor": 3,
-            "area": 736.104
-        },
-        "split_tiny": "none",
-        "id": "MBvEuugEk8G",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-306"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 2.939,
-            "ssa": 1.406,
-            "floor": 4,
-            "area": 531.583
-        },
-        "split_tiny": "none",
-        "id": "meGn8WgnM8h",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-307"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 1.847,
-            "ssa": 1.406,
-            "floor": 1,
-            "area": 43.603
-        },
-        "split_tiny": "none",
-        "id": "meowaZqg7Ks",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-308"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 3.3,
-            "ssa": 1.083,
-            "floor": 3,
-            "area": 285.005
-        },
-        "split_tiny": "none",
-        "id": "Mer2BVwZyMb",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-309"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 3.823,
-            "ssa": 1.083,
-            "floor": 1,
-            "area": 289.285
-        },
-        "split_tiny": "none",
-        "id": "MEW6MnA17U1",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-310"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 5.574,
-            "ssa": 1.625,
-            "floor": 4,
-            "area": 932.826
-        },
-        "split_tiny": "none",
-        "id": "mf3qx4ekGNB",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-311"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 2.873,
-            "ssa": 1.625,
-            "floor": 2,
-            "area": 193.152
-        },
-        "split_tiny": "none",
-        "id": "mgN7UvHBGdX",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-312"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 1.066,
-            "ssa": 0.785,
-            "floor": 4,
-            "area": 414.056
-        },
-        "split_tiny": "none",
-        "id": "MjG99FbwmuC",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-313"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 6.196,
-            "ssa": 0.785,
-            "floor": 4,
-            "area": 718.033
-        },
-        "split_tiny": "test",
-        "id": "ML2WvvJjFtS",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-314"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 4.363,
-            "ssa": 1.241,
-            "floor": 3,
-            "area": 419.697
-        },
-        "split_tiny": "none",
-        "id": "mNU6qiZ1ixp",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-315"
-    },
-    {
-        "stats": {
-            "room": 36,
-            "navigation_complexity": 2.608,
-            "ssa": 1.241,
-            "floor": 5,
-            "area": 809.315
-        },
-        "split_tiny": "none",
-        "id": "MryrkrJQWuf",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-316"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 1.016,
-            "ssa": 1.309,
-            "floor": 1,
-            "area": 107.582
-        },
-        "split_tiny": "none",
-        "id": "MsV4S1PsCnV",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-317"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 2.029,
-            "ssa": 1.309,
-            "floor": 1,
-            "area": 53.553
-        },
-        "split_tiny": "none",
-        "id": "mVU69YLSwy6",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-318"
-    },
-    {
-        "stats": {
-            "room": 23,
-            "navigation_complexity": 5.559,
-            "ssa": 1.593,
-            "floor": 3,
-            "area": 474.859
-        },
-        "split_tiny": "none",
-        "id": "mx6t5kLPChD",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-319"
-    },
-    {
-        "stats": {
-            "room": 26,
-            "navigation_complexity": 1.003,
-            "ssa": 1.593,
-            "floor": 4,
-            "area": 590.424
-        },
-        "split_tiny": "none",
-        "id": "MxiLCVCSfQD",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-320"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 2.917,
-            "ssa": 1.68,
-            "floor": 3,
-            "area": 842.17
-        },
-        "split_tiny": "none",
-        "id": "mZ3eiF9MfSe",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-321"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 3.54,
-            "ssa": 1.68,
-            "floor": 2,
-            "area": 192.317
-        },
-        "split_tiny": "none",
-        "id": "mZKK2YkWCVB",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-322"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 3.944,
-            "ssa": 1.203,
-            "floor": 4,
-            "area": 171.335
-        },
-        "split_tiny": "train",
-        "id": "N26d5YBfLLT",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-323"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 1.693,
-            "ssa": 1.203,
-            "floor": 4,
-            "area": 217.218
-        },
-        "split_tiny": "none",
-        "id": "n3iJDiM1GWn",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-324"
-    },
-    {
-        "stats": {
-            "room": 11,
-            "navigation_complexity": 1.062,
-            "ssa": 1.9,
-            "floor": 3,
-            "area": 143.509
-        },
-        "split_tiny": "none",
-        "id": "n6x41r4Wh37",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-325"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 4.173,
-            "ssa": 1.9,
-            "floor": 1,
-            "area": 96.343
-        },
-        "split_tiny": "none",
-        "id": "N7Bpejv6g1p",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-326"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 3.357,
-            "ssa": 1.886,
-            "floor": 6,
-            "area": 550.278
-        },
-        "split_tiny": "none",
-        "id": "Na7cvPeojUh",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-327"
-    },
-    {
-        "stats": {
-            "room": 9,
-            "navigation_complexity": 5.297,
-            "ssa": 1.886,
-            "floor": 3,
-            "area": 324.923
-        },
-        "split_tiny": "none",
-        "id": "NCF9ehoV4pL",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-328"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 3.98,
-            "ssa": 1.156,
-            "floor": 6,
-            "area": 926.364
-        },
-        "split_tiny": "none",
-        "id": "nDMqhRydnT9",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-329"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 1.226,
-            "ssa": 1.156,
-            "floor": 4,
-            "area": 191.908
-        },
-        "split_tiny": "none",
-        "id": "niVJ2RSXxoN",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-330"
-    },
-    {
-        "stats": {
-            "room": 11,
-            "navigation_complexity": 1.845,
-            "ssa": 1.443,
-            "floor": 1,
-            "area": 228.077
-        },
-        "split_tiny": "none",
-        "id": "nJhd3Xg3rcg",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-331"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 1.089,
-            "ssa": 1.443,
-            "floor": 3,
-            "area": 286.12
-        },
-        "split_tiny": "none",
-        "id": "nkPAPDkR8B2",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-332"
-    },
-    {
-        "stats": {
-            "room": 30,
-            "navigation_complexity": 2.086,
-            "ssa": 1.432,
-            "floor": 1,
-            "area": 1018.387
-        },
-        "split_tiny": "none",
-        "id": "NkWv5ZkQnaR",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-333"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 3.039,
-            "ssa": 1.432,
-            "floor": 1,
-            "area": 100.399
-        },
-        "split_tiny": "none",
-        "id": "nn9jTqLLK53",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-334"
-    },
-    {
-        "stats": {
-            "room": 1,
-            "navigation_complexity": 5.614,
-            "ssa": 1.496,
-            "floor": 1,
-            "area": 100.709
-        },
-        "split_tiny": "none",
-        "id": "nNZPhHLDAqc",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-335"
-    },
-    {
-        "stats": {
-            "room": 14,
-            "navigation_complexity": 2.227,
-            "ssa": 1.496,
-            "floor": 3,
-            "area": 375.962
-        },
-        "split_tiny": "none",
-        "id": "nqTy89Pnfpe",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-336"
-    },
-    {
-        "stats": {
-            "room": 70,
-            "navigation_complexity": 4.2,
-            "ssa": 0.742,
-            "floor": 5,
-            "area": 1028.84
-        },
-        "split_tiny": "none",
-        "id": "NRpaEMujsBy",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-337"
-    },
-    {
-        "stats": {
-            "room": 10,
-            "navigation_complexity": 5.915,
-            "ssa": 0.742,
-            "floor": 3,
-            "area": 247.187
-        },
-        "split_tiny": "none",
-        "id": "NuVPbrHV99N",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-338"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 3.436,
-            "ssa": 1.919,
-            "floor": 3,
-            "area": 360.957
-        },
-        "split_tiny": "none",
-        "id": "NvJgnpWqtmr",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-339"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 2.26,
-            "ssa": 1.919,
-            "floor": 1,
-            "area": 68.342
-        },
-        "split_tiny": "none",
-        "id": "nVtbADKbFoQ",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-340"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 1.752,
-            "ssa": 1.144,
-            "floor": 4,
-            "area": 214.625
-        },
-        "split_tiny": "none",
-        "id": "nwCUKPBV2R6",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-341"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 2.414,
-            "ssa": 1.144,
-            "floor": 4,
-            "area": 891.403
-        },
-        "split_tiny": "none",
-        "id": "NYEqD6cxWyT",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-342"
-    },
-    {
-        "stats": {
-            "room": 14,
-            "navigation_complexity": 4.327,
-            "ssa": 1.647,
-            "floor": 3,
-            "area": 507.047
-        },
-        "split_tiny": "none",
-        "id": "nZXfjnXXBjn",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-343"
-    },
-    {
-        "stats": {
-            "room": 25,
-            "navigation_complexity": 2.011,
-            "ssa": 1.647,
-            "floor": 3,
-            "area": 1397.48
-        },
-        "split_tiny": "none",
-        "id": "o8xmoqJMEEd",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-344"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 1.431,
-            "ssa": 2.177,
-            "floor": 1,
-            "area": 42.795
-        },
-        "split_tiny": "none",
-        "id": "o9LkTvq5oZ3",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-345"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 1.745,
-            "ssa": 2.177,
-            "floor": 4,
-            "area": 396.175
-        },
-        "split_tiny": "none",
-        "id": "oAg9pSMi8fp",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-346"
-    },
-    {
-        "stats": {
-            "room": 26,
-            "navigation_complexity": 3.704,
-            "ssa": 1.522,
-            "floor": 5,
-            "area": 928.005
-        },
-        "split_tiny": "none",
-        "id": "obTQk9jwCoe",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-347"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 5.084,
-            "ssa": 1.522,
-            "floor": 3,
-            "area": 237.84
-        },
-        "split_tiny": "none",
-        "id": "ocdFfnkAJJN",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-348"
-    },
-    {
-        "stats": {
-            "room": 11,
-            "navigation_complexity": 5.192,
-            "ssa": 0.81,
-            "floor": 3,
-            "area": 310.883
-        },
-        "split_tiny": "none",
-        "id": "ogB7R8uXJf1",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-349"
-    },
-    {
-        "stats": {
-            "room": 23,
-            "navigation_complexity": 1.701,
-            "ssa": 0.81,
-            "floor": 4,
-            "area": 513.183
-        },
-        "split_tiny": "none",
-        "id": "oJhxe1mQHBo",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-350"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 1.552,
-            "ssa": 2.031,
-            "floor": 3,
-            "area": 230.839
-        },
-        "split_tiny": "none",
-        "id": "okF6yQR1Jig",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-351"
-    },
-    {
-        "stats": {
-            "room": 1,
-            "navigation_complexity": 4.598,
-            "ssa": 2.031,
-            "floor": 1,
-            "area": 86.226
-        },
-        "split_tiny": "none",
-        "id": "oViFRvGg3Pv",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-352"
-    },
-    {
-        "stats": {
-            "room": 23,
-            "navigation_complexity": 5.257,
-            "ssa": 2.052,
-            "floor": 4,
-            "area": 455.395
-        },
-        "split_tiny": "none",
-        "id": "oWEvKBMCkgm",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-353"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 13.218,
-            "ssa": 2.052,
-            "floor": 3,
-            "area": 876.26
-        },
-        "split_tiny": "validation",
-        "id": "P41cSzW8iaY",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-354"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 1.245,
-            "ssa": 1.834,
-            "floor": 1,
-            "area": 159.202
-        },
-        "split_tiny": "none",
-        "id": "P4qrZf1eLat",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-355"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 2.122,
-            "ssa": 1.834,
-            "floor": 1,
-            "area": 38.23
-        },
-        "split_tiny": "none",
-        "id": "P58w7yRqYn2",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-356"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 1.295,
-            "ssa": 1.678,
-            "floor": 5,
-            "area": 547.906
-        },
-        "split_tiny": "none",
-        "id": "p9cWUcqzQ66",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-357"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 6.118,
-            "ssa": 1.678,
-            "floor": 4,
-            "area": 282.095
-        },
-        "split_tiny": "test",
-        "id": "pAgo8e9rNXA",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-358"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 2.863,
-            "ssa": 1.212,
-            "floor": 1,
-            "area": 76.024
-        },
-        "split_tiny": "none",
-        "id": "paQDFu3vLjm",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-359"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 1.169,
-            "ssa": 1.212,
-            "floor": 1,
-            "area": 67.84
-        },
-        "split_tiny": "none",
-        "id": "pbEtFeULvwt",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-360"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 1.742,
-            "ssa": 1.065,
-            "floor": 1,
-            "area": 49.658
-        },
-        "split_tiny": "none",
-        "id": "PBmhitmVTJM",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-361"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 2.159,
-            "ssa": 1.065,
-            "floor": 3,
-            "area": 463.687
-        },
-        "split_tiny": "none",
-        "id": "pCoLM8s5W4g",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-362"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 1.0,
-            "ssa": 1.281,
-            "floor": 1,
-            "area": 85.262
-        },
-        "split_tiny": "none",
-        "id": "pgFeYnxpbPb",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-363"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 8.84,
-            "ssa": 1.281,
-            "floor": 3,
-            "area": 405.669
-        },
-        "split_tiny": "none",
-        "id": "pgKwX7NaYNQ",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-364"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 3.915,
-            "ssa": 0.988,
-            "floor": 5,
-            "area": 673.551
-        },
-        "split_tiny": "none",
-        "id": "PierzyvCbNk",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-365"
-    },
-    {
-        "stats": {
-            "room": 13,
-            "navigation_complexity": 1.015,
-            "ssa": 0.988,
-            "floor": 3,
-            "area": 223.371
-        },
-        "split_tiny": "none",
-        "id": "PjmeTCpKNvU",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-366"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 3.008,
-            "ssa": 1.332,
-            "floor": 1,
-            "area": 90.831
-        },
-        "split_tiny": "none",
-        "id": "pk48J6XaBao",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-367"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 8.758,
-            "ssa": 1.332,
-            "floor": 3,
-            "area": 371.618
-        },
-        "split_tiny": "test",
-        "id": "PodTDMBmDHg",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-368"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 1.81,
-            "ssa": 1.637,
-            "floor": 1,
-            "area": 40.796
-        },
-        "split_tiny": "none",
-        "id": "ppyGraxsu2m",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-369"
-    },
-    {
-        "stats": {
-            "room": 20,
-            "navigation_complexity": 2.844,
-            "ssa": 1.637,
-            "floor": 4,
-            "area": 377.373
-        },
-        "split_tiny": "none",
-        "id": "psmX7CqciPf",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-370"
-    },
-    {
-        "stats": {
-            "room": 9,
-            "navigation_complexity": 3.345,
-            "ssa": 1.116,
-            "floor": 1,
-            "area": 120.708
-        },
-        "split_tiny": "none",
-        "id": "pt6t4tL6DKp",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-371"
-    },
-    {
-        "stats": {
-            "room": 23,
-            "navigation_complexity": 1.072,
-            "ssa": 1.116,
-            "floor": 5,
-            "area": 512.963
-        },
-        "split_tiny": "none",
-        "id": "pt9K5hAj6cE",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-372"
-    },
-    {
-        "stats": {
-            "room": 57,
-            "navigation_complexity": 6.76,
-            "ssa": 2.062,
-            "floor": 2,
-            "area": 3130.477
-        },
-        "split_tiny": "none",
-        "id": "pvTbKGnzP5Q",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-373"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 5.257,
-            "ssa": 2.062,
-            "floor": 3,
-            "area": 482.09
-        },
-        "split_tiny": "none",
-        "id": "PvZad2MtCoa",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-374"
-    },
-    {
-        "stats": {
-            "room": 52,
-            "navigation_complexity": 8.073,
-            "ssa": 1.8,
-            "floor": 1,
-            "area": 1958.748
-        },
-        "split_tiny": "none",
-        "id": "PW97k5oR33h",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-375"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 1.879,
-            "ssa": 1.8,
-            "floor": 3,
-            "area": 366.947
-        },
-        "split_tiny": "none",
-        "id": "pXBH3yut2yR",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-376"
-    },
-    {
-        "stats": {
-            "room": 24,
-            "navigation_complexity": 4.693,
-            "ssa": 1.175,
-            "floor": 3,
-            "area": 518.876
-        },
-        "split_tiny": "none",
-        "id": "Q5SFmNRx7Tf",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-377"
-    },
-    {
-        "stats": {
-            "room": 14,
-            "navigation_complexity": 1.89,
-            "ssa": 1.175,
-            "floor": 1,
-            "area": 336.058
-        },
-        "split_tiny": "none",
-        "id": "Q6ZRvdqjAP2",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-378"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 5.038,
-            "ssa": 1.375,
-            "floor": 3,
-            "area": 333.7
-        },
-        "split_tiny": "none",
-        "id": "q83LH7XqcCG",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-379"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 1.931,
-            "ssa": 1.375,
-            "floor": 1,
-            "area": 61.422
-        },
-        "split_tiny": "none",
-        "id": "Q9Ew5vAqL7T",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-380"
-    },
-    {
-        "stats": {
-            "room": 20,
-            "navigation_complexity": 5.787,
-            "ssa": 1.267,
-            "floor": 4,
-            "area": 359.482
-        },
-        "split_tiny": "none",
-        "id": "Qa3FyjBLZoU",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-381"
-    },
-    {
-        "stats": {
-            "room": 10,
-            "navigation_complexity": 1.005,
-            "ssa": 1.267,
-            "floor": 3,
-            "area": 90.146
-        },
-        "split_tiny": "none",
-        "id": "QdXKNNXwwrj",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-382"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 1.149,
-            "ssa": 1.212,
-            "floor": 4,
-            "area": 209.756
-        },
-        "split_tiny": "none",
-        "id": "QgBX86GPTUs",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-383"
-    },
-    {
-        "stats": {
-            "room": 24,
-            "navigation_complexity": 5.5,
-            "ssa": 1.212,
-            "floor": 3,
-            "area": 513.604
-        },
-        "split_tiny": "none",
-        "id": "QHy363Mq2xQ",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-384"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 2.527,
-            "ssa": 1.787,
-            "floor": 3,
-            "area": 330.179
-        },
-        "split_tiny": "none",
-        "id": "qjZaPNpTGEY",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-385"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 3.109,
-            "ssa": 1.787,
-            "floor": 1,
-            "area": 168.856
-        },
-        "split_tiny": "none",
-        "id": "qKV9ZUj5bjH",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-386"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 1.398,
-            "ssa": 1.274,
-            "floor": 3,
-            "area": 288.293
-        },
-        "split_tiny": "none",
-        "id": "QLWZrS5D6B5",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-387"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 1.946,
-            "ssa": 1.274,
-            "floor": 3,
-            "area": 476.868
-        },
-        "split_tiny": "none",
-        "id": "QpHVAP98Asc",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-388"
-    },
-    {
-        "stats": {
-            "room": 48,
-            "navigation_complexity": 6.869,
-            "ssa": 0.82,
-            "floor": 6,
-            "area": 1840.942
-        },
-        "split_tiny": "train",
-        "id": "qqBmJraYqrM",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-389"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 2.771,
-            "ssa": 0.82,
-            "floor": 1,
-            "area": 1020.102
-        },
-        "split_tiny": "none",
-        "id": "qQgPyD6L1P7",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-390"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 1.265,
-            "ssa": 0.9,
-            "floor": 4,
-            "area": 305.479
-        },
-        "split_tiny": "none",
-        "id": "qrwoca4n6VM",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-391"
-    },
-    {
-        "stats": {
-            "room": 28,
-            "navigation_complexity": 3.056,
-            "ssa": 0.9,
-            "floor": 5,
-            "area": 1166.008
-        },
-        "split_tiny": "none",
-        "id": "QVgdWzqMub1",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-392"
-    },
-    {
-        "stats": {
-            "room": 24,
-            "navigation_complexity": 1.083,
-            "ssa": 1.049,
-            "floor": 4,
-            "area": 343.544
-        },
-        "split_tiny": "none",
-        "id": "qvJjnPGEXcA",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-393"
-    },
-    {
-        "stats": {
-            "room": 1,
-            "navigation_complexity": 2.865,
-            "ssa": 1.049,
-            "floor": 1,
-            "area": 112.227
-        },
-        "split_tiny": "none",
-        "id": "qwCD9Lxqn26",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-394"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 2.111,
-            "ssa": 1.491,
-            "floor": 1,
-            "area": 106.396
-        },
-        "split_tiny": "none",
-        "id": "qYyX3Vo63Ph",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-395"
-    },
-    {
-        "stats": {
-            "room": 24,
-            "navigation_complexity": 1.747,
-            "ssa": 1.491,
-            "floor": 4,
-            "area": 485.288
-        },
-        "split_tiny": "none",
-        "id": "R4Dm4qeibhu",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-396"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 5.664,
-            "ssa": 1.764,
-            "floor": 3,
-            "area": 130.541
-        },
-        "split_tiny": "none",
-        "id": "R5wnMyWDRpW",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-397"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 1.407,
-            "ssa": 1.764,
-            "floor": 1,
-            "area": 83.857
-        },
-        "split_tiny": "none",
-        "id": "RAqPKeATYVo",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-398"
-    },
-    {
-        "stats": {
-            "room": 18,
-            "navigation_complexity": 1.531,
-            "ssa": 1.341,
-            "floor": 3,
-            "area": 670.759
-        },
-        "split_tiny": "none",
-        "id": "RHtar21Dh2z",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-399"
-    },
-    {
-        "stats": {
-            "room": 24,
-            "navigation_complexity": 2.113,
-            "ssa": 1.341,
-            "floor": 4,
-            "area": 574.681
-        },
-        "split_tiny": "none",
-        "id": "riZUjwR3Hfy",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-400"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 1.511,
-            "ssa": 0.872,
-            "floor": 1,
-            "area": 149.214
-        },
-        "split_tiny": "none",
-        "id": "RJX2DNshZor",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-401"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 3.68,
-            "ssa": 0.872,
-            "floor": 1,
-            "area": 75.039
-        },
-        "split_tiny": "none",
-        "id": "rKYvwAJ2qnM",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-402"
-    },
-    {
-        "stats": {
-            "room": 25,
-            "navigation_complexity": 2.251,
-            "ssa": 1.346,
-            "floor": 3,
-            "area": 657.554
-        },
-        "split_tiny": "none",
-        "id": "RnHdEeTPZc1",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-403"
-    },
-    {
-        "stats": {
-            "room": 23,
-            "navigation_complexity": 1.304,
-            "ssa": 1.346,
-            "floor": 4,
-            "area": 499.225
-        },
-        "split_tiny": "none",
-        "id": "rqizMSaWgx7",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-404"
-    },
-    {
-        "stats": {
-            "room": 10,
-            "navigation_complexity": 3.072,
-            "ssa": 1.209,
-            "floor": 1,
-            "area": 151.865
-        },
-        "split_tiny": "none",
-        "id": "RvfPdpwBRqv",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-405"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 2.058,
-            "ssa": 1.209,
-            "floor": 2,
-            "area": 95.115
-        },
-        "split_tiny": "none",
-        "id": "RYPbpPWDofC",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-406"
-    },
-    {
-        "stats": {
-            "room": 30,
-            "navigation_complexity": 4.48,
-            "ssa": 1.342,
-            "floor": 10,
-            "area": 2363.158
-        },
-        "split_tiny": "none",
-        "id": "rYuAcSpHBT6",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-407"
-    },
-    {
-        "stats": {
-            "room": 1,
-            "navigation_complexity": 1.0,
-            "ssa": 1.342,
-            "floor": 1,
-            "area": 6.34
-        },
-        "split_tiny": "none",
-        "id": "RZ5RzN3Lotb",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-408"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 1.03,
-            "ssa": 0.821,
-            "floor": 4,
-            "area": 485.544
-        },
-        "split_tiny": "none",
-        "id": "s2LmRw5NzX3",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-409"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 5.257,
-            "ssa": 0.821,
-            "floor": 1,
-            "area": 289.497
-        },
-        "split_tiny": "none",
-        "id": "s4tCpar3Mh1",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-410"
-    },
-    {
-        "stats": {
-            "room": 20,
-            "navigation_complexity": 7.201,
-            "ssa": 0.916,
-            "floor": 4,
-            "area": 984.751
-        },
-        "split_tiny": "none",
-        "id": "sdMTzwYjoMt",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-411"
-    },
-    {
-        "stats": {
-            "room": 10,
-            "navigation_complexity": 1.118,
-            "ssa": 0.916,
-            "floor": 3,
-            "area": 184.768
-        },
-        "split_tiny": "none",
-        "id": "sfNAiS5uRWt",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-412"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 4.382,
-            "ssa": 0.871,
-            "floor": 1,
-            "area": 108.333
-        },
-        "split_tiny": "none",
-        "id": "sfQ6s4FdgHM",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-413"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 1.733,
-            "ssa": 0.871,
-            "floor": 5,
-            "area": 848.274
-        },
-        "split_tiny": "none",
-        "id": "SgLinJ5Dx3B",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-414"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 1.395,
-            "ssa": 0.879,
-            "floor": 3,
-            "area": 208.37
-        },
-        "split_tiny": "none",
-        "id": "SHvPNg9RpLu",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-415"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 3.049,
-            "ssa": 0.879,
-            "floor": 4,
-            "area": 599.407
-        },
-        "split_tiny": "none",
-        "id": "Si7cLvbC4wJ",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-416"
-    },
-    {
-        "stats": {
-            "room": 14,
-            "navigation_complexity": 5.723,
-            "ssa": 1.346,
-            "floor": 3,
-            "area": 287.108
-        },
-        "split_tiny": "none",
-        "id": "sJm43dga4xv",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-417"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 1.944,
-            "ssa": 1.346,
-            "floor": 3,
-            "area": 339.575
-        },
-        "split_tiny": "none",
-        "id": "sLa6E2TuKdK",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-418"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 1.995,
-            "ssa": 1.208,
-            "floor": 4,
-            "area": 521.75
-        },
-        "split_tiny": "none",
-        "id": "sLBsZimqxpA",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-419"
-    },
-    {
-        "stats": {
-            "room": 11,
-            "navigation_complexity": 1.024,
-            "ssa": 1.208,
-            "floor": 3,
-            "area": 258.674
-        },
-        "split_tiny": "none",
-        "id": "SMfV83Kw3fG",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-420"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 1.016,
-            "ssa": 1.583,
-            "floor": 1,
-            "area": 59.1
-        },
-        "split_tiny": "none",
-        "id": "SmjsraQK7XX",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-421"
-    },
-    {
-        "stats": {
-            "room": 9,
-            "navigation_complexity": 4.57,
-            "ssa": 1.583,
-            "floor": 1,
-            "area": 144.427
-        },
-        "split_tiny": "none",
-        "id": "sP3NEsavFER",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-422"
-    },
-    {
-        "stats": {
-            "room": 11,
-            "navigation_complexity": 3.199,
-            "ssa": 1.353,
-            "floor": 3,
-            "area": 283.356
-        },
-        "split_tiny": "none",
-        "id": "SSxZnpN8CNp",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-423"
-    },
-    {
-        "stats": {
-            "room": 11,
-            "navigation_complexity": 3.2,
-            "ssa": 1.353,
-            "floor": 4,
-            "area": 176.734
-        },
-        "split_tiny": "none",
-        "id": "STpB22X7pvo",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-424"
-    },
-    {
-        "stats": {
-            "room": 25,
-            "navigation_complexity": 6.55,
-            "ssa": 1.189,
-            "floor": 3,
-            "area": 871.08
-        },
-        "split_tiny": "none",
-        "id": "SuHiX9NFZeJ",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-425"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 1.977,
-            "ssa": 1.189,
-            "floor": 3,
-            "area": 617.315
-        },
-        "split_tiny": "none",
-        "id": "SV9zEtTxJPM",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-426"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 3.541,
-            "ssa": 1.645,
-            "floor": 1,
-            "area": 357.887
-        },
-        "split_tiny": "none",
-        "id": "sVZdMSf59sp",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-427"
-    },
-    {
-        "stats": {
-            "room": 13,
-            "navigation_complexity": 1.715,
-            "ssa": 1.645,
-            "floor": 4,
-            "area": 214.799
-        },
-        "split_tiny": "none",
-        "id": "sYtxeYZppdE",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-428"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 2.202,
-            "ssa": 1.228,
-            "floor": 4,
-            "area": 641.795
-        },
-        "split_tiny": "none",
-        "id": "T7YtpKXVa6p",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-429"
-    },
-    {
-        "stats": {
-            "room": 23,
-            "navigation_complexity": 5.661,
-            "ssa": 1.228,
-            "floor": 5,
-            "area": 612.16
-        },
-        "split_tiny": "train",
-        "id": "T8HMDVrSgpU",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-430"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 1.318,
-            "ssa": 1.743,
-            "floor": 2,
-            "area": 94.529
-        },
-        "split_tiny": "none",
-        "id": "T9px1LUzHNh",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-431"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 2.273,
-            "ssa": 1.743,
-            "floor": 4,
-            "area": 434.315
-        },
-        "split_tiny": "none",
-        "id": "TB4L9Vfrwdf",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-432"
-    },
-    {
-        "stats": {
-            "room": 26,
-            "navigation_complexity": 7.749,
-            "ssa": 1.704,
-            "floor": 4,
-            "area": 281.014
-        },
-        "split_tiny": "train",
-        "id": "TfBfsxER6Lf",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-433"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 2.647,
-            "ssa": 1.704,
-            "floor": 2,
-            "area": 111.607
-        },
-        "split_tiny": "none",
-        "id": "tgGL6dciWxf",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-434"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 5.43,
-            "ssa": 1.309,
-            "floor": 3,
-            "area": 628.857
-        },
-        "split_tiny": "none",
-        "id": "THQNHS1gYU2",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-435"
-    },
-    {
-        "stats": {
-            "room": 24,
-            "navigation_complexity": 1.624,
-            "ssa": 1.309,
-            "floor": 3,
-            "area": 804.364
-        },
-        "split_tiny": "none",
-        "id": "tLE3rr3XBsX",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-436"
-    },
-    {
-        "stats": {
-            "room": 20,
-            "navigation_complexity": 4.269,
-            "ssa": 1.46,
-            "floor": 3,
-            "area": 590.746
-        },
-        "split_tiny": "none",
-        "id": "TLKEkRMUZTW",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-437"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 2.243,
-            "ssa": 1.46,
-            "floor": 2,
-            "area": 1089.73
-        },
-        "split_tiny": "none",
-        "id": "TobJKR2Y3Gq",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-438"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 7.6,
-            "ssa": 1.576,
-            "floor": 3,
-            "area": 578.138
-        },
-        "split_tiny": "none",
-        "id": "TrpoNxrkuAu",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-439"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 1.005,
-            "ssa": 1.576,
-            "floor": 3,
-            "area": 295.808
-        },
-        "split_tiny": "none",
-        "id": "TsbmF4nRqRa",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-440"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 2.31,
-            "ssa": 2.049,
-            "floor": 1,
-            "area": 243.923
-        },
-        "split_tiny": "none",
-        "id": "TSDEdWkJjXM",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-441"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 2.363,
-            "ssa": 2.049,
-            "floor": 4,
-            "area": 278.634
-        },
-        "split_tiny": "none",
-        "id": "ttxmr1MisdR",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-442"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 1.264,
-            "ssa": 1.457,
-            "floor": 1,
-            "area": 18.153
-        },
-        "split_tiny": "none",
-        "id": "tuhzSKpMi5e",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-443"
-    },
-    {
-        "stats": {
-            "room": 10,
-            "navigation_complexity": 1.459,
-            "ssa": 1.457,
-            "floor": 4,
-            "area": 217.547
-        },
-        "split_tiny": "none",
-        "id": "tVYHPtbrdjN",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-444"
-    },
-    {
-        "stats": {
-            "room": 23,
-            "navigation_complexity": 2.128,
-            "ssa": 1.375,
-            "floor": 4,
-            "area": 520.761
-        },
-        "split_tiny": "none",
-        "id": "TwMpHqYCyZm",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-445"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 3.054,
-            "ssa": 1.375,
-            "floor": 3,
-            "area": 581.598
-        },
-        "split_tiny": "none",
-        "id": "twqBXQRh3St",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-446"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 2.658,
-            "ssa": 1.545,
-            "floor": 1,
-            "area": 55.245
-        },
-        "split_tiny": "none",
-        "id": "TyXmoGKsDBH",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-447"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 1.368,
-            "ssa": 1.545,
-            "floor": 4,
-            "area": 680.769
-        },
-        "split_tiny": "none",
-        "id": "tzDvEs1pLHY",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-448"
-    },
-    {
-        "stats": {
-            "room": 26,
-            "navigation_complexity": 3.78,
-            "ssa": 1.353,
-            "floor": 4,
-            "area": 544.518
-        },
-        "split_tiny": "none",
-        "id": "TZHcLiDRh2x",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-449"
-    },
-    {
-        "stats": {
-            "room": 23,
-            "navigation_complexity": 3.365,
-            "ssa": 1.353,
-            "floor": 4,
-            "area": 844.897
-        },
-        "split_tiny": "none",
-        "id": "u2BK1JKojkr",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-450"
-    },
-    {
-        "stats": {
-            "room": 13,
-            "navigation_complexity": 3.424,
-            "ssa": 1.415,
-            "floor": 1,
-            "area": 225.156
-        },
-        "split_tiny": "none",
-        "id": "U2HsxoSdje9",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-451"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 3.662,
-            "ssa": 1.415,
-            "floor": 3,
-            "area": 292.725
-        },
-        "split_tiny": "none",
-        "id": "U7h47gJkiCn",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-452"
-    },
-    {
-        "stats": {
-            "room": 36,
-            "navigation_complexity": 2.385,
-            "ssa": 1.297,
-            "floor": 4,
-            "area": 2019.115
-        },
-        "split_tiny": "none",
-        "id": "U8wE7sYxpD9",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-453"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 6.657,
-            "ssa": 1.297,
-            "floor": 3,
-            "area": 543.053
-        },
-        "split_tiny": "train",
-        "id": "UbY5rJys8y3",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-454"
-    },
-    {
-        "stats": {
-            "room": 29,
-            "navigation_complexity": 5.265,
-            "ssa": 1.302,
-            "floor": 4,
-            "area": 544.749
-        },
-        "split_tiny": "test",
-        "id": "UeTt5Yzd4fH",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-455"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 2.306,
-            "ssa": 1.302,
-            "floor": 4,
-            "area": 668.494
-        },
-        "split_tiny": "none",
-        "id": "uF4PB6kusvK",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-456"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 3.929,
-            "ssa": 1.224,
-            "floor": 4,
-            "area": 427.967
-        },
-        "split_tiny": "none",
-        "id": "Uh8kKeLf2tV",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-457"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 3.26,
-            "ssa": 1.224,
-            "floor": 3,
-            "area": 370.472
-        },
-        "split_tiny": "none",
-        "id": "UKzRZf2R3pp",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-458"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 2.074,
-            "ssa": 1.274,
-            "floor": 1,
-            "area": 77.847
-        },
-        "split_tiny": "none",
-        "id": "uqTrr4QCWry",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-459"
-    },
-    {
-        "stats": {
-            "room": 20,
-            "navigation_complexity": 1.251,
-            "ssa": 1.274,
-            "floor": 3,
-            "area": 629.624
-        },
-        "split_tiny": "none",
-        "id": "uuRvHLqbpXw",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-460"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 5.005,
-            "ssa": 1.405,
-            "floor": 4,
-            "area": 506.124
-        },
-        "split_tiny": "none",
-        "id": "UvW1YLMGhLR",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-461"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 1.049,
-            "ssa": 1.405,
-            "floor": 1,
-            "area": 53.665
-        },
-        "split_tiny": "none",
-        "id": "uWcDToR4Pcf",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-462"
-    },
-    {
-        "stats": {
-            "room": 26,
-            "navigation_complexity": 8.213,
-            "ssa": 1.337,
-            "floor": 3,
-            "area": 730.187
-        },
-        "split_tiny": "none",
-        "id": "ux3ZtxoK1RB",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-463"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 2.311,
-            "ssa": 1.337,
-            "floor": 1,
-            "area": 59.6
-        },
-        "split_tiny": "none",
-        "id": "UxfdFEYHeWV",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-464"
-    },
-    {
-        "stats": {
-            "room": 28,
-            "navigation_complexity": 2.169,
-            "ssa": 2.115,
-            "floor": 5,
-            "area": 926.358
-        },
-        "split_tiny": "none",
-        "id": "UzBsWyPbR4x",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-465"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 9.619,
-            "ssa": 2.115,
-            "floor": 3,
-            "area": 1050.351
-        },
-        "split_tiny": "none",
-        "id": "UZnKzH5xuCC",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-466"
-    },
-    {
-        "stats": {
-            "room": 28,
-            "navigation_complexity": 3.448,
-            "ssa": 1.282,
-            "floor": 4,
-            "area": 972.814
-        },
-        "split_tiny": "none",
-        "id": "V89KjbnExf9",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-467"
-    },
-    {
-        "stats": {
-            "room": 20,
-            "navigation_complexity": 1.001,
-            "ssa": 1.282,
-            "floor": 4,
-            "area": 547.068
-        },
-        "split_tiny": "none",
-        "id": "VbDiyHVhFGJ",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-468"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 7.211,
-            "ssa": 1.238,
-            "floor": 4,
-            "area": 557.685
-        },
-        "split_tiny": "none",
-        "id": "vedMZRwVmCk",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-469"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 1.373,
-            "ssa": 1.238,
-            "floor": 1,
-            "area": 29.918
-        },
-        "split_tiny": "none",
-        "id": "VfPB9RFsND2",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-470"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 1.768,
-            "ssa": 1.149,
-            "floor": 1,
-            "area": 72.589
-        },
-        "split_tiny": "none",
-        "id": "ViZPKWKD4B1",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-471"
-    },
-    {
-        "stats": {
-            "room": 29,
-            "navigation_complexity": 2.169,
-            "ssa": 1.149,
-            "floor": 4,
-            "area": 767.007
-        },
-        "split_tiny": "none",
-        "id": "VjfShZ2f8xj",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-472"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 2.888,
-            "ssa": 1.353,
-            "floor": 1,
-            "area": 45.342
-        },
-        "split_tiny": "none",
-        "id": "vjpRDFofq2X",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-473"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 4.114,
-            "ssa": 1.353,
-            "floor": 3,
-            "area": 584.831
-        },
-        "split_tiny": "none",
-        "id": "vQodVHajPa7",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-474"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 7.291,
-            "ssa": 1.297,
-            "floor": 6,
-            "area": 2832.57
-        },
-        "split_tiny": "none",
-        "id": "VS194rC6UpR",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-475"
-    },
-    {
-        "stats": {
-            "room": 37,
-            "navigation_complexity": 11.816,
-            "ssa": 1.297,
-            "floor": 3,
-            "area": 1305.287
-        },
-        "split_tiny": "validation",
-        "id": "vUQY7Bf2i7J",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-476"
-    },
-    {
-        "stats": {
-            "room": 1,
-            "navigation_complexity": 2.79,
-            "ssa": 1.21,
-            "floor": 1,
-            "area": 62.206
-        },
-        "split_tiny": "none",
-        "id": "VURJH7eaGxm",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-477"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 9.961,
-            "ssa": 1.21,
-            "floor": 3,
-            "area": 716.924
-        },
-        "split_tiny": "train",
-        "id": "Vv2KffY8i4N",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-478"
-    },
-    {
-        "stats": {
-            "room": 18,
-            "navigation_complexity": 2.755,
-            "ssa": 1.128,
-            "floor": 4,
-            "area": 299.527
-        },
-        "split_tiny": "none",
-        "id": "vVk6JQXpoFQ",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-479"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 2.154,
-            "ssa": 1.128,
-            "floor": 3,
-            "area": 339.319
-        },
-        "split_tiny": "none",
-        "id": "vvQ2iWGzQag",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-480"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 2.528,
-            "ssa": 1.256,
-            "floor": 1,
-            "area": 87.753
-        },
-        "split_tiny": "none",
-        "id": "vXBA5qdvHeN",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-481"
-    },
-    {
-        "stats": {
-            "room": 30,
-            "navigation_complexity": 2.674,
-            "ssa": 1.256,
-            "floor": 4,
-            "area": 781.388
-        },
-        "split_tiny": "none",
-        "id": "VXYpKhM5x42",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-482"
-    },
-    {
-        "stats": {
-            "room": 23,
-            "navigation_complexity": 5.496,
-            "ssa": 2.332,
-            "floor": 3,
-            "area": 739.196
-        },
-        "split_tiny": "none",
-        "id": "vxzoQS1sXh9",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-483"
-    },
-    {
-        "stats": {
-            "room": 10,
-            "navigation_complexity": 1.141,
-            "ssa": 2.332,
-            "floor": 3,
-            "area": 209.679
-        },
-        "split_tiny": "none",
-        "id": "vyTuq6v8sWH",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-484"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 2.785,
-            "ssa": 1.883,
-            "floor": 3,
-            "area": 553.505
-        },
-        "split_tiny": "none",
-        "id": "VzCm1M8DCU6",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-485"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 1.0,
-            "ssa": 1.883,
-            "floor": 1,
-            "area": 37.789
-        },
-        "split_tiny": "none",
-        "id": "W6FwSK9MgFY",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-486"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 1.666,
-            "ssa": 0.823,
-            "floor": 1,
-            "area": 50.645
-        },
-        "split_tiny": "none",
-        "id": "Wa7rV9Z84ne",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-487"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 3.567,
-            "ssa": 0.823,
-            "floor": 2,
-            "area": 1064.191
-        },
-        "split_tiny": "none",
-        "id": "watSRnfjUNQ",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-488"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 5.35,
-            "ssa": 0.885,
-            "floor": 1,
-            "area": 80.306
-        },
-        "split_tiny": "none",
-        "id": "WcvoYJkng5z",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-489"
-    },
-    {
-        "stats": {
-            "room": 76,
-            "navigation_complexity": 18.039,
-            "ssa": 0.885,
-            "floor": 3,
-            "area": 5930.231
-        },
-        "split_tiny": "none",
-        "id": "weJNRocNRaM",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-490"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 5.566,
-            "ssa": 1.024,
-            "floor": 3,
-            "area": 291.831
-        },
-        "split_tiny": "none",
-        "id": "WiT2cExCziv",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-491"
-    },
-    {
-        "stats": {
-            "room": 11,
-            "navigation_complexity": 1.012,
-            "ssa": 1.024,
-            "floor": 4,
-            "area": 152.529
-        },
-        "split_tiny": "none",
-        "id": "WkxsYvKouyU",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-492"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 4.381,
-            "ssa": 1.941,
-            "floor": 1,
-            "area": 424.793
-        },
-        "split_tiny": "none",
-        "id": "wohetDJJrcc",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-493"
-    },
-    {
-        "stats": {
-            "room": 27,
-            "navigation_complexity": 3.156,
-            "ssa": 1.941,
-            "floor": 3,
-            "area": 712.519
-        },
-        "split_tiny": "none",
-        "id": "wRA9u4pYqYi",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-494"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 2.315,
-            "ssa": 1.522,
-            "floor": 4,
-            "area": 315.216
-        },
-        "split_tiny": "none",
-        "id": "wrzGwMT8toT",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-495"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 1.648,
-            "ssa": 1.522,
-            "floor": 1,
-            "area": 44.215
-        },
-        "split_tiny": "none",
-        "id": "ws4Wwe6qabt",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-496"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 1.204,
-            "ssa": 1.524,
-            "floor": 1,
-            "area": 74.119
-        },
-        "split_tiny": "none",
-        "id": "wT72FxsJ5Ys",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-497"
-    },
-    {
-        "stats": {
-            "room": 10,
-            "navigation_complexity": 1.718,
-            "ssa": 1.524,
-            "floor": 3,
-            "area": 337.188
-        },
-        "split_tiny": "none",
-        "id": "wtaGezWJ8dZ",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-498"
-    },
-    {
-        "stats": {
-            "room": 27,
-            "navigation_complexity": 3.539,
-            "ssa": 1.256,
-            "floor": 4,
-            "area": 300.418
-        },
-        "split_tiny": "train",
-        "id": "wtxVBtDA1Sw",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-499"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 1.765,
-            "ssa": 1.256,
-            "floor": 4,
-            "area": 230.642
-        },
-        "split_tiny": "none",
-        "id": "wv2ox7zzWGW",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-500"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 2.438,
-            "ssa": 1.422,
-            "floor": 3,
-            "area": 359.806
-        },
-        "split_tiny": "none",
-        "id": "wv6soHzLA4r",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-501"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 2.101,
-            "ssa": 1.422,
-            "floor": 1,
-            "area": 64.072
-        },
-        "split_tiny": "none",
-        "id": "WwfyVRTiBs6",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-502"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 1.925,
-            "ssa": 1.616,
-            "floor": 1,
-            "area": 75.49
-        },
-        "split_tiny": "none",
-        "id": "wWzbYtgEPCC",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-503"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 3.684,
-            "ssa": 1.616,
-            "floor": 4,
-            "area": 1111.809
-        },
-        "split_tiny": "none",
-        "id": "wYjuJm2YPhf",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-504"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 1.294,
-            "ssa": 2.016,
-            "floor": 3,
-            "area": 254.781
-        },
-        "split_tiny": "none",
-        "id": "WyZeVq7p3UV",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-505"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 1.671,
-            "ssa": 2.016,
-            "floor": 1,
-            "area": 79.531
-        },
-        "split_tiny": "none",
-        "id": "WZtFhAs9fWb",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-506"
-    },
-    {
-        "stats": {
-            "room": 24,
-            "navigation_complexity": 1.352,
-            "ssa": 1.126,
-            "floor": 1,
-            "area": 314.952
-        },
-        "split_tiny": "none",
-        "id": "x2mUe7L1VAm",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-507"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 2.33,
-            "ssa": 1.126,
-            "floor": 1,
-            "area": 55.911
-        },
-        "split_tiny": "none",
-        "id": "x2rpzhe3L2T",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-508"
-    },
-    {
-        "stats": {
-            "room": 110,
-            "navigation_complexity": 17.889,
-            "ssa": 1.223,
-            "floor": 4,
-            "area": 6298.848
-        },
-        "split_tiny": "none",
-        "id": "x3KcLkukp8Q",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-509"
-    },
-    {
-        "stats": {
-            "room": 20,
-            "navigation_complexity": 1.31,
-            "ssa": 1.223,
-            "floor": 4,
-            "area": 376.558
-        },
-        "split_tiny": "none",
-        "id": "X7vh4oVDV6j",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-510"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 3.244,
-            "ssa": 0.873,
-            "floor": 3,
-            "area": 275.235
-        },
-        "split_tiny": "none",
-        "id": "x7ZdpEs5HJ2",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-511"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 1.047,
-            "ssa": 0.873,
-            "floor": 1,
-            "area": 861.946
-        },
-        "split_tiny": "none",
-        "id": "xaCeow92YR9",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-512"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 3.097,
-            "ssa": 1.136,
-            "floor": 3,
-            "area": 502.758
-        },
-        "split_tiny": "none",
-        "id": "xbLT2Qnpzie",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-513"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 7.782,
-            "ssa": 1.136,
-            "floor": 3,
-            "area": 358.399
-        },
-        "split_tiny": "none",
-        "id": "XFfM97wifJj",
-        "split_full": "test",
-        "split_medium": "test",
-        "name": "model-514"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 4.266,
-            "ssa": 1.635,
-            "floor": 1,
-            "area": 87.088
-        },
-        "split_tiny": "none",
-        "id": "XGNTfutwkQC",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-515"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 5.456,
-            "ssa": 1.635,
-            "floor": 3,
-            "area": 456.154
-        },
-        "split_tiny": "none",
-        "id": "xgXDVZgpEro",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-516"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 5.306,
-            "ssa": 1.33,
-            "floor": 3,
-            "area": 1135.121
-        },
-        "split_tiny": "none",
-        "id": "xhUwudaKYzf",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-517"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 4.673,
-            "ssa": 1.33,
-            "floor": 4,
-            "area": 837.527
-        },
-        "split_tiny": "none",
-        "id": "XHzRvSmCdYM",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-518"
-    },
-    {
-        "stats": {
-            "room": 9,
-            "navigation_complexity": 3.88,
-            "ssa": 1.536,
-            "floor": 1,
-            "area": 170.554
-        },
-        "split_tiny": "none",
-        "id": "XjpEja4r9j8",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-519"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 3.079,
-            "ssa": 1.536,
-            "floor": 1,
-            "area": 43.875
-        },
-        "split_tiny": "none",
-        "id": "XKoqCFVecm6",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-520"
-    },
-    {
-        "stats": {
-            "room": 15,
-            "navigation_complexity": 1.676,
-            "ssa": 1.96,
-            "floor": 3,
-            "area": 359.458
-        },
-        "split_tiny": "none",
-        "id": "XKRquFS7NF7",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-521"
-    },
-    {
-        "stats": {
-            "room": 10,
-            "navigation_complexity": 1.734,
-            "ssa": 1.96,
-            "floor": 1,
-            "area": 117.083
-        },
-        "split_tiny": "none",
-        "id": "xkvYBKMA8rn",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-522"
-    },
-    {
-        "stats": {
-            "room": 31,
-            "navigation_complexity": 1.38,
-            "ssa": 1.687,
-            "floor": 5,
-            "area": 1067.245
-        },
-        "split_tiny": "none",
-        "id": "XtEMyTKgbCq",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-523"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 6.789,
-            "ssa": 1.687,
-            "floor": 4,
-            "area": 439.666
-        },
-        "split_tiny": "none",
-        "id": "XUvaJmCpTTb",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-524"
-    },
-    {
-        "stats": {
-            "room": 11,
-            "navigation_complexity": 2.456,
-            "ssa": 2.061,
-            "floor": 1,
-            "area": 161.586
-        },
-        "split_tiny": "none",
-        "id": "XvPRhY9dkEc",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-525"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 2.915,
-            "ssa": 2.061,
-            "floor": 1,
-            "area": 43.882
-        },
-        "split_tiny": "none",
-        "id": "XwtwhFhugme",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-526"
-    },
-    {
-        "stats": {
-            "room": 14,
-            "navigation_complexity": 1.017,
-            "ssa": 1.601,
-            "floor": 3,
-            "area": 319.542
-        },
-        "split_tiny": "none",
-        "id": "Xx1knqQH3oE",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-527"
-    },
-    {
-        "stats": {
-            "room": 10,
-            "navigation_complexity": 3.972,
-            "ssa": 1.601,
-            "floor": 1,
-            "area": 97.743
-        },
-        "split_tiny": "none",
-        "id": "Xxf6pQtRMvB",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-528"
-    },
-    {
-        "stats": {
-            "room": 1,
-            "navigation_complexity": 1.283,
-            "ssa": 0.938,
-            "floor": 1,
-            "area": 150.664
-        },
-        "split_tiny": "none",
-        "id": "y3wUJgd8DGK",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-529"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 2.189,
-            "ssa": 0.938,
-            "floor": 1,
-            "area": 61.282
-        },
-        "split_tiny": "none",
-        "id": "Y5MpUE1RJDn",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-530"
-    },
-    {
-        "stats": {
-            "room": 28,
-            "navigation_complexity": 2.151,
-            "ssa": 1.34,
-            "floor": 2,
-            "area": 165.089
-        },
-        "split_tiny": "none",
-        "id": "yAGKQqrWMx5",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-531"
-    },
-    {
-        "stats": {
-            "room": 1,
-            "navigation_complexity": 1.947,
-            "ssa": 1.34,
-            "floor": 1,
-            "area": 64.853
-        },
-        "split_tiny": "none",
-        "id": "Ydam6PYCDH5",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-532"
-    },
-    {
-        "stats": {
-            "room": 29,
-            "navigation_complexity": 1.314,
-            "ssa": 0.955,
-            "floor": 3,
-            "area": 592.516
-        },
-        "split_tiny": "none",
-        "id": "Ye9ScRdH4Wv",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-533"
-    },
-    {
-        "stats": {
-            "room": 14,
-            "navigation_complexity": 5.198,
-            "ssa": 0.955,
-            "floor": 4,
-            "area": 354.146
-        },
-        "split_tiny": "validation",
-        "id": "YeTiJeSPgGr",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-534"
-    },
-    {
-        "stats": {
-            "room": 22,
-            "navigation_complexity": 2.885,
-            "ssa": 0.794,
-            "floor": 3,
-            "area": 531.017
-        },
-        "split_tiny": "none",
-        "id": "yG9pHDHN17j",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-535"
-    },
-    {
-        "stats": {
-            "room": 25,
-            "navigation_complexity": 2.916,
-            "ssa": 0.794,
-            "floor": 3,
-            "area": 599.358
-        },
-        "split_tiny": "none",
-        "id": "yHX7LUcEGup",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-536"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 3.477,
-            "ssa": 1.347,
-            "floor": 1,
-            "area": 119.162
-        },
-        "split_tiny": "none",
-        "id": "Yi6BXkC9WSc",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-537"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 3.518,
-            "ssa": 1.347,
-            "floor": 1,
-            "area": 121.44
-        },
-        "split_tiny": "none",
-        "id": "yKfMQyKEcQd",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-538"
-    },
-    {
-        "stats": {
-            "room": 19,
-            "navigation_complexity": 2.148,
-            "ssa": 1.641,
-            "floor": 3,
-            "area": 642.418
-        },
-        "split_tiny": "none",
-        "id": "ymdZ1bmUiKM",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-539"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 3.3,
-            "ssa": 1.641,
-            "floor": 1,
-            "area": 60.857
-        },
-        "split_tiny": "none",
-        "id": "YmngpNFQC7d",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-540"
-    },
-    {
-        "stats": {
-            "room": 21,
-            "navigation_complexity": 11.597,
-            "ssa": 1.28,
-            "floor": 3,
-            "area": 635.302
-        },
-        "split_tiny": "train",
-        "id": "YqcbrSznFu4",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-541"
-    },
-    {
-        "stats": {
-            "room": 26,
-            "navigation_complexity": 2.104,
-            "ssa": 1.28,
-            "floor": 4,
-            "area": 657.858
-        },
-        "split_tiny": "none",
-        "id": "yqoXxnaGAt6",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-542"
-    },
-    {
-        "stats": {
-            "room": 34,
-            "navigation_complexity": 6.585,
-            "ssa": 2.011,
-            "floor": 4,
-            "area": 1024.699
-        },
-        "split_tiny": "train",
-        "id": "yrVw6JvdZjE",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-543"
-    },
-    {
-        "stats": {
-            "room": 8,
-            "navigation_complexity": 3.569,
-            "ssa": 2.011,
-            "floor": 1,
-            "area": 160.382
-        },
-        "split_tiny": "none",
-        "id": "yRxgnd38cYZ",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-544"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 2.37,
-            "ssa": 1.66,
-            "floor": 1,
-            "area": 86.103
-        },
-        "split_tiny": "none",
-        "id": "YRyVT1SLGaK",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-545"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 3.285,
-            "ssa": 1.66,
-            "floor": 4,
-            "area": 393.795
-        },
-        "split_tiny": "none",
-        "id": "YswdXbW5SzC",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-546"
-    },
-    {
-        "stats": {
-            "room": 5,
-            "navigation_complexity": 3.082,
-            "ssa": 1.297,
-            "floor": 1,
-            "area": 63.793
-        },
-        "split_tiny": "none",
-        "id": "YVbyUobw8gb",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-547"
-    },
-    {
-        "stats": {
-            "room": 12,
-            "navigation_complexity": 3.235,
-            "ssa": 1.297,
-            "floor": 3,
-            "area": 586.539
-        },
-        "split_tiny": "none",
-        "id": "yVrTePZ49ne",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-548"
-    },
-    {
-        "stats": {
-            "room": 9,
-            "navigation_complexity": 2.303,
-            "ssa": 0.698,
-            "floor": 3,
-            "area": 200.588
-        },
-        "split_tiny": "none",
-        "id": "ywy5ENTqv4a",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-549"
-    },
-    {
-        "stats": {
-            "room": 10,
-            "navigation_complexity": 3.29,
-            "ssa": 0.698,
-            "floor": 1,
-            "area": 172.167
-        },
-        "split_tiny": "none",
-        "id": "YyxUugrXBjL",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-550"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 1.136,
-            "ssa": 1.391,
-            "floor": 1,
-            "area": 13.291
-        },
-        "split_tiny": "none",
-        "id": "Z48Z85H4EP4",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-551"
-    },
-    {
-        "stats": {
-            "room": 18,
-            "navigation_complexity": 6.666,
-            "ssa": 1.391,
-            "floor": 4,
-            "area": 741.032
-        },
-        "split_tiny": "validation",
-        "id": "z6VHT4Tkk2w",
-        "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-552"
-    },
-    {
-        "stats": {
-            "room": 46,
-            "navigation_complexity": 15.187,
-            "ssa": 1.074,
-            "floor": 4,
-            "area": 3081.432
-        },
-        "split_tiny": "none",
-        "id": "Za2rGsv2UMu",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-553"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 4.075,
-            "ssa": 1.074,
-            "floor": 1,
-            "area": 90.056
-        },
-        "split_tiny": "none",
-        "id": "ZA5o6oLu1rZ",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-554"
-    },
-    {
-        "stats": {
-            "room": 17,
-            "navigation_complexity": 2.781,
-            "ssa": 1.515,
-            "floor": 4,
-            "area": 385.425
-        },
-        "split_tiny": "none",
-        "id": "ZbDY1bWPgNu",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-555"
-    },
-    {
-        "stats": {
-            "room": 27,
-            "navigation_complexity": 7.162,
-            "ssa": 1.515,
-            "floor": 4,
-            "area": 444.113
-        },
-        "split_tiny": "train",
-        "id": "zehdXdy6HTP",
-        "split_full": "train",
-        "split_medium": "train",
-        "name": "model-556"
-    },
-    {
-        "stats": {
-            "room": 6,
-            "navigation_complexity": 5.971,
-            "ssa": 1.508,
-            "floor": 3,
-            "area": 518.468
-        },
-        "split_tiny": "none",
-        "id": "Zh2yMe2r2CL",
-        "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-557"
-    },
-    {
-        "stats": {
-            "room": 1,
-            "navigation_complexity": 1.0,
-            "ssa": 1.508,
-            "floor": 1,
-            "area": 98.769
-        },
-        "split_tiny": "none",
-        "id": "zhXYRMfKnho",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-558"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 1.518,
-            "ssa": 0.678,
-            "floor": 1,
-            "area": 88.42
-        },
-        "split_tiny": "none",
-        "id": "ZLpHedy1hYX",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-559"
-    },
-    {
-        "stats": {
-            "room": 11,
-            "navigation_complexity": 3.542,
-            "ssa": 0.678,
-            "floor": 1,
-            "area": 177.415
-        },
-        "split_tiny": "none",
-        "id": "ZmdX1sWe9ch",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-560"
-    },
-    {
-        "stats": {
-            "room": 31,
-            "navigation_complexity": 1.384,
-            "ssa": 1.02,
-            "floor": 3,
-            "area": 571.195
-        },
-        "split_tiny": "none",
-        "id": "ZnsCSnEp4dw",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-561"
-    },
-    {
-        "stats": {
-            "room": 14,
-            "navigation_complexity": 4.949,
-            "ssa": 1.02,
-            "floor": 3,
-            "area": 496.904
-        },
-        "split_tiny": "none",
-        "id": "ZnvVMtKiZws",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-562"
-    },
-    {
-        "stats": {
-            "room": 3,
-            "navigation_complexity": 1.392,
-            "ssa": 1.607,
-            "floor": 1,
-            "area": 19.028
-        },
-        "split_tiny": "none",
-        "id": "ZprpEAXvLrd",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-563"
-    },
-    {
-        "stats": {
-            "room": 2,
-            "navigation_complexity": 3.107,
-            "ssa": 1.607,
-            "floor": 3,
-            "area": 1374.661
-        },
-        "split_tiny": "none",
-        "id": "zqdTwNfknXb",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-564"
-    },
-    {
-        "stats": {
-            "room": 4,
-            "navigation_complexity": 1.006,
-            "ssa": 1.946,
-            "floor": 1,
-            "area": 48.031
-        },
-        "split_tiny": "none",
-        "id": "zsFkmyRB4C3",
-        "split_full": "test",
-        "split_medium": "none",
-        "name": "model-565"
-    },
-    {
-        "stats": {
-            "room": 13,
-            "navigation_complexity": 2.691,
-            "ssa": 1.946,
-            "floor": 3,
-            "area": 850.512
-        },
-        "split_tiny": "none",
-        "id": "ZTup9H9xEKJ",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-566"
-    },
-    {
-        "stats": {
-            "room": 1,
-            "navigation_complexity": 1.0,
-            "ssa": 1.851,
-            "floor": 1,
-            "area": 61.099
-        },
-        "split_tiny": "none",
-        "id": "zUHHHFJp6bM",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-567"
-    },
-    {
-        "stats": {
-            "room": 16,
-            "navigation_complexity": 2.513,
-            "ssa": 1.851,
-            "floor": 3,
-            "area": 477.047
-        },
-        "split_tiny": "none",
-        "id": "zUWjze1k7QL",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-568"
-    },
-    {
-        "stats": {
-            "room": 11,
-            "navigation_complexity": 3.391,
-            "ssa": 1.182,
-            "floor": 3,
-            "area": 457.211
-        },
-        "split_tiny": "none",
-        "id": "Zwo9SXJikWv",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-569"
-    },
-    {
-        "stats": {
-            "room": 7,
-            "navigation_complexity": 1.516,
-            "ssa": 1.182,
-            "floor": 2,
-            "area": 104.971
-        },
-        "split_tiny": "none",
-        "id": "zX3bCQFLBpJ",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-570"
-    },
-    {
-        "stats": {
-            "room": 18,
-            "navigation_complexity": 3.82,
-            "ssa": 1.402,
-            "floor": 3,
-            "area": 504.718
-        },
-        "split_tiny": "none",
-        "id": "zYeA38eVd2f",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-571"
-    },
-    {
-        "stats": {
-            "room": 9,
-            "navigation_complexity": 5.436,
-            "ssa": 1.402,
-            "floor": 1,
-            "area": 280.636
-        },
-        "split_tiny": "none",
-        "id": "ZYjaKEQ75Xz",
-        "split_full": "train",
-        "split_medium": "none",
-        "name": "model-572"
     }
 ]
