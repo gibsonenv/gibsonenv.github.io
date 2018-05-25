@@ -80,8 +80,8 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class=""><a href="../">Home</a></li>
-          <li class=""><a href="../platform/">Platform</a></li>
-          <li class="menu-active"><a href="/">Models</a></li>
+          <li class=""><a href="../#services">Gibson</a></li>
+          <li class="menu-active"><a href="/">Database</a></li>
           <li class=""><a href="../method/">Method</a></li>
           <!-- 
           <li class="{{#is title 'Challenge'}}menu-active{{/is}}"><a href="challenge">Challenge</a></li>-->
@@ -159,16 +159,13 @@
         <div class="col-lg-12">
           <ul id="platform-data-flters">
             <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
-            <li data-filter=".filter-app">House</li>
-            <li data-filter=".filter-card">Venues</li>
-            <li data-filter=".filter-web">Others</li>
           </ul>
         </div> 
       </div>
 
       <div class="my-gallery container platform-data-container" id="platform-data-wrapper" itemscope>
         <div class="row" id="gallery-data-wrapper">
-            <div class="col-lg-4 col-md-4 platform-data-item filter-card">
+            <!--<div class="col-lg-4 col-md-4 platform-data-item filter-card">
                 <div class="box">
                   <div class="row">
                       <div class="col-lg-12">
@@ -205,10 +202,10 @@
                             </a>
                             <figcaption itemprop="caption description">Model Name</figcaption>
                         </figure>
-                        <!--div class="details">
+                        <div class="details">
                           <h4>123</h4>
                           <span>123</span>
-                        </div-->
+                        </div>
                         </figure>
                       </div>
                   </div>
@@ -227,15 +224,15 @@
                             <img src="../public/mesh/1ptLxazXvzx_0.png" text-align="center" itemprop="thumbnail" alt="Image description" />
                         </a>
                         <figcaption itemprop="caption description">123</figcaption>
-                        <!--div class="details">
+                        <div class="details">
                           <h4>123</h4>
                           <span>123</span>
-                        </div-->
+                        </div>
                         </figure>
                       </div>
                   </div>
                 </div>
-            </div>
+            </div-->
         </div>
       </div>
     </div>
@@ -253,7 +250,8 @@
     String.prototype.format = function() {
       a = this;
       for (k in arguments) {
-        a = a.replace("{" + k + "}", arguments[k])
+        a = a.split("{" + k + "}").join(arguments[k]);
+        //a = a.replace("{" + k + "}", arguments[k])
       }
       return a
     }
