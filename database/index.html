@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Gibson Environment</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Preview thumbnails -->
+  <meta property='og:title' content="Gibson Environment"/>
+  <meta property='og:image' content="https://i.imgur.com/TtwdVKx.png"/>
+  <meta property='og:description' content="Opensourced Environment for Embodied Real-World Active Perception. Developed by Stanford Vision and Learning Lab."/>
+  <meta property='og:url' content="http://gibson.vision" />
+
+  <!-- Favicons -->
+  <link href="../public/img/favicon-g.ico" rel="icon">
+  <link href="../public/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="../public/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="../public/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../public/lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Stylesheet File -->
+  <link href="../public/css/style.css" rel="stylesheet">
+  <link href="../public/css/platform.css" rel="stylesheet">
+  <link href="../public/css/method.css" rel="stylesheet">
+  <link href="../public/css/models.css" rel="stylesheet">
+
+
+  <!-- Javascript Font Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vissense/0.10.0/vissense.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/77/three.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+  
+  <!-- PhotoSwipe Library -->
+  <link rel="stylesheet" href="./photoswipe.css"> 
+  <link rel="stylesheet" href="./default-skin/default-skin.css">
+  <link rel="stylesheet" type="text/css" href="./platform-custom.css"> 
+  <script src="./photoswipe.min.js"></script> 
+  <script src="./photoswipe-ui-default.min.js"></script> 
+
+
+  <!-- =======================================================
+    Theme Name: Regna
+    Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- <a href="http://ai.stanford.edu/"><img src="../public/img/stanford-logo2.png" height="50" alt="" title="" /></img></a> -->
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
+      <div id="logo" class="pull-left">
+        <!-- <a href="http://bair.berkeley.edu/"><img src="../public/img/berkeley-logo.png" height="50" alt="" title="" /></img></a> -->
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
+
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class=""><a href="../">Home</a></li>
+          <li class=""><a href="../#services">Gibson</a></li>
+          <li class="menu-active"><a href="../database">Database <font color="red">(NEW!)</font></a></li>
+          <li class=""><a href="../method/">Method</a></li>
+          <!-- 
+          <li class="{{#is title 'Challenge'}}menu-active{{/is}}"><a href="challenge">Challenge</a></li>-->
+          <li class=""><a href="/#team">Team</a></li>
+          <li class=""><a href="/#paper">Paper</a></li>                    
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+<main id="main">
+  <!--==========================
+    Platform Intro Section
+  ============================-->
+  <section id="platform-data"   style="padding-top:60px">
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+            <!-- Container that holds slides. 
+                PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                Don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                          <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div> 
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="container platform-data-container">
+      <div class="section-header">
+        <h3 class="title">3D Models</h3>
+        <p> Our 3D model dataset are collected from indoor environment, powered by the fast-advancing 3D reconstruction and scanning technology. Using such datasets can further narrow down the discrepency between virtual environment and real world.  For each scene, we provide: RGB, depth, surface normal, and for a fraction of the spaces, semantic object annotations.
+        <div class="diagram">
+          <div class="col-12 text-center">
+            <img class="img-responsive" width="100%" src="../public/img/figure1.jpg" />
+          </div>
+        </div>
+        <p class="section-description">We have the largest state-of-the-art 3D model set. You can use the following browser to browse the models</p>
+
+      </div>
+
+      <div class="row" id="gallery">
+
+        <div class="col-lg-12">
+          <ul id="platform-data-flters">
+            <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
+          </ul>
+        </div> 
+      </div>
+
+      <div class="my-gallery container platform-data-container" id="platform-data-wrapper" itemscope>
+        <div class="row" id="gallery-data-wrapper">
+          <template id="gallery-entry-template">
+            <div class="col-lg-3 col-md-3 platform-data-item filter-card">
+              <div class="box">
+                <div class="row">
+                    <div class="col-lg-12">
+                      <canvas id="viewer_{{index}}"></canvas>
+                    </div>
+                    <div class="col-lg-12">
+                      <figure itemprop="associatedMedia" style="text-align: center" itemscope> 
+                          <a href="../models?id={{name}}" itemprop="contentUrl" data-size="1024x768">
+                          <img src="../public/mesh/{{name}}_3.png" text-align="center" itemprop="thumbnail" alt="Image description" />
+                          </a>
+                          <figcaption itemprop="caption description">Model Name</figcaption>
+                      </figure>
+                      </figure>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </template>
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12" id="gallery-page-nav">
+          <ul id="platform-data-flters" id="gallery-page-nav-list">
+          </ul>
+        </div>
+    </div>
+
+  </section><!-- #portfolio -->
+</main>
+
+  <script type="text/javascript">
+    String.prototype.format = function() {
+      a = this;
+      for (k in arguments) {
+        a = a.split("{" + k + "}").join(arguments[k]);
+        //a = a.replace("{" + k + "}", arguments[k])
+      }
+      return a
+    }
+  </script>
+  <!-- PhotoSwipe script -->
+  <script type="text/javascript" src="./platform-gallery.js" async></script>
+  <!-- Generate page list script -->
+  <script type="text/javascript" src="./render.js"></script> 
+  <script type="text/javascript" src="./platform-pages.js" async></script>
+
+
+  <!-- Start of StatCounter Code for Default Guide -->
+  <script type="text/javascript">
+    var sc_project=11628934; 
+    var sc_invisible=1; 
+    var sc_security="8b943126"; 
+  </script>
+  <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+  <noscript><div class="statcounter"><a title="site stats"
+  href="http://statcounter.com/" target="_blank"><img
+  class="statcounter"
+  src="//c.statcounter.com/11628934/0/8b943126/1/" alt="site
+  stats"></a></div></noscript>
+
+  <!-- End of StatCounter Code for Default Guide -->
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Stanford University 2017</strong>. All Rights Reserved. Patent Pending.
+      </div>
+      <div class="credits">
+
+        Bootstrap Templates by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="../public/lib/jquery/jquery.min.js"></script>
+  <script src="../public/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="../public/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../public/lib/easing/easing.min.js"></script>
+  <script src="../public/lib/wow/wow.min.js"></script>
+  <script src="../public/https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+
+  <script src="../public/lib/waypoints/waypoints.min.js"></script>
+  <script src="../public/lib/counterup/counterup.min.js"></script>
+  <script src="../public/lib/superfish/hoverIntent.js"></script>
+  <script src="../public/lib/superfish/superfish.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="../public/contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="../public/js/main.js"></script>
+
+
+
+</body>
+</html>
