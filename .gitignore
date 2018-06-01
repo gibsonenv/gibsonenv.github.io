@@ -5,3 +5,7 @@ test
 
 _site
 build
+
+public/pano
+public/record
+public/mesh

@@ -7,6 +7,7 @@ var platform_data = [];
 
 $.getJSON('data.json', function(data) {
   platform_data = data;
+  console.log(platform_data);
   num_page = parseInt(data.length / num_image) + 1;
   parseCurrentPage();
 })
