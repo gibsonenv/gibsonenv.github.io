@@ -133,6 +133,22 @@ jQuery(document).ready(function( $ ) {
     }, 300);
   });
 
+  // Porfolio filter
+  $("#model-data-flters li").click ( function() {
+    $("#model-data-flters li").removeClass('filter-active');
+    $(this).addClass('filter-active');
+
+    var selectedFilter = $(this).data("filter");
+    $("#model-data-wrapper").fadeTo(100, 0);
+
+    $(".model-data-item").fadeOut().css('transform', 'scale(0)');
+
+    setTimeout(function() {
+      $(selectedFilter).fadeIn(100).css('transform', 'scale(1)');
+      $("#model-data-wrapper").fadeTo(300, 1);
+    }, 300);
+  });
+
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
