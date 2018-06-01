@@ -14,7 +14,7 @@ function render(num_elements, panoramas, curr_page){
 		if (panoramas === undefined) {
 			panoramasArray[i] = ["../public/2d3ds/Area_1_RGB3.png"];	
 		} else {
-			panoramasArray[i] = panoramas[i + (curr_page - 1) * num_elements];
+			panoramasArray[i] = [panoramas[i + (curr_page - 1) * num_elements]];
 		}
 		myFrames[i] = document.getElementById("viewer_" + i);
 	}

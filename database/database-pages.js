@@ -27,7 +27,8 @@ $.getJSON('../public/data.json', function(data) {
         var model = platform_data[count];
         if (count < platform_data.length) {
 //          panoramas.push(["../public/pano/{0}/{1}_0.png".format(model['id'], model['id'])])
-          panoramas.push(["../{0}".format(links[model['id']]['pano_top'])])
+//          panoramas.push(["../{0}".format(links[model['id']]['pano_top'])])
+          panoramas.push("../" + links[model["id"]]['pano_thumb']);
         }
       }
     }
@@ -73,7 +74,8 @@ var generateGalleryCardList = function(curr_page) {
     info = {'name': model_info['id'],
             'viewer_index': i,
             'pano_index': curr_img_index,
-            'pano_link': platform_links[model_info["id"]]['pano_top']}
+            'pano_link': platform_links[model_info["id"]]['pano_thumb'],
+            'mesh_link': platform_links[model_info["id"]]['mesh_thumb']}
     var template = document.getElementById('gallery-entry-template').innerHTML;
     var renderModel = Handlebars.compile(template);
     compileGalleryTemplate(renderModel, info);
