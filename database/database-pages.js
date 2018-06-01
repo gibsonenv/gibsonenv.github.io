@@ -17,7 +17,7 @@ $.getJSON('../public/data.json', function(data) {
 
     platform_data = data;
     platform_links = links;
-    var total_num = Object.keys(platform_links).length;
+    var total_num = platform_data.length;
 
     num_page = parseInt(total_num / num_image) + 1;
     params = parseCurrentPage();
