@@ -1,3 +1,8 @@
+/* Code for rendering main /database/ page
+   Author: Zhiyang He
+   Reference: buildingparser.stanford.edu
+*/
+
 num_page = 30;
 num_image = 12;
 panoramas = []
@@ -5,30 +10,46 @@ panoramas = []
 page_nav_data = '<a href="?page={0}"><li data-filter=".filter-app" class="{1}">{2}</li> </a>';
 
 var platform_data = [];
+var platform_links = {}
 
-$.getJSON('data.json', function(data) {
-  platform_data = data;
-  num_page = parseInt(data.length / num_image) + 1;
-  parseCurrentPage();
-  for (var i = 0; i < num_image; i++) {
-    panoramas.push(["../public/pano/{0}/{1}_0.png".format(platform_data[i]['id'], platform_data[i]['id'])])
-  }
-  generateGalleryCardList(params['page']);
-  generatePageLinkList(params['page']);
-  initPhotoSwipeFromDOM('.my-gallery #gallery-data-wrapper div.platform-data-item');
-  render(num_image, panoramas);
+$.getJSON('../public/data.json', function(data) {
+  $.getJSON('../public/data-link.json', function(links) {
+
+    platform_data = data;
+    platform_links = links;
+    var total_num = Object.keys(platform_links).length;
+
+    num_page = parseInt(total_num / num_image) + 1;
+    params = parseCurrentPage();
+    for (var i = 0; i < num_page; i++) {
+      for (var j = 0; j < num_image; j++) {
+        var count = i * num_image + j;
+        var model = platform_data[count];
+        if (count < platform_data.length) {
+//          panoramas.push(["../public/pano/{0}/{1}_0.png".format(model['id'], model['id'])])
+          panoramas.push(["../{0}".format(links[model['id']]['pano_top'])])
+        }
+      }
+    }
+    generateGalleryCardList(params['page']);
+    generatePageLinkList(params['page']);
+    initPhotoSwipeFromDOM('.my-gallery #gallery-data-wrapper div.platform-data-item');
+    render(num_image, panoramas, params['page']);
+
+  })
 })
 
 
 // Main function to generate current page
 var parseCurrentPage = function() {
 	params = parsePageURL();
-	if (params['page']) {
+	if (params['page'] && params['page'] > 1) {
 		goToGallery();
 	}
 	if (!params['page'])  {
 		params['page'] = 1;
 	}
+  return params
 }
 
 var goToGallery = function() {
@@ -49,14 +70,16 @@ var generateGalleryCardList = function(curr_page) {
 	for (var i = 0; i < num_image; i++) {
     curr_img_index = (curr_page - 1) * num_image + i
     model_info = platform_data[curr_img_index];
-    info = {'name': platform_data[curr_img_index]['id'],
-            'index': curr_img_index}
-    console.log(info)
+    info = {'name': model_info['id'],
+            'viewer_index': i,
+            'pano_index': curr_img_index,
+            'pano_link': platform_links[model_info["id"]]['pano_top']}
     var template = document.getElementById('gallery-entry-template').innerHTML;
     var renderModel = Handlebars.compile(template);
     compileGalleryTemplate(renderModel, info);
 	}
 }
+
 
 // Generate list of gallery page redirection links
 var generatePageLinkList = function (curr_index) {
@@ -72,7 +95,6 @@ var generatePageLinkList = function (curr_index) {
 		generatePageLink(i);
 	}
 } 
-
 
 
 // Parse the current page URL argument
@@ -122,8 +144,10 @@ var parsePageURL = function( ) {
 
 
 /*===================================================================================
-                  DEPRECATED CODE, FOR REFERENCE ONLY
-===================================================================================*/
+  ===================================================================================
+                      DEPRECATED CODE, FOR REFERENCE ONLY
+  ===================================================================================
+  ===================================================================================*/
 
 
 var createOneGalleryCard = function (info) {

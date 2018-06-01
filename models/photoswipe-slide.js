@@ -12,13 +12,11 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             item;
 
         for(var i = 0; i < numNodes; i++) {
-            console.log("node" + i)
-            console.log(thumbElements[i])
-
 
             figureEl = thumbElements[i]; // <figure> element
+
             // include only element nodes 
-            if(figureEl.nodeType !== 1 || figureEl.nodeName !== "FIGURE") {
+            if(figureEl.nodeType !== 1) {
                 continue;
             }
 
@@ -32,17 +30,23 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
                 w: parseInt(size[0], 10),
                 h: parseInt(size[1], 10)
             };
+
+
+
             if(figureEl.children.length > 1) {
                 // <figcaption> content
                 item.title = figureEl.children[1].innerHTML; 
             }
+
             if(linkEl.children.length > 0) {
                 // <img> thumbnail element, retrieving thumbnail url
                 item.msrc = linkEl.children[0].getAttribute('src');
             } 
+
             item.el = figureEl; // save link to element for getThumbBoundsFn
             items.push(item);
         }
+
         return items;
     };
 
@@ -63,7 +67,9 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
         });
 
-        if(!clickedListItem) return;
+        if(!clickedListItem) {
+            return;
+        }
 
         // find index of clicked item by looping through all child nodes
         // alternatively, you may define index via data- attribute
@@ -74,7 +80,9 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             index;
 
         for (var i = 0; i < numChildNodes; i++) {
-            if(childNodes[i].nodeType !== 1) continue; 
+            if(childNodes[i].nodeType !== 1) { 
+                continue; 
+            }
 
             if(childNodes[i] === clickedListItem) {
                 index = nodeIndex;
@@ -174,7 +182,6 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
         }
 
         // Pass data to PhotoSwipe and initialize it
-        console.log(items)
         gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
         gallery.init();
     };
@@ -195,4 +202,4 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 };
 
 // execute above function
-//initPhotoSwipeFromDOM('.my-gallery #gallery-data-wrapper div.platform-data-item');
+initPhotoSwipeFromDOM('.my-gallery');

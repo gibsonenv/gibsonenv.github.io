@@ -31,7 +31,7 @@
   <link href="../public/css/style.css" rel="stylesheet">
   <link href="../public/css/platform.css" rel="stylesheet">
   <link href="../public/css/method.css" rel="stylesheet">
-  <link href="../public/css/models.css" rel="stylesheet">
+  <link href="../public/css/database.css" rel="stylesheet">
 
 
   <!-- Javascript Font Library -->
@@ -44,7 +44,7 @@
   <!-- PhotoSwipe Library -->
   <link rel="stylesheet" href="./photoswipe.css"> 
   <link rel="stylesheet" href="./default-skin/default-skin.css">
-  <link rel="stylesheet" type="text/css" href="./platform-custom.css"> 
+  <link rel="stylesheet" type="text/css" href="./database-custom.css"> 
   <script src="./photoswipe.min.js"></script> 
   <script src="./photoswipe-ui-default.min.js"></script> 
 
@@ -163,28 +163,37 @@
         </div> 
       </div>
 
-      <div class="my-gallery container platform-data-container" id="platform-data-wrapper" itemscope>
+      <div class="container platform-data-container" id="platform-data-wrapper" itemscope>
         <div class="row" id="gallery-data-wrapper">
+
+          <!----------------------------------->
+          <!------- Template ------------------>
+          <!----------------------------------->
           <template id="gallery-entry-template">
             <div class="col-lg-3 col-md-3 platform-data-item filter-card">
               <div class="box">
-                <div class="row">
+                <div class="row gallery-entry">
                     <div class="col-lg-12">
-                      <canvas id="viewer_{{index}}"></canvas>
+                      <canvas id="viewer_{{viewer_index}}"></canvas>
                     </div>
                     <div class="col-lg-12">
-                      <figure itemprop="associatedMedia" style="text-align: center" itemscope> 
-                          <a href="../models?id={{name}}" itemprop="contentUrl" data-size="1024x768">
-                          <img src="../public/mesh/{{name}}_3.png" text-align="center" itemprop="thumbnail" alt="Image description" />
-                          </a>
-                          <figcaption itemprop="caption description">Model Name</figcaption>
-                      </figure>
-                      </figure>
+                      <!--figure style="text-align: center"--> 
+                        <a href="../models?id={{name}}">
+                        <!--img src="../public/mesh/{{name}}_top.png" text-align="center" alt="Image description" /-->
+                        <img src="{{pano_link}}" text-align="center" alt="Image description" />
+                        </a>
+                        <!--figcaption >Model Name</figcaption-->
+                      <!--/figure-->
                     </div>
                 </div>
+                <a href="../models?id={{name}}" class="click" style="text-align:left"><img src="../public/img/magnify.png">  See more</a>
+              </div>
               </div>
             </div>
           </template>
+          <!----------------------------------->
+          <!------- Template ------------------>
+          <!----------------------------------->
 
         </div>
       </div>
@@ -210,10 +219,10 @@
     }
   </script>
   <!-- PhotoSwipe script -->
-  <script type="text/javascript" src="./platform-gallery.js" async></script>
+  <script type="text/javascript" src="./database-gallery.js" async></script>
   <!-- Generate page list script -->
   <script type="text/javascript" src="./render.js"></script> 
-  <script type="text/javascript" src="./platform-pages.js" async></script>
+  <script type="text/javascript" src="./database-pages.js" async></script>
 
 
   <!-- Start of StatCounter Code for Default Guide -->

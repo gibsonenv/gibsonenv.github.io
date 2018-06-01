@@ -10,8 +10,7 @@
         "split_tiny": "train",
         "id": "Hanson",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-1"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -24,8 +23,7 @@
         "split_tiny": "train",
         "id": "Merom",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-2"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -38,8 +36,7 @@
         "split_tiny": "none",
         "id": "Brinnon",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-3"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -52,8 +49,7 @@
         "split_tiny": "none",
         "id": "Arbutus",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-4"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -66,8 +62,7 @@
         "split_tiny": "none",
         "id": "Goodfield",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-5"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -80,8 +75,7 @@
         "split_tiny": "none",
         "id": "Espanola",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-6"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -94,8 +88,7 @@
         "split_tiny": "none",
         "id": "Reserve",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-7"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -108,8 +101,7 @@
         "split_tiny": "none",
         "id": "Aloha",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-8"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -122,8 +114,7 @@
         "split_tiny": "none",
         "id": "Castor",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-9"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -136,8 +127,7 @@
         "split_tiny": "none",
         "id": "Munsons",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-10"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -150,8 +140,7 @@
         "split_tiny": "none",
         "id": "Ballou",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-11"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -164,8 +153,7 @@
         "split_tiny": "none",
         "id": "Woonsocket",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-12"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -178,8 +166,7 @@
         "split_tiny": "none",
         "id": "Foyil",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-13"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -192,8 +179,7 @@
         "split_tiny": "none",
         "id": "Creede",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-14"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -206,8 +192,7 @@
         "split_tiny": "none",
         "id": "Eagan",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-15"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -220,8 +205,7 @@
         "split_tiny": "none",
         "id": "Arona",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-16"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -234,8 +218,7 @@
         "split_tiny": "none",
         "id": "Adairsville",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-17"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -248,8 +231,7 @@
         "split_tiny": "none",
         "id": "Superior",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-18"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -262,8 +244,7 @@
         "split_tiny": "train",
         "id": "Klickitat",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-19"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -276,8 +257,7 @@
         "split_tiny": "none",
         "id": "Rancocas",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-20"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -290,8 +270,7 @@
         "split_tiny": "none",
         "id": "Ossipee",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-21"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -304,8 +283,7 @@
         "split_tiny": "none",
         "id": "Matoaca",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-22"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -318,8 +296,7 @@
         "split_tiny": "none",
         "id": "Haxtun",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-23"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -332,8 +309,7 @@
         "split_tiny": "none",
         "id": "Tansboro",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-24"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -346,8 +322,7 @@
         "split_tiny": "none",
         "id": "Cottonport",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-25"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -360,8 +335,7 @@
         "split_tiny": "none",
         "id": "Tyler",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-26"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -374,8 +348,7 @@
         "split_tiny": "none",
         "id": "Sugarville",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-27"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -388,8 +361,7 @@
         "split_tiny": "none",
         "id": "Martinville",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-28"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -402,8 +374,7 @@
         "split_tiny": "none",
         "id": "Vacherie",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-29"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -416,8 +387,7 @@
         "split_tiny": "none",
         "id": "Haaswood",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-30"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -430,8 +400,7 @@
         "split_tiny": "none",
         "id": "Euharlee",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-31"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -444,8 +413,7 @@
         "split_tiny": "none",
         "id": "Ihlen",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-32"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -458,8 +426,7 @@
         "split_tiny": "none",
         "id": "Caruthers",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-33"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -472,8 +439,7 @@
         "split_tiny": "none",
         "id": "Peacock",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-34"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -486,8 +452,7 @@
         "split_tiny": "none",
         "id": "Hacienda",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-35"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -500,8 +465,7 @@
         "split_tiny": "none",
         "id": "Convoy",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-36"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -514,8 +478,7 @@
         "split_tiny": "none",
         "id": "Roane",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-37"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -528,8 +491,7 @@
         "split_tiny": "none",
         "id": "Ellaville",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-38"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -542,8 +504,7 @@
         "split_tiny": "none",
         "id": "Ogilvie",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-39"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -556,8 +517,7 @@
         "split_tiny": "none",
         "id": "Chilhowie",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-40"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -570,8 +530,7 @@
         "split_tiny": "none",
         "id": "Darrtown",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-41"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -584,8 +543,7 @@
         "split_tiny": "none",
         "id": "Tomales",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-42"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -598,8 +556,7 @@
         "split_tiny": "none",
         "id": "Springhill",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-43"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -612,8 +569,7 @@
         "split_tiny": "none",
         "id": "Shellsburg",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-44"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -626,8 +582,7 @@
         "split_tiny": "none",
         "id": "Stigler",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-45"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -640,8 +595,7 @@
         "split_tiny": "none",
         "id": "Codell",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-46"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -654,8 +608,7 @@
         "split_tiny": "none",
         "id": "Chrisney",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-47"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -668,8 +621,7 @@
         "split_tiny": "none",
         "id": "Silas",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-48"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -682,8 +634,7 @@
         "split_tiny": "none",
         "id": "Manassas",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-49"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -696,8 +647,7 @@
         "split_tiny": "none",
         "id": "Clive",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-50"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -710,8 +660,7 @@
         "split_tiny": "none",
         "id": "Rutherford",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-51"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -724,8 +673,7 @@
         "split_tiny": "none",
         "id": "Braxton",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-52"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -738,8 +686,7 @@
         "split_tiny": "none",
         "id": "Laytonsville",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-53"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -752,8 +699,7 @@
         "split_tiny": "none",
         "id": "Mullica",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-54"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -766,8 +712,7 @@
         "split_tiny": "none",
         "id": "Winthrop",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-55"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -780,8 +725,7 @@
         "split_tiny": "none",
         "id": "Chireno",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-56"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -794,8 +738,7 @@
         "split_tiny": "none",
         "id": "Bremerton",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-57"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -808,8 +751,7 @@
         "split_tiny": "none",
         "id": "Bonfield",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-58"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -822,8 +764,7 @@
         "split_tiny": "none",
         "id": "Grace",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-59"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -836,8 +777,7 @@
         "split_tiny": "none",
         "id": "Lynchburg",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-60"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -850,8 +790,7 @@
         "split_tiny": "none",
         "id": "Halfway",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-61"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -864,8 +803,7 @@
         "split_tiny": "none",
         "id": "Merlin",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-62"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -878,8 +816,7 @@
         "split_tiny": "none",
         "id": "Baneberry",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-63"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -892,8 +829,7 @@
         "split_tiny": "none",
         "id": "Connoquenessing",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-64"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -906,8 +842,7 @@
         "split_tiny": "none",
         "id": "Ballantine",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-65"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -920,8 +855,7 @@
         "split_tiny": "none",
         "id": "Hendrix",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-66"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -934,8 +868,7 @@
         "split_tiny": "none",
         "id": "Hortense",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-67"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -948,8 +881,7 @@
         "split_tiny": "none",
         "id": "Nimmons",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-68"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -962,8 +894,7 @@
         "split_tiny": "none",
         "id": "Tokeland",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-69"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -976,8 +907,7 @@
         "split_tiny": "none",
         "id": "Wesley",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-70"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -990,8 +920,7 @@
         "split_tiny": "none",
         "id": "Idanha",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-71"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1004,8 +933,7 @@
         "split_tiny": "none",
         "id": "McCloud",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-72"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1018,8 +946,7 @@
         "split_tiny": "none",
         "id": "Maricopa",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-73"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1032,8 +959,7 @@
         "split_tiny": "train",
         "id": "Onaga",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-74"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -1046,8 +972,7 @@
         "split_tiny": "none",
         "id": "Cousins",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-75"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -1060,8 +985,7 @@
         "split_tiny": "none",
         "id": "Aldrich",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-76"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1074,8 +998,7 @@
         "split_tiny": "none",
         "id": "Tomkins",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-77"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1088,8 +1011,7 @@
         "split_tiny": "none",
         "id": "Bountiful",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-78"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1102,8 +1024,7 @@
         "split_tiny": "train",
         "id": "Maguayo",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-79"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -1116,8 +1037,7 @@
         "split_tiny": "none",
         "id": "Muleshoe",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-80"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -1130,8 +1050,7 @@
         "split_tiny": "none",
         "id": "Hammon",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-81"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1144,8 +1063,7 @@
         "split_tiny": "none",
         "id": "Carpio",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-82"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1158,8 +1076,7 @@
         "split_tiny": "none",
         "id": "Ovalo",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-83"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1172,8 +1089,7 @@
         "split_tiny": "none",
         "id": "Leilani",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-84"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1186,8 +1102,7 @@
         "split_tiny": "none",
         "id": "Sundown",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-85"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1200,8 +1115,7 @@
         "split_tiny": "none",
         "id": "Kingfisher",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-86"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1214,8 +1128,7 @@
         "split_tiny": "none",
         "id": "Paige",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-87"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1228,8 +1141,7 @@
         "split_tiny": "none",
         "id": "Waimea",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-88"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1242,8 +1154,7 @@
         "split_tiny": "none",
         "id": "Grassy",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-89"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1256,8 +1167,7 @@
         "split_tiny": "none",
         "id": "Monticello",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-90"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1270,8 +1180,7 @@
         "split_tiny": "none",
         "id": "Benicia",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-91"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1284,8 +1193,7 @@
         "split_tiny": "none",
         "id": "Portal",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-92"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1298,8 +1206,7 @@
         "split_tiny": "none",
         "id": "Texasville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-93"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1312,8 +1219,7 @@
         "split_tiny": "none",
         "id": "Kinney",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-94"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1326,8 +1232,7 @@
         "split_tiny": "none",
         "id": "Melstone",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-95"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -1340,8 +1245,7 @@
         "split_tiny": "none",
         "id": "Mammoth",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-96"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1354,8 +1258,7 @@
         "split_tiny": "none",
         "id": "Alstown",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-97"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1368,8 +1271,7 @@
         "split_tiny": "none",
         "id": "Bonnie",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-98"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -1382,8 +1284,7 @@
         "split_tiny": "train",
         "id": "Gough",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-99"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -1396,8 +1297,7 @@
         "split_tiny": "none",
         "id": "Cabin",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-100"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1410,8 +1310,7 @@
         "split_tiny": "none",
         "id": "Beechwood",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-101"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -1424,8 +1323,7 @@
         "split_tiny": "none",
         "id": "Sands",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-102"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -1438,8 +1336,7 @@
         "split_tiny": "none",
         "id": "Moberly",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-103"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1452,8 +1349,7 @@
         "split_tiny": "none",
         "id": "Cutlerville",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-104"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1466,8 +1362,7 @@
         "split_tiny": "none",
         "id": "Hominy",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-105"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -1480,8 +1375,7 @@
         "split_tiny": "none",
         "id": "Hitchland",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-106"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -1494,8 +1388,7 @@
         "split_tiny": "none",
         "id": "Frankfort",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-107"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -1508,8 +1401,7 @@
         "split_tiny": "none",
         "id": "Quantico",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-108"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1522,8 +1414,7 @@
         "split_tiny": "none",
         "id": "Howie",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-109"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1536,8 +1427,7 @@
         "split_tiny": "none",
         "id": "Gilbert",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-110"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1550,8 +1440,7 @@
         "split_tiny": "none",
         "id": "Southfield",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-111"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -1564,8 +1453,7 @@
         "split_tiny": "none",
         "id": "Crandon",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-112"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1578,8 +1466,7 @@
         "split_tiny": "none",
         "id": "Imbery",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-113"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1592,8 +1479,7 @@
         "split_tiny": "none",
         "id": "Goodyear",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-114"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -1606,8 +1492,7 @@
         "split_tiny": "validation",
         "id": "Waukeenah",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-115"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -1620,8 +1505,7 @@
         "split_tiny": "none",
         "id": "Cebolla",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-116"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1634,8 +1518,7 @@
         "split_tiny": "none",
         "id": "Albertville",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-117"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1648,8 +1531,7 @@
         "split_tiny": "none",
         "id": "Pocopson",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-118"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1662,8 +1544,7 @@
         "split_tiny": "none",
         "id": "Dauberville",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-119"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1676,8 +1557,7 @@
         "split_tiny": "none",
         "id": "Sodaville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-120"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1690,8 +1570,7 @@
         "split_tiny": "none",
         "id": "Auburn",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-121"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1704,8 +1583,7 @@
         "split_tiny": "none",
         "id": "Landing",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-122"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1718,8 +1596,7 @@
         "split_tiny": "none",
         "id": "Ackermanville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-123"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1732,8 +1609,7 @@
         "split_tiny": "none",
         "id": "Churchton",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-124"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -1746,8 +1622,7 @@
         "split_tiny": "none",
         "id": "Copemish",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-125"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1760,8 +1635,7 @@
         "split_tiny": "none",
         "id": "Everton",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-126"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1774,8 +1648,7 @@
         "split_tiny": "none",
         "id": "Terrell",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-127"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1788,8 +1661,7 @@
         "split_tiny": "none",
         "id": "Eudora",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-128"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1802,8 +1674,7 @@
         "split_tiny": "none",
         "id": "Maiden",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-129"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1816,8 +1687,7 @@
         "split_tiny": "none",
         "id": "Andover",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-130"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1830,8 +1700,7 @@
         "split_tiny": "none",
         "id": "Uvalda",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-131"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -1844,8 +1713,7 @@
         "split_tiny": "none",
         "id": "Divide",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-132"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1858,8 +1726,7 @@
         "split_tiny": "none",
         "id": "Cayuse",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-133"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1872,8 +1739,7 @@
         "split_tiny": "none",
         "id": "Leavittsburg",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-134"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1886,8 +1752,7 @@
         "split_tiny": "none",
         "id": "Monson",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-135"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1900,8 +1765,7 @@
         "split_tiny": "none",
         "id": "Umpqua",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-136"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1914,8 +1778,7 @@
         "split_tiny": "train",
         "id": "Wiconisco",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-137"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -1928,8 +1791,7 @@
         "split_tiny": "none",
         "id": "Lacon",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-138"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1942,8 +1804,7 @@
         "split_tiny": "none",
         "id": "Cokeville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-139"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1956,8 +1817,7 @@
         "split_tiny": "none",
         "id": "Helix",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-140"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1970,8 +1830,7 @@
         "split_tiny": "none",
         "id": "Herricks",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-141"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1984,8 +1843,7 @@
         "split_tiny": "none",
         "id": "Applewold",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-142"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -1998,8 +1856,7 @@
         "split_tiny": "none",
         "id": "Chiloquin",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-143"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2012,8 +1869,7 @@
         "split_tiny": "none",
         "id": "Sasakwa",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-144"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2026,8 +1882,7 @@
         "split_tiny": "none",
         "id": "Schoolcraft",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-145"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2040,8 +1895,7 @@
         "split_tiny": "none",
         "id": "Anthoston",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-146"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2054,8 +1908,7 @@
         "split_tiny": "none",
         "id": "Kathryn",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-147"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2068,8 +1921,7 @@
         "split_tiny": "none",
         "id": "Coffeen",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-148"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -2082,8 +1934,7 @@
         "split_tiny": "none",
         "id": "Grainola",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-149"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -2096,8 +1947,7 @@
         "split_tiny": "none",
         "id": "Gaylord",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-150"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2110,8 +1960,7 @@
         "split_tiny": "none",
         "id": "Willow",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-151"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2124,8 +1973,7 @@
         "split_tiny": "none",
         "id": "Stockertown",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-152"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2138,8 +1986,7 @@
         "split_tiny": "none",
         "id": "Hatfield",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-153"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2152,8 +1999,7 @@
         "split_tiny": "none",
         "id": "Whitethorn",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-154"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2166,8 +2012,7 @@
         "split_tiny": "none",
         "id": "Dedham",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-155"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2180,8 +2025,7 @@
         "split_tiny": "none",
         "id": "Circleville",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-156"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2194,8 +2038,7 @@
         "split_tiny": "none",
         "id": "Marksville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-157"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2208,8 +2051,7 @@
         "split_tiny": "none",
         "id": "Kinde",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-158"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2222,8 +2064,7 @@
         "split_tiny": "none",
         "id": "Corder",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-159"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2236,8 +2077,7 @@
         "split_tiny": "none",
         "id": "Destin",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-160"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2250,8 +2090,7 @@
         "split_tiny": "none",
         "id": "Timberon",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-161"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -2264,8 +2103,7 @@
         "split_tiny": "none",
         "id": "Trail",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-162"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2278,8 +2116,7 @@
         "split_tiny": "none",
         "id": "Pleasant",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-163"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2292,8 +2129,7 @@
         "split_tiny": "none",
         "id": "Harrellsville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-164"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2306,8 +2142,7 @@
         "split_tiny": "none",
         "id": "Clarkridge",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-165"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2320,8 +2155,7 @@
         "split_tiny": "none",
         "id": "Peconic",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-166"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2334,8 +2168,7 @@
         "split_tiny": "none",
         "id": "Gladstone",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-167"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2348,8 +2181,7 @@
         "split_tiny": "none",
         "id": "Cornville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-168"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2362,8 +2194,7 @@
         "split_tiny": "none",
         "id": "Darnestown",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-169"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2376,8 +2207,7 @@
         "split_tiny": "none",
         "id": "Bohemia",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-170"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -2390,8 +2220,7 @@
         "split_tiny": "none",
         "id": "Chesterbrook",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-171"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2404,8 +2233,7 @@
         "split_tiny": "none",
         "id": "Micanopy",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-172"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -2418,8 +2246,7 @@
         "split_tiny": "none",
         "id": "Maben",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-173"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2432,8 +2259,7 @@
         "split_tiny": "none",
         "id": "Wilseyville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-174"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2446,8 +2272,7 @@
         "split_tiny": "none",
         "id": "Webster",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-175"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2460,8 +2285,7 @@
         "split_tiny": "none",
         "id": "Kemblesville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-176"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2474,8 +2298,7 @@
         "split_tiny": "none",
         "id": "Edgemere",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-177"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2488,8 +2311,7 @@
         "split_tiny": "none",
         "id": "Hillsdale",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-178"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -2502,8 +2324,7 @@
         "split_tiny": "none",
         "id": "Kobuk",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-179"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -2516,8 +2337,7 @@
         "split_tiny": "none",
         "id": "Mashulaville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-180"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2530,8 +2350,7 @@
         "split_tiny": "none",
         "id": "Thrall",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-181"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -2544,8 +2363,7 @@
         "split_tiny": "none",
         "id": "Gloria",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-182"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2558,8 +2376,7 @@
         "split_tiny": "none",
         "id": "Wappingers",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-183"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2572,8 +2389,7 @@
         "split_tiny": "none",
         "id": "McNary",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-184"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2586,8 +2402,7 @@
         "split_tiny": "none",
         "id": "Tallmadge",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-185"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2600,8 +2415,7 @@
         "split_tiny": "none",
         "id": "Funkstown",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-186"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2614,8 +2428,7 @@
         "split_tiny": "none",
         "id": "Shingler",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-187"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2628,8 +2441,7 @@
         "split_tiny": "none",
         "id": "Tippecanoe",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-188"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2642,8 +2454,7 @@
         "split_tiny": "none",
         "id": "Kronborg",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-189"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2656,8 +2467,7 @@
         "split_tiny": "none",
         "id": "Airport",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-190"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -2670,8 +2480,7 @@
         "split_tiny": "none",
         "id": "Fleming",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-191"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2684,8 +2493,7 @@
         "split_tiny": "none",
         "id": "Wilkesboro",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-192"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2698,8 +2506,7 @@
         "split_tiny": "none",
         "id": "Bonesteel",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-193"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -2712,8 +2519,7 @@
         "split_tiny": "none",
         "id": "Mesic",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-194"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2726,8 +2532,7 @@
         "split_tiny": "none",
         "id": "Tillman",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-195"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2740,8 +2545,7 @@
         "split_tiny": "none",
         "id": "Moonachie",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-196"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2754,8 +2558,7 @@
         "split_tiny": "none",
         "id": "Lessley",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-197"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2768,8 +2571,7 @@
         "split_tiny": "none",
         "id": "Stokes",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-198"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2782,8 +2584,7 @@
         "split_tiny": "none",
         "id": "Checotah",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-199"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2796,8 +2597,7 @@
         "split_tiny": "none",
         "id": "Rogue",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-200"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -2810,8 +2610,7 @@
         "split_tiny": "none",
         "id": "Hartline",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-201"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2824,8 +2623,7 @@
         "split_tiny": "none",
         "id": "Ashport",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-202"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2838,8 +2636,7 @@
         "split_tiny": "none",
         "id": "McEwen",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-203"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2852,8 +2649,7 @@
         "split_tiny": "none",
         "id": "Bethlehem",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-204"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2866,8 +2662,7 @@
         "split_tiny": "none",
         "id": "Orason",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-205"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2880,8 +2675,7 @@
         "split_tiny": "none",
         "id": "Channel",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-206"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2894,8 +2688,7 @@
         "split_tiny": "none",
         "id": "Donaldson",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-207"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -2908,8 +2701,7 @@
         "split_tiny": "none",
         "id": "Hobson",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-208"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2922,8 +2714,7 @@
         "split_tiny": "none",
         "id": "Kirwin",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-209"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -2936,8 +2727,7 @@
         "split_tiny": "none",
         "id": "Purple",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-210"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2950,8 +2740,7 @@
         "split_tiny": "none",
         "id": "Assinippi",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-211"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -2964,8 +2753,7 @@
         "split_tiny": "train",
         "id": "Sharon",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-212"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -2978,8 +2766,7 @@
         "split_tiny": "none",
         "id": "Glenmoor",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-213"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -2992,8 +2779,7 @@
         "split_tiny": "none",
         "id": "Edson",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-214"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -3006,8 +2792,7 @@
         "split_tiny": "none",
         "id": "Fonda",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-215"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3020,8 +2805,7 @@
         "split_tiny": "none",
         "id": "Ancor",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-216"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -3034,8 +2818,7 @@
         "split_tiny": "none",
         "id": "Kerrtown",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-217"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3048,8 +2831,7 @@
         "split_tiny": "none",
         "id": "McClure",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-218"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3062,8 +2844,7 @@
         "split_tiny": "none",
         "id": "Gravelly",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-219"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -3076,8 +2857,7 @@
         "split_tiny": "none",
         "id": "Biltmore",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-220"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3090,8 +2870,7 @@
         "split_tiny": "none",
         "id": "Wando",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-221"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3104,8 +2883,7 @@
         "split_tiny": "none",
         "id": "Sagerton",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-222"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3118,8 +2896,7 @@
         "split_tiny": "none",
         "id": "Kangley",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-223"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3132,8 +2909,7 @@
         "split_tiny": "none",
         "id": "Noonday",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-224"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3146,8 +2922,7 @@
         "split_tiny": "none",
         "id": "Vails",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-225"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3160,8 +2935,7 @@
         "split_tiny": "none",
         "id": "Capistrano",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-226"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3174,8 +2948,7 @@
         "split_tiny": "none",
         "id": "Voorhees",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-227"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3188,8 +2961,7 @@
         "split_tiny": "none",
         "id": "Plessis",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-228"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3202,8 +2974,7 @@
         "split_tiny": "train",
         "id": "Leonardo",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-229"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -3216,8 +2987,7 @@
         "split_tiny": "none",
         "id": "Poyen",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-230"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3230,8 +3000,7 @@
         "split_tiny": "none",
         "id": "Castroville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-231"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3244,8 +3013,7 @@
         "split_tiny": "none",
         "id": "Ewansville",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-232"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3258,8 +3026,7 @@
         "split_tiny": "none",
         "id": "Barahona",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-233"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3272,8 +3039,7 @@
         "split_tiny": "none",
         "id": "Kevin",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-234"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3286,8 +3052,7 @@
         "split_tiny": "none",
         "id": "Starks",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-235"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3300,8 +3065,7 @@
         "split_tiny": "none",
         "id": "Spread",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-236"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3314,8 +3078,7 @@
         "split_tiny": "none",
         "id": "Seeley",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-237"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3328,8 +3091,7 @@
         "split_tiny": "none",
         "id": "Millbury",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-238"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3342,8 +3104,7 @@
         "split_tiny": "none",
         "id": "Waucousta",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-239"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3356,8 +3117,7 @@
         "split_tiny": "none",
         "id": "Ludlowville",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-240"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3370,8 +3130,7 @@
         "split_tiny": "none",
         "id": "Dansville",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-241"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3384,8 +3143,7 @@
         "split_tiny": "none",
         "id": "Maida",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-242"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3398,8 +3156,7 @@
         "split_tiny": "none",
         "id": "Annona",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-243"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -3412,8 +3169,7 @@
         "split_tiny": "none",
         "id": "Duluth",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-244"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3426,8 +3182,7 @@
         "split_tiny": "train",
         "id": "Weleetka",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-245"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -3440,8 +3195,7 @@
         "split_tiny": "none",
         "id": "Chesaning",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-246"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3454,8 +3208,7 @@
         "split_tiny": "none",
         "id": "Cooperstown",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-247"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3468,8 +3221,7 @@
         "split_tiny": "none",
         "id": "Ohoopee",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-248"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3482,8 +3234,7 @@
         "split_tiny": "train",
         "id": "Milaca",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-249"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -3496,8 +3247,7 @@
         "split_tiny": "none",
         "id": "Silva",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-250"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3510,8 +3260,7 @@
         "split_tiny": "none",
         "id": "Traver",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-251"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3524,8 +3273,7 @@
         "split_tiny": "none",
         "id": "Gasburg",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-252"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3538,8 +3286,7 @@
         "split_tiny": "none",
         "id": "Bolton",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-253"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3552,8 +3299,7 @@
         "split_tiny": "none",
         "id": "Kendall",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-254"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3566,8 +3312,7 @@
         "split_tiny": "test",
         "id": "Stockman",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-255"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -3580,8 +3325,7 @@
         "split_tiny": "none",
         "id": "Elton",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-256"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3594,8 +3338,7 @@
         "split_tiny": "train",
         "id": "Marstons",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-257"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -3608,8 +3351,7 @@
         "split_tiny": "none",
         "id": "Athens",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-258"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -3622,8 +3364,7 @@
         "split_tiny": "none",
         "id": "Coronado",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-259"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3636,8 +3377,7 @@
         "split_tiny": "none",
         "id": "Mentmore",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-260"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3650,8 +3390,7 @@
         "split_tiny": "none",
         "id": "Inkom",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-261"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3664,8 +3403,7 @@
         "split_tiny": "none",
         "id": "Whiteriver",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-262"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -3678,8 +3416,7 @@
         "split_tiny": "none",
         "id": "Wattsville",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-263"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3692,8 +3429,7 @@
         "split_tiny": "none",
         "id": "Noxapater",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-264"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -3706,8 +3442,7 @@
         "split_tiny": "none",
         "id": "Ooltewah",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-265"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3720,8 +3455,7 @@
         "split_tiny": "none",
         "id": "Model",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-266"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3734,8 +3468,7 @@
         "split_tiny": "none",
         "id": "Fedora",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-267"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3748,8 +3481,7 @@
         "split_tiny": "none",
         "id": "Ruckersville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-268"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3762,8 +3494,7 @@
         "split_tiny": "none",
         "id": "Silerton",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-269"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3776,8 +3507,7 @@
         "split_tiny": "none",
         "id": "Soldier",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-270"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -3790,8 +3520,7 @@
         "split_tiny": "none",
         "id": "Poipu",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-271"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -3804,8 +3533,7 @@
         "split_tiny": "none",
         "id": "Hambleton",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-272"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3818,8 +3546,7 @@
         "split_tiny": "none",
         "id": "Hordville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-273"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3832,8 +3559,7 @@
         "split_tiny": "none",
         "id": "Neshkoro",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-274"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -3846,8 +3572,7 @@
         "split_tiny": "none",
         "id": "Hennepin",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-275"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3860,8 +3585,7 @@
         "split_tiny": "none",
         "id": "Cohoes",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-276"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3874,8 +3598,7 @@
         "split_tiny": "none",
         "id": "Lucan",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-277"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3888,8 +3611,7 @@
         "split_tiny": "none",
         "id": "Kihei",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-278"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3902,8 +3624,7 @@
         "split_tiny": "none",
         "id": "Hornsby",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-279"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3916,8 +3637,7 @@
         "split_tiny": "none",
         "id": "Moark",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-280"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3930,8 +3650,7 @@
         "split_tiny": "none",
         "id": "Hindsboro",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-281"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3944,8 +3663,7 @@
         "split_tiny": "none",
         "id": "Lovilia",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-282"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3958,8 +3676,7 @@
         "split_tiny": "none",
         "id": "Newcomb",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-283"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3972,8 +3689,7 @@
         "split_tiny": "none",
         "id": "Goodview",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-284"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -3986,8 +3702,7 @@
         "split_tiny": "none",
         "id": "Broseley",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-285"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4000,8 +3715,7 @@
         "split_tiny": "none",
         "id": "Wakeman",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-286"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4014,8 +3728,7 @@
         "split_tiny": "none",
         "id": "Jennie",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-287"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4028,8 +3741,7 @@
         "split_tiny": "train",
         "id": "Newfields",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-288"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4042,8 +3754,7 @@
         "split_tiny": "none",
         "id": "Bettendorf",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-289"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4056,8 +3767,7 @@
         "split_tiny": "none",
         "id": "Gluek",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-290"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4070,8 +3780,7 @@
         "split_tiny": "none",
         "id": "Irvine",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-291"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4084,8 +3793,7 @@
         "split_tiny": "none",
         "id": "Tilghmanton",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-292"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4098,8 +3806,7 @@
         "split_tiny": "none",
         "id": "American",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-293"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4112,8 +3819,7 @@
         "split_tiny": "none",
         "id": "Akiak",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-294"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4126,8 +3832,7 @@
         "split_tiny": "none",
         "id": "Calavo",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-295"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4140,8 +3845,7 @@
         "split_tiny": "train",
         "id": "Corozal",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-296"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4154,8 +3858,7 @@
         "split_tiny": "none",
         "id": "Westerville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-297"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4168,8 +3871,7 @@
         "split_tiny": "none",
         "id": "Swormville",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-298"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4182,8 +3884,7 @@
         "split_tiny": "train",
         "id": "Pinesdale",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-299"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4196,8 +3897,7 @@
         "split_tiny": "none",
         "id": "Warrenville",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-300"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4210,8 +3910,7 @@
         "split_tiny": "none",
         "id": "Maunawili",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-301"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4224,8 +3923,7 @@
         "split_tiny": "none",
         "id": "Cason",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-302"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4238,8 +3936,7 @@
         "split_tiny": "none",
         "id": "Bellemeade",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-303"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4252,8 +3949,7 @@
         "split_tiny": "none",
         "id": "Roeville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-304"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4266,8 +3962,7 @@
         "split_tiny": "none",
         "id": "Morris",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-305"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4280,8 +3975,7 @@
         "split_tiny": "none",
         "id": "Reyno",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-306"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4294,8 +3988,7 @@
         "split_tiny": "none",
         "id": "Maryhill",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-307"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4308,8 +4001,7 @@
         "split_tiny": "none",
         "id": "Greigsville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-308"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4322,8 +4014,7 @@
         "split_tiny": "none",
         "id": "Goodwine",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-309"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4336,8 +4027,7 @@
         "split_tiny": "none",
         "id": "Sanctuary",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-310"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4350,8 +4040,7 @@
         "split_tiny": "none",
         "id": "Deatsville",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-311"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4364,8 +4053,7 @@
         "split_tiny": "none",
         "id": "Lenoir",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-312"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4378,8 +4066,7 @@
         "split_tiny": "none",
         "id": "Almota",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-313"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4392,8 +4079,7 @@
         "split_tiny": "test",
         "id": "Portola",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-314"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -4406,8 +4092,7 @@
         "split_tiny": "none",
         "id": "Mosquito",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-315"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4420,8 +4105,7 @@
         "split_tiny": "none",
         "id": "Brown",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-316"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4434,8 +4118,7 @@
         "split_tiny": "none",
         "id": "Cantwell",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-317"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4448,8 +4131,7 @@
         "split_tiny": "none",
         "id": "Kremlin",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-318"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4462,8 +4144,7 @@
         "split_tiny": "none",
         "id": "Westfield",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-319"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4476,8 +4157,7 @@
         "split_tiny": "none",
         "id": "Cullison",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-320"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4490,8 +4170,7 @@
         "split_tiny": "none",
         "id": "Yankeetown",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-321"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4504,8 +4183,7 @@
         "split_tiny": "none",
         "id": "Blenheim",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-322"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4518,8 +4196,7 @@
         "split_tiny": "train",
         "id": "Collierville",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-323"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4532,8 +4209,7 @@
         "split_tiny": "none",
         "id": "Byers",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-324"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4546,8 +4222,7 @@
         "split_tiny": "none",
         "id": "Kildare",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-325"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4560,8 +4235,7 @@
         "split_tiny": "none",
         "id": "Hildebran",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-326"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4574,8 +4248,7 @@
         "split_tiny": "none",
         "id": "Jacobus",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-327"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4588,8 +4261,7 @@
         "split_tiny": "none",
         "id": "Cobalt",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-328"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4602,8 +4274,7 @@
         "split_tiny": "none",
         "id": "Kirksville",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-329"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4616,8 +4287,7 @@
         "split_tiny": "none",
         "id": "Wyldwood",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-330"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4630,8 +4300,7 @@
         "split_tiny": "none",
         "id": "Blackstone",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-331"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4644,8 +4313,7 @@
         "split_tiny": "none",
         "id": "Sarcoxie",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-332"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4658,8 +4326,7 @@
         "split_tiny": "none",
         "id": "Frankton",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-333"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4672,8 +4339,7 @@
         "split_tiny": "none",
         "id": "Artois",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-334"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4686,8 +4352,7 @@
         "split_tiny": "none",
         "id": "Oyens",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-335"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4700,8 +4365,7 @@
         "split_tiny": "none",
         "id": "Mogote",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-336"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4714,8 +4378,7 @@
         "split_tiny": "none",
         "id": "Winooski",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-337"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -4728,8 +4391,7 @@
         "split_tiny": "none",
         "id": "Macland",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-338"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4742,8 +4404,7 @@
         "split_tiny": "none",
         "id": "Oriole",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-339"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4756,8 +4417,7 @@
         "split_tiny": "none",
         "id": "Peden",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-340"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4770,8 +4430,7 @@
         "split_tiny": "none",
         "id": "Couderay",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-341"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -4784,8 +4443,7 @@
         "split_tiny": "none",
         "id": "Orangeburg",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-342"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4798,8 +4456,7 @@
         "split_tiny": "none",
         "id": "Azusa",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-343"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4812,8 +4469,7 @@
         "split_tiny": "none",
         "id": "Judith",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-344"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4826,8 +4482,7 @@
         "split_tiny": "none",
         "id": "Elmira",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-345"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4840,8 +4495,7 @@
         "split_tiny": "none",
         "id": "Keiser",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-346"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4854,8 +4508,7 @@
         "split_tiny": "none",
         "id": "McDade",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-347"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4868,8 +4521,7 @@
         "split_tiny": "none",
         "id": "Pamelia",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-348"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -4882,8 +4534,7 @@
         "split_tiny": "none",
         "id": "Helton",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-349"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4896,8 +4547,7 @@
         "split_tiny": "none",
         "id": "Potosi",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-350"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4910,8 +4560,7 @@
         "split_tiny": "none",
         "id": "Cisne",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-351"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4924,8 +4573,7 @@
         "split_tiny": "none",
         "id": "Delton",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-352"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4938,8 +4586,7 @@
         "split_tiny": "none",
         "id": "Victorville",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-353"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -4952,8 +4599,7 @@
         "split_tiny": "validation",
         "id": "Lakeville",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-354"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -4966,8 +4612,7 @@
         "split_tiny": "none",
         "id": "Pasatiempo",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-355"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4980,8 +4625,7 @@
         "split_tiny": "none",
         "id": "Beach",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-356"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -4994,8 +4638,7 @@
         "split_tiny": "none",
         "id": "Marland",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-357"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -5008,8 +4651,7 @@
         "split_tiny": "test",
         "id": "Hiteman",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-358"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -5022,8 +4664,7 @@
         "split_tiny": "none",
         "id": "Galatia",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-359"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5036,8 +4677,7 @@
         "split_tiny": "none",
         "id": "Grigston",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-360"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5050,8 +4690,7 @@
         "split_tiny": "none",
         "id": "Mahtomedi",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-361"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5064,8 +4703,7 @@
         "split_tiny": "none",
         "id": "Lindberg",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-362"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5078,8 +4716,7 @@
         "split_tiny": "none",
         "id": "Mayesville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-363"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5092,8 +4729,7 @@
         "split_tiny": "none",
         "id": "Sussex",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-364"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -5106,8 +4742,7 @@
         "split_tiny": "none",
         "id": "Redbank",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-365"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5120,8 +4755,7 @@
         "split_tiny": "none",
         "id": "Cashel",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-366"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5134,8 +4768,7 @@
         "split_tiny": "none",
         "id": "Nicut",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-367"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5148,8 +4781,7 @@
         "split_tiny": "test",
         "id": "Cosmos",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-368"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -5162,8 +4794,7 @@
         "split_tiny": "none",
         "id": "Denmark",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-369"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5176,8 +4807,7 @@
         "split_tiny": "none",
         "id": "Swisshome",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-370"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -5190,8 +4820,7 @@
         "split_tiny": "none",
         "id": "Wells",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-371"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5204,8 +4833,7 @@
         "split_tiny": "none",
         "id": "Scioto",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-372"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -5218,8 +4846,7 @@
         "split_tiny": "none",
         "id": "Bushong",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-373"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5232,8 +4859,7 @@
         "split_tiny": "none",
         "id": "Goffs",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-374"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -5246,8 +4872,7 @@
         "split_tiny": "none",
         "id": "Gracey",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-375"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -5260,8 +4885,7 @@
         "split_tiny": "none",
         "id": "Deemston",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-376"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5274,8 +4898,7 @@
         "split_tiny": "none",
         "id": "Wilkinsburg",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-377"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5288,8 +4911,7 @@
         "split_tiny": "none",
         "id": "Liddieville",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-378"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5302,8 +4924,7 @@
         "split_tiny": "none",
         "id": "Lindsborg",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-379"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5316,8 +4937,7 @@
         "split_tiny": "none",
         "id": "Barboursville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-380"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5330,8 +4950,7 @@
         "split_tiny": "none",
         "id": "Globe",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-381"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -5344,8 +4963,7 @@
         "split_tiny": "none",
         "id": "Kettle",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-382"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5358,8 +4976,7 @@
         "split_tiny": "none",
         "id": "Booth",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-383"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5372,8 +4989,7 @@
         "split_tiny": "none",
         "id": "Pearce",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-384"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -5386,8 +5002,7 @@
         "split_tiny": "none",
         "id": "Gastonia",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-385"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5400,8 +5015,7 @@
         "split_tiny": "none",
         "id": "Maitland",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-386"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5414,8 +5028,7 @@
         "split_tiny": "none",
         "id": "Frierson",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-387"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5428,8 +5041,7 @@
         "split_tiny": "none",
         "id": "Barranquitas",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-388"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5442,8 +5054,7 @@
         "split_tiny": "train",
         "id": "Upham",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-389"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -5456,8 +5067,7 @@
         "split_tiny": "none",
         "id": "Seiling",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-390"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5470,8 +5080,7 @@
         "split_tiny": "none",
         "id": "Bautista",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-391"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -5484,8 +5093,7 @@
         "split_tiny": "none",
         "id": "Sunshine",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-392"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -5498,8 +5106,7 @@
         "split_tiny": "none",
         "id": "Pocasset",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-393"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5512,8 +5119,7 @@
         "split_tiny": "none",
         "id": "Tradewinds",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-394"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5526,8 +5132,7 @@
         "split_tiny": "none",
         "id": "Mobridge",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-395"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5540,8 +5145,7 @@
         "split_tiny": "none",
         "id": "Burien",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-396"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5554,8 +5158,7 @@
         "split_tiny": "none",
         "id": "Carneiro",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-397"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5568,8 +5171,7 @@
         "split_tiny": "none",
         "id": "Placida",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-398"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5582,8 +5184,7 @@
         "split_tiny": "none",
         "id": "Hallettsville",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-399"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5596,8 +5197,7 @@
         "split_tiny": "none",
         "id": "Natural",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-400"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -5610,8 +5210,7 @@
         "split_tiny": "none",
         "id": "Fredericksburg",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-401"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5624,8 +5223,7 @@
         "split_tiny": "none",
         "id": "Annawan",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-402"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5638,8 +5236,7 @@
         "split_tiny": "none",
         "id": "Bellwood",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-403"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5652,8 +5249,7 @@
         "split_tiny": "none",
         "id": "Retsof",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-404"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5666,8 +5262,7 @@
         "split_tiny": "none",
         "id": "Brentsville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-405"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5680,8 +5275,7 @@
         "split_tiny": "none",
         "id": "Aulander",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-406"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5694,8 +5288,7 @@
         "split_tiny": "none",
         "id": "Mogadore",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-407"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5708,8 +5301,7 @@
         "split_tiny": "none",
         "id": "Culbertson",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-408"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5722,8 +5314,7 @@
         "split_tiny": "none",
         "id": "Murchison",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-409"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5736,8 +5327,7 @@
         "split_tiny": "none",
         "id": "Waldenburg",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-410"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5750,8 +5340,7 @@
         "split_tiny": "none",
         "id": "Woodbine",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-411"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -5764,8 +5353,7 @@
         "split_tiny": "none",
         "id": "Lajas",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-412"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5778,8 +5366,7 @@
         "split_tiny": "none",
         "id": "Sweatman",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-413"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -5792,8 +5379,7 @@
         "split_tiny": "none",
         "id": "Winfield",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-414"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5806,8 +5392,7 @@
         "split_tiny": "none",
         "id": "Rockport",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-415"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -5820,8 +5405,7 @@
         "split_tiny": "none",
         "id": "Schiller",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-416"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5834,8 +5418,7 @@
         "split_tiny": "none",
         "id": "Aldine",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-417"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5848,8 +5431,7 @@
         "split_tiny": "none",
         "id": "Lluveras",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-418"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5862,8 +5444,7 @@
         "split_tiny": "none",
         "id": "Shumway",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-419"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5876,8 +5457,7 @@
         "split_tiny": "none",
         "id": "Experiment",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-420"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5890,8 +5470,7 @@
         "split_tiny": "none",
         "id": "Seward",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-421"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5904,8 +5483,7 @@
         "split_tiny": "none",
         "id": "Badger",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-422"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5918,8 +5496,7 @@
         "split_tiny": "none",
         "id": "Stanleyville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-423"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5932,8 +5509,7 @@
         "split_tiny": "none",
         "id": "Benevolence",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-424"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -5946,8 +5522,7 @@
         "split_tiny": "none",
         "id": "Emmaus",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-425"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -5960,8 +5535,7 @@
         "split_tiny": "none",
         "id": "Smoketown",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-426"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5974,8 +5548,7 @@
         "split_tiny": "none",
         "id": "Sultan",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-427"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -5988,8 +5561,7 @@
         "split_tiny": "none",
         "id": "Highspire",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-428"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6002,8 +5574,7 @@
         "split_tiny": "none",
         "id": "MacArthur",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-429"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6016,8 +5587,7 @@
         "split_tiny": "train",
         "id": "Pomaria",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-430"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6030,8 +5600,7 @@
         "split_tiny": "none",
         "id": "Sisters",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-431"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6044,8 +5613,7 @@
         "split_tiny": "none",
         "id": "Kankakee",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-432"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6058,8 +5626,7 @@
         "split_tiny": "train",
         "id": "Archer",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-433"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6072,8 +5639,7 @@
         "split_tiny": "none",
         "id": "Clairton",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-434"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6086,8 +5652,7 @@
         "split_tiny": "none",
         "id": "Cauthron",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-435"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6100,8 +5665,7 @@
         "split_tiny": "none",
         "id": "Okabena",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-436"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6114,8 +5678,7 @@
         "split_tiny": "none",
         "id": "Jenners",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-437"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6128,8 +5691,7 @@
         "split_tiny": "none",
         "id": "Glassboro",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-438"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6142,8 +5704,7 @@
         "split_tiny": "none",
         "id": "Neibert",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-439"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6156,8 +5717,7 @@
         "split_tiny": "none",
         "id": "Random",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-440"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6170,8 +5730,7 @@
         "split_tiny": "none",
         "id": "Merchantville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-441"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6184,8 +5743,7 @@
         "split_tiny": "none",
         "id": "Cochranton",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-442"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6198,8 +5756,7 @@
         "split_tiny": "none",
         "id": "Angiola",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-443"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6212,8 +5769,7 @@
         "split_tiny": "none",
         "id": "Waipahu",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-444"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6226,8 +5782,7 @@
         "split_tiny": "none",
         "id": "Shauck",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-445"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6240,8 +5795,7 @@
         "split_tiny": "none",
         "id": "Callicoon",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-446"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6254,8 +5808,7 @@
         "split_tiny": "none",
         "id": "Parole",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-447"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6268,8 +5821,7 @@
         "split_tiny": "none",
         "id": "Sontag",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-448"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6282,8 +5834,7 @@
         "split_tiny": "none",
         "id": "Nemacolin",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-449"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6296,8 +5847,7 @@
         "split_tiny": "none",
         "id": "Hurley",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-450"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6310,8 +5860,7 @@
         "split_tiny": "none",
         "id": "Carpendale",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-451"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6324,8 +5873,7 @@
         "split_tiny": "none",
         "id": "Spotswood",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-452"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6338,8 +5886,7 @@
         "split_tiny": "none",
         "id": "Crugers",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-453"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6352,8 +5899,7 @@
         "split_tiny": "train",
         "id": "Tolstoy",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-454"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6366,8 +5912,7 @@
         "split_tiny": "test",
         "id": "Shelbyville",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-455"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -6380,8 +5925,7 @@
         "split_tiny": "none",
         "id": "Touhy",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-456"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -6394,8 +5938,7 @@
         "split_tiny": "none",
         "id": "Potterville",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-457"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -6408,8 +5951,7 @@
         "split_tiny": "none",
         "id": "Yscloskey",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-458"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6422,8 +5964,7 @@
         "split_tiny": "none",
         "id": "Sawpit",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-459"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6436,8 +5977,7 @@
         "split_tiny": "none",
         "id": "Stockwell",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-460"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6450,8 +5990,7 @@
         "split_tiny": "none",
         "id": "Frontenac",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-461"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6464,8 +6003,7 @@
         "split_tiny": "none",
         "id": "Michiana",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-462"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6478,8 +6016,7 @@
         "split_tiny": "none",
         "id": "Country",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-463"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6492,8 +6029,7 @@
         "split_tiny": "none",
         "id": "Avonia",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-464"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6506,8 +6042,7 @@
         "split_tiny": "none",
         "id": "Laupahoehoe",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-465"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6520,8 +6055,7 @@
         "split_tiny": "none",
         "id": "German",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-466"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6534,8 +6068,7 @@
         "split_tiny": "none",
         "id": "Milford",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-467"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6548,8 +6081,7 @@
         "split_tiny": "none",
         "id": "Grantsville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-468"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6562,8 +6094,7 @@
         "split_tiny": "none",
         "id": "Duarte",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-469"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -6576,8 +6107,7 @@
         "split_tiny": "none",
         "id": "Rosser",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-470"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6590,8 +6120,7 @@
         "split_tiny": "none",
         "id": "Spencerville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-471"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6604,8 +6133,7 @@
         "split_tiny": "none",
         "id": "Ewell",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-472"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6618,8 +6146,7 @@
         "split_tiny": "none",
         "id": "Sumas",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-473"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6632,8 +6159,7 @@
         "split_tiny": "none",
         "id": "Belpre",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-474"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6646,8 +6172,7 @@
         "split_tiny": "none",
         "id": "Seatonville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-475"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6660,8 +6185,7 @@
         "split_tiny": "validation",
         "id": "Lindenwood",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-476"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -6674,8 +6198,7 @@
         "split_tiny": "none",
         "id": "Roxboro",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-477"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6688,8 +6211,7 @@
         "split_tiny": "train",
         "id": "Wyatt",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-478"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6702,8 +6224,7 @@
         "split_tiny": "none",
         "id": "Anaheim",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-479"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6716,8 +6237,7 @@
         "split_tiny": "none",
         "id": "Macksville",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-480"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6730,8 +6250,7 @@
         "split_tiny": "none",
         "id": "Dryville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-481"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6744,8 +6263,7 @@
         "split_tiny": "none",
         "id": "Torrington",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-482"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6758,8 +6276,7 @@
         "split_tiny": "none",
         "id": "Siren",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-483"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6772,8 +6289,7 @@
         "split_tiny": "none",
         "id": "Musicks",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-484"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6786,8 +6302,7 @@
         "split_tiny": "none",
         "id": "Plumerville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-485"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6800,8 +6315,7 @@
         "split_tiny": "none",
         "id": "Pablo",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-486"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6814,8 +6328,7 @@
         "split_tiny": "none",
         "id": "Ribera",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-487"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6828,8 +6341,7 @@
         "split_tiny": "none",
         "id": "Holcut",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-488"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6842,8 +6354,7 @@
         "split_tiny": "none",
         "id": "Allensville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-489"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6856,8 +6367,7 @@
         "split_tiny": "none",
         "id": "Sargents",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-490"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6870,8 +6380,7 @@
         "split_tiny": "none",
         "id": "Springerville",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-491"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -6884,8 +6393,7 @@
         "split_tiny": "none",
         "id": "Pittsburg",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-492"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6898,8 +6406,7 @@
         "split_tiny": "none",
         "id": "Kingdom",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-493"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6912,8 +6419,7 @@
         "split_tiny": "none",
         "id": "Tysons",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-494"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6926,8 +6432,7 @@
         "split_tiny": "none",
         "id": "Kopperl",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-495"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6940,8 +6445,7 @@
         "split_tiny": "none",
         "id": "Lathrup",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-496"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6954,8 +6458,7 @@
         "split_tiny": "none",
         "id": "Gluck",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-497"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6968,8 +6471,7 @@
         "split_tiny": "none",
         "id": "Calmar",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-498"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -6982,8 +6484,7 @@
         "split_tiny": "train",
         "id": "Forkland",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-499"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -6996,8 +6497,7 @@
         "split_tiny": "none",
         "id": "Mifflinburg",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-500"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -7010,8 +6510,7 @@
         "split_tiny": "none",
         "id": "Lineville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-501"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7024,8 +6523,7 @@
         "split_tiny": "none",
         "id": "Connellsville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-502"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7038,8 +6536,7 @@
         "split_tiny": "none",
         "id": "Wilbraham",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-503"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7052,8 +6549,7 @@
         "split_tiny": "none",
         "id": "Losantville",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-504"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -7066,8 +6562,7 @@
         "split_tiny": "none",
         "id": "Nuevo",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-505"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -7080,8 +6575,7 @@
         "split_tiny": "none",
         "id": "Lynxville",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-506"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7094,8 +6588,7 @@
         "split_tiny": "none",
         "id": "Keweenaw",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-507"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7108,8 +6601,7 @@
         "split_tiny": "none",
         "id": "Mosinee",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-508"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7122,8 +6614,7 @@
         "split_tiny": "none",
         "id": "Lincolnwood",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-509"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7136,8 +6627,7 @@
         "split_tiny": "none",
         "id": "Grangeville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-510"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7150,8 +6640,7 @@
         "split_tiny": "none",
         "id": "Hainesburg",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-511"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -7164,8 +6653,7 @@
         "split_tiny": "none",
         "id": "Gratz",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-512"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7178,8 +6666,7 @@
         "split_tiny": "none",
         "id": "Maugansville",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-513"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -7192,8 +6679,7 @@
         "split_tiny": "none",
         "id": "Stilwell",
         "split_full": "test",
-        "split_medium": "test",
-        "name": "model-514"
+        "split_medium": "test"
     },
     {
         "stats": {
@@ -7206,8 +6692,7 @@
         "split_tiny": "none",
         "id": "Colebrook",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-515"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7220,8 +6705,7 @@
         "split_tiny": "none",
         "id": "Haymarket",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-516"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7234,8 +6718,7 @@
         "split_tiny": "none",
         "id": "Crookston",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-517"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7248,8 +6731,7 @@
         "split_tiny": "none",
         "id": "Browntown",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-518"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -7262,8 +6744,7 @@
         "split_tiny": "none",
         "id": "Almena",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-519"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7276,8 +6757,7 @@
         "split_tiny": "none",
         "id": "Germfask",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-520"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7290,8 +6770,7 @@
         "split_tiny": "none",
         "id": "Graceville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-521"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7304,8 +6783,7 @@
         "split_tiny": "none",
         "id": "Samuels",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-522"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7318,8 +6796,7 @@
         "split_tiny": "none",
         "id": "Bowmore",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-523"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7332,8 +6809,7 @@
         "split_tiny": "none",
         "id": "Readsboro",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-524"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -7346,8 +6822,7 @@
         "split_tiny": "none",
         "id": "Pettigrew",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-525"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7360,8 +6835,7 @@
         "split_tiny": "none",
         "id": "Brevort",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-526"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7374,8 +6848,7 @@
         "split_tiny": "none",
         "id": "Fitchburg",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-527"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7388,8 +6861,7 @@
         "split_tiny": "none",
         "id": "Shelbiana",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-528"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7402,8 +6874,7 @@
         "split_tiny": "none",
         "id": "Uncertain",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-529"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7416,8 +6887,7 @@
         "split_tiny": "none",
         "id": "Hometown",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-530"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7430,8 +6900,7 @@
         "split_tiny": "none",
         "id": "Mifflintown",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-531"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7444,8 +6913,7 @@
         "split_tiny": "none",
         "id": "Ophir",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-532"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7458,8 +6926,7 @@
         "split_tiny": "none",
         "id": "McKeesport",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-533"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7472,8 +6939,7 @@
         "split_tiny": "validation",
         "id": "Markleeville",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-534"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -7486,8 +6952,7 @@
         "split_tiny": "none",
         "id": "Scandinavia",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-535"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7500,8 +6965,7 @@
         "split_tiny": "none",
         "id": "Mazomanie",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-536"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7514,8 +6978,7 @@
         "split_tiny": "none",
         "id": "Hercules",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-537"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7528,8 +6991,7 @@
         "split_tiny": "none",
         "id": "Eastville",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-538"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7542,8 +7004,7 @@
         "split_tiny": "none",
         "id": "Freedom",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-539"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7556,8 +7017,7 @@
         "split_tiny": "none",
         "id": "Rabbit",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-540"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7570,8 +7030,7 @@
         "split_tiny": "train",
         "id": "Wainscott",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-541"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -7584,8 +7043,7 @@
         "split_tiny": "none",
         "id": "Bowlus",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-542"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7598,8 +7056,7 @@
         "split_tiny": "train",
         "id": "Apache",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-543"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -7612,8 +7069,7 @@
         "split_tiny": "none",
         "id": "Tariffville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-544"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7626,8 +7082,7 @@
         "split_tiny": "none",
         "id": "Rosenberg",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-545"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7640,8 +7095,7 @@
         "split_tiny": "none",
         "id": "Adrian",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-546"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7654,8 +7108,7 @@
         "split_tiny": "none",
         "id": "Montreal",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-547"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7668,8 +7121,7 @@
         "split_tiny": "none",
         "id": "Mentasta",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-548"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7682,8 +7134,7 @@
         "split_tiny": "none",
         "id": "Ladue",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-549"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7696,8 +7147,7 @@
         "split_tiny": "none",
         "id": "Bertram",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-550"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7710,8 +7160,7 @@
         "split_tiny": "none",
         "id": "Branford",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-551"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7724,8 +7173,7 @@
         "split_tiny": "validation",
         "id": "Ranchester",
         "split_full": "validation",
-        "split_medium": "validation",
-        "name": "model-552"
+        "split_medium": "validation"
     },
     {
         "stats": {
@@ -7738,8 +7186,7 @@
         "split_tiny": "none",
         "id": "Sherrill",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-553"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7752,8 +7199,7 @@
         "split_tiny": "none",
         "id": "Dunmor",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-554"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7766,8 +7212,7 @@
         "split_tiny": "none",
         "id": "Arkansaw",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-555"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -7780,8 +7225,7 @@
         "split_tiny": "train",
         "id": "Darden",
         "split_full": "train",
-        "split_medium": "train",
-        "name": "model-556"
+        "split_medium": "train"
     },
     {
         "stats": {
@@ -7794,8 +7238,7 @@
         "split_tiny": "none",
         "id": "Rough",
         "split_full": "validation",
-        "split_medium": "none",
-        "name": "model-557"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7808,8 +7251,7 @@
         "split_tiny": "none",
         "id": "Northgate",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-558"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7822,8 +7264,7 @@
         "split_tiny": "none",
         "id": "Windhorst",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-559"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7836,8 +7277,7 @@
         "split_tiny": "none",
         "id": "Dalcour",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-560"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7850,8 +7290,7 @@
         "split_tiny": "none",
         "id": "Macedon",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-561"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7864,8 +7303,7 @@
         "split_tiny": "none",
         "id": "Brewton",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-562"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7878,8 +7316,7 @@
         "split_tiny": "none",
         "id": "Norvelt",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-563"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7892,8 +7329,7 @@
         "split_tiny": "none",
         "id": "Harkeyville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-564"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7906,8 +7342,7 @@
         "split_tiny": "none",
         "id": "Eagerville",
         "split_full": "test",
-        "split_medium": "none",
-        "name": "model-565"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7920,8 +7355,7 @@
         "split_tiny": "none",
         "id": "Alfred",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-566"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7934,8 +7368,7 @@
         "split_tiny": "none",
         "id": "Scottsmoor",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-567"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7948,8 +7381,7 @@
         "split_tiny": "none",
         "id": "Fishersville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-568"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7962,8 +7394,7 @@
         "split_tiny": "none",
         "id": "Broadwell",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-569"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7976,8 +7407,7 @@
         "split_tiny": "none",
         "id": "Coeburn",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-570"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -7990,8 +7420,7 @@
         "split_tiny": "none",
         "id": "Yadkinville",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-571"
+        "split_medium": "none"
     },
     {
         "stats": {
@@ -8004,7 +7433,6 @@
         "split_tiny": "none",
         "id": "Islandton",
         "split_full": "train",
-        "split_medium": "none",
-        "name": "model-572"
+        "split_medium": "none"
     }
 ]

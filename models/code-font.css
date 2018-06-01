@@ -1,0 +1,18 @@
+.w3-codespan.h3 {
+	font-family: monospace;
+    color: crimson;
+    background-color: #f1f1f1;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 32px;
+    font-weight: 550;
+}
+
+.w3-codespan.p {
+	font-family: monospace;
+    color: crimson;
+    background-color: #f1f1f1;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: 520;
+}
