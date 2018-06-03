@@ -111,11 +111,12 @@
             <div class="col-2"></div>
             <div class="col-4">
               <h4 class="title">Model Statistics</h4>
-              <h5 class="text-center"> Room number: <font class="w3-codespan p">{{stats_room}}</font> <br/>
-                  SSA: <font class="w3-codespan p">{{stats_ssa}}</font> <br/>
-                  Floor Number: <font class="w3-codespan p">{{stats_floor}}</font> <br/>
-                  Total Area: <font class="w3-codespan p">{{stats_area}}</font> <br/>
-                  Navigation complexity: <font class="w3-codespan p">{{stats_nav}}</font>
+              <h5 class="text-center"> Number of Rooms: <font class="w3-codespan p">{{stats_room}}</font> <br/>
+                  Number of Floors: <font class="w3-codespan p">{{stats_floor}}</font> <br/>
+                  Total Area: <font class="w3-codespan p">{{stats_area}}</font> m<span>&#8743;</span>2 <br/>
+                  SSA: <font class="w3-codespan p">{{stats_ssa}}</font> m<span>&#8743;</span>(-1)<br/>
+                  Navigation Complexity: <font class="w3-codespan p">{{stats_nav}}</font><br/>
+                  (See <a href="../Gibson_CVPR2018.pdf">our paper</a> for more details on the metrics)
               </h5>
             </div>
             <div class="col-4">
@@ -178,34 +179,31 @@
               <div class="col-4 text-center model-data-item filter-all filter-mesh">
                 <img class="img-responsive" width="100%" src="../public/mesh/{{name}}_4.png" />
               </div>
-              <div class="col-4 text-center model-data-item filter-all filter-mesh">
-                <img class="img-responsive" width="100%" src="../public/mesh/{{name}}_5.png" />
-              </div>
             </div>
 
             <div class="diagram row">
-              <div class="col-12 text-center model-data-item filter-all filter-record">
+              <div class="col-6 text-center model-data-item filter-all filter-record">
                 <video autoplay loop width="100%">
                   <source src="../public/record/{{name}}/{{name}}_0.mp4" type="video/mp4">
                   <source src="../public/record/{{name}}/{{name}}_0.ogv" type="video/ogv">
                   <source src="../public/record/{{name}}/{{name}}_0.webm" type="video/webm">
                 </video>
               </div>
-              <div class="col-12 text-center model-data-item filter-all filter-record">
+              <div class="col-6 text-center model-data-item filter-all filter-record">
                 <video autoplay loop width="100%">
                   <source src="../public/record/{{name}}/{{name}}_1.mp4" type="video/mp4">
                   <source src="../public/record/{{name}}/{{name}}_1.ogv" type="video/ogv">
                   <source src="../public/record/{{name}}/{{name}}_1.webm" type="video/webm">
                 </video>
               </div>
-              <div class="col-12 text-center model-data-item filter-all filter-record">
+              <div class="col-6 text-center model-data-item filter-all filter-record">
                 <video autoplay loop width="100%">
                   <source src="../public/record/{{name}}/{{name}}_2.mp4" type="video/mp4">
                   <source src="../public/record/{{name}}/{{name}}_2.ogv" type="video/ogv">
                   <source src="../public/record/{{name}}/{{name}}_2.webm" type="video/webm">
                 </video>
               </div>
-              <div class="col-12 text-center model-data-item filter-all filter-record">
+              <div class="col-6 text-center model-data-item filter-all filter-record">
                 <video autoplay loop width="100%">
                   <source src="../public/record/{{name}}/{{name}}_3.mp4" type="video/mp4">
                   <source src="../public/record/{{name}}/{{name}}_3.ogv" type="video/ogv">
@@ -238,15 +236,16 @@
             <div class="col-2"></div>
             <div class="col-4">
               <h4 class="title">Model Statistics</h4>
-              <h5 class="text-center"> Room number: <font class="w3-codespan p">{{stats_room}}</font> <br/>
-                  SSA: <font class="w3-codespan p">{{stats_ssa}}</font> <br/>
-                  Floor Number: <font class="w3-codespan p">{{stats_floor}}</font> <br/>
-                  Total Area: <font class="w3-codespan p">{{stats_area}}</font> <br/>
-                  Navigation complexity: <font class="w3-codespan p">{{stats_nav}}</font>
+              <h5 class="text-center"> Number of Rooms: <font class="w3-codespan p">{{stats_room}}</font> <br/>
+                  Number of Floors: <font class="w3-codespan p">{{stats_floor}}</font> <br/>
+                  Total Area: <font class="w3-codespan p">{{stats_area}}</font> m<sup>2</sup> <br/>
+                  SSA: <font class="w3-codespan p">{{stats_ssa}}</font> m<sup>-1</sup><br/>
+                  Navigation Complexity: <font class="w3-codespan p">{{stats_nav}}</font><br/>
+                  (See <a href="../Gibson_CVPR2018.pdf">the paper</a> for definition of metrics)
               </h5>
             </div>
             <div class="col-4">
-              <h4 class="title">Dataset Split</h4>
+              <h4 class="title">Dataset Split Membership</h4>
               <h5 class="text-center"> Full Split: <font class="w3-codespan p">{{split_full}}</font> <br/>
                   Medium Split: <font class="w3-codespan p">{{split_medium}}</font> <br/>
                   Tiny Split: <font class="w3-codespan p">{{split_tiny}}</font>
@@ -305,34 +304,31 @@
               <div class="col-4 text-center model-data-item filter-all filter-mesh">
                 <img class="img-responsive" width="100%" src="../{{mesh_4}}" />
               </div>
-              <div class="col-4 text-center model-data-item filter-all filter-mesh">
-                <img class="img-responsive" width="100%" src="../{{mesh_5}}" />
-              </div>
             </div>
 
             <div class="diagram row">
-              <div class="col-12 text-center model-data-item filter-all filter-record">
+              <div class="col-6 text-center model-data-item filter-all filter-record">
                 <video autoplay loop width="100%">
                   <source src="../{{record_0}}.mp4" type="video/mp4">
                   <source src="../{{record_0}}.ogv" type="video/ogv">
                   <source src="../{{record_0}}.webm" type="video/webm">
                 </video>
               </div>
-              <div class="col-12 text-center model-data-item filter-all filter-record">
+              <div class="col-6 text-center model-data-item filter-all filter-record">
                 <video autoplay loop width="100%">
                   <source src="../{{record_1}}.mp4" type="video/mp4">
                   <source src="../{{record_1}}.ogv" type="video/ogv">
                   <source src="../{{record_1}}.webm" type="video/webm">
                 </video>
               </div>
-              <div class="col-12 text-center model-data-item filter-all filter-record">
+              <div class="col-6 text-center model-data-item filter-all filter-record">
                 <video autoplay loop width="100%">
                   <source src="../{{record_2}}.mp4" type="video/mp4">
                   <source src="../{{record_2}}.ogv" type="video/ogv">
                   <source src="../{{record_2}}.webm" type="video/webm">
                 </video>
               </div>
-              <div class="col-12 text-center model-data-item filter-all filter-record">
+              <div class="col-6 text-center model-data-item filter-all filter-record">
                 <video autoplay loop width="100%">
                   <source src="../{{record_3}}.mp4" type="video/mp4">
                   <source src="../{{record_3}}.ogv" type="video/ogv">
