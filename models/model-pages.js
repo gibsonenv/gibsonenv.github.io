@@ -3,6 +3,7 @@ $.getJSON('../public/data.json', function(data) {
     params = parsePageURL();
     //renderCurrentPage(params, data, links);
     renderCurrentPageFromLinks(params, data, links);
+    activateButtons();
   })
 })
 
@@ -123,6 +124,33 @@ var renderCurrentPage = function(params, data, links) {
   var template = document.getElementById('model-template-fail').innerHTML;
   var renderModel = Handlebars.compile(template);
   document.getElementById('model-body').innerHTML = renderModel(curr_data);  
+
+}
+
+
+var activateButtons = function() {
+    // Model data filter
+  $("#model-data-flters li").click ( function() {
+    console.log("Click")
+    $("#model-data-flters li").removeClass('filter-active');
+    $(this).addClass('filter-active');
+
+    var selectedFilter = $(this).data("filter");
+    $("#model-data-wrapper").fadeTo(100, 0);
+
+    $(".model-data-item").fadeOut().css('transform', 'scale(0)');
+
+    setTimeout(function() {
+      $(selectedFilter).fadeIn(100).css('transform', 'scale(1)');
+      $("#model-data-wrapper").fadeTo(300, 1);
+    }, 300);
+  });
+
+  // jQuery counterUp
+  $('[data-toggle="counter-up"]').counterUp({
+    delay: 10,
+    time: 1000
+  });
 
 }
 
