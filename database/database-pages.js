@@ -11,11 +11,14 @@ page_nav_data = '<a href="?page={0}"><li data-filter=".filter-app" class="{1}">{
 
 var platform_data = [];
 var platform_links = {}
+var platform_keys = [];
 
 $.getJSON('../public/data.json', function(data) {
   $.getJSON('../public/data-link.json', function(links) {
     platform_data = data;
     platform_links = links;
+
+    //platform_data.sort(function(a, b) {return  ('' + a.id.attr).localeCompare(b.id.attr);})
     var total_num = platform_data.length;
 
     num_page = parseInt(total_num / num_image) + 1;
@@ -27,7 +30,8 @@ $.getJSON('../public/data.json', function(data) {
         if (count < platform_data.length) {
           //panoramas.push(["../public/pano/{0}/{1}_0.png".format(model['id'], model['id'])])
           //panoramas.push(["../{0}".format(links[model['id']]['pano_top'])])
-          panoramas.push("../" + links[model["id"]]['pano_thumb']);
+          if (model["id"] in Object.keys(links))
+            panoramas.push("../" + links[model["id"]]['pano_thumb']);
         }
       }
     }
