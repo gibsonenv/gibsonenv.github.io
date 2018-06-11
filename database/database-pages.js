@@ -18,6 +18,8 @@ $.getJSON('../public/data.json', function(data) {
     platform_data = data;
     platform_links = links;
 
+    var platform_data_clean = [];
+
     //platform_data.sort(function(a, b) {return  ('' + a.id.attr).localeCompare(b.id.attr);})
     var total_num = platform_data.length;
 
@@ -32,13 +34,16 @@ $.getJSON('../public/data.json', function(data) {
           //panoramas.push(["../{0}".format(links[model['id']]['pano_top'])])
           if (Object.keys(links).indexOf(model["id"]) >= 0) {
             panoramas.push("../" + links[model["id"]]['pano_thumb']);
+            platform_data_clean.push(platform_data[count]);
           } else {
-            console.log(model["id"] + " not found");
+            //console.log(model["id"] + " not found");
             panoramas.push("../none.png" );
           }
         }
       }
     }
+    // Sanitize
+    platform_data = platform_data_clean;
     generateGalleryCardList(params['page']);
     generatePageLinkList(params['page']);
     generateSearchList(platform_data);
@@ -83,7 +88,7 @@ var generateGalleryCardList = function(curr_page) {
     var thumb_mesh = "../none.png";
     if (Object.keys(platform_links).indexOf(model_info["id"]) >= 0) {
       thumb_pano = platform_links[model_info["id"]]['pano_thumb'];
-      platform_links[model_info["id"]]['mesh_thumb'];
+      mesh_pano = platform_links[model_info["id"]]['mesh_thumb'];
     }
     info = {'name': model_info['id'],
             'viewer_index': i,
