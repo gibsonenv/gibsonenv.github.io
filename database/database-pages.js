@@ -88,7 +88,7 @@ var generateGalleryCardList = function(curr_page) {
     var thumb_mesh = "../none.png";
     if (Object.keys(platform_links).indexOf(model_info["id"]) >= 0) {
       thumb_pano = platform_links[model_info["id"]]['pano_thumb'];
-      mesh_pano = platform_links[model_info["id"]]['mesh_thumb'];
+      thumb_mesh = platform_links[model_info["id"]]['mesh_thumb'];
     }
     info = {'name': model_info['id'],
             'viewer_index': i,
