@@ -58,7 +58,7 @@ window.onclick = function(event) {
 function generateSearchList(platform_data) {
     var template = document.getElementById('search-drop-item-template').innerHTML;
     var renderItem = Handlebars.compile(template);
-    var total_display = 100;
+    var total_display = 600;
     if (platform_data.length < total_display){
         total_display = platform_data.length;
     }
