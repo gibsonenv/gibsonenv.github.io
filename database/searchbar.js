@@ -58,8 +58,17 @@ window.onclick = function(event) {
 function generateSearchList(platform_data) {
     var template = document.getElementById('search-drop-item-template').innerHTML;
     var renderItem = Handlebars.compile(template);
+    var total_display = 100;
+    if (platform_data.length < total_display){
+        total_display = platform_data.length;
+    }
+    var all_ids = [];
     for (var i = 0; i < platform_data.length; i++) {
-        var info = {'name': platform_data[i].id}
+        all_ids.push(platform_data[i].id);
+    }
+    all_ids.sort()
+    for (var i = 0; i < total_display; i++) {
+        var info = {'name': all_ids[i]}
         $('#dropUL').append(renderItem(info))
     }
 }
