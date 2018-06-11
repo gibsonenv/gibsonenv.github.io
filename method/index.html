@@ -30,7 +30,7 @@
   <!-- Stylesheet File -->
   <link href="../public/css/style.css" rel="stylesheet">
   <link href="../public/css/platform.css" rel="stylesheet">
-  <link href="../public/css/method.css" rel="stylesheet">
+  <link href="./method.css" rel="stylesheet">
 
   <!-- Javascript Font Library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
@@ -69,6 +69,7 @@
         <ul class="nav-menu">
           <li class=""><a href="../">Home</a></li>
           <li class=""><a href="../#services">Gibson</a></li>
+          <li class=""><a href="../agents">Agents</a></li>
           <li class=""><a href="../database">Database <font color="red">(NEW!)</font></a></li>
           <li class="menu-active"><a href="/">Method</a></li>
           <!-- 
@@ -84,6 +85,11 @@
   <!--==========================
     About Us Section
   ============================-->
+
+  <!--==========================
+    Services Section
+  ============================-->
+
   <section id="method">
     <div class = "container">
       <div class="row method-container">
@@ -114,7 +120,47 @@
               </div>
             </p>
         </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="platform-specs">
+    <div class="container wow fadeIn">
+      <div class="section-header">
+        <h3 class="section-title">Platform Components</h3>
+        <p class="section-description"></p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <div class="icon"><a href="#method-render"><i class="fa fa-desktop"></i></a></div>
+            <h4 class="title"><a href="#method-render">Real-world Complexity</a></h4>
+            <p class="description">Our images and models are sampled from real-world environments (3D scanning), which offers 160% higher navigation complexity and 72.9% higher surface complexity compared to House3D dataset.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <div class="icon"><a href="#method-phsyics"><i class="fa fa-bar-chart"></i></a></div>
+            <h4 class="title"><a href="#method-phsyics">Physics & Optimization</a></h4>
+            <p class="description">Gibson integrates with full physics engine and renders at higher speed than real time. This ensures that we can train agents efficiently inside our simulation, which offers advantage over training in real world.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <div class="icon"><a href="#method-RL"><i class="fa fa-paper-plane"></i></a></div>
+            <h4 class="title"><a href="#method-RL">RL Ready</a></h4>
+            <p class="description">Our environment is RL ready and compatible with OpenAI gym. This means that you can deploy and start training your agents in no time. We also provide sample code for training agents, and pretrained results.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- #services -->
+
+
+  <section id="method">
+    <div class = "container" id="method-render">
+      <div class="row method-container">
         <div class="section-header">
           <h3 class="section-title">View Synthesis</h3>
           <p class="section-intro">As our focus is on perception, it is important to provide agents with high-quality visual inputs. Our view synthesis module takes a set of point clouds and synthesizes a novel view from an arbitrary viewpoint.</p>
@@ -160,7 +206,13 @@
             We evaluate our <b>goggles</b> mechanism on classical perception tasks (depth estimation and scene classification) as well as examined the distribution gaps on source and target images. We adopt two metrics MMD and CORAL, to test how well f(I_s) and u(I_t) domains are aligned. The detailed evaluations can be found in the paper.
           </p>
         </div>
+      </div>
+    </div>
+  </section>
 
+  <section id="method" class='dark-section'>
+    <div class = "container" id="method-phsyics">
+      <div class="row method-container">
         <div class="section-header">
           <h3 class="section-title">Physical Embodiment</h3>
           <p class="section-intro">The figure below shows a Mujoco humanoid model dropped onto a stairway demonstrating a physically plausible fall along with the corresponding visual observations by the humanoid's eyes.</p>
@@ -174,6 +226,19 @@
           </p>
         </div>
 
+        <div class="section-header">
+          <h2 class="section-second-title">Optimized for Speed</h2>
+          <p class="section-description">Rendering speed is crucial for reinforcement learning. It is our guideline when building an environment to providevery high frame rate, such that we can simulate our envi-ronment at much faster speed than real time. We implemented our CUDA-optimized rendering pipeline for this purpose. We also offer different rendering resolutions, to account for different speed requirements.</p>
+          <div class="col-12 text-center">
+            <iframe width="560" height="315" class="autoplay-video" src="https://www.youtube.com/embed/h1_f_-zCOjU?version=3&autoplay=1&enablejsapi=1&loop=1&playlist=h1_f_-zCOjU&rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="method">
+    <div class = "container" id="method-RL">
+      <div class="row method-container">
         <div class="section-header">
           <h3 class="section-title">Reinforcement Learning</h3>
           <p class="section-intro">The video shows some of the results of reinforcement learning policies trained in our environment. We choose (1) visual local planning and obstacle avoidance, (2) visual global planning and navigation, and (3) visuomotor control for complex locomotion as the three set of tasks we attempted.</p>

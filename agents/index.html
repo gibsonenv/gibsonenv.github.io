@@ -80,8 +80,8 @@
         <ul class="nav-menu">
           <li class=""><a href="../">Home</a></li>
           <li class=""><a href="../#services">Gibson</a></li>
-          <li class=""><a href="../agents">Agents</a></li>
-          <li class="menu-active"><a href="../database">Database <font color="red">(NEW!)</font></a></li>
+          <li class="menu-active"><a href="../agents">Agents</a></li>
+          <li class=""><a href="../database">Database <font color="red">(NEW!)</font></a></li>
           <li class=""><a href="../method/">Method</a></li>
           <!-- 
           <li class="{{#is title 'Challenge'}}menu-active{{/is}}"><a href="challenge">Challenge</a></li>-->
@@ -143,40 +143,13 @@
     </div> 
     <div class="container platform-data-container">
       <div class="section-header">
-        <h3 class="title">3D Models</h3>
-        <p> Our 3D model dataset are collected from indoor environment, powered by the fast-advancing 3D reconstruction and scanning technology. Using such datasets can further narrow down the discrepency between virtual environment and real world.  For each scene, we provide: RGB, depth, surface normal, and for a fraction of the spaces, semantic object annotations.
-        <div class="diagram">
-          <div class="col-12 text-center">
-            <img class="img-responsive" width="100%" src="../public/img/figure1.jpg" />
-          </div>
-        </div>
-        <p class="section-description">We have the largest state-of-the-art 3D model set. You can use the following browser to browse the models</p>
+        <h3 class="title">Embodied Agents</h3>
+        <p>  Gibson supports importing arbitrary agents with URDFs. Also, a number of agents are integrated as entry points, including humanoid and ant of Roboschool, husky car, drone, minitaur , Jackrabbot. Agent models are in ROS or Mujoco XML format. </p>
+        <h3 class="section-second-title"> Integrated Controllers </h3>
+        <p> To enable (optionally) abstracting away low-level control and robot dynamics for the tasks that are wished to be approached in a more high-level manner, we also provide a set of practical and ideal controllers to deduce the complexity of learning to control from scratch. We integrated a PID controller and a Nonholonomic controller as well as an ideal positional controller which completely abstracts away agent’s motion dynamics. </p>
 
       </div>
 
-
-      <input type="text" id="myInput" onkeyup="myFunction()" onclick="myClickInput()" placeholder="Search for names.." title="Type in a name">
-
-      <ul id="myUL">
-        <li><a href="#">Adele</a></li>
-        <li><a href="#">Agnes</a></li>
-
-        <li><a href="#">Billy</a></li>
-        <li><a href="#">Bob</a></li>
-
-        <li><a href="#">Calvin</a></li>
-        <li><a href="#">Christina</a></li>
-        <li><a href="#">Cindy</a></li>
-      </ul>
-
-      <div class="dropdown">
-      <button onclick="myDropFunction()" class="dropbtn">Dropdown</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </div>
 
       <div class="row" id="gallery">
 
@@ -190,35 +163,109 @@
       <div class="container platform-data-container" id="platform-data-wrapper" itemscope>
         <div class="row" id="gallery-data-wrapper">
 
-          <!----------------------------------->
-          <!------- Template ------------------>
-          <!----------------------------------->
-          <template id="gallery-entry-template">
-            <div class="col-lg-3 col-md-3 platform-data-item filter-card">
+            <div class="col-lg-6 col-md-6 platform-data-item filter-card">
               <div class="box">
                 <div class="row gallery-entry">
                     <div class="col-lg-12">
-                      <canvas id="viewer_{{viewer_index}}"></canvas>
-                    </div>
-                    <div class="col-lg-12">
-                      <!--figure style="text-align: center"--> 
-                        <a href="../models?id={{name}}">
-                        <!--img src="../public/mesh/{{name}}_top.png" text-align="center" alt="Image description" /-->
-                        <img src="../{{mesh_link}}" text-align="center" alt="Image description" />
-                        </a>
-                        <!--figcaption >Model Name</figcaption-->
-                      <!--/figure-->
+                        <video autoplay loop width="100%">
+                          <source src="../public/agents/Ant.mp4" type="video/mp4">
+                          <source src="../public/agents/Ant.ogv" type="video/ogv">
+                          <source src="../public/agents/Ant.webm" type="video/webm">
+                        </video>
                     </div>
                 </div>
-                <a href="../models?id={{name}}" class="click" style="text-align:left"><img src="../public/img/magnify.png">  <font color="red">Click Me</font></a>
-              </div>
+                <a href="https://arxiv.org/abs/1707.06347" class="click" style="text-align:left"><img src="../public/img/magnify.png"> <font color="red"> Agent Link</font></a>
               </div>
             </div>
-          </template>
-          <!----------------------------------->
-          <!------- Template ------------------>
-          <!----------------------------------->
+            <div class="col-lg-6 col-md-6 platform-data-item filter-card">
+              <div class="box">
+                <div class="row gallery-entry">
+                    <div class="col-lg-12">
+                        <video autoplay loop width="100%">
+                          <source src="../public/agents/Minitaur.mp4" type="video/mp4">
+                          <source src="../public/agents/Minitaur.ogv" type="video/ogv">
+                          <source src="../public/agents/Minitaur.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <a href="https://www.ghostrobotics.io/copy-of-robots" class="click" style="text-align:left"><img src="../public/img/magnify.png"> <font color="red"> Agent Link</font></a>
+              </div>
+            </div>
+            
+            <div class="col-lg-6 col-md-6 platform-data-item filter-card">
+              <div class="box">
+                <div class="row gallery-entry">
+                    <div class="col-lg-12">
+                        <video autoplay loop width="100%">
+                          <source src="../public/agents/Drone.mp4" type="video/mp4">
+                          <source src="../public/agents/Drone.ogv" type="video/ogv">
+                          <source src="../public/agents/Drone.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <a href="https://www.ghostrobotics.io/copy-of-robots" class="click" style="text-align:left"><img src="../public/img/magnify.png"> <font color="red"> Agent Link</font></a>
+              </div>
+            </div>
 
+            <div class="col-lg-6 col-md-6 platform-data-item filter-card">
+              <div class="box">
+                <div class="row gallery-entry">
+                    <div class="col-lg-12">
+                        <video autoplay loop width="100%">
+                          <source src="../public/agents/Humanoid.mp4" type="video/mp4">
+                          <source src="../public/agents/Humanoid.ogv" type="video/ogv">
+                          <source src="../public/agents/Humanoid.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <a href="https://arxiv.org/abs/1707.06347" class="click" style="text-align:left"><img src="../public/img/magnify.png">  <font color="red"> Agent Link</font></a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 platform-data-item filter-card">
+              <div class="box">
+                <div class="row gallery-entry">
+                    <div class="col-lg-12">
+                        <video autoplay loop width="100%">
+                          <source src="../public/agents/Turtlebot.mp4" type="video/mp4">
+                          <source src="../public/agents/Turtlebot.ogv" type="video/ogv">
+                          <source src="../public/agents/Turtlebot.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <a href="http://wiki.ros.org/Robots/TurtleBot" class="click" style="text-align:left"><img src="../public/img/magnify.png"> <font color="red"> Agent Link</font></a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 platform-data-item filter-card">
+              <div class="box">
+                <div class="row gallery-entry">
+                    <div class="col-lg-12">
+                        <video autoplay loop width="100%">
+                          <source src="../public/agents/JR.mp4" type="video/mp4">
+                          <source src="../public/agents/JR.ogv" type="video/ogv">
+                          <source src="../public/agents/JR.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <a href="http://cvgl.stanford.edu/projects/jackrabbot/" class="click" style="text-align:left"><img src="../public/img/magnify.png"> <font color="red"> Agent Link</font></a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 platform-data-item filter-card">
+              <div class="box">
+                <div class="row gallery-entry">
+                    <div class="col-lg-12">
+                        <video autoplay loop width="100%">
+                          <source src="../public/agents/Husky.mp4" type="video/mp4">
+                          <source src="../public/agents/Husky.ogv" type="video/ogv">
+                          <source src="../public/agents/Husky.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <a href="https://www.clearpathrobotics.com/husky-unmanned-ground-vehicle-robot/" class="click" style="text-align:left"><img src="../public/img/magnify.png"> <font color="red"> Agent Link</font></a>
+              </div>
+            </div>
         </div>
       </div>
     </div>
@@ -243,11 +290,9 @@
     }
   </script>
   <!-- PhotoSwipe script -->
-  <script type="text/javascript" src="./database-gallery.js" async></script>
+  <script type="text/javascript" src="./agents-gallery.js" async></script>
   <!-- Generate page list script -->
-  <script type="text/javascript" src="./render.js"></script> 
-  <script type="text/javascript" src="./database-pages.js" async></script>
-  <script type="text/JavaScript" src="./searchbar.js"></script>
+  <script type="text/javascript" src="./agents-pages.js" async></script>
 
 
   <!-- Start of StatCounter Code for Default Guide -->
@@ -288,7 +333,7 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- Post generation stylesheet -->
-  <link rel="stylesheet" type="text/css" href="./database-custom.css"> 
+  <link rel="stylesheet" type="text/css" href="./agents-custom.css"> 
   <link rel="stylesheet" type="text/css" href="./searchbar.css"> 
 
   <!-- JavaScript Libraries -->

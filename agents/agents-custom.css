@@ -1,4 +1,18 @@
 
+#platform-data .container .box {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#platform-data .section-second-title {
+  font-size: 25px;
+  color: #666;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+
 #platform-data canvas {
   width: 100%;
 }
