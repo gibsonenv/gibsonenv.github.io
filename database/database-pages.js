@@ -79,11 +79,17 @@ var generateGalleryCardList = function(curr_page) {
 	for (var i = 0; i < num_image; i++) {
     curr_img_index = (curr_page - 1) * num_image + i
     model_info = platform_data[curr_img_index];
+    var thumb_pano = "../none.png";
+    var thumb_mesh = "../none.png";
+    if (Object.keys(platform_links).indexOf(model_info["id"]) >= 0) {
+      thumb_pano = platform_links[model_info["id"]]['pano_thumb'];
+      platform_links[model_info["id"]]['mesh_thumb'];
+    }
     info = {'name': model_info['id'],
             'viewer_index': i,
             'pano_index': curr_img_index,
-            'pano_link': platform_links[model_info["id"]]['pano_thumb'],
-            'mesh_link': platform_links[model_info["id"]]['mesh_thumb']}
+            'pano_link': thumb_pano,
+            'mesh_link': thumb_mesh}
     var template = document.getElementById('gallery-entry-template').innerHTML;
     var renderModel = Handlebars.compile(template);
     compileGalleryTemplate(renderModel, info);
