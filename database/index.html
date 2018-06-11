@@ -30,7 +30,6 @@
   <!-- Stylesheet File -->
   <link href="../public/css/style.css" rel="stylesheet">
   <link href="../public/css/platform.css" rel="stylesheet">
-  <link href="../public/css/method.css" rel="stylesheet">
   <link href="../public/css/database.css" rel="stylesheet">
 
 
@@ -155,28 +154,21 @@
       </div>
 
 
-      <input type="text" id="myInput" onkeyup="myFunction()" onclick="myClickInput()" placeholder="Search for names.." title="Type in a name">
+      <input type="text" id="searchInput" onkeyup="myFilterFunction()" onclick="myDropFunction()" placeholder="Search for models.." title="Type in a name">
 
-      <ul id="myUL">
-        <li><a href="#">Adele</a></li>
-        <li><a href="#">Agnes</a></li>
-
-        <li><a href="#">Billy</a></li>
-        <li><a href="#">Bob</a></li>
-
-        <li><a href="#">Calvin</a></li>
-        <li><a href="#">Christina</a></li>
-        <li><a href="#">Cindy</a></li>
-      </ul>
-
-      <div class="dropdown">
-      <button onclick="myDropFunction()" class="dropbtn">Dropdown</button>
         <div id="myDropdown" class="dropdown-content">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <ul id="dropUL" class="list-inline">
+            <!----------------------------------->
+            <!------- Template ------------------>
+            <!----------------------------------->
+            <template id="search-drop-item-template">
+              <li class="list-inline-item"><a href="../models?id={{name}}">{{name}}</a></li>
+            </template>
+          </ul>
         </div>
-      </div>
+
+      <br/>
+      <br/>
 
       <div class="row" id="gallery">
 
@@ -210,7 +202,7 @@
                       <!--/figure-->
                     </div>
                 </div>
-                <a href="../models?id={{name}}" class="click" style="text-align:left"><img src="../public/img/magnify.png">  <font color="red">Click Me</font></a>
+                <a href="../models?id={{name}}" class="click" style="text-align:left"><img src="../public/img/magnify.png"><font color="#666666"> Model: {{name}} </font> <font color="red">(Click Me)</font></a>
               </div>
               </div>
             </div>
@@ -246,8 +238,8 @@
   <script type="text/javascript" src="./database-gallery.js" async></script>
   <!-- Generate page list script -->
   <script type="text/javascript" src="./render.js"></script> 
-  <script type="text/javascript" src="./database-pages.js" async></script>
   <script type="text/JavaScript" src="./searchbar.js"></script>
+  <script type="text/javascript" src="./database-pages.js" async></script>
 
 
   <!-- Start of StatCounter Code for Default Guide -->

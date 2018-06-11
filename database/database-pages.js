@@ -14,7 +14,6 @@ var platform_links = {}
 
 $.getJSON('../public/data.json', function(data) {
   $.getJSON('../public/data-link.json', function(links) {
-
     platform_data = data;
     platform_links = links;
     var total_num = platform_data.length;
@@ -26,14 +25,15 @@ $.getJSON('../public/data.json', function(data) {
         var count = i * num_image + j;
         var model = platform_data[count];
         if (count < platform_data.length) {
-//          panoramas.push(["../public/pano/{0}/{1}_0.png".format(model['id'], model['id'])])
-//          panoramas.push(["../{0}".format(links[model['id']]['pano_top'])])
+          //panoramas.push(["../public/pano/{0}/{1}_0.png".format(model['id'], model['id'])])
+          //panoramas.push(["../{0}".format(links[model['id']]['pano_top'])])
           panoramas.push("../" + links[model["id"]]['pano_thumb']);
         }
       }
     }
     generateGalleryCardList(params['page']);
     generatePageLinkList(params['page']);
+    generateSearchList(platform_data);
     initPhotoSwipeFromDOM('.my-gallery #gallery-data-wrapper div.platform-data-item');
     render(num_image, panoramas, params['page']);
 

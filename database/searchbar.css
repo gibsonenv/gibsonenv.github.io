@@ -1,9 +1,21 @@
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+li a {
+  display: inline;
+}
+
+ul {
+  list-style: none;
+}
 
 * {
   box-sizing: border-box;
 }
 
-#myInput {
+#searchInput {
   background-image: url('../public/img/searchicon.png');
   background-position: 10px 12px;
   background-repeat: no-repeat;
@@ -56,7 +68,6 @@
 
 .dropdown-content {
     display: none;
-    position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
     overflow: auto;
