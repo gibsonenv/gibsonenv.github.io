@@ -30,8 +30,11 @@ $.getJSON('../public/data.json', function(data) {
         if (count < platform_data.length) {
           //panoramas.push(["../public/pano/{0}/{1}_0.png".format(model['id'], model['id'])])
           //panoramas.push(["../{0}".format(links[model['id']]['pano_top'])])
-          if (Object.keys(links).indexOf(model["id"]) > 0) {
+          if (Object.keys(links).indexOf(model["id"]) >= 0) {
             panoramas.push("../" + links[model["id"]]['pano_thumb']);
+          } else {
+            console.log(model["id"] + " not found");
+            panoramas.push("../none.png" );
           }
         }
       }
