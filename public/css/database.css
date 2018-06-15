@@ -98,6 +98,11 @@
   padding: 20px 0;
 }
 
+#platform-data.main-page {
+  background: #f7f7f7;
+  padding: 20px 0;
+}
+
 #platform-data .platform-data-container .title {
   color: #333;
   text-align: center;
