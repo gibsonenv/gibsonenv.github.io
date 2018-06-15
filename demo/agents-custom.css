@@ -1,0 +1,87 @@
+#platform-data .platform-data-item.filter-agents{
+  height: auto;
+}
+
+#platform-data .platform-data-item.filter-model{
+  height: auto;
+}
+
+#platform-data .container .box {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#platform-data .section-second-title {
+  font-size: 25px;
+  color: #666;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+
+#platform-data canvas {
+  width: 100%;
+}
+
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+}
+.my-gallery figcaption {
+  display: none;
+}
+
+#platform-data-wrapper .box {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+#platform-data-wrapper .click{
+  font-size: 18px;
+  font-weight: 40;
+  font-co
+}
+
+#platform-data-wrapper .gallery-entry img {
+  width: 100%;
+  height: auto;
+}
+#platform-data-wrapper figure {
+  display: block;
+  float: left;
+}
+#platform-data-wrapper figcaption {
+  display: none;
+}
+
+
+#platform-data img.pswp__img {
+	/*left: -25% !important;
+	width:130% !important;*/
+	width:80% !important;
+	height: auto !important;
+}
+
+#platform-data img.pswp__img.mesh {
+	width:100% !important;
+	height: auto !important;
+}
+
+#platform-data .my-gallery .box {
+	height: auto;
+}
+
+
+#platform-data .platform-data-item.filter-card {
+	height: auto;
+}
+
+.platform-data-container.container {
+	max-width: 1500px;
+}

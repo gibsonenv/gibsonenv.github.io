@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Gibson Environment</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Preview thumbnails -->
+  <meta property='og:title' content="Gibson Environment"/>
+  <meta property='og:image' content="https://i.imgur.com/TtwdVKx.png"/>
+  <meta property='og:description' content="Opensourced Environment for Embodied Real-World Active Perception. Developed by Stanford Vision and Learning Lab."/>
+  <meta property='og:url' content="http://gibson.vision" />
+
+  <!-- Favicons -->
+  <link href="../public/img/favicon-g.ico" rel="icon">
+  <link href="../public/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="../public/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="../public/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../public/lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Stylesheet File -->
+  <link href="../public/css/style.css" rel="stylesheet">
+  <link href="../public/css/platform.css" rel="stylesheet">
+  <link href="../public/css/database.css" rel="stylesheet">
+
+
+  <!-- Javascript Font Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vissense/0.10.0/vissense.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/77/three.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+  
+  <!-- PhotoSwipe Library -->
+  <link rel="stylesheet" href="./photoswipe.css"> 
+  <link rel="stylesheet" href="./default-skin/default-skin.css">
+  <script src="./photoswipe.min.js"></script> 
+  <script src="./photoswipe-ui-default.min.js"></script> 
+  <link rel="stylesheet" href="./demo-custom.css">
+
+
+  <!-- =======================================================
+    Theme Name: Regna
+    Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- <a href="http://ai.stanford.edu/"><img src="../public/img/stanford-logo2.png" height="50" alt="" title="" /></img></a> -->
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
+      <div id="logo" class="pull-left">
+        <!-- <a href="http://bair.berkeley.edu/"><img src="../public/img/berkeley-logo.png" height="50" alt="" title="" /></img></a> -->
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
+
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class=""><a href="../">Home</a></li>
+          <li class=""><a href="../#services">Gibson</a></li>
+          <li class="menu-active"><a href="../agents">Agents</a></li>
+          <li class=""><a href="../database">Database <font color="red">(NEW!)</font></a></li>
+          <li class=""><a href="../method/">Method</a></li>
+          <!-- 
+          <li class="{{#is title 'Challenge'}}menu-active{{/is}}"><a href="challenge">Challenge</a></li>-->
+          <li class=""><a href="/#team">Team</a></li>
+          <li class=""><a href="/#paper">Paper</a></li>                    
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+<main id="main">
+  <!--==========================
+    Platform Intro Section
+  ============================-->
+  <section id="platform-data"   style="padding-top:60px">
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+            <!-- Container that holds slides. 
+                PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                Don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                          <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div> 
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="container platform-data-container">
+      <div class="section-header">
+        <h3 class="title">Gibson CVPR Demo</h3>
+        <p> Select your robotic agent and model, and launch Gibson environment. </p>
+      </div>
+
+
+      <input type="text" id="searchInput" class="input-agent" onkeyup="myFilterFunction()" onclick="myDropAgentFunction()" placeholder="Select your agent.." title="Type in a name">
+
+        <div id="myDropAgent" class="dropdown-content">
+          <ul id="dropAgentUL" class="list-inline">
+            <!----------------------------------->
+            <!------- Template ------------------>
+            <!----------------------------------->
+            <template id="search-drop-agent-template">
+              <li class="list-inline-item" onclick="selectAgentFunction(this)"><a>{{name}}</a></li>
+            </template>
+          </ul>
+        </div>
+      <input type="text" id="searchInput" class="input-model" onkeyup="myFilterFunction()" onclick="myDropFunction()" placeholder="Select your model.." title="Type in a name">
+
+        <div id="myDropdown" class="dropdown-content">
+          <ul id="dropModelUL" class="list-inline">
+            <!----------------------------------->
+            <!------- Template ------------------>
+            <!----------------------------------->
+            <template id="search-drop-item-template">
+              <li class="list-inline-item" onclick="selectModelFunction(this)"><a>{{name}}</a></li>
+            </template>
+          </ul>
+        </div>
+
+      <a href="#visual" class="btn-get-started">Launch</a>
+      <div class="row" id="gallery">
+
+        <div class="col-lg-12">
+          <ul id="platform-data-flters">
+            <li data-filter=".filter-agents" class="filter-active">Agents</li>
+            <li data-filter=".filter-model">Models</li>
+          </ul>
+        </div> 
+      </div>
+
+      <div class="container platform-data-container" id="platform-data-wrapper" itemscope>
+        <p class="col-6 text-center model-data-item filter-agents"> In case the videos don't play, please reload (CTRL+SHIFT+R) the page </p>
+        <div class="row" id="gallery-data-wrapper">
+
+            <div class="col-lg-6 col-md-6 platform-data-item filter-agents">
+              <div class="box">
+                <div class="row gallery-entry">
+                    <div class="col-lg-12">
+                        <video autoplay loop width="100%">
+                          <source src="../public/agents/Ant.mp4" type="video/mp4">
+                          <source src="../public/agents/Ant.ogv" type="video/ogv">
+                          <source src="../public/agents/Ant.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <a onclick="selectAgentBox('Ant')" class="click" style="text-align:left"><img src="../public/img/magnify.png"><font color="black"> Roboschool Ant </font><font color="red"> (Link)</font></a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 platform-data-item filter-agents">
+              <div class="box">
+                <div class="row gallery-entry">
+                    <div class="col-lg-12">
+                        <video autoplay loop width="100%">
+                          <source src="../public/agents/Minitaur.mp4" type="video/mp4">
+                          <source src="../public/agents/Minitaur.ogv" type="video/ogv">
+                          <source src="../public/agents/Minitaur.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <a onclick="selectAgentBox('Minitaur')" class="click" style="text-align:left"><img src="../public/img/magnify.png"><font color="black"> Minitaur Robot </font><font color="red"> (Link)</font></a>
+              </div>
+            </div>
+            
+            <div class="col-lg-6 col-md-6 platform-data-item filter-agents">
+              <div class="box">
+                <div class="row gallery-entry">
+                    <div class="col-lg-12">
+                        <video autoplay loop width="100%">
+                          <source src="../public/agents/Drone.mp4" type="video/mp4">
+                          <source src="../public/agents/Drone.ogv" type="video/ogv">
+                          <source src="../public/agents/Drone.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <a onclick="selectAgentBox('Drone')" class="click" style="text-align:left"><img src="../public/img/magnify.png"><font color="black"> Pybullet Drone </font><font color="red"> (Link)</font></a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 platform-data-item filter-agents">
+              <div class="box">
+                <div class="row gallery-entry">
+                    <div class="col-lg-12">
+                        <video autoplay loop width="100%">
+                          <source src="../public/agents/Humanoid.mp4" type="video/mp4">
+                          <source src="../public/agents/Humanoid.ogv" type="video/ogv">
+                          <source src="../public/agents/Humanoid.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <a onclick="selectAgentBox('Humanoid')" class="click" style="text-align:left"><img src="../public/img/magnify.png"><font color="black"> Roboschool Humanoid </font><font color="red"> (Link)</font></a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 platform-data-item filter-agents">
+              <div class="box">
+                <div class="row gallery-entry">
+                    <div class="col-lg-12">
+                        <video autoplay loop width="100%">
+                          <source src="../public/agents/Turtlebot.mp4" type="video/mp4">
+                          <source src="../public/agents/Turtlebot.ogv" type="video/ogv">
+                          <source src="../public/agents/Turtlebot.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <a onclick="selectAgentBox('TurtleBot')" class="click" style="text-align:left"><img src="../public/img/magnify.png"> <font color="black"> Turtlebot 2nd Gen </font><font color="red"> (Link)</font></a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 platform-data-item filter-agents">
+              <div class="box">
+                <div class="row gallery-entry">
+                    <div class="col-lg-12">
+                        <video autoplay loop width="100%">
+                          <source src="../public/agents/JR.mp4" type="video/mp4">
+                          <source src="../public/agents/JR.ogv" type="video/ogv">
+                          <source src="../public/agents/JR.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <a onclick="selectAgentBox('JackRabbot')" class="click" style="text-align:left"><img src="../public/img/magnify.png"><font color="black"> JackRabbot </font><font color="red"> (Link)</font></a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 platform-data-item filter-agents">
+              <div class="box">
+                <div class="row gallery-entry">
+                    <div class="col-lg-12">
+                        <video autoplay loop width="100%">
+                          <source src="../public/agents/Husky.mp4" type="video/mp4">
+                          <source src="../public/agents/Husky.ogv" type="video/ogv">
+                          <source src="../public/agents/Husky.webm" type="video/webm">
+                        </video>
+                    </div>
+                </div>
+                <a onclick="selectAgentBox('Husky')" class="click" style="text-align:left"><img src="../public/img/magnify.png"><font color="black"> Husky Robot </font><font color="red"> (Link)</font></a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="container platform-data-container" id="platform-data-wrapper" itemscope>
+        <div class="row" id="gallery-data-wrapper" >
+
+          <!----------------------------------->
+          <!------- Template ------------------>
+          <!----------------------------------->
+          <template id="gallery-entry-template">
+            <div class="col-lg-3 col-md-3 platform-data-item filter-model">
+              <div class="box">
+                <div class="row gallery-entry">
+                    <div class="col-lg-12">
+                      <canvas id="viewer_{{viewer_index}}"></canvas>
+                    </div>
+                    <div class="col-lg-12">
+                      <!--figure style="text-align: center"--> 
+                        <a href="../models?id={{name}}">
+                        <!--img src="../public/mesh/{{name}}_top.png" text-align="center" alt="Image description" /-->
+                        <img src="../{{mesh_link}}" text-align="center" alt="Image description" />
+                        </a>
+                        <!--figcaption >Model Name</figcaption-->
+                      <!--/figure-->
+                    </div>
+                </div>
+                <a onclick="selectModelBox(this)" class="click" style="text-align:left"><img src="../public/img/magnify.png"><font color="#666666"> Model: {{name}} </font> <font color="red">(Click Me)</font></a>
+                <!--a href="../models?id={{name}}" class="click" style="text-align:left"><img src="../public/img/magnify.png"><font color="#666666"> Model: {{name}} </font> <font color="red">(Click Me)</font></a-->
+              </div>
+              </div>
+            </div>
+          </template>
+          <!----------------------------------->
+          <!------- Template ------------------>
+          <!----------------------------------->
+        <div class="container platform-data-container platform-data-wrapper row">
+        <div class="col-lg-12" id="gallery-page-nav" data-filter=".filter-model">
+          <ul id="platform-data-flters" id="gallery-page-nav-list">
+          </ul>
+        </div>
+        </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section><!-- #portfolio -->
+</main>
+
+  <script type="text/javascript">
+    String.prototype.format = function() {
+      a = this;
+      for (k in arguments) {
+        a = a.split("{" + k + "}").join(arguments[k]);
+        //a = a.replace("{" + k + "}", arguments[k])
+      }
+      return a
+    }
+  </script>
+  <!-- PhotoSwipe script -->
+  <script type="text/javascript" src="./agents-gallery.js" async></script>
+  <!-- Generate page list script -->
+  <script type="text/javascript" src="./agents-pages.js" async></script>
+  <!-- PhotoSwipe script -->
+  <script type="text/javascript" src="./database-gallery.js" async></script>
+  <!-- Generate page list script -->
+  <script type="text/javascript" src="./render.js"></script> 
+  <script type="text/JavaScript" src="./searchbar.js"></script>
+  <script type="text/javascript" src="./database-pages.js" async></script>
+
+  <!-- Start of StatCounter Code for Default Guide -->
+  <script type="text/javascript">
+    var sc_project=11628934; 
+    var sc_invisible=1; 
+    var sc_security="8b943126"; 
+  </script>
+  <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+  <noscript><div class="statcounter"><a title="site stats"
+  href="http://statcounter.com/" target="_blank"><img
+  class="statcounter"
+  src="//c.statcounter.com/11628934/0/8b943126/1/" alt="site
+  stats"></a></div></noscript>
+
+  <!-- End of StatCounter Code for Default Guide -->
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Stanford University 2017</strong>. All Rights Reserved. Patent Pending.
+      </div>
+      <div class="credits">
+
+        Bootstrap Templates by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Post generation stylesheet -->
+  <link rel="stylesheet" type="text/css" href="./agents-custom.css"> 
+  <link rel="stylesheet" type="text/css" href="./searchbar.css"> 
+
+  <!-- JavaScript Libraries -->
+  <script src="../public/lib/jquery/jquery.min.js"></script>
+  <script src="../public/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="../public/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../public/lib/easing/easing.min.js"></script>
+  <script src="../public/lib/wow/wow.min.js"></script>
+
+  <script src="../public/lib/waypoints/waypoints.min.js"></script>
+  <script src="../public/lib/counterup/counterup.min.js"></script>
+  <script src="../public/lib/superfish/hoverIntent.js"></script>
+  <script src="../public/lib/superfish/superfish.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="../public/contactform/contactform.js"></script>
+  
+  <!-- Template Main Javascript File -->
+  <script src="../public/js/main.js"></script>
+
+  <!-- Demo library -->
+  <script type="text/javascript" src="./demo.js" async></script>
+
+
+</body>
+</html>

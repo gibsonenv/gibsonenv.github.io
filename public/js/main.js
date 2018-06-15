@@ -1,4 +1,8 @@
-jQuery(document).ready(function( $ ) {
+jQuery(document).ready(main_update);
+
+
+function main_update() {
+  console.log("Main update")
   // auto play iframe video when scrolled over
     var iframes = Array.prototype.slice.call(document.getElementsByClassName("autoplay-video")),
         disableAutoPlay = false;
@@ -136,4 +140,4 @@ jQuery(document).ready(function( $ ) {
 // custom code
   
 
-});
+}
