@@ -121,7 +121,7 @@ function render(num_elements, panoramas, curr_page){
 
 var num_elements = 3;
 var cur_page = 1;
-var panoramas = ['public/pano/Adairsville/Adairsville_0.png',
+var panoramas = ['public/pano/Adrian/Adrian_4.png',
 				 'public/pano/Biltmore/Biltmore_0.png',
 				 'public/pano/Springerville/Springerville_0.png'];
 render(num_elements, panoramas, cur_page);
