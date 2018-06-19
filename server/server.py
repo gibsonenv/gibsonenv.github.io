@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, send_from_directory
 from flask import request
 import subprocess
 import psutil
@@ -86,12 +86,29 @@ play(env, zoom=4)
     return python_str
 
 
+modalities = ['normal', 'depth', 'semantics', 'rgb']
+resolution = [256, 512]
+
+
+def assert_modality(form):
+    for m in modalities:
+        if m in form.keys() and form[m] == 'on': return True
+    return False
+
+def assert_resolution(form):
+    for r in resolution:
+        if r in form.keys() and form[r] == 'on': return True
+    return False
+
 @app.route("/", methods=['GET', 'POST'])
 def hello():
     global processes
     if request.method == 'POST':
 
-        #print(request.form)
+        print(request.form)
+        if not assert_resolution(request.form) or not assert_modality(request.form):
+            return render_template('index_demo.html')
+
         if request.form["action"] == u"run":
             print(request.form)
 
@@ -115,8 +132,14 @@ def hello():
             #    print(proc)
                 #proc.terminate()
                 processes = []
-    return render_template('index.html')
+    
 
+    return render_template('index_demo.html')
+
+
+@app.route('/public/<path:path>')
+def send_static(path):
+    return send_from_directory('public', path)
 
 
 if __name__ == "__main__":
