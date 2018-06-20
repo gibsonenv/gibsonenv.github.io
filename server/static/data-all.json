@@ -1,0 +1,7438 @@
+[
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 9.4,
+            "ssa": 1.552,
+            "floor": 4,
+            "area": 343.461
+        },
+        "split_tiny": "train",
+        "id": "Hanson",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 13,
+            "navigation_complexity": 7.878,
+            "ssa": 1.552,
+            "floor": 3,
+            "area": 269.431
+        },
+        "split_tiny": "train",
+        "id": "Merom",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 30,
+            "navigation_complexity": 5.601,
+            "ssa": 1.888,
+            "floor": 5,
+            "area": 1171.902
+        },
+        "split_tiny": "none",
+        "id": "Brinnon",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 2.887,
+            "ssa": 1.888,
+            "floor": 1,
+            "area": 53.595
+        },
+        "split_tiny": "none",
+        "id": "Arbutus",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 3.365,
+            "ssa": 0.843,
+            "floor": 4,
+            "area": 348.422
+        },
+        "split_tiny": "none",
+        "id": "Goodfield",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 2.144,
+            "ssa": 0.843,
+            "floor": 1,
+            "area": 62.127
+        },
+        "split_tiny": "none",
+        "id": "Espanola",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 2.8,
+            "ssa": 1.741,
+            "floor": 4,
+            "area": 660.009
+        },
+        "split_tiny": "none",
+        "id": "Reserve",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 3.723,
+            "ssa": 1.741,
+            "floor": 2,
+            "area": 111.735
+        },
+        "split_tiny": "none",
+        "id": "Aloha",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 2.109,
+            "ssa": 1.577,
+            "floor": 3,
+            "area": 151.967
+        },
+        "split_tiny": "none",
+        "id": "Castor",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 2.481,
+            "ssa": 1.577,
+            "floor": 3,
+            "area": 234.973
+        },
+        "split_tiny": "none",
+        "id": "Munsons",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 5.531,
+            "ssa": 1.91,
+            "floor": 3,
+            "area": 533.456
+        },
+        "split_tiny": "none",
+        "id": "Ballou",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 2.273,
+            "ssa": 1.91,
+            "floor": 1,
+            "area": 82.938
+        },
+        "split_tiny": "none",
+        "id": "Woonsocket",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 2.181,
+            "ssa": 1.207,
+            "floor": 2,
+            "area": 90.196
+        },
+        "split_tiny": "none",
+        "id": "Foyil",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 2.931,
+            "ssa": 1.207,
+            "floor": 1,
+            "area": 81.331
+        },
+        "split_tiny": "none",
+        "id": "Creede",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.224,
+            "ssa": 1.505,
+            "floor": 4,
+            "area": 326.346
+        },
+        "split_tiny": "none",
+        "id": "Eagan",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 2.352,
+            "ssa": 1.505,
+            "floor": 1,
+            "area": 62.098
+        },
+        "split_tiny": "none",
+        "id": "Arona",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 2.201,
+            "ssa": 1.84,
+            "floor": 5,
+            "area": 232.438
+        },
+        "split_tiny": "none",
+        "id": "Adairsville",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 5.106,
+            "ssa": 1.84,
+            "floor": 1,
+            "area": 220.462
+        },
+        "split_tiny": "none",
+        "id": "Superior",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 11.77,
+            "ssa": 1.425,
+            "floor": 6,
+            "area": 1618.439
+        },
+        "split_tiny": "train",
+        "id": "Klickitat",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 3.694,
+            "ssa": 1.425,
+            "floor": 1,
+            "area": 116.738
+        },
+        "split_tiny": "none",
+        "id": "Rancocas",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 1.224,
+            "ssa": 1.263,
+            "floor": 1,
+            "area": 92.354
+        },
+        "split_tiny": "none",
+        "id": "Ossipee",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 1.881,
+            "ssa": 1.263,
+            "floor": 1,
+            "area": 57.048
+        },
+        "split_tiny": "none",
+        "id": "Matoaca",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 2.184,
+            "ssa": 2.077,
+            "floor": 1,
+            "area": 57.408
+        },
+        "split_tiny": "none",
+        "id": "Haxtun",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 1.941,
+            "ssa": 2.077,
+            "floor": 3,
+            "area": 378.932
+        },
+        "split_tiny": "none",
+        "id": "Tansboro",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 25,
+            "navigation_complexity": 6.634,
+            "ssa": 1.924,
+            "floor": 3,
+            "area": 776.583
+        },
+        "split_tiny": "none",
+        "id": "Cottonport",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 13,
+            "navigation_complexity": 2.21,
+            "ssa": 1.924,
+            "floor": 3,
+            "area": 216.845
+        },
+        "split_tiny": "none",
+        "id": "Tyler",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 5.236,
+            "ssa": 1.957,
+            "floor": 3,
+            "area": 564.827
+        },
+        "split_tiny": "none",
+        "id": "Sugarville",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 1.602,
+            "ssa": 1.957,
+            "floor": 3,
+            "area": 258.383
+        },
+        "split_tiny": "none",
+        "id": "Martinville",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 5.836,
+            "ssa": 1.673,
+            "floor": 3,
+            "area": 455.855
+        },
+        "split_tiny": "none",
+        "id": "Vacherie",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 2.232,
+            "ssa": 1.673,
+            "floor": 5,
+            "area": 537.735
+        },
+        "split_tiny": "none",
+        "id": "Haaswood",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 1,
+            "navigation_complexity": 4.028,
+            "ssa": 2.07,
+            "floor": 1,
+            "area": 67.995
+        },
+        "split_tiny": "none",
+        "id": "Euharlee",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 2.194,
+            "ssa": 2.07,
+            "floor": 3,
+            "area": 359.128
+        },
+        "split_tiny": "none",
+        "id": "Ihlen",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 2.878,
+            "ssa": 1.533,
+            "floor": 1,
+            "area": 129.048
+        },
+        "split_tiny": "none",
+        "id": "Caruthers",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 1.0,
+            "ssa": 1.533,
+            "floor": 1,
+            "area": 81.688
+        },
+        "split_tiny": "none",
+        "id": "Peacock",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 3.863,
+            "ssa": 1.46,
+            "floor": 3,
+            "area": 437.136
+        },
+        "split_tiny": "none",
+        "id": "Hacienda",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 1.0,
+            "ssa": 1.46,
+            "floor": 1,
+            "area": 19.183
+        },
+        "split_tiny": "none",
+        "id": "Convoy",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 1.87,
+            "ssa": 0.936,
+            "floor": 1,
+            "area": 65.459
+        },
+        "split_tiny": "none",
+        "id": "Roane",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 1.347,
+            "ssa": 0.936,
+            "floor": 3,
+            "area": 396.693
+        },
+        "split_tiny": "none",
+        "id": "Ellaville",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 1,
+            "navigation_complexity": 2.0,
+            "ssa": 1.655,
+            "floor": 1,
+            "area": 47.725
+        },
+        "split_tiny": "none",
+        "id": "Ogilvie",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 5.436,
+            "ssa": 1.655,
+            "floor": 3,
+            "area": 398.26
+        },
+        "split_tiny": "none",
+        "id": "Chilhowie",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 1.84,
+            "ssa": 1.975,
+            "floor": 4,
+            "area": 335.329
+        },
+        "split_tiny": "none",
+        "id": "Darrtown",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.044,
+            "ssa": 1.975,
+            "floor": 3,
+            "area": 415.188
+        },
+        "split_tiny": "none",
+        "id": "Tomales",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 1.388,
+            "ssa": 1.896,
+            "floor": 4,
+            "area": 549.54
+        },
+        "split_tiny": "none",
+        "id": "Springhill",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 24,
+            "navigation_complexity": 1.116,
+            "ssa": 1.896,
+            "floor": 4,
+            "area": 1155.826
+        },
+        "split_tiny": "none",
+        "id": "Shellsburg",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 37,
+            "navigation_complexity": 16.449,
+            "ssa": 1.847,
+            "floor": 2,
+            "area": 3134.479
+        },
+        "split_tiny": "none",
+        "id": "Stigler",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 7.747,
+            "ssa": 1.847,
+            "floor": 3,
+            "area": 526.822
+        },
+        "split_tiny": "none",
+        "id": "Codell",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 1.313,
+            "ssa": 1.241,
+            "floor": 3,
+            "area": 123.959
+        },
+        "split_tiny": "none",
+        "id": "Chrisney",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 1.05,
+            "ssa": 1.241,
+            "floor": 3,
+            "area": 345.962
+        },
+        "split_tiny": "none",
+        "id": "Silas",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 2.571,
+            "ssa": 1.151,
+            "floor": 3,
+            "area": 510.112
+        },
+        "split_tiny": "none",
+        "id": "Manassas",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 2.108,
+            "ssa": 1.151,
+            "floor": 5,
+            "area": 594.258
+        },
+        "split_tiny": "none",
+        "id": "Clive",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 4.638,
+            "ssa": 1.791,
+            "floor": 2,
+            "area": 560.797
+        },
+        "split_tiny": "none",
+        "id": "Rutherford",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 3.866,
+            "ssa": 1.791,
+            "floor": 4,
+            "area": 741.691
+        },
+        "split_tiny": "none",
+        "id": "Braxton",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 1.024,
+            "ssa": 1.416,
+            "floor": 1,
+            "area": 58.748
+        },
+        "split_tiny": "none",
+        "id": "Laytonsville",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 13,
+            "navigation_complexity": 2.201,
+            "ssa": 1.416,
+            "floor": 3,
+            "area": 282.689
+        },
+        "split_tiny": "none",
+        "id": "Mullica",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 1.0,
+            "ssa": 1.931,
+            "floor": 4,
+            "area": 419.476
+        },
+        "split_tiny": "none",
+        "id": "Winthrop",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 4.067,
+            "ssa": 1.931,
+            "floor": 1,
+            "area": 152.69
+        },
+        "split_tiny": "none",
+        "id": "Chireno",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 2.852,
+            "ssa": 1.229,
+            "floor": 1,
+            "area": 122.66
+        },
+        "split_tiny": "none",
+        "id": "Bremerton",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 4.318,
+            "ssa": 1.229,
+            "floor": 1,
+            "area": 86.161
+        },
+        "split_tiny": "none",
+        "id": "Bonfield",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 4.095,
+            "ssa": 1.165,
+            "floor": 3,
+            "area": 1303.692
+        },
+        "split_tiny": "none",
+        "id": "Grace",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 5.952,
+            "ssa": 1.165,
+            "floor": 3,
+            "area": 284.04
+        },
+        "split_tiny": "none",
+        "id": "Lynchburg",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 1.118,
+            "ssa": 1.643,
+            "floor": 3,
+            "area": 185.459
+        },
+        "split_tiny": "none",
+        "id": "Halfway",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 2.186,
+            "ssa": 1.643,
+            "floor": 3,
+            "area": 569.168
+        },
+        "split_tiny": "none",
+        "id": "Merlin",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 4.34,
+            "ssa": 1.88,
+            "floor": 3,
+            "area": 660.51
+        },
+        "split_tiny": "none",
+        "id": "Baneberry",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 3.705,
+            "ssa": 1.88,
+            "floor": 4,
+            "area": 568.497
+        },
+        "split_tiny": "none",
+        "id": "Connoquenessing",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 23,
+            "navigation_complexity": 2.892,
+            "ssa": 1.7,
+            "floor": 3,
+            "area": 1153.639
+        },
+        "split_tiny": "none",
+        "id": "Ballantine",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 4.787,
+            "ssa": 1.7,
+            "floor": 3,
+            "area": 659.372
+        },
+        "split_tiny": "none",
+        "id": "Hendrix",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 1.0,
+            "ssa": 2.049,
+            "floor": 4,
+            "area": 172.84
+        },
+        "split_tiny": "none",
+        "id": "Hortense",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 6.09,
+            "ssa": 2.049,
+            "floor": 3,
+            "area": 792.206
+        },
+        "split_tiny": "none",
+        "id": "Nimmons",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 13,
+            "navigation_complexity": 1.045,
+            "ssa": 1.416,
+            "floor": 3,
+            "area": 315.287
+        },
+        "split_tiny": "none",
+        "id": "Tokeland",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 2.512,
+            "ssa": 1.416,
+            "floor": 3,
+            "area": 477.22
+        },
+        "split_tiny": "none",
+        "id": "Wesley",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 1,
+            "navigation_complexity": 1.407,
+            "ssa": 2.525,
+            "floor": 1,
+            "area": 40.383
+        },
+        "split_tiny": "none",
+        "id": "Idanha",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 26,
+            "navigation_complexity": 5.655,
+            "ssa": 2.525,
+            "floor": 3,
+            "area": 645.828
+        },
+        "split_tiny": "none",
+        "id": "McCloud",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 1.05,
+            "ssa": 1.863,
+            "floor": 3,
+            "area": 243.042
+        },
+        "split_tiny": "none",
+        "id": "Maricopa",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 5.571,
+            "ssa": 1.863,
+            "floor": 3,
+            "area": 182.294
+        },
+        "split_tiny": "train",
+        "id": "Onaga",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 3.821,
+            "ssa": 1.203,
+            "floor": 4,
+            "area": 660.449
+        },
+        "split_tiny": "none",
+        "id": "Cousins",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 4.016,
+            "ssa": 1.203,
+            "floor": 4,
+            "area": 915.082
+        },
+        "split_tiny": "none",
+        "id": "Aldrich",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 28,
+            "navigation_complexity": 4.928,
+            "ssa": 1.732,
+            "floor": 3,
+            "area": 850.745
+        },
+        "split_tiny": "none",
+        "id": "Tomkins",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 3.094,
+            "ssa": 1.732,
+            "floor": 3,
+            "area": 158.824
+        },
+        "split_tiny": "none",
+        "id": "Bountiful",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 31,
+            "navigation_complexity": 18.434,
+            "ssa": 1.356,
+            "floor": 1,
+            "area": 550.098
+        },
+        "split_tiny": "train",
+        "id": "Maguayo",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 3.61,
+            "ssa": 1.356,
+            "floor": 5,
+            "area": 1204.837
+        },
+        "split_tiny": "none",
+        "id": "Muleshoe",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 4.273,
+            "ssa": 1.617,
+            "floor": 3,
+            "area": 608.869
+        },
+        "split_tiny": "none",
+        "id": "Hammon",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 1.436,
+            "ssa": 1.617,
+            "floor": 1,
+            "area": 70.216
+        },
+        "split_tiny": "none",
+        "id": "Carpio",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 1.0,
+            "ssa": 1.256,
+            "floor": 4,
+            "area": 269.365
+        },
+        "split_tiny": "none",
+        "id": "Ovalo",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 42,
+            "navigation_complexity": 3.157,
+            "ssa": 1.256,
+            "floor": 1,
+            "area": 977.135
+        },
+        "split_tiny": "none",
+        "id": "Leilani",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 3.82,
+            "ssa": 1.287,
+            "floor": 1,
+            "area": 165.31
+        },
+        "split_tiny": "none",
+        "id": "Sundown",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 2.737,
+            "ssa": 1.287,
+            "floor": 1,
+            "area": 730.717
+        },
+        "split_tiny": "none",
+        "id": "Kingfisher",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 26,
+            "navigation_complexity": 2.073,
+            "ssa": 1.046,
+            "floor": 3,
+            "area": 612.688
+        },
+        "split_tiny": "none",
+        "id": "Paige",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 28,
+            "navigation_complexity": 1.404,
+            "ssa": 1.046,
+            "floor": 4,
+            "area": 684.211
+        },
+        "split_tiny": "none",
+        "id": "Waimea",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 29,
+            "navigation_complexity": 2.643,
+            "ssa": 0.731,
+            "floor": 3,
+            "area": 1626.834
+        },
+        "split_tiny": "none",
+        "id": "Grassy",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.9,
+            "ssa": 0.731,
+            "floor": 3,
+            "area": 185.89
+        },
+        "split_tiny": "none",
+        "id": "Monticello",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 2.169,
+            "ssa": 1.03,
+            "floor": 1,
+            "area": 83.084
+        },
+        "split_tiny": "none",
+        "id": "Benicia",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 1.745,
+            "ssa": 1.03,
+            "floor": 4,
+            "area": 857.078
+        },
+        "split_tiny": "none",
+        "id": "Portal",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 2.11,
+            "ssa": 1.602,
+            "floor": 3,
+            "area": 355.121
+        },
+        "split_tiny": "none",
+        "id": "Texasville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 1.9,
+            "ssa": 1.602,
+            "floor": 1,
+            "area": 132.303
+        },
+        "split_tiny": "none",
+        "id": "Kinney",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 29,
+            "navigation_complexity": 6.013,
+            "ssa": 1.778,
+            "floor": 3,
+            "area": 1049.473
+        },
+        "split_tiny": "none",
+        "id": "Melstone",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 3.574,
+            "ssa": 1.778,
+            "floor": 4,
+            "area": 469.434
+        },
+        "split_tiny": "none",
+        "id": "Mammoth",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 1.43,
+            "ssa": 1.372,
+            "floor": 4,
+            "area": 426.819
+        },
+        "split_tiny": "none",
+        "id": "Alstown",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 4.395,
+            "ssa": 1.372,
+            "floor": 4,
+            "area": 799.666
+        },
+        "split_tiny": "none",
+        "id": "Bonnie",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 23,
+            "navigation_complexity": 3.98,
+            "ssa": 1.027,
+            "floor": 5,
+            "area": 918.933
+        },
+        "split_tiny": "train",
+        "id": "Gough",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 1.0,
+            "ssa": 1.027,
+            "floor": 1,
+            "area": 155.706
+        },
+        "split_tiny": "none",
+        "id": "Cabin",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 8.813,
+            "ssa": 1.352,
+            "floor": 3,
+            "area": 464.624
+        },
+        "split_tiny": "none",
+        "id": "Beechwood",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 2.109,
+            "ssa": 1.352,
+            "floor": 3,
+            "area": 153.132
+        },
+        "split_tiny": "none",
+        "id": "Sands",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 1.0,
+            "ssa": 1.179,
+            "floor": 3,
+            "area": 442.52
+        },
+        "split_tiny": "none",
+        "id": "Moberly",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 2.934,
+            "ssa": 1.179,
+            "floor": 3,
+            "area": 776.972
+        },
+        "split_tiny": "none",
+        "id": "Cutlerville",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 1.518,
+            "ssa": 2.064,
+            "floor": 3,
+            "area": 143.953
+        },
+        "split_tiny": "none",
+        "id": "Hominy",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 24,
+            "navigation_complexity": 5.794,
+            "ssa": 2.064,
+            "floor": 4,
+            "area": 636.256
+        },
+        "split_tiny": "none",
+        "id": "Hitchland",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 5.354,
+            "ssa": 1.647,
+            "floor": 3,
+            "area": 345.828
+        },
+        "split_tiny": "none",
+        "id": "Frankfort",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 2.576,
+            "ssa": 1.647,
+            "floor": 1,
+            "area": 85.135
+        },
+        "split_tiny": "none",
+        "id": "Quantico",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 3.227,
+            "ssa": 1.238,
+            "floor": 3,
+            "area": 570.3
+        },
+        "split_tiny": "none",
+        "id": "Howie",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 1.567,
+            "ssa": 1.238,
+            "floor": 3,
+            "area": 221.741
+        },
+        "split_tiny": "none",
+        "id": "Gilbert",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 1.6,
+            "ssa": 1.609,
+            "floor": 5,
+            "area": 797.823
+        },
+        "split_tiny": "none",
+        "id": "Southfield",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 13,
+            "navigation_complexity": 3.632,
+            "ssa": 1.609,
+            "floor": 3,
+            "area": 298.35
+        },
+        "split_tiny": "none",
+        "id": "Crandon",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 1.899,
+            "ssa": 1.969,
+            "floor": 3,
+            "area": 425.898
+        },
+        "split_tiny": "none",
+        "id": "Imbery",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 1.041,
+            "ssa": 1.969,
+            "floor": 4,
+            "area": 367.827
+        },
+        "split_tiny": "none",
+        "id": "Goodyear",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 5.885,
+            "ssa": 1.613,
+            "floor": 4,
+            "area": 215.282
+        },
+        "split_tiny": "validation",
+        "id": "Waukeenah",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 3.503,
+            "ssa": 1.613,
+            "floor": 4,
+            "area": 636.509
+        },
+        "split_tiny": "none",
+        "id": "Cebolla",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 3.737,
+            "ssa": 1.297,
+            "floor": 4,
+            "area": 266.125
+        },
+        "split_tiny": "none",
+        "id": "Albertville",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 3.014,
+            "ssa": 1.297,
+            "floor": 1,
+            "area": 296.255
+        },
+        "split_tiny": "none",
+        "id": "Pocopson",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 2.347,
+            "ssa": 1.431,
+            "floor": 3,
+            "area": 265.929
+        },
+        "split_tiny": "none",
+        "id": "Dauberville",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 2.087,
+            "ssa": 1.431,
+            "floor": 2,
+            "area": 114.409
+        },
+        "split_tiny": "none",
+        "id": "Sodaville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 25,
+            "navigation_complexity": 7.277,
+            "ssa": 1.62,
+            "floor": 1,
+            "area": 430.311
+        },
+        "split_tiny": "none",
+        "id": "Auburn",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 3.033,
+            "ssa": 1.62,
+            "floor": 4,
+            "area": 865.108
+        },
+        "split_tiny": "none",
+        "id": "Landing",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 1,
+            "navigation_complexity": 2.943,
+            "ssa": 1.187,
+            "floor": 1,
+            "area": 499.522
+        },
+        "split_tiny": "none",
+        "id": "Ackermanville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.346,
+            "ssa": 1.187,
+            "floor": 4,
+            "area": 275.265
+        },
+        "split_tiny": "none",
+        "id": "Churchton",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 3.653,
+            "ssa": 1.182,
+            "floor": 3,
+            "area": 411.203
+        },
+        "split_tiny": "none",
+        "id": "Copemish",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 2.129,
+            "ssa": 1.182,
+            "floor": 3,
+            "area": 266.079
+        },
+        "split_tiny": "none",
+        "id": "Everton",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 34,
+            "navigation_complexity": 1.837,
+            "ssa": 1.161,
+            "floor": 1,
+            "area": 694.299
+        },
+        "split_tiny": "none",
+        "id": "Terrell",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 2.897,
+            "ssa": 1.161,
+            "floor": 1,
+            "area": 37.079
+        },
+        "split_tiny": "none",
+        "id": "Eudora",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 13,
+            "navigation_complexity": 1.977,
+            "ssa": 1.208,
+            "floor": 4,
+            "area": 194.383
+        },
+        "split_tiny": "none",
+        "id": "Maiden",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 3.514,
+            "ssa": 1.208,
+            "floor": 4,
+            "area": 674.595
+        },
+        "split_tiny": "none",
+        "id": "Andover",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 28,
+            "navigation_complexity": 3.875,
+            "ssa": 1.174,
+            "floor": 5,
+            "area": 616.935
+        },
+        "split_tiny": "none",
+        "id": "Uvalda",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 4.798,
+            "ssa": 1.174,
+            "floor": 1,
+            "area": 70.734
+        },
+        "split_tiny": "none",
+        "id": "Divide",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 30,
+            "navigation_complexity": 1.001,
+            "ssa": 1.956,
+            "floor": 4,
+            "area": 465.267
+        },
+        "split_tiny": "none",
+        "id": "Cayuse",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 2.964,
+            "ssa": 1.956,
+            "floor": 3,
+            "area": 394.078
+        },
+        "split_tiny": "none",
+        "id": "Leavittsburg",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 3.146,
+            "ssa": 0.909,
+            "floor": 3,
+            "area": 188.722
+        },
+        "split_tiny": "none",
+        "id": "Monson",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 1.976,
+            "ssa": 0.909,
+            "floor": 3,
+            "area": 400.83
+        },
+        "split_tiny": "none",
+        "id": "Umpqua",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 28,
+            "navigation_complexity": 6.327,
+            "ssa": 1.827,
+            "floor": 5,
+            "area": 736.625
+        },
+        "split_tiny": "train",
+        "id": "Wiconisco",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 42,
+            "navigation_complexity": 6.679,
+            "ssa": 1.827,
+            "floor": 2,
+            "area": 3121.66
+        },
+        "split_tiny": "none",
+        "id": "Lacon",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 3.452,
+            "ssa": 1.152,
+            "floor": 2,
+            "area": 103.567
+        },
+        "split_tiny": "none",
+        "id": "Cokeville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 2.504,
+            "ssa": 1.152,
+            "floor": 1,
+            "area": 61.886
+        },
+        "split_tiny": "none",
+        "id": "Helix",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.117,
+            "ssa": 1.87,
+            "floor": 1,
+            "area": 273.683
+        },
+        "split_tiny": "none",
+        "id": "Herricks",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 1.054,
+            "ssa": 1.87,
+            "floor": 4,
+            "area": 187.518
+        },
+        "split_tiny": "none",
+        "id": "Applewold",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 3.402,
+            "ssa": 1.134,
+            "floor": 3,
+            "area": 621.968
+        },
+        "split_tiny": "none",
+        "id": "Chiloquin",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 2.543,
+            "ssa": 1.134,
+            "floor": 1,
+            "area": 45.35
+        },
+        "split_tiny": "none",
+        "id": "Sasakwa",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 1.67,
+            "ssa": 1.561,
+            "floor": 1,
+            "area": 882.38
+        },
+        "split_tiny": "none",
+        "id": "Schoolcraft",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 4.809,
+            "ssa": 1.561,
+            "floor": 1,
+            "area": 477.51
+        },
+        "split_tiny": "none",
+        "id": "Anthoston",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 3.569,
+            "ssa": 1.837,
+            "floor": 3,
+            "area": 649.14
+        },
+        "split_tiny": "none",
+        "id": "Kathryn",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 2.238,
+            "ssa": 1.837,
+            "floor": 5,
+            "area": 286.735
+        },
+        "split_tiny": "none",
+        "id": "Coffeen",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 39,
+            "navigation_complexity": 23.015,
+            "ssa": 1.339,
+            "floor": 3,
+            "area": 2363.378
+        },
+        "split_tiny": "none",
+        "id": "Grainola",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 3.38,
+            "ssa": 1.339,
+            "floor": 1,
+            "area": 59.25
+        },
+        "split_tiny": "none",
+        "id": "Gaylord",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 24,
+            "navigation_complexity": 6.441,
+            "ssa": 0.9,
+            "floor": 3,
+            "area": 662.264
+        },
+        "split_tiny": "none",
+        "id": "Willow",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 37,
+            "navigation_complexity": 4.842,
+            "ssa": 0.9,
+            "floor": 4,
+            "area": 844.615
+        },
+        "split_tiny": "none",
+        "id": "Stockertown",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 3.17,
+            "ssa": 1.008,
+            "floor": 1,
+            "area": 73.469
+        },
+        "split_tiny": "none",
+        "id": "Hatfield",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 1.21,
+            "ssa": 1.008,
+            "floor": 1,
+            "area": 108.069
+        },
+        "split_tiny": "none",
+        "id": "Whitethorn",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 27,
+            "navigation_complexity": 4.32,
+            "ssa": 1.661,
+            "floor": 3,
+            "area": 593.908
+        },
+        "split_tiny": "none",
+        "id": "Dedham",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 1.597,
+            "ssa": 1.661,
+            "floor": 2,
+            "area": 109.787
+        },
+        "split_tiny": "none",
+        "id": "Circleville",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 3.922,
+            "ssa": 1.38,
+            "floor": 1,
+            "area": 585.206
+        },
+        "split_tiny": "none",
+        "id": "Marksville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 2.058,
+            "ssa": 1.38,
+            "floor": 3,
+            "area": 402.563
+        },
+        "split_tiny": "none",
+        "id": "Kinde",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 1.354,
+            "ssa": 1.113,
+            "floor": 1,
+            "area": 99.565
+        },
+        "split_tiny": "none",
+        "id": "Corder",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 3.581,
+            "ssa": 1.113,
+            "floor": 1,
+            "area": 95.079
+        },
+        "split_tiny": "none",
+        "id": "Destin",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.6,
+            "ssa": 1.046,
+            "floor": 4,
+            "area": 296.948
+        },
+        "split_tiny": "none",
+        "id": "Timberon",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 3.123,
+            "ssa": 1.046,
+            "floor": 4,
+            "area": 535.171
+        },
+        "split_tiny": "none",
+        "id": "Trail",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 2.404,
+            "ssa": 1.553,
+            "floor": 1,
+            "area": 162.014
+        },
+        "split_tiny": "none",
+        "id": "Pleasant",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 3.886,
+            "ssa": 1.553,
+            "floor": 1,
+            "area": 61.215
+        },
+        "split_tiny": "none",
+        "id": "Harrellsville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.165,
+            "ssa": 1.277,
+            "floor": 4,
+            "area": 920.049
+        },
+        "split_tiny": "none",
+        "id": "Clarkridge",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 1.611,
+            "ssa": 1.277,
+            "floor": 4,
+            "area": 494.275
+        },
+        "split_tiny": "none",
+        "id": "Peconic",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 1.371,
+            "ssa": 1.179,
+            "floor": 4,
+            "area": 337.942
+        },
+        "split_tiny": "none",
+        "id": "Gladstone",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 3.89,
+            "ssa": 1.179,
+            "floor": 3,
+            "area": 360.365
+        },
+        "split_tiny": "none",
+        "id": "Cornville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 5.051,
+            "ssa": 1.665,
+            "floor": 1,
+            "area": 444.709
+        },
+        "split_tiny": "none",
+        "id": "Darnestown",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 1.583,
+            "ssa": 1.665,
+            "floor": 3,
+            "area": 394.14
+        },
+        "split_tiny": "none",
+        "id": "Bohemia",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 1.236,
+            "ssa": 0.498,
+            "floor": 3,
+            "area": 551.319
+        },
+        "split_tiny": "none",
+        "id": "Chesterbrook",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 29,
+            "navigation_complexity": 2.006,
+            "ssa": 0.498,
+            "floor": 4,
+            "area": 374.441
+        },
+        "split_tiny": "none",
+        "id": "Micanopy",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 1.539,
+            "ssa": 1.342,
+            "floor": 1,
+            "area": 37.044
+        },
+        "split_tiny": "none",
+        "id": "Maben",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 2.372,
+            "ssa": 1.342,
+            "floor": 4,
+            "area": 338.51
+        },
+        "split_tiny": "none",
+        "id": "Wilseyville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 2.64,
+            "ssa": 1.091,
+            "floor": 1,
+            "area": 788.23
+        },
+        "split_tiny": "none",
+        "id": "Webster",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 4.037,
+            "ssa": 1.091,
+            "floor": 1,
+            "area": 67.226
+        },
+        "split_tiny": "none",
+        "id": "Kemblesville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 1.262,
+            "ssa": 0.916,
+            "floor": 2,
+            "area": 23.62
+        },
+        "split_tiny": "none",
+        "id": "Edgemere",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 3.099,
+            "ssa": 0.916,
+            "floor": 3,
+            "area": 146.903
+        },
+        "split_tiny": "none",
+        "id": "Hillsdale",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 2.498,
+            "ssa": 1.437,
+            "floor": 3,
+            "area": 349.003
+        },
+        "split_tiny": "none",
+        "id": "Kobuk",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 31,
+            "navigation_complexity": 1.597,
+            "ssa": 1.437,
+            "floor": 4,
+            "area": 455.396
+        },
+        "split_tiny": "none",
+        "id": "Mashulaville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 28,
+            "navigation_complexity": 7.456,
+            "ssa": 1.56,
+            "floor": 3,
+            "area": 1106.305
+        },
+        "split_tiny": "none",
+        "id": "Thrall",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 5.28,
+            "ssa": 1.56,
+            "floor": 3,
+            "area": 348.101
+        },
+        "split_tiny": "none",
+        "id": "Gloria",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 23,
+            "navigation_complexity": 3.133,
+            "ssa": 1.012,
+            "floor": 3,
+            "area": 905.911
+        },
+        "split_tiny": "none",
+        "id": "Wappingers",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 5.342,
+            "ssa": 1.012,
+            "floor": 3,
+            "area": 248.132
+        },
+        "split_tiny": "none",
+        "id": "McNary",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 1.483,
+            "ssa": 1.442,
+            "floor": 1,
+            "area": 56.185
+        },
+        "split_tiny": "none",
+        "id": "Tallmadge",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 2.827,
+            "ssa": 1.442,
+            "floor": 3,
+            "area": 629.038
+        },
+        "split_tiny": "none",
+        "id": "Funkstown",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 1.0,
+            "ssa": 1.662,
+            "floor": 1,
+            "area": 105.358
+        },
+        "split_tiny": "none",
+        "id": "Shingler",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 1.786,
+            "ssa": 1.662,
+            "floor": 2,
+            "area": 154.358
+        },
+        "split_tiny": "none",
+        "id": "Tippecanoe",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 3.23,
+            "ssa": 1.091,
+            "floor": 1,
+            "area": 385.662
+        },
+        "split_tiny": "none",
+        "id": "Kronborg",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 4.294,
+            "ssa": 1.091,
+            "floor": 4,
+            "area": 581.725
+        },
+        "split_tiny": "none",
+        "id": "Airport",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 1.041,
+            "ssa": 1.195,
+            "floor": 4,
+            "area": 258.626
+        },
+        "split_tiny": "none",
+        "id": "Fleming",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 1.791,
+            "ssa": 1.195,
+            "floor": 4,
+            "area": 734.661
+        },
+        "split_tiny": "none",
+        "id": "Wilkesboro",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 2.257,
+            "ssa": 1.413,
+            "floor": 3,
+            "area": 272.066
+        },
+        "split_tiny": "none",
+        "id": "Bonesteel",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 3.506,
+            "ssa": 1.413,
+            "floor": 4,
+            "area": 375.196
+        },
+        "split_tiny": "none",
+        "id": "Mesic",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 32,
+            "navigation_complexity": 4.747,
+            "ssa": 1.16,
+            "floor": 1,
+            "area": 1387.564
+        },
+        "split_tiny": "none",
+        "id": "Tillman",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 29,
+            "navigation_complexity": 2.112,
+            "ssa": 1.16,
+            "floor": 3,
+            "area": 2697.304
+        },
+        "split_tiny": "none",
+        "id": "Moonachie",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 4.327,
+            "ssa": 1.455,
+            "floor": 4,
+            "area": 734.48
+        },
+        "split_tiny": "none",
+        "id": "Lessley",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 4.085,
+            "ssa": 1.455,
+            "floor": 3,
+            "area": 276.521
+        },
+        "split_tiny": "none",
+        "id": "Stokes",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 1.697,
+            "ssa": 1.546,
+            "floor": 2,
+            "area": 64.944
+        },
+        "split_tiny": "none",
+        "id": "Checotah",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 3.967,
+            "ssa": 1.546,
+            "floor": 4,
+            "area": 440.36
+        },
+        "split_tiny": "none",
+        "id": "Rogue",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 3.41,
+            "ssa": 1.275,
+            "floor": 3,
+            "area": 727.746
+        },
+        "split_tiny": "none",
+        "id": "Hartline",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 2.345,
+            "ssa": 1.275,
+            "floor": 3,
+            "area": 573.641
+        },
+        "split_tiny": "none",
+        "id": "Ashport",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 6.629,
+            "ssa": 1.821,
+            "floor": 1,
+            "area": 284.58
+        },
+        "split_tiny": "none",
+        "id": "McEwen",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 24,
+            "navigation_complexity": 1.622,
+            "ssa": 1.821,
+            "floor": 4,
+            "area": 603.61
+        },
+        "split_tiny": "none",
+        "id": "Bethlehem",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 3.851,
+            "ssa": 1.483,
+            "floor": 1,
+            "area": 188.151
+        },
+        "split_tiny": "none",
+        "id": "Orason",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 45,
+            "navigation_complexity": 2.001,
+            "ssa": 1.483,
+            "floor": 5,
+            "area": 1234.302
+        },
+        "split_tiny": "none",
+        "id": "Channel",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 26,
+            "navigation_complexity": 5.979,
+            "ssa": 1.069,
+            "floor": 4,
+            "area": 1178.619
+        },
+        "split_tiny": "none",
+        "id": "Donaldson",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 3.187,
+            "ssa": 1.069,
+            "floor": 1,
+            "area": 125.348
+        },
+        "split_tiny": "none",
+        "id": "Hobson",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 5.134,
+            "ssa": 1.868,
+            "floor": 3,
+            "area": 851.942
+        },
+        "split_tiny": "none",
+        "id": "Kirwin",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 30,
+            "navigation_complexity": 2.051,
+            "ssa": 1.868,
+            "floor": 4,
+            "area": 737.666
+        },
+        "split_tiny": "none",
+        "id": "Purple",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 4.242,
+            "ssa": 1.104,
+            "floor": 4,
+            "area": 365.543
+        },
+        "split_tiny": "none",
+        "id": "Assinippi",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 6.9,
+            "ssa": 1.104,
+            "floor": 6,
+            "area": 1398.591
+        },
+        "split_tiny": "train",
+        "id": "Sharon",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 6.722,
+            "ssa": 1.433,
+            "floor": 3,
+            "area": 448.802
+        },
+        "split_tiny": "none",
+        "id": "Glenmoor",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 2.561,
+            "ssa": 1.433,
+            "floor": 3,
+            "area": 484.365
+        },
+        "split_tiny": "none",
+        "id": "Edson",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 2.058,
+            "ssa": 1.992,
+            "floor": 4,
+            "area": 560.051
+        },
+        "split_tiny": "none",
+        "id": "Fonda",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 1.858,
+            "ssa": 1.992,
+            "floor": 4,
+            "area": 159.084
+        },
+        "split_tiny": "none",
+        "id": "Ancor",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 2.876,
+            "ssa": 1.303,
+            "floor": 1,
+            "area": 124.735
+        },
+        "split_tiny": "none",
+        "id": "Kerrtown",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 1.021,
+            "ssa": 1.303,
+            "floor": 3,
+            "area": 463.599
+        },
+        "split_tiny": "none",
+        "id": "McClure",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 27,
+            "navigation_complexity": 5.877,
+            "ssa": 1.156,
+            "floor": 3,
+            "area": 530.688
+        },
+        "split_tiny": "none",
+        "id": "Gravelly",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 38,
+            "navigation_complexity": 2.707,
+            "ssa": 1.156,
+            "floor": 1,
+            "area": 733.268
+        },
+        "split_tiny": "none",
+        "id": "Biltmore",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 3.396,
+            "ssa": 1.398,
+            "floor": 1,
+            "area": 75.131
+        },
+        "split_tiny": "none",
+        "id": "Wando",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 23,
+            "navigation_complexity": 2.814,
+            "ssa": 1.398,
+            "floor": 3,
+            "area": 391.372
+        },
+        "split_tiny": "none",
+        "id": "Sagerton",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 1.695,
+            "ssa": 1.356,
+            "floor": 3,
+            "area": 557.674
+        },
+        "split_tiny": "none",
+        "id": "Kangley",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 1.0,
+            "ssa": 1.356,
+            "floor": 4,
+            "area": 218.453
+        },
+        "split_tiny": "none",
+        "id": "Noonday",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 1.313,
+            "ssa": 1.526,
+            "floor": 2,
+            "area": 97.904
+        },
+        "split_tiny": "none",
+        "id": "Vails",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 1.145,
+            "ssa": 1.526,
+            "floor": 3,
+            "area": 261.927
+        },
+        "split_tiny": "none",
+        "id": "Capistrano",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 4.354,
+            "ssa": 1.821,
+            "floor": 1,
+            "area": 269.619
+        },
+        "split_tiny": "none",
+        "id": "Voorhees",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 2.157,
+            "ssa": 1.821,
+            "floor": 2,
+            "area": 103.245
+        },
+        "split_tiny": "none",
+        "id": "Plessis",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 8.586,
+            "ssa": 1.637,
+            "floor": 4,
+            "area": 610.147
+        },
+        "split_tiny": "train",
+        "id": "Leonardo",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 1.885,
+            "ssa": 1.637,
+            "floor": 3,
+            "area": 680.296
+        },
+        "split_tiny": "none",
+        "id": "Poyen",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 13,
+            "navigation_complexity": 1.747,
+            "ssa": 1.043,
+            "floor": 3,
+            "area": 410.224
+        },
+        "split_tiny": "none",
+        "id": "Castroville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 2.012,
+            "ssa": 1.043,
+            "floor": 3,
+            "area": 335.837
+        },
+        "split_tiny": "none",
+        "id": "Ewansville",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 2.482,
+            "ssa": 1.398,
+            "floor": 1,
+            "area": 57.115
+        },
+        "split_tiny": "none",
+        "id": "Barahona",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 1.71,
+            "ssa": 1.398,
+            "floor": 3,
+            "area": 505.398
+        },
+        "split_tiny": "none",
+        "id": "Kevin",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 2.954,
+            "ssa": 1.219,
+            "floor": 3,
+            "area": 353.106
+        },
+        "split_tiny": "none",
+        "id": "Starks",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 2.945,
+            "ssa": 1.219,
+            "floor": 3,
+            "area": 760.574
+        },
+        "split_tiny": "none",
+        "id": "Spread",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 2.365,
+            "ssa": 1.609,
+            "floor": 3,
+            "area": 554.521
+        },
+        "split_tiny": "none",
+        "id": "Seeley",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 3.233,
+            "ssa": 1.609,
+            "floor": 3,
+            "area": 383.756
+        },
+        "split_tiny": "none",
+        "id": "Millbury",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 2.552,
+            "ssa": 1.575,
+            "floor": 4,
+            "area": 372.016
+        },
+        "split_tiny": "none",
+        "id": "Waucousta",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.494,
+            "ssa": 1.575,
+            "floor": 3,
+            "area": 587.497
+        },
+        "split_tiny": "none",
+        "id": "Ludlowville",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 2.762,
+            "ssa": 1.094,
+            "floor": 4,
+            "area": 457.536
+        },
+        "split_tiny": "none",
+        "id": "Dansville",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 2.481,
+            "ssa": 1.094,
+            "floor": 1,
+            "area": 30.097
+        },
+        "split_tiny": "none",
+        "id": "Maida",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 2.193,
+            "ssa": 1.105,
+            "floor": 3,
+            "area": 359.046
+        },
+        "split_tiny": "none",
+        "id": "Annona",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 39,
+            "navigation_complexity": 2.656,
+            "ssa": 1.105,
+            "floor": 4,
+            "area": 1254.255
+        },
+        "split_tiny": "none",
+        "id": "Duluth",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 26,
+            "navigation_complexity": 8.402,
+            "ssa": 0.498,
+            "floor": 4,
+            "area": 1357.157
+        },
+        "split_tiny": "train",
+        "id": "Weleetka",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 5.092,
+            "ssa": 0.498,
+            "floor": 3,
+            "area": 3351.796
+        },
+        "split_tiny": "none",
+        "id": "Chesaning",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 1.341,
+            "ssa": 1.725,
+            "floor": 1,
+            "area": 40.268
+        },
+        "split_tiny": "none",
+        "id": "Cooperstown",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 1.585,
+            "ssa": 1.725,
+            "floor": 4,
+            "area": 322.951
+        },
+        "split_tiny": "none",
+        "id": "Ohoopee",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 8.021,
+            "ssa": 1.241,
+            "floor": 4,
+            "area": 375.791
+        },
+        "split_tiny": "train",
+        "id": "Milaca",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 3.337,
+            "ssa": 1.241,
+            "floor": 3,
+            "area": 626.12
+        },
+        "split_tiny": "none",
+        "id": "Silva",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 3.308,
+            "ssa": 1.494,
+            "floor": 3,
+            "area": 390.532
+        },
+        "split_tiny": "none",
+        "id": "Traver",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 1.708,
+            "ssa": 1.494,
+            "floor": 1,
+            "area": 62.01
+        },
+        "split_tiny": "none",
+        "id": "Gasburg",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 2.596,
+            "ssa": 1.568,
+            "floor": 1,
+            "area": 61.868
+        },
+        "split_tiny": "none",
+        "id": "Bolton",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 2.31,
+            "ssa": 1.568,
+            "floor": 1,
+            "area": 303.213
+        },
+        "split_tiny": "none",
+        "id": "Kendall",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 27,
+            "navigation_complexity": 7.157,
+            "ssa": 2.173,
+            "floor": 4,
+            "area": 740.969
+        },
+        "split_tiny": "test",
+        "id": "Stockman",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 3.898,
+            "ssa": 2.173,
+            "floor": 1,
+            "area": 303.378
+        },
+        "split_tiny": "none",
+        "id": "Elton",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 43,
+            "navigation_complexity": 4.051,
+            "ssa": 1.574,
+            "floor": 7,
+            "area": 1481.287
+        },
+        "split_tiny": "train",
+        "id": "Marstons",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.335,
+            "ssa": 1.574,
+            "floor": 4,
+            "area": 440.851
+        },
+        "split_tiny": "none",
+        "id": "Athens",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 4.153,
+            "ssa": 1.251,
+            "floor": 1,
+            "area": 321.079
+        },
+        "split_tiny": "none",
+        "id": "Coronado",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 1.681,
+            "ssa": 1.251,
+            "floor": 3,
+            "area": 458.149
+        },
+        "split_tiny": "none",
+        "id": "Mentmore",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 1.835,
+            "ssa": 1.438,
+            "floor": 1,
+            "area": 69.349
+        },
+        "split_tiny": "none",
+        "id": "Inkom",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 25,
+            "navigation_complexity": 1.967,
+            "ssa": 1.438,
+            "floor": 5,
+            "area": 331.766
+        },
+        "split_tiny": "none",
+        "id": "Whiteriver",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 1.0,
+            "ssa": 1.82,
+            "floor": 1,
+            "area": 128.299
+        },
+        "split_tiny": "none",
+        "id": "Wattsville",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 4.151,
+            "ssa": 1.82,
+            "floor": 4,
+            "area": 308.385
+        },
+        "split_tiny": "none",
+        "id": "Noxapater",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 33,
+            "navigation_complexity": 4.907,
+            "ssa": 1.337,
+            "floor": 1,
+            "area": 664.17
+        },
+        "split_tiny": "none",
+        "id": "Ooltewah",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 2.112,
+            "ssa": 1.337,
+            "floor": 3,
+            "area": 366.231
+        },
+        "split_tiny": "none",
+        "id": "Model",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 23,
+            "navigation_complexity": 2.735,
+            "ssa": 1.44,
+            "floor": 5,
+            "area": 909.584
+        },
+        "split_tiny": "none",
+        "id": "Fedora",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 39,
+            "navigation_complexity": 7.826,
+            "ssa": 1.44,
+            "floor": 1,
+            "area": 913.224
+        },
+        "split_tiny": "none",
+        "id": "Ruckersville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.438,
+            "ssa": 1.643,
+            "floor": 4,
+            "area": 441.747
+        },
+        "split_tiny": "none",
+        "id": "Silerton",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 4.147,
+            "ssa": 1.643,
+            "floor": 3,
+            "area": 262.672
+        },
+        "split_tiny": "none",
+        "id": "Soldier",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 2.825,
+            "ssa": 1.363,
+            "floor": 5,
+            "area": 522.602
+        },
+        "split_tiny": "none",
+        "id": "Poipu",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 1.0,
+            "ssa": 1.363,
+            "floor": 1,
+            "area": 67.901
+        },
+        "split_tiny": "none",
+        "id": "Hambleton",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 1.003,
+            "ssa": 1.247,
+            "floor": 4,
+            "area": 205.509
+        },
+        "split_tiny": "none",
+        "id": "Hordville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 26,
+            "navigation_complexity": 4.976,
+            "ssa": 1.247,
+            "floor": 3,
+            "area": 789.459
+        },
+        "split_tiny": "none",
+        "id": "Neshkoro",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 2.058,
+            "ssa": 0.939,
+            "floor": 3,
+            "area": 1955.06
+        },
+        "split_tiny": "none",
+        "id": "Hennepin",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 1.257,
+            "ssa": 0.939,
+            "floor": 3,
+            "area": 521.686
+        },
+        "split_tiny": "none",
+        "id": "Cohoes",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 28,
+            "navigation_complexity": 2.533,
+            "ssa": 1.664,
+            "floor": 4,
+            "area": 701.684
+        },
+        "split_tiny": "none",
+        "id": "Lucan",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 1.519,
+            "ssa": 1.664,
+            "floor": 3,
+            "area": 323.7
+        },
+        "split_tiny": "none",
+        "id": "Kihei",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 3.045,
+            "ssa": 1.946,
+            "floor": 3,
+            "area": 307.377
+        },
+        "split_tiny": "none",
+        "id": "Hornsby",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 31,
+            "navigation_complexity": 8.482,
+            "ssa": 1.946,
+            "floor": 5,
+            "area": 2287.132
+        },
+        "split_tiny": "none",
+        "id": "Moark",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 6.659,
+            "ssa": 1.21,
+            "floor": 4,
+            "area": 1581.764
+        },
+        "split_tiny": "none",
+        "id": "Hindsboro",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 1.313,
+            "ssa": 1.21,
+            "floor": 3,
+            "area": 122.258
+        },
+        "split_tiny": "none",
+        "id": "Lovilia",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 3.346,
+            "ssa": 1.403,
+            "floor": 2,
+            "area": 83.141
+        },
+        "split_tiny": "none",
+        "id": "Newcomb",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 2.423,
+            "ssa": 1.403,
+            "floor": 1,
+            "area": 104.041
+        },
+        "split_tiny": "none",
+        "id": "Goodview",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 31,
+            "navigation_complexity": 4.05,
+            "ssa": 1.067,
+            "floor": 4,
+            "area": 782.684
+        },
+        "split_tiny": "none",
+        "id": "Broseley",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 27,
+            "navigation_complexity": 2.558,
+            "ssa": 1.067,
+            "floor": 4,
+            "area": 420.228
+        },
+        "split_tiny": "none",
+        "id": "Wakeman",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 29,
+            "navigation_complexity": 1.0,
+            "ssa": 1.781,
+            "floor": 4,
+            "area": 426.996
+        },
+        "split_tiny": "none",
+        "id": "Jennie",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 6.736,
+            "ssa": 1.781,
+            "floor": 5,
+            "area": 514.149
+        },
+        "split_tiny": "train",
+        "id": "Newfields",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 3.36,
+            "ssa": 0.493,
+            "floor": 6,
+            "area": 4371.903
+        },
+        "split_tiny": "none",
+        "id": "Bettendorf",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 3.62,
+            "ssa": 0.493,
+            "floor": 7,
+            "area": 740.584
+        },
+        "split_tiny": "none",
+        "id": "Gluek",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 1.473,
+            "ssa": 1.271,
+            "floor": 4,
+            "area": 544.508
+        },
+        "split_tiny": "none",
+        "id": "Irvine",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 2.651,
+            "ssa": 1.271,
+            "floor": 4,
+            "area": 605.518
+        },
+        "split_tiny": "none",
+        "id": "Tilghmanton",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 1.93,
+            "ssa": 1.227,
+            "floor": 3,
+            "area": 583.318
+        },
+        "split_tiny": "none",
+        "id": "American",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 1.213,
+            "ssa": 1.227,
+            "floor": 1,
+            "area": 123.683
+        },
+        "split_tiny": "none",
+        "id": "Akiak",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 5.611,
+            "ssa": 1.593,
+            "floor": 1,
+            "area": 239.244
+        },
+        "split_tiny": "none",
+        "id": "Calavo",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 10.038,
+            "ssa": 1.593,
+            "floor": 3,
+            "area": 577.136
+        },
+        "split_tiny": "train",
+        "id": "Corozal",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 13,
+            "navigation_complexity": 2.337,
+            "ssa": 0.944,
+            "floor": 3,
+            "area": 359.709
+        },
+        "split_tiny": "none",
+        "id": "Westerville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 3.213,
+            "ssa": 0.944,
+            "floor": 1,
+            "area": 66.793
+        },
+        "split_tiny": "none",
+        "id": "Swormville",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 5.686,
+            "ssa": 1.764,
+            "floor": 6,
+            "area": 1071.716
+        },
+        "split_tiny": "train",
+        "id": "Pinesdale",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 1.331,
+            "ssa": 1.764,
+            "floor": 4,
+            "area": 394.612
+        },
+        "split_tiny": "none",
+        "id": "Warrenville",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 2.763,
+            "ssa": 1.153,
+            "floor": 2,
+            "area": 107.755
+        },
+        "split_tiny": "none",
+        "id": "Maunawili",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 2.709,
+            "ssa": 1.153,
+            "floor": 1,
+            "area": 59.6
+        },
+        "split_tiny": "none",
+        "id": "Cason",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 1,
+            "navigation_complexity": 1.0,
+            "ssa": 1.008,
+            "floor": 1,
+            "area": 70.337
+        },
+        "split_tiny": "none",
+        "id": "Bellemeade",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 1.03,
+            "ssa": 1.008,
+            "floor": 4,
+            "area": 484.984
+        },
+        "split_tiny": "none",
+        "id": "Roeville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 4.126,
+            "ssa": 1.988,
+            "floor": 3,
+            "area": 154.83
+        },
+        "split_tiny": "none",
+        "id": "Morris",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 26,
+            "navigation_complexity": 4.31,
+            "ssa": 1.988,
+            "floor": 3,
+            "area": 736.104
+        },
+        "split_tiny": "none",
+        "id": "Reyno",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 2.939,
+            "ssa": 1.406,
+            "floor": 4,
+            "area": 531.583
+        },
+        "split_tiny": "none",
+        "id": "Maryhill",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 1.847,
+            "ssa": 1.406,
+            "floor": 1,
+            "area": 43.603
+        },
+        "split_tiny": "none",
+        "id": "Greigsville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 3.3,
+            "ssa": 1.083,
+            "floor": 3,
+            "area": 285.005
+        },
+        "split_tiny": "none",
+        "id": "Goodwine",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 3.823,
+            "ssa": 1.083,
+            "floor": 1,
+            "area": 289.285
+        },
+        "split_tiny": "none",
+        "id": "Sanctuary",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 5.574,
+            "ssa": 1.625,
+            "floor": 4,
+            "area": 932.826
+        },
+        "split_tiny": "none",
+        "id": "Deatsville",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 2.873,
+            "ssa": 1.625,
+            "floor": 2,
+            "area": 193.152
+        },
+        "split_tiny": "none",
+        "id": "Lenoir",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.066,
+            "ssa": 0.785,
+            "floor": 4,
+            "area": 414.056
+        },
+        "split_tiny": "none",
+        "id": "Almota",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 6.196,
+            "ssa": 0.785,
+            "floor": 4,
+            "area": 718.033
+        },
+        "split_tiny": "test",
+        "id": "Portola",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 4.363,
+            "ssa": 1.241,
+            "floor": 3,
+            "area": 419.697
+        },
+        "split_tiny": "none",
+        "id": "Mosquito",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 36,
+            "navigation_complexity": 2.608,
+            "ssa": 1.241,
+            "floor": 5,
+            "area": 809.315
+        },
+        "split_tiny": "none",
+        "id": "Brown",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 1.016,
+            "ssa": 1.309,
+            "floor": 1,
+            "area": 107.582
+        },
+        "split_tiny": "none",
+        "id": "Cantwell",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 2.029,
+            "ssa": 1.309,
+            "floor": 1,
+            "area": 53.553
+        },
+        "split_tiny": "none",
+        "id": "Kremlin",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 23,
+            "navigation_complexity": 5.559,
+            "ssa": 1.593,
+            "floor": 3,
+            "area": 474.859
+        },
+        "split_tiny": "none",
+        "id": "Westfield",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 26,
+            "navigation_complexity": 1.003,
+            "ssa": 1.593,
+            "floor": 4,
+            "area": 590.424
+        },
+        "split_tiny": "none",
+        "id": "Cullison",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 2.917,
+            "ssa": 1.68,
+            "floor": 3,
+            "area": 842.17
+        },
+        "split_tiny": "none",
+        "id": "Yankeetown",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 3.54,
+            "ssa": 1.68,
+            "floor": 2,
+            "area": 192.317
+        },
+        "split_tiny": "none",
+        "id": "Blenheim",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 3.944,
+            "ssa": 1.203,
+            "floor": 4,
+            "area": 171.335
+        },
+        "split_tiny": "train",
+        "id": "Collierville",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.693,
+            "ssa": 1.203,
+            "floor": 4,
+            "area": 217.218
+        },
+        "split_tiny": "none",
+        "id": "Byers",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 1.062,
+            "ssa": 1.9,
+            "floor": 3,
+            "area": 143.509
+        },
+        "split_tiny": "none",
+        "id": "Kildare",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 4.173,
+            "ssa": 1.9,
+            "floor": 1,
+            "area": 96.343
+        },
+        "split_tiny": "none",
+        "id": "Hildebran",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 3.357,
+            "ssa": 1.886,
+            "floor": 6,
+            "area": 550.278
+        },
+        "split_tiny": "none",
+        "id": "Jacobus",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 5.297,
+            "ssa": 1.886,
+            "floor": 3,
+            "area": 324.923
+        },
+        "split_tiny": "none",
+        "id": "Cobalt",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 3.98,
+            "ssa": 1.156,
+            "floor": 6,
+            "area": 926.364
+        },
+        "split_tiny": "none",
+        "id": "Kirksville",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 1.226,
+            "ssa": 1.156,
+            "floor": 4,
+            "area": 191.908
+        },
+        "split_tiny": "none",
+        "id": "Wyldwood",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 1.845,
+            "ssa": 1.443,
+            "floor": 1,
+            "area": 228.077
+        },
+        "split_tiny": "none",
+        "id": "Blackstone",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 1.089,
+            "ssa": 1.443,
+            "floor": 3,
+            "area": 286.12
+        },
+        "split_tiny": "none",
+        "id": "Sarcoxie",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 30,
+            "navigation_complexity": 2.086,
+            "ssa": 1.432,
+            "floor": 1,
+            "area": 1018.387
+        },
+        "split_tiny": "none",
+        "id": "Frankton",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 3.039,
+            "ssa": 1.432,
+            "floor": 1,
+            "area": 100.399
+        },
+        "split_tiny": "none",
+        "id": "Artois",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 1,
+            "navigation_complexity": 5.614,
+            "ssa": 1.496,
+            "floor": 1,
+            "area": 100.709
+        },
+        "split_tiny": "none",
+        "id": "Oyens",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 2.227,
+            "ssa": 1.496,
+            "floor": 3,
+            "area": 375.962
+        },
+        "split_tiny": "none",
+        "id": "Mogote",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 70,
+            "navigation_complexity": 4.2,
+            "ssa": 0.742,
+            "floor": 5,
+            "area": 1028.84
+        },
+        "split_tiny": "none",
+        "id": "Winooski",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 5.915,
+            "ssa": 0.742,
+            "floor": 3,
+            "area": 247.187
+        },
+        "split_tiny": "none",
+        "id": "Macland",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 3.436,
+            "ssa": 1.919,
+            "floor": 3,
+            "area": 360.957
+        },
+        "split_tiny": "none",
+        "id": "Oriole",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 2.26,
+            "ssa": 1.919,
+            "floor": 1,
+            "area": 68.342
+        },
+        "split_tiny": "none",
+        "id": "Peden",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 1.752,
+            "ssa": 1.144,
+            "floor": 4,
+            "area": 214.625
+        },
+        "split_tiny": "none",
+        "id": "Couderay",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 2.414,
+            "ssa": 1.144,
+            "floor": 4,
+            "area": 891.403
+        },
+        "split_tiny": "none",
+        "id": "Orangeburg",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 4.327,
+            "ssa": 1.647,
+            "floor": 3,
+            "area": 507.047
+        },
+        "split_tiny": "none",
+        "id": "Azusa",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 25,
+            "navigation_complexity": 2.011,
+            "ssa": 1.647,
+            "floor": 3,
+            "area": 1397.48
+        },
+        "split_tiny": "none",
+        "id": "Judith",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 1.431,
+            "ssa": 2.177,
+            "floor": 1,
+            "area": 42.795
+        },
+        "split_tiny": "none",
+        "id": "Elmira",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 1.745,
+            "ssa": 2.177,
+            "floor": 4,
+            "area": 396.175
+        },
+        "split_tiny": "none",
+        "id": "Keiser",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 26,
+            "navigation_complexity": 3.704,
+            "ssa": 1.522,
+            "floor": 5,
+            "area": 928.005
+        },
+        "split_tiny": "none",
+        "id": "McDade",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 5.084,
+            "ssa": 1.522,
+            "floor": 3,
+            "area": 237.84
+        },
+        "split_tiny": "none",
+        "id": "Pamelia",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 5.192,
+            "ssa": 0.81,
+            "floor": 3,
+            "area": 310.883
+        },
+        "split_tiny": "none",
+        "id": "Helton",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 23,
+            "navigation_complexity": 1.701,
+            "ssa": 0.81,
+            "floor": 4,
+            "area": 513.183
+        },
+        "split_tiny": "none",
+        "id": "Potosi",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.552,
+            "ssa": 2.031,
+            "floor": 3,
+            "area": 230.839
+        },
+        "split_tiny": "none",
+        "id": "Cisne",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 1,
+            "navigation_complexity": 4.598,
+            "ssa": 2.031,
+            "floor": 1,
+            "area": 86.226
+        },
+        "split_tiny": "none",
+        "id": "Delton",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 23,
+            "navigation_complexity": 5.257,
+            "ssa": 2.052,
+            "floor": 4,
+            "area": 455.395
+        },
+        "split_tiny": "none",
+        "id": "Victorville",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 13.218,
+            "ssa": 2.052,
+            "floor": 3,
+            "area": 876.26
+        },
+        "split_tiny": "validation",
+        "id": "Lakeville",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 1.245,
+            "ssa": 1.834,
+            "floor": 1,
+            "area": 159.202
+        },
+        "split_tiny": "none",
+        "id": "Pasatiempo",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 2.122,
+            "ssa": 1.834,
+            "floor": 1,
+            "area": 38.23
+        },
+        "split_tiny": "none",
+        "id": "Beach",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 1.295,
+            "ssa": 1.678,
+            "floor": 5,
+            "area": 547.906
+        },
+        "split_tiny": "none",
+        "id": "Marland",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 6.118,
+            "ssa": 1.678,
+            "floor": 4,
+            "area": 282.095
+        },
+        "split_tiny": "test",
+        "id": "Hiteman",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 2.863,
+            "ssa": 1.212,
+            "floor": 1,
+            "area": 76.024
+        },
+        "split_tiny": "none",
+        "id": "Galatia",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 1.169,
+            "ssa": 1.212,
+            "floor": 1,
+            "area": 67.84
+        },
+        "split_tiny": "none",
+        "id": "Grigston",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 1.742,
+            "ssa": 1.065,
+            "floor": 1,
+            "area": 49.658
+        },
+        "split_tiny": "none",
+        "id": "Mahtomedi",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 2.159,
+            "ssa": 1.065,
+            "floor": 3,
+            "area": 463.687
+        },
+        "split_tiny": "none",
+        "id": "Lindberg",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 1.0,
+            "ssa": 1.281,
+            "floor": 1,
+            "area": 85.262
+        },
+        "split_tiny": "none",
+        "id": "Mayesville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 8.84,
+            "ssa": 1.281,
+            "floor": 3,
+            "area": 405.669
+        },
+        "split_tiny": "none",
+        "id": "Sussex",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 3.915,
+            "ssa": 0.988,
+            "floor": 5,
+            "area": 673.551
+        },
+        "split_tiny": "none",
+        "id": "Redbank",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 13,
+            "navigation_complexity": 1.015,
+            "ssa": 0.988,
+            "floor": 3,
+            "area": 223.371
+        },
+        "split_tiny": "none",
+        "id": "Cashel",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 3.008,
+            "ssa": 1.332,
+            "floor": 1,
+            "area": 90.831
+        },
+        "split_tiny": "none",
+        "id": "Nicut",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 8.758,
+            "ssa": 1.332,
+            "floor": 3,
+            "area": 371.618
+        },
+        "split_tiny": "test",
+        "id": "Cosmos",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 1.81,
+            "ssa": 1.637,
+            "floor": 1,
+            "area": 40.796
+        },
+        "split_tiny": "none",
+        "id": "Denmark",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 2.844,
+            "ssa": 1.637,
+            "floor": 4,
+            "area": 377.373
+        },
+        "split_tiny": "none",
+        "id": "Swisshome",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 3.345,
+            "ssa": 1.116,
+            "floor": 1,
+            "area": 120.708
+        },
+        "split_tiny": "none",
+        "id": "Wells",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 23,
+            "navigation_complexity": 1.072,
+            "ssa": 1.116,
+            "floor": 5,
+            "area": 512.963
+        },
+        "split_tiny": "none",
+        "id": "Scioto",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 57,
+            "navigation_complexity": 6.76,
+            "ssa": 2.062,
+            "floor": 2,
+            "area": 3130.477
+        },
+        "split_tiny": "none",
+        "id": "Bushong",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 5.257,
+            "ssa": 2.062,
+            "floor": 3,
+            "area": 482.09
+        },
+        "split_tiny": "none",
+        "id": "Goffs",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 52,
+            "navigation_complexity": 8.073,
+            "ssa": 1.8,
+            "floor": 1,
+            "area": 1958.748
+        },
+        "split_tiny": "none",
+        "id": "Gracey",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 1.879,
+            "ssa": 1.8,
+            "floor": 3,
+            "area": 366.947
+        },
+        "split_tiny": "none",
+        "id": "Deemston",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 24,
+            "navigation_complexity": 4.693,
+            "ssa": 1.175,
+            "floor": 3,
+            "area": 518.876
+        },
+        "split_tiny": "none",
+        "id": "Wilkinsburg",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 1.89,
+            "ssa": 1.175,
+            "floor": 1,
+            "area": 336.058
+        },
+        "split_tiny": "none",
+        "id": "Liddieville",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 5.038,
+            "ssa": 1.375,
+            "floor": 3,
+            "area": 333.7
+        },
+        "split_tiny": "none",
+        "id": "Lindsborg",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 1.931,
+            "ssa": 1.375,
+            "floor": 1,
+            "area": 61.422
+        },
+        "split_tiny": "none",
+        "id": "Barboursville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 5.787,
+            "ssa": 1.267,
+            "floor": 4,
+            "area": 359.482
+        },
+        "split_tiny": "none",
+        "id": "Globe",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 1.005,
+            "ssa": 1.267,
+            "floor": 3,
+            "area": 90.146
+        },
+        "split_tiny": "none",
+        "id": "Kettle",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.149,
+            "ssa": 1.212,
+            "floor": 4,
+            "area": 209.756
+        },
+        "split_tiny": "none",
+        "id": "Booth",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 24,
+            "navigation_complexity": 5.5,
+            "ssa": 1.212,
+            "floor": 3,
+            "area": 513.604
+        },
+        "split_tiny": "none",
+        "id": "Pearce",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 2.527,
+            "ssa": 1.787,
+            "floor": 3,
+            "area": 330.179
+        },
+        "split_tiny": "none",
+        "id": "Gastonia",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 3.109,
+            "ssa": 1.787,
+            "floor": 1,
+            "area": 168.856
+        },
+        "split_tiny": "none",
+        "id": "Maitland",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 1.398,
+            "ssa": 1.274,
+            "floor": 3,
+            "area": 288.293
+        },
+        "split_tiny": "none",
+        "id": "Frierson",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 1.946,
+            "ssa": 1.274,
+            "floor": 3,
+            "area": 476.868
+        },
+        "split_tiny": "none",
+        "id": "Barranquitas",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 48,
+            "navigation_complexity": 6.869,
+            "ssa": 0.82,
+            "floor": 6,
+            "area": 1840.942
+        },
+        "split_tiny": "train",
+        "id": "Upham",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 2.771,
+            "ssa": 0.82,
+            "floor": 1,
+            "area": 1020.102
+        },
+        "split_tiny": "none",
+        "id": "Seiling",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.265,
+            "ssa": 0.9,
+            "floor": 4,
+            "area": 305.479
+        },
+        "split_tiny": "none",
+        "id": "Bautista",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 28,
+            "navigation_complexity": 3.056,
+            "ssa": 0.9,
+            "floor": 5,
+            "area": 1166.008
+        },
+        "split_tiny": "none",
+        "id": "Sunshine",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 24,
+            "navigation_complexity": 1.083,
+            "ssa": 1.049,
+            "floor": 4,
+            "area": 343.544
+        },
+        "split_tiny": "none",
+        "id": "Pocasset",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 1,
+            "navigation_complexity": 2.865,
+            "ssa": 1.049,
+            "floor": 1,
+            "area": 112.227
+        },
+        "split_tiny": "none",
+        "id": "Tradewinds",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 2.111,
+            "ssa": 1.491,
+            "floor": 1,
+            "area": 106.396
+        },
+        "split_tiny": "none",
+        "id": "Mobridge",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 24,
+            "navigation_complexity": 1.747,
+            "ssa": 1.491,
+            "floor": 4,
+            "area": 485.288
+        },
+        "split_tiny": "none",
+        "id": "Burien",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 5.664,
+            "ssa": 1.764,
+            "floor": 3,
+            "area": 130.541
+        },
+        "split_tiny": "none",
+        "id": "Carneiro",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 1.407,
+            "ssa": 1.764,
+            "floor": 1,
+            "area": 83.857
+        },
+        "split_tiny": "none",
+        "id": "Placida",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 1.531,
+            "ssa": 1.341,
+            "floor": 3,
+            "area": 670.759
+        },
+        "split_tiny": "none",
+        "id": "Hallettsville",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 24,
+            "navigation_complexity": 2.113,
+            "ssa": 1.341,
+            "floor": 4,
+            "area": 574.681
+        },
+        "split_tiny": "none",
+        "id": "Natural",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 1.511,
+            "ssa": 0.872,
+            "floor": 1,
+            "area": 149.214
+        },
+        "split_tiny": "none",
+        "id": "Fredericksburg",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 3.68,
+            "ssa": 0.872,
+            "floor": 1,
+            "area": 75.039
+        },
+        "split_tiny": "none",
+        "id": "Annawan",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 25,
+            "navigation_complexity": 2.251,
+            "ssa": 1.346,
+            "floor": 3,
+            "area": 657.554
+        },
+        "split_tiny": "none",
+        "id": "Bellwood",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 23,
+            "navigation_complexity": 1.304,
+            "ssa": 1.346,
+            "floor": 4,
+            "area": 499.225
+        },
+        "split_tiny": "none",
+        "id": "Retsof",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 3.072,
+            "ssa": 1.209,
+            "floor": 1,
+            "area": 151.865
+        },
+        "split_tiny": "none",
+        "id": "Brentsville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 2.058,
+            "ssa": 1.209,
+            "floor": 2,
+            "area": 95.115
+        },
+        "split_tiny": "none",
+        "id": "Aulander",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 30,
+            "navigation_complexity": 4.48,
+            "ssa": 1.342,
+            "floor": 10,
+            "area": 2363.158
+        },
+        "split_tiny": "none",
+        "id": "Mogadore",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 1,
+            "navigation_complexity": 1.0,
+            "ssa": 1.342,
+            "floor": 1,
+            "area": 6.34
+        },
+        "split_tiny": "none",
+        "id": "Culbertson",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 1.03,
+            "ssa": 0.821,
+            "floor": 4,
+            "area": 485.544
+        },
+        "split_tiny": "none",
+        "id": "Murchison",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 5.257,
+            "ssa": 0.821,
+            "floor": 1,
+            "area": 289.497
+        },
+        "split_tiny": "none",
+        "id": "Waldenburg",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 7.201,
+            "ssa": 0.916,
+            "floor": 4,
+            "area": 984.751
+        },
+        "split_tiny": "none",
+        "id": "Woodbine",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 1.118,
+            "ssa": 0.916,
+            "floor": 3,
+            "area": 184.768
+        },
+        "split_tiny": "none",
+        "id": "Lajas",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 4.382,
+            "ssa": 0.871,
+            "floor": 1,
+            "area": 108.333
+        },
+        "split_tiny": "none",
+        "id": "Sweatman",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 1.733,
+            "ssa": 0.871,
+            "floor": 5,
+            "area": 848.274
+        },
+        "split_tiny": "none",
+        "id": "Winfield",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 1.395,
+            "ssa": 0.879,
+            "floor": 3,
+            "area": 208.37
+        },
+        "split_tiny": "none",
+        "id": "Rockport",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 3.049,
+            "ssa": 0.879,
+            "floor": 4,
+            "area": 599.407
+        },
+        "split_tiny": "none",
+        "id": "Schiller",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 5.723,
+            "ssa": 1.346,
+            "floor": 3,
+            "area": 287.108
+        },
+        "split_tiny": "none",
+        "id": "Aldine",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 1.944,
+            "ssa": 1.346,
+            "floor": 3,
+            "area": 339.575
+        },
+        "split_tiny": "none",
+        "id": "Lluveras",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 1.995,
+            "ssa": 1.208,
+            "floor": 4,
+            "area": 521.75
+        },
+        "split_tiny": "none",
+        "id": "Shumway",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 1.024,
+            "ssa": 1.208,
+            "floor": 3,
+            "area": 258.674
+        },
+        "split_tiny": "none",
+        "id": "Experiment",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 1.016,
+            "ssa": 1.583,
+            "floor": 1,
+            "area": 59.1
+        },
+        "split_tiny": "none",
+        "id": "Seward",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 4.57,
+            "ssa": 1.583,
+            "floor": 1,
+            "area": 144.427
+        },
+        "split_tiny": "none",
+        "id": "Badger",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 3.199,
+            "ssa": 1.353,
+            "floor": 3,
+            "area": 283.356
+        },
+        "split_tiny": "none",
+        "id": "Stanleyville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 3.2,
+            "ssa": 1.353,
+            "floor": 4,
+            "area": 176.734
+        },
+        "split_tiny": "none",
+        "id": "Benevolence",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 25,
+            "navigation_complexity": 6.55,
+            "ssa": 1.189,
+            "floor": 3,
+            "area": 871.08
+        },
+        "split_tiny": "none",
+        "id": "Emmaus",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 1.977,
+            "ssa": 1.189,
+            "floor": 3,
+            "area": 617.315
+        },
+        "split_tiny": "none",
+        "id": "Smoketown",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 3.541,
+            "ssa": 1.645,
+            "floor": 1,
+            "area": 357.887
+        },
+        "split_tiny": "none",
+        "id": "Sultan",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 13,
+            "navigation_complexity": 1.715,
+            "ssa": 1.645,
+            "floor": 4,
+            "area": 214.799
+        },
+        "split_tiny": "none",
+        "id": "Highspire",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 2.202,
+            "ssa": 1.228,
+            "floor": 4,
+            "area": 641.795
+        },
+        "split_tiny": "none",
+        "id": "MacArthur",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 23,
+            "navigation_complexity": 5.661,
+            "ssa": 1.228,
+            "floor": 5,
+            "area": 612.16
+        },
+        "split_tiny": "train",
+        "id": "Pomaria",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 1.318,
+            "ssa": 1.743,
+            "floor": 2,
+            "area": 94.529
+        },
+        "split_tiny": "none",
+        "id": "Sisters",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 2.273,
+            "ssa": 1.743,
+            "floor": 4,
+            "area": 434.315
+        },
+        "split_tiny": "none",
+        "id": "Kankakee",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 26,
+            "navigation_complexity": 7.749,
+            "ssa": 1.704,
+            "floor": 4,
+            "area": 281.014
+        },
+        "split_tiny": "train",
+        "id": "Archer",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 2.647,
+            "ssa": 1.704,
+            "floor": 2,
+            "area": 111.607
+        },
+        "split_tiny": "none",
+        "id": "Clairton",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 5.43,
+            "ssa": 1.309,
+            "floor": 3,
+            "area": 628.857
+        },
+        "split_tiny": "none",
+        "id": "Cauthron",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 24,
+            "navigation_complexity": 1.624,
+            "ssa": 1.309,
+            "floor": 3,
+            "area": 804.364
+        },
+        "split_tiny": "none",
+        "id": "Okabena",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 4.269,
+            "ssa": 1.46,
+            "floor": 3,
+            "area": 590.746
+        },
+        "split_tiny": "none",
+        "id": "Jenners",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 2.243,
+            "ssa": 1.46,
+            "floor": 2,
+            "area": 1089.73
+        },
+        "split_tiny": "none",
+        "id": "Glassboro",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 7.6,
+            "ssa": 1.576,
+            "floor": 3,
+            "area": 578.138
+        },
+        "split_tiny": "none",
+        "id": "Neibert",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 1.005,
+            "ssa": 1.576,
+            "floor": 3,
+            "area": 295.808
+        },
+        "split_tiny": "none",
+        "id": "Random",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 2.31,
+            "ssa": 2.049,
+            "floor": 1,
+            "area": 243.923
+        },
+        "split_tiny": "none",
+        "id": "Merchantville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 2.363,
+            "ssa": 2.049,
+            "floor": 4,
+            "area": 278.634
+        },
+        "split_tiny": "none",
+        "id": "Cochranton",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 1.264,
+            "ssa": 1.457,
+            "floor": 1,
+            "area": 18.153
+        },
+        "split_tiny": "none",
+        "id": "Angiola",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 1.459,
+            "ssa": 1.457,
+            "floor": 4,
+            "area": 217.547
+        },
+        "split_tiny": "none",
+        "id": "Waipahu",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 23,
+            "navigation_complexity": 2.128,
+            "ssa": 1.375,
+            "floor": 4,
+            "area": 520.761
+        },
+        "split_tiny": "none",
+        "id": "Shauck",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 3.054,
+            "ssa": 1.375,
+            "floor": 3,
+            "area": 581.598
+        },
+        "split_tiny": "none",
+        "id": "Callicoon",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 2.658,
+            "ssa": 1.545,
+            "floor": 1,
+            "area": 55.245
+        },
+        "split_tiny": "none",
+        "id": "Parole",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 1.368,
+            "ssa": 1.545,
+            "floor": 4,
+            "area": 680.769
+        },
+        "split_tiny": "none",
+        "id": "Sontag",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 26,
+            "navigation_complexity": 3.78,
+            "ssa": 1.353,
+            "floor": 4,
+            "area": 544.518
+        },
+        "split_tiny": "none",
+        "id": "Nemacolin",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 23,
+            "navigation_complexity": 3.365,
+            "ssa": 1.353,
+            "floor": 4,
+            "area": 844.897
+        },
+        "split_tiny": "none",
+        "id": "Hurley",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 13,
+            "navigation_complexity": 3.424,
+            "ssa": 1.415,
+            "floor": 1,
+            "area": 225.156
+        },
+        "split_tiny": "none",
+        "id": "Carpendale",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 3.662,
+            "ssa": 1.415,
+            "floor": 3,
+            "area": 292.725
+        },
+        "split_tiny": "none",
+        "id": "Spotswood",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 36,
+            "navigation_complexity": 2.385,
+            "ssa": 1.297,
+            "floor": 4,
+            "area": 2019.115
+        },
+        "split_tiny": "none",
+        "id": "Crugers",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 6.657,
+            "ssa": 1.297,
+            "floor": 3,
+            "area": 543.053
+        },
+        "split_tiny": "train",
+        "id": "Tolstoy",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 29,
+            "navigation_complexity": 5.265,
+            "ssa": 1.302,
+            "floor": 4,
+            "area": 544.749
+        },
+        "split_tiny": "test",
+        "id": "Shelbyville",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 2.306,
+            "ssa": 1.302,
+            "floor": 4,
+            "area": 668.494
+        },
+        "split_tiny": "none",
+        "id": "Touhy",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 3.929,
+            "ssa": 1.224,
+            "floor": 4,
+            "area": 427.967
+        },
+        "split_tiny": "none",
+        "id": "Potterville",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 3.26,
+            "ssa": 1.224,
+            "floor": 3,
+            "area": 370.472
+        },
+        "split_tiny": "none",
+        "id": "Yscloskey",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 2.074,
+            "ssa": 1.274,
+            "floor": 1,
+            "area": 77.847
+        },
+        "split_tiny": "none",
+        "id": "Sawpit",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 1.251,
+            "ssa": 1.274,
+            "floor": 3,
+            "area": 629.624
+        },
+        "split_tiny": "none",
+        "id": "Stockwell",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 5.005,
+            "ssa": 1.405,
+            "floor": 4,
+            "area": 506.124
+        },
+        "split_tiny": "none",
+        "id": "Frontenac",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 1.049,
+            "ssa": 1.405,
+            "floor": 1,
+            "area": 53.665
+        },
+        "split_tiny": "none",
+        "id": "Michiana",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 26,
+            "navigation_complexity": 8.213,
+            "ssa": 1.337,
+            "floor": 3,
+            "area": 730.187
+        },
+        "split_tiny": "none",
+        "id": "Country",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 2.311,
+            "ssa": 1.337,
+            "floor": 1,
+            "area": 59.6
+        },
+        "split_tiny": "none",
+        "id": "Avonia",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 28,
+            "navigation_complexity": 2.169,
+            "ssa": 2.115,
+            "floor": 5,
+            "area": 926.358
+        },
+        "split_tiny": "none",
+        "id": "Laupahoehoe",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 9.619,
+            "ssa": 2.115,
+            "floor": 3,
+            "area": 1050.351
+        },
+        "split_tiny": "none",
+        "id": "German",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 28,
+            "navigation_complexity": 3.448,
+            "ssa": 1.282,
+            "floor": 4,
+            "area": 972.814
+        },
+        "split_tiny": "none",
+        "id": "Milford",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 1.001,
+            "ssa": 1.282,
+            "floor": 4,
+            "area": 547.068
+        },
+        "split_tiny": "none",
+        "id": "Grantsville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 7.211,
+            "ssa": 1.238,
+            "floor": 4,
+            "area": 557.685
+        },
+        "split_tiny": "none",
+        "id": "Duarte",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 1.373,
+            "ssa": 1.238,
+            "floor": 1,
+            "area": 29.918
+        },
+        "split_tiny": "none",
+        "id": "Rosser",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 1.768,
+            "ssa": 1.149,
+            "floor": 1,
+            "area": 72.589
+        },
+        "split_tiny": "none",
+        "id": "Spencerville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 29,
+            "navigation_complexity": 2.169,
+            "ssa": 1.149,
+            "floor": 4,
+            "area": 767.007
+        },
+        "split_tiny": "none",
+        "id": "Ewell",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 2.888,
+            "ssa": 1.353,
+            "floor": 1,
+            "area": 45.342
+        },
+        "split_tiny": "none",
+        "id": "Sumas",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 4.114,
+            "ssa": 1.353,
+            "floor": 3,
+            "area": 584.831
+        },
+        "split_tiny": "none",
+        "id": "Belpre",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 7.291,
+            "ssa": 1.297,
+            "floor": 6,
+            "area": 2832.57
+        },
+        "split_tiny": "none",
+        "id": "Seatonville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 37,
+            "navigation_complexity": 11.816,
+            "ssa": 1.297,
+            "floor": 3,
+            "area": 1305.287
+        },
+        "split_tiny": "validation",
+        "id": "Lindenwood",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 1,
+            "navigation_complexity": 2.79,
+            "ssa": 1.21,
+            "floor": 1,
+            "area": 62.206
+        },
+        "split_tiny": "none",
+        "id": "Roxboro",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 9.961,
+            "ssa": 1.21,
+            "floor": 3,
+            "area": 716.924
+        },
+        "split_tiny": "train",
+        "id": "Wyatt",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 2.755,
+            "ssa": 1.128,
+            "floor": 4,
+            "area": 299.527
+        },
+        "split_tiny": "none",
+        "id": "Anaheim",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 2.154,
+            "ssa": 1.128,
+            "floor": 3,
+            "area": 339.319
+        },
+        "split_tiny": "none",
+        "id": "Macksville",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 2.528,
+            "ssa": 1.256,
+            "floor": 1,
+            "area": 87.753
+        },
+        "split_tiny": "none",
+        "id": "Dryville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 30,
+            "navigation_complexity": 2.674,
+            "ssa": 1.256,
+            "floor": 4,
+            "area": 781.388
+        },
+        "split_tiny": "none",
+        "id": "Torrington",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 23,
+            "navigation_complexity": 5.496,
+            "ssa": 2.332,
+            "floor": 3,
+            "area": 739.196
+        },
+        "split_tiny": "none",
+        "id": "Siren",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 1.141,
+            "ssa": 2.332,
+            "floor": 3,
+            "area": 209.679
+        },
+        "split_tiny": "none",
+        "id": "Musicks",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 2.785,
+            "ssa": 1.883,
+            "floor": 3,
+            "area": 553.505
+        },
+        "split_tiny": "none",
+        "id": "Plumerville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 1.0,
+            "ssa": 1.883,
+            "floor": 1,
+            "area": 37.789
+        },
+        "split_tiny": "none",
+        "id": "Pablo",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 1.666,
+            "ssa": 0.823,
+            "floor": 1,
+            "area": 50.645
+        },
+        "split_tiny": "none",
+        "id": "Ribera",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 3.567,
+            "ssa": 0.823,
+            "floor": 2,
+            "area": 1064.191
+        },
+        "split_tiny": "none",
+        "id": "Holcut",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 5.35,
+            "ssa": 0.885,
+            "floor": 1,
+            "area": 80.306
+        },
+        "split_tiny": "none",
+        "id": "Allensville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 76,
+            "navigation_complexity": 18.039,
+            "ssa": 0.885,
+            "floor": 3,
+            "area": 5930.231
+        },
+        "split_tiny": "none",
+        "id": "Sargents",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 5.566,
+            "ssa": 1.024,
+            "floor": 3,
+            "area": 291.831
+        },
+        "split_tiny": "none",
+        "id": "Springerville",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 1.012,
+            "ssa": 1.024,
+            "floor": 4,
+            "area": 152.529
+        },
+        "split_tiny": "none",
+        "id": "Pittsburg",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 4.381,
+            "ssa": 1.941,
+            "floor": 1,
+            "area": 424.793
+        },
+        "split_tiny": "none",
+        "id": "Kingdom",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 27,
+            "navigation_complexity": 3.156,
+            "ssa": 1.941,
+            "floor": 3,
+            "area": 712.519
+        },
+        "split_tiny": "none",
+        "id": "Tysons",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 2.315,
+            "ssa": 1.522,
+            "floor": 4,
+            "area": 315.216
+        },
+        "split_tiny": "none",
+        "id": "Kopperl",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 1.648,
+            "ssa": 1.522,
+            "floor": 1,
+            "area": 44.215
+        },
+        "split_tiny": "none",
+        "id": "Lathrup",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 1.204,
+            "ssa": 1.524,
+            "floor": 1,
+            "area": 74.119
+        },
+        "split_tiny": "none",
+        "id": "Gluck",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 1.718,
+            "ssa": 1.524,
+            "floor": 3,
+            "area": 337.188
+        },
+        "split_tiny": "none",
+        "id": "Calmar",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 27,
+            "navigation_complexity": 3.539,
+            "ssa": 1.256,
+            "floor": 4,
+            "area": 300.418
+        },
+        "split_tiny": "train",
+        "id": "Forkland",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 1.765,
+            "ssa": 1.256,
+            "floor": 4,
+            "area": 230.642
+        },
+        "split_tiny": "none",
+        "id": "Mifflinburg",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 2.438,
+            "ssa": 1.422,
+            "floor": 3,
+            "area": 359.806
+        },
+        "split_tiny": "none",
+        "id": "Lineville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 2.101,
+            "ssa": 1.422,
+            "floor": 1,
+            "area": 64.072
+        },
+        "split_tiny": "none",
+        "id": "Connellsville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 1.925,
+            "ssa": 1.616,
+            "floor": 1,
+            "area": 75.49
+        },
+        "split_tiny": "none",
+        "id": "Wilbraham",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 3.684,
+            "ssa": 1.616,
+            "floor": 4,
+            "area": 1111.809
+        },
+        "split_tiny": "none",
+        "id": "Losantville",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 1.294,
+            "ssa": 2.016,
+            "floor": 3,
+            "area": 254.781
+        },
+        "split_tiny": "none",
+        "id": "Nuevo",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 1.671,
+            "ssa": 2.016,
+            "floor": 1,
+            "area": 79.531
+        },
+        "split_tiny": "none",
+        "id": "Lynxville",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 24,
+            "navigation_complexity": 1.352,
+            "ssa": 1.126,
+            "floor": 1,
+            "area": 314.952
+        },
+        "split_tiny": "none",
+        "id": "Keweenaw",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 2.33,
+            "ssa": 1.126,
+            "floor": 1,
+            "area": 55.911
+        },
+        "split_tiny": "none",
+        "id": "Mosinee",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 110,
+            "navigation_complexity": 17.889,
+            "ssa": 1.223,
+            "floor": 4,
+            "area": 6298.848
+        },
+        "split_tiny": "none",
+        "id": "Lincolnwood",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 20,
+            "navigation_complexity": 1.31,
+            "ssa": 1.223,
+            "floor": 4,
+            "area": 376.558
+        },
+        "split_tiny": "none",
+        "id": "Grangeville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 3.244,
+            "ssa": 0.873,
+            "floor": 3,
+            "area": 275.235
+        },
+        "split_tiny": "none",
+        "id": "Hainesburg",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 1.047,
+            "ssa": 0.873,
+            "floor": 1,
+            "area": 861.946
+        },
+        "split_tiny": "none",
+        "id": "Gratz",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 3.097,
+            "ssa": 1.136,
+            "floor": 3,
+            "area": 502.758
+        },
+        "split_tiny": "none",
+        "id": "Maugansville",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 7.782,
+            "ssa": 1.136,
+            "floor": 3,
+            "area": 358.399
+        },
+        "split_tiny": "none",
+        "id": "Stilwell",
+        "split_full": "test",
+        "split_medium": "test"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 4.266,
+            "ssa": 1.635,
+            "floor": 1,
+            "area": 87.088
+        },
+        "split_tiny": "none",
+        "id": "Colebrook",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 5.456,
+            "ssa": 1.635,
+            "floor": 3,
+            "area": 456.154
+        },
+        "split_tiny": "none",
+        "id": "Haymarket",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 5.306,
+            "ssa": 1.33,
+            "floor": 3,
+            "area": 1135.121
+        },
+        "split_tiny": "none",
+        "id": "Crookston",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 4.673,
+            "ssa": 1.33,
+            "floor": 4,
+            "area": 837.527
+        },
+        "split_tiny": "none",
+        "id": "Browntown",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 3.88,
+            "ssa": 1.536,
+            "floor": 1,
+            "area": 170.554
+        },
+        "split_tiny": "none",
+        "id": "Almena",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 3.079,
+            "ssa": 1.536,
+            "floor": 1,
+            "area": 43.875
+        },
+        "split_tiny": "none",
+        "id": "Germfask",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 15,
+            "navigation_complexity": 1.676,
+            "ssa": 1.96,
+            "floor": 3,
+            "area": 359.458
+        },
+        "split_tiny": "none",
+        "id": "Graceville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 1.734,
+            "ssa": 1.96,
+            "floor": 1,
+            "area": 117.083
+        },
+        "split_tiny": "none",
+        "id": "Samuels",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 31,
+            "navigation_complexity": 1.38,
+            "ssa": 1.687,
+            "floor": 5,
+            "area": 1067.245
+        },
+        "split_tiny": "none",
+        "id": "Bowmore",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 6.789,
+            "ssa": 1.687,
+            "floor": 4,
+            "area": 439.666
+        },
+        "split_tiny": "none",
+        "id": "Readsboro",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 2.456,
+            "ssa": 2.061,
+            "floor": 1,
+            "area": 161.586
+        },
+        "split_tiny": "none",
+        "id": "Pettigrew",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 2.915,
+            "ssa": 2.061,
+            "floor": 1,
+            "area": 43.882
+        },
+        "split_tiny": "none",
+        "id": "Brevort",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 1.017,
+            "ssa": 1.601,
+            "floor": 3,
+            "area": 319.542
+        },
+        "split_tiny": "none",
+        "id": "Fitchburg",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 3.972,
+            "ssa": 1.601,
+            "floor": 1,
+            "area": 97.743
+        },
+        "split_tiny": "none",
+        "id": "Shelbiana",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 1,
+            "navigation_complexity": 1.283,
+            "ssa": 0.938,
+            "floor": 1,
+            "area": 150.664
+        },
+        "split_tiny": "none",
+        "id": "Uncertain",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 2.189,
+            "ssa": 0.938,
+            "floor": 1,
+            "area": 61.282
+        },
+        "split_tiny": "none",
+        "id": "Hometown",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 28,
+            "navigation_complexity": 2.151,
+            "ssa": 1.34,
+            "floor": 2,
+            "area": 165.089
+        },
+        "split_tiny": "none",
+        "id": "Mifflintown",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 1,
+            "navigation_complexity": 1.947,
+            "ssa": 1.34,
+            "floor": 1,
+            "area": 64.853
+        },
+        "split_tiny": "none",
+        "id": "Ophir",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 29,
+            "navigation_complexity": 1.314,
+            "ssa": 0.955,
+            "floor": 3,
+            "area": 592.516
+        },
+        "split_tiny": "none",
+        "id": "McKeesport",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 5.198,
+            "ssa": 0.955,
+            "floor": 4,
+            "area": 354.146
+        },
+        "split_tiny": "validation",
+        "id": "Markleeville",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 22,
+            "navigation_complexity": 2.885,
+            "ssa": 0.794,
+            "floor": 3,
+            "area": 531.017
+        },
+        "split_tiny": "none",
+        "id": "Scandinavia",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 25,
+            "navigation_complexity": 2.916,
+            "ssa": 0.794,
+            "floor": 3,
+            "area": 599.358
+        },
+        "split_tiny": "none",
+        "id": "Mazomanie",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 3.477,
+            "ssa": 1.347,
+            "floor": 1,
+            "area": 119.162
+        },
+        "split_tiny": "none",
+        "id": "Hercules",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 3.518,
+            "ssa": 1.347,
+            "floor": 1,
+            "area": 121.44
+        },
+        "split_tiny": "none",
+        "id": "Eastville",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 19,
+            "navigation_complexity": 2.148,
+            "ssa": 1.641,
+            "floor": 3,
+            "area": 642.418
+        },
+        "split_tiny": "none",
+        "id": "Freedom",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 3.3,
+            "ssa": 1.641,
+            "floor": 1,
+            "area": 60.857
+        },
+        "split_tiny": "none",
+        "id": "Rabbit",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 21,
+            "navigation_complexity": 11.597,
+            "ssa": 1.28,
+            "floor": 3,
+            "area": 635.302
+        },
+        "split_tiny": "train",
+        "id": "Wainscott",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 26,
+            "navigation_complexity": 2.104,
+            "ssa": 1.28,
+            "floor": 4,
+            "area": 657.858
+        },
+        "split_tiny": "none",
+        "id": "Bowlus",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 34,
+            "navigation_complexity": 6.585,
+            "ssa": 2.011,
+            "floor": 4,
+            "area": 1024.699
+        },
+        "split_tiny": "train",
+        "id": "Apache",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 8,
+            "navigation_complexity": 3.569,
+            "ssa": 2.011,
+            "floor": 1,
+            "area": 160.382
+        },
+        "split_tiny": "none",
+        "id": "Tariffville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 2.37,
+            "ssa": 1.66,
+            "floor": 1,
+            "area": 86.103
+        },
+        "split_tiny": "none",
+        "id": "Rosenberg",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 3.285,
+            "ssa": 1.66,
+            "floor": 4,
+            "area": 393.795
+        },
+        "split_tiny": "none",
+        "id": "Adrian",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 5,
+            "navigation_complexity": 3.082,
+            "ssa": 1.297,
+            "floor": 1,
+            "area": 63.793
+        },
+        "split_tiny": "none",
+        "id": "Montreal",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 12,
+            "navigation_complexity": 3.235,
+            "ssa": 1.297,
+            "floor": 3,
+            "area": 586.539
+        },
+        "split_tiny": "none",
+        "id": "Mentasta",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 2.303,
+            "ssa": 0.698,
+            "floor": 3,
+            "area": 200.588
+        },
+        "split_tiny": "none",
+        "id": "Ladue",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 10,
+            "navigation_complexity": 3.29,
+            "ssa": 0.698,
+            "floor": 1,
+            "area": 172.167
+        },
+        "split_tiny": "none",
+        "id": "Bertram",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 1.136,
+            "ssa": 1.391,
+            "floor": 1,
+            "area": 13.291
+        },
+        "split_tiny": "none",
+        "id": "Branford",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 6.666,
+            "ssa": 1.391,
+            "floor": 4,
+            "area": 741.032
+        },
+        "split_tiny": "validation",
+        "id": "Ranchester",
+        "split_full": "validation",
+        "split_medium": "validation"
+    },
+    {
+        "stats": {
+            "room": 46,
+            "navigation_complexity": 15.187,
+            "ssa": 1.074,
+            "floor": 4,
+            "area": 3081.432
+        },
+        "split_tiny": "none",
+        "id": "Sherrill",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 4.075,
+            "ssa": 1.074,
+            "floor": 1,
+            "area": 90.056
+        },
+        "split_tiny": "none",
+        "id": "Dunmor",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 17,
+            "navigation_complexity": 2.781,
+            "ssa": 1.515,
+            "floor": 4,
+            "area": 385.425
+        },
+        "split_tiny": "none",
+        "id": "Arkansaw",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 27,
+            "navigation_complexity": 7.162,
+            "ssa": 1.515,
+            "floor": 4,
+            "area": 444.113
+        },
+        "split_tiny": "train",
+        "id": "Darden",
+        "split_full": "train",
+        "split_medium": "train"
+    },
+    {
+        "stats": {
+            "room": 6,
+            "navigation_complexity": 5.971,
+            "ssa": 1.508,
+            "floor": 3,
+            "area": 518.468
+        },
+        "split_tiny": "none",
+        "id": "Rough",
+        "split_full": "validation",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 1,
+            "navigation_complexity": 1.0,
+            "ssa": 1.508,
+            "floor": 1,
+            "area": 98.769
+        },
+        "split_tiny": "none",
+        "id": "Northgate",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 1.518,
+            "ssa": 0.678,
+            "floor": 1,
+            "area": 88.42
+        },
+        "split_tiny": "none",
+        "id": "Windhorst",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 3.542,
+            "ssa": 0.678,
+            "floor": 1,
+            "area": 177.415
+        },
+        "split_tiny": "none",
+        "id": "Dalcour",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 31,
+            "navigation_complexity": 1.384,
+            "ssa": 1.02,
+            "floor": 3,
+            "area": 571.195
+        },
+        "split_tiny": "none",
+        "id": "Macedon",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 14,
+            "navigation_complexity": 4.949,
+            "ssa": 1.02,
+            "floor": 3,
+            "area": 496.904
+        },
+        "split_tiny": "none",
+        "id": "Brewton",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 3,
+            "navigation_complexity": 1.392,
+            "ssa": 1.607,
+            "floor": 1,
+            "area": 19.028
+        },
+        "split_tiny": "none",
+        "id": "Norvelt",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 2,
+            "navigation_complexity": 3.107,
+            "ssa": 1.607,
+            "floor": 3,
+            "area": 1374.661
+        },
+        "split_tiny": "none",
+        "id": "Harkeyville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 4,
+            "navigation_complexity": 1.006,
+            "ssa": 1.946,
+            "floor": 1,
+            "area": 48.031
+        },
+        "split_tiny": "none",
+        "id": "Eagerville",
+        "split_full": "test",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 13,
+            "navigation_complexity": 2.691,
+            "ssa": 1.946,
+            "floor": 3,
+            "area": 850.512
+        },
+        "split_tiny": "none",
+        "id": "Alfred",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 1,
+            "navigation_complexity": 1.0,
+            "ssa": 1.851,
+            "floor": 1,
+            "area": 61.099
+        },
+        "split_tiny": "none",
+        "id": "Scottsmoor",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 16,
+            "navigation_complexity": 2.513,
+            "ssa": 1.851,
+            "floor": 3,
+            "area": 477.047
+        },
+        "split_tiny": "none",
+        "id": "Fishersville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 11,
+            "navigation_complexity": 3.391,
+            "ssa": 1.182,
+            "floor": 3,
+            "area": 457.211
+        },
+        "split_tiny": "none",
+        "id": "Broadwell",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 7,
+            "navigation_complexity": 1.516,
+            "ssa": 1.182,
+            "floor": 2,
+            "area": 104.971
+        },
+        "split_tiny": "none",
+        "id": "Coeburn",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 18,
+            "navigation_complexity": 3.82,
+            "ssa": 1.402,
+            "floor": 3,
+            "area": 504.718
+        },
+        "split_tiny": "none",
+        "id": "Yadkinville",
+        "split_full": "train",
+        "split_medium": "none"
+    },
+    {
+        "stats": {
+            "room": 9,
+            "navigation_complexity": 5.436,
+            "ssa": 1.402,
+            "floor": 1,
+            "area": 280.636
+        },
+        "split_tiny": "none",
+        "id": "Islandton",
+        "split_full": "train",
+        "split_medium": "none"
+    }
+]
