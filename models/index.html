@@ -143,7 +143,7 @@
           <div class="row" id="gallery">
             <div class="col-lg-12">
               <ul id="model-data-flters">
-                <li data-filter=".filter-all, .filter-mesh, .filter-pano, .filter-record" class="filter-active">All</li>
+                <li data-filter=".filter-all, .filter-mesh, .filter-pano, .filter-record .filter-scenario" class="filter-active">All</li>
                 <li data-filter=".filter-record" class="">Recording</li>
                 <li data-filter=".filter-pano" class="">Pano</li>
                 <li data-filter=".filter-mesh" class="">Mesh</li>
@@ -215,6 +215,20 @@
                 </video>
               </div>
             </div>
+            <div class="diagram row">
+              <div class="col-6 text-center model-data-item filter-all filter-scenario">
+                <img class="img-responsive" width="100%" src="../public/scenario/{{name}}_0.png" />
+              </div>
+              <div class="col-6 text-center model-data-item filter-all filter-scenario">
+                <img class="img-responsive" width="100%" src="../public/scenario/{{name}}_1.png" />
+              </div>
+              <div class="col-6 text-center model-data-item filter-all filter-scenario">
+                <img class="img-responsive" width="100%" src="../public/scenario/{{name}}_2.png" />
+              </div>
+              <div class="col-6 text-center model-data-item filter-all filter-scenario">
+                <img class="img-responsive" width="100%" src="../public/scenario/{{name}}_3.png" />
+              </div>
+            </div>
           </div>
         </div>
       <div class="row">
@@ -250,9 +264,10 @@
             </div>
             <div class="col-4">
               <h4 class="title">Dataset Split Membership</h4>
-              <h5 class="text-center"> Full Split: <font class="w3-codespan p">{{split_full}}</font> <br/>
-                  Medium Split: <font class="w3-codespan p">{{split_medium}}</font> <br/>
-                  Tiny Split: <font class="w3-codespan p">{{split_tiny}}</font>
+              <h5 class="text-center"> Tiny Split: <font class="w3-codespan p">{{split_tiny}}</font>
+                                       Medium Split: <font class="w3-codespan p">{{split_medium}}</font> <br/>
+                                       Full Split: <font class="w3-codespan p">{{split_full}}</font> <br/>
+                                       FUll+ Split: <font class="w3-codespan p">{{split_full_plus}}</font> <br/>
               </h5>
             </div>
             <div class="col-2"></div>
@@ -268,13 +283,14 @@
           <div class="row" id="gallery">
             <div class="col-lg-12">
               <ul id="model-data-flters">
-                <li data-filter=".filter-all, .filter-mesh, .filter-pano, .filter-record" class="filter-active">All</li>
+                <li data-filter=".filter-all, .filter-mesh, .filter-pano, .filter-record .filter-scenario" class="filter-active">All</li>
                 <li data-filter=".filter-record" class="">Recording</li>
                 <li data-filter=".filter-pano" class="">Pano</li>
                 <li data-filter=".filter-mesh" class="">Mesh</li>
+                <li data-filter=".filter-scenario" class="">Scenario</li>
               </ul>
             </div> 
-            <p class="section-description">Below you can find sample panoramass from the model, mesh dissections, as well as videos of Husky robot agent deployed inside using Gibson simulator. The robot uses a random controller. Each video shows RGB frame, depth, and surface normals.
+            <p class="section-description">Below you can find sample panoramass from the model, mesh dissections, navigation scenarios, as well as videos of Husky robot agent deployed inside using Gibson simulator. The robot uses a random controller. Each video shows RGB frame, depth, and surface normals.
             </p>
             <br/>
             <br/>
@@ -347,6 +363,23 @@
                 </video>
               </div>
             </div>
+
+
+            <div class="diagram row">
+              <div class="col-3 text-center model-data-item filter-all filter-scenario">
+                <img class="img-responsive" width="100%" src="../{{scenario_0}}.png" />
+              </div>
+              <div class="col-3 text-center model-data-item filter-all filter-scenario">
+                <img class="img-responsive" width="100%" src="../{{scenario_1}}.png" />
+              </div>
+              <div class="col-3 text-center model-data-item filter-all filter-scenario">
+                <img class="img-responsive" width="100%" src="../{{scenario_2}}.png" />
+              </div>
+              <div class="col-3 text-center model-data-item filter-all filter-scenario">
+                <img class="img-responsive" width="100%" src="../{{scenario_3}}.png" />
+              </div>
+            </div>
+
             <p class="col-6 text-center model-data-item filter-all filter-record"> In case the videos don't play, please reload (CTRL+SHIFT+R) the page </p>
 
           </div>

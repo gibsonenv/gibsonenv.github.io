@@ -45,6 +45,7 @@ var renderCurrentPageFromLinks = function(params, data, links) {
     split_full: 'None',
     split_medium: 'None',
     split_tiny: 'None',
+    split_full_plus: 'None',
   }
 
   for (var i = 0; i < data.length; i++) {
@@ -59,7 +60,8 @@ var renderCurrentPageFromLinks = function(params, data, links) {
       curr_data["split_full"] = jsUcfirst(model["split_full"]);
       curr_data["split_medium"] = jsUcfirst(model["split_medium"]);
       curr_data["split_tiny"] = jsUcfirst(model["split_tiny"]); 
-
+      curr_data["split_full_plus"] = jsUcfirst(model["split_full+"]);
+      
       // Web links
       curr_data["pano_0"] = curr_link["pano_0"];
       curr_data["pano_1"] = curr_link["pano_1"];
@@ -78,6 +80,10 @@ var renderCurrentPageFromLinks = function(params, data, links) {
       curr_data["record_2"] = curr_link["record_2"];
       curr_data["record_3"] = curr_link["record_3"];
 
+      curr_data["scenario_0"] = curr_link["scenario_0"];
+      curr_data["scenario_1"] = curr_link["scenario_1"];
+      curr_data["scenario_2"] = curr_link["scenario_2"];
+      curr_data["scenario_3"] = curr_link["scenario_3"];
 
       var template = document.getElementById('model-template-link').innerHTML;
       var renderModel = Handlebars.compile(template);
