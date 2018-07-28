@@ -4,8 +4,20 @@ $.getJSON('../public/data.json', function(data) {
     //renderCurrentPage(params, data, links);
     renderCurrentPageFromLinks(params, data, links);
     activateButtons();
+    var videos = document.getElementsByTagName('video');
+    for (var i=0; i<videos.length; i++) {
+      videos[i].addEventListener('loadeddata', playAllVideos, false);
+    }
   })
 })
+
+
+var playAllVideos = function() {
+  var videos = document.getElementsByTagName('video');
+  for (var i=0; i<videos.length; i++) {
+    videos[i].play();
+  }
+}
 
 
 // Parse the current page URL argument
