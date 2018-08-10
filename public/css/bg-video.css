@@ -46,3 +46,8 @@
 @media all and (max-width: 500px) {
 .vid-info .acronym { display: none; }
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { }
