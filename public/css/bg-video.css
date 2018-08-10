@@ -27,8 +27,8 @@
   z-index: -99;
 }
 #vidtop-content {
-	top: 0;
-	color: #fff;
+  top: 0;
+  color: #fff;
 }
 .vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
 .vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
@@ -46,8 +46,3 @@
 @media all and (max-width: 500px) {
 .vid-info .acronym { display: none; }
 }
-
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3) { }
