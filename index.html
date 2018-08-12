@@ -29,6 +29,7 @@
   <link href="public/lib/animate/animate.min.css" rel="stylesheet">
 
   <!-- Stylesheet File -->
+  <link href="public/css/mobile.css" rel="stylesheet">
   <link href="public/css/style.css" rel="stylesheet">
   <link href="public/css/bg-video.css" rel="stylesheet">
   <link href="public/css/platform.css" rel="stylesheet">
@@ -97,7 +98,9 @@
         <div class="video-background">
           <div class="video-foreground">
             <!--iframe id="background-video" src="https://www.youtube.com/embed/Zh1U-YqndME?start=142&controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=Zh1U-YqndME" frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe-->
-            <iframe id="background-video" src="https://www.youtube.com/embed/08fT_7VHSUQ?version=3&controls=0&enablejsapi=1&showinfo=0&autoplay=1&rel=0&modestbranding=1&loop=1&mute=1&playlist=08fT_7VHSUQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe class="mobile-hide desk-show" border="0" id="background-video" src="https://www.youtube.com/embed/08fT_7VHSUQ?version=3&controls=0&enablejsapi=1&showinfo=0&autoplay=1&rel=0&modestbranding=1&loop=1&mute=1&playlist=08fT_7VHSUQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="display: inline;"></iframe>
+            <iframe class="mobile-show desk-hide" border="0" src="public/img/pull_2048.png" style="display: block;"></iframe>
+
           </div>
         </div>
         <h1>Gibson Environment</h1>

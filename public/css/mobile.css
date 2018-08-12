@@ -1,0 +1,38 @@
+.desk-hide {
+    display: none !important;
+ }
+ .desk-show {
+    display: block !important;
+ }
+
+@media screen and (max-width: 1400px) {
+
+ .img-max {
+   width: 100% !important;
+   max-width: 100% !important;
+   height: auto !important;
+ }
+
+ .max-width {
+   max-width: 100% !important;
+ }
+
+ .mobile-wrapper {
+   width: 85% !important;
+   max-width: 85% !important;
+ }
+
+ .mobile-padding {
+   padding-left: 5% !important;
+   padding-right: 5% !important;
+ }
+
+ /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+ .mobile-hide {
+    display: none !important;
+ }
+ .mobile-show {
+    display: block !important;
+ }
+
+}
