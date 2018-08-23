@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.6);
   display: table-cell;
   margin: 0;
-  padding: 0 10px;
+  padding: 0 0px;
   text-align: center;
   vertical-align: middle;
 }
@@ -582,7 +582,7 @@ video#video-bg.video-bg {
 #overview {
   background: #ffffff;
   background-size: cover;
-  padding: 80px 0 60px 0;
+  padding: 50px 0 60px 0;
 }
 
 #overview .video-wrapper{
@@ -671,7 +671,7 @@ video#video-bg.video-bg {
 --------------------------------*/
 #visual {
   background: #ffffff;
-  padding: 50px 0;
+  padding: 100px 0 80px 0;
 }
 
 #visual .title {

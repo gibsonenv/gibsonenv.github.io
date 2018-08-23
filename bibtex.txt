@@ -1,6 +1,6 @@
 @inproceedings{xiazamirhe2018gibsonenv,
   title={Gibson env: real-world perception for embodied agents},
-  author={Xia, Fei and R. Zamir, Amir and He, Zhiyang and Sax, Alexander and Malik, Jitendra and Savarese, Silvio},
+  author={Xia, Fei and R. Zamir, Amir and He, Zhi-Yang and Sax, Alexander and Malik, Jitendra and Savarese, Silvio},
   booktitle={Computer Vision and Pattern Recognition (CVPR), 2018 IEEE Conference on},
   year={2018},
   organization={IEEE}

@@ -67,6 +67,14 @@ function generateSearchList(platform_data) {
         all_ids.push(platform_data[i].id);
     }
     all_ids.sort()
+    if (all_ids.indexOf('Ackermanville') >= 0) {
+      all_ids.splice( all_ids.indexOf('Ackermanville'), 1 );
+    }
+    if (all_ids.indexOf('Adairsville') >= 0) {
+      all_ids.splice( all_ids.indexOf('Adairsville'), 1 );
+    }
+    all_ids.push("Adairsville");
+    all_ids.push("Ackermanville");
     for (var i = 0; i < total_display; i++) {
         var info = {'name': all_ids[i]}
         $('#dropUL').append(renderItem(info))

@@ -1,35 +1,5 @@
 [
     {
-        "id": "Ackermanville",
-        "name": "model-123",
-        "split_full": "none",
-        "split_full+": "train",
-        "split_medium": "none",
-        "split_tiny": "none",
-        "stats": {
-            "area": 499.522,
-            "floor": 1,
-            "navigation_complexity": 2.943,
-            "room": 1,
-            "ssa": 1.187
-        }
-    },
-    {
-        "id": "Adairsville",
-        "name": "model-17",
-        "split_full": "train",
-        "split_full+": "train",
-        "split_medium": "train",
-        "split_tiny": "none",
-        "stats": {
-            "area": 232.438,
-            "floor": 5,
-            "navigation_complexity": 2.201,
-            "room": 17,
-            "ssa": 1.84
-        }
-    },
-    {
         "id": "Adrian",
         "name": "model-546",
         "split_full": "train",
@@ -327,6 +297,36 @@
             "navigation_complexity": 4.809,
             "room": 16,
             "ssa": 1.561
+        }
+    },
+    {
+        "id": "Ackermanville",
+        "name": "model-123",
+        "split_full": "none",
+        "split_full+": "train",
+        "split_medium": "none",
+        "split_tiny": "none",
+        "stats": {
+            "area": 499.522,
+            "floor": 1,
+            "navigation_complexity": 2.943,
+            "room": 1,
+            "ssa": 1.187
+        }
+    },
+    {
+        "id": "Adairsville",
+        "name": "model-17",
+        "split_full": "train",
+        "split_full+": "train",
+        "split_medium": "train",
+        "split_tiny": "none",
+        "stats": {
+            "area": 232.438,
+            "floor": 5,
+            "navigation_complexity": 2.201,
+            "room": 17,
+            "ssa": 1.84
         }
     },
     {
