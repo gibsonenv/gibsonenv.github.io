@@ -10,8 +10,8 @@
   <!-- Preview thumbnails -->
   <meta property='og:title' content="Gibson Environment | Stanford"/>
   <meta property='og:image' content="https://i.imgur.com/TtwdVKx.png"/>
-  <meta property='og:description' content="Gibson Env: Real-World Perception for Embodied Agents, CVPR 2018 (Spotlight). Stanford, UC Berkeley. Our platform is currently in beta test. You can find us on github."/>
-  <meta name="description" content="Gibson Env: Real-World Perception for Embodied Agents, CVPR 2018 (Spotlight). Stanford, UC Berkeley. Our platform is currently in beta test. You can find us on github.">
+  <meta property='og:description' content="Gibson Env: Real-World Perception for Embodied Agents, CVPR 2018 (Spotlight Oral). Stanford, UC Berkeley. You can access the database and simulator on github."/>
+  <meta name="description" content="Gibson Env: Real-World Perception for Embodied Agents, CVPR 2018 (Spotlight Oral). Stanford, UC Berkeley. You can access the database and simulator on github.">
   <meta property='og:url' content="http://gibson.vision" />
 
   <!-- Favicons -->
@@ -75,7 +75,7 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="/">Home</a></li>
-          <li class=""><a href="#services">Gibson</a></li>
+          <li class=""><a href="#overview">Gibson</a></li>
           <li class=""><a href="agents/">Agents</a></li>
           <li class=""><a href="database/">Database <font color="red">(NEW!)</font></a></li>
           <li class=""><a href="method/">Method</a></li>
@@ -105,29 +105,13 @@
         </div>
         <h1>Gibson Environment</h1>
         <h2>Real-World Perception for Embodied Agents</h2>
-        <p>(page under construction -- Gibson Environments is in Beta release. See <a href="https://github.com/StanfordVL/GibsonEnv">Github</a>)</p>
-        <a href="#visual" class="btn-get-started">Get Started</a>
+        <p>Gibson is a perceptual and physics Simulator. From the real-world, for the real-world.</p>
+        <a href="#visual" class="btn-get-started">Learn more</a>
         <a href="https://github.com/StanfordVL/GibsonEnv" class="btn-get-started">View on Github</a>
       </div>
   </section><!-- #hero -->
 
-  <main id="main">
-    <section id="overview">
-      <div class="container">
-        <div class="row overview-container">
-          <div class="col-lg-12 content order-lg-1 order-1 text-center">
-            <div class="section-header">
-              <h3 class="section-title">Overview</h3>
-            </div>
-            <br/>
-            <div class="col-12 text-center video-wrapper" id="background-video">
-              <iframe width="100%" height="100%" class="autoplay-video" src="https://www.youtube.com/embed/KdxuZjemyjc?version=3&loop=1&enablejsapi=1&showinfo=0&enablejsapi=1&autoplay=1&rel=0&playlist=KdxuZjemyjc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
 
-      </div>
-    </section><!-- #about -->
     <!--==========================
       About Us Section
     ============================-->
@@ -156,23 +140,47 @@
               </video>
             </div>
             <p class="text visual1">
-              <b>"You shouldn't play video games all day, so shouldn't your AI."</b> Gibson is a virtual environment built with real world complexity, using RGBD scanning.
+              <b>You shouldn't play video games all day, so shouldn't your AI!</b> Gibson is a virtual environment based off of real-world, as opposed to games or artificial environments, to support learning perception. Gibson enables developing algorithms that explore both perception and action hand in hand.
             </p>
             <p class="text visual2">
-              <b>"We must perceive in order to move, but we must also move in order to perceive." --- James J. Gibson</b> Gibson enables training AI algorithms that explores both perception and action.
+              <b>You shouldn't play video games all day, so shouldn't your AI!</b> Gibson is a virtual environment based off of real-world, as opposed to games or artificial environments, to support learning perception. Gibson enables developing algorithms that explore both perception and action hand in hand.
             </p>
           </div>
         </div>
 
       </div>
     </section><!-- #about -->
+
+
+
+  <main id="main">
+    <section id="overview">
+      <div class="container">
+        <div class="row overview-container">
+          <div class="col-lg-12 content order-lg-1 order-1 text-center">
+            <div class="section-header">
+              <h3 class="section-title">Overview</h3>
+              <p> To learn more, see the <a href="/#paper">CVPR talk</a>, the overview video below, the <a href="/#paper">paper</a>, or visit our <a href="database/">database page</a> or <a href="https://github.com/StanfordVL/GibsonEnv">Github</a>.</p> 
+              <p> Gibson Environment is named after James J. Gibson, the author of Ecological Approach to Visual Perception, 1979. Read a relevant excerpt of JJ Gibson's book <a href="./The_Ecological_Approach_to_Visual_Perception_by_JJ_Gibson.pdf">here</a>. “We must perceive in order to move, but we must also move in order to perceive” – JJ Gibson.</p>              
+
+            </div>
+            <br/>
+            <div class="col-12 text-center video-wrapper" id="background-video">
+              <iframe width="100%" height="100%" class="autoplay-video" src="https://www.youtube.com/embed/KdxuZjemyjc?version=3&loop=1&enablejsapi=1&showinfo=0&enablejsapi=1&autoplay=1&rel=0&playlist=KdxuZjemyjc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
     <!--==========================
       Facts Section
     ============================-->
     <section id="services">
       <div class="container wow fadeIn">
         <div class="section-header">
-          <h3 class="section-title">Get Started</h3>
+          <h3 class="section-title"></h3>
           <div class="row section-predescription">
             <div class="diagram">
               <div class="col-12 text-center">
@@ -180,27 +188,29 @@
               </div>
             </div>
           </div>
-          <p class="section-description">Use our opensource platform to explore active perception. Above: rendering (b) Physics, (c) RGB, (d) Depth, (e) Semantics and (e) Surface Normal inside (a) 3D model at real time. If you find it interesting, we encourage reading about how we made it. </p>
+          <p class="section-description">Use our opensource platform to explore active and real-world perception. Above: two agents in Gibson. The agents are active, embodied, and subject to constraints of physics and space
+(a,b). They receive a constant stream of visual observations as if they had an on-board camera (c). They can also receive additional modalities, e.g. depth, semantic
+labels, or normals (d,e,f). The visual observations are from real scanned buildings. </p>
           <div class="row">
             <div class="col-lg-6 col-md-12">
               <div class="box intro">
                 <div class="icon"><a href="https://github.com/StanfordVL/GibsonEnv"><i class="fa fa-bar-chart"></i></a></div>
                 <h4 class="title"><a href="">Gibson Platform</a></h4>
-                <p class="description">Gibson Environment for Real-World Perception Learning. We are opensourced on Github. <a href="https://github.com/StanfordVL/GibsonEnv">Check it out </a>, deploy, and start training perceptual agents.</p>
+                <p class="description">Gibson Environment for Real-World Perception Learning. We are opensourced on Github. <a href="https://github.com/StanfordVL/GibsonEnv">Check it out </a> and train perceptual agents.</p>
               </div>
             </div>
             <div class="col-lg-6 col-md-12">
               <div class="box intro">
                 <div class="icon"><a href="database/"><i class="fa fa-desktop"></i></a></div>
                 <h4 class="title"><a href="database/">Model Database</a></h4>
-                <p class="description">Up to 1000 RGBD scanning models, collected in indoor scenes using RGBD camera. State-of-the-art model complexity.</p>
+                <p class="description">Over 1400 floor spaces and 572 full buildings, scanned using RGBD cameras. A State-of-the-art 3D database.</p>
               </div>
             </div>
             <div class="col-lg-6 col-md-12">
               <div class="box intro">
                 <div class="icon"><a href="method/"><i class="fa fa-road"></i></a></div>
-                <h4 class="title"><a href="method/">How We Did it</a></h4>
-                <p class="description">Learn about our deep view synthesis pipeline, physics integration, and experiment results in Gibson Environment. </p>
+                <h4 class="title"><a href="method/">How</a></h4>
+                <p class="description">Read more about our neural network based view synthesis pipeline, physics integration, and experimental results. </p>
               </div>
             </div>
 
@@ -208,7 +218,7 @@
               <div class="box intro">
                 <div class="icon"><a href="method/#goggles"><i class="fa fa-photo"></i></a></div>
                 <h4 class="title"><a href="method/#goggles">Transfer to Real World</a></h4>
-                <p class="description">We propose a synthesis mechanism called "Goggle", which ensures that results in Gibson can trasfer to real world.</p>
+                <p class="description">We propose a synthesis mechanism called "Goggle" for closing the remaining perceptual gap between the virtual environment and real-world.</p>
               </div>
             </div>
           </div>
@@ -224,12 +234,12 @@
                         <canvas id="viewer_0"></canvas>
                       </div>
                       <div class="col-lg-12">
-                          <a href="models?id=Adrian">
-                          <img src="public/mesh/Adrian/Adrian_thumb.png" text-align="center" alt="Image description" />
+                          <a href="models?id=Bohemia">
+                          <img src="public/mesh/Bohemia/Bohemia_thumb.png" text-align="center" alt="Image description" />
                           </a>
                       </div>
                     </div>
-                    <a href="models?id=Adrian" class="click" style="text-align:left"><img src="/public/img/magnify.png"><font color="#666666"> Model: Adrian </font> <font color="red">(Click Me)</font></a>
+                    <a href="models?id=Bohemia" class="click" style="text-align:left"><img src="/public/img/magnify.png"><font color="#666666"> Model: Bohemia </font> <font color="red">(Click Me)</font></a>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 platform-data-item filter-card">
@@ -239,12 +249,12 @@
                         <canvas id="viewer_1"></canvas>
                       </div>
                       <div class="col-lg-12">
-                          <a href="models?id=Biltmore">
-                          <img src="public/mesh/Biltmore/Biltmore_thumb.png" text-align="center" alt="Image description" />
+                          <a href="models?id=Alfred">
+                          <img src="public/mesh/Alfred/Alfred_thumb.png" text-align="center" alt="Image description" />
                           </a>
                       </div>
                     </div>
-                    <a href="models?id=Biltmore" class="click" style="text-align:left"><img src="/public/img/magnify.png"><font color="#666666"> Model: Biltmore </font> <font color="red">(Click Me)</font></a>
+                    <a href="models?id=Alfred" class="click" style="text-align:left"><img src="/public/img/magnify.png"><font color="#666666"> Model: Alfred </font> <font color="red">(Click Me)</font></a>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 platform-data-item filter-card">
@@ -300,7 +310,7 @@
         <div class="row">
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="https://cs.stanford.edu/~amirz/index_files/amir18_sq.png" alt=""></div>
+              <div class="pic"><a href="http://cs.stanford.edu/~amirz/"><img src="https://cs.stanford.edu/~amirz/index_files/amir18_sq.png" alt=""></div>
               <h4><a href="http://cs.stanford.edu/~amirz/">Amir Zamir</a></h4>
                 <h5>Stanford, UC Berkeley</h5>
             </div>
@@ -316,7 +326,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="public/img/jerry.png" alt=""></div>
+              <div class="pic"><a href="http://zhi-yang.me/"><img src="public/img/jerry.png" alt=""></div>
               <h4><a href="http://zhi-yang.me/">Zhiyang He</a></h4>
                 <h5>Stanford</h5>              
             </div>
@@ -363,15 +373,17 @@
           <h3 class="section-title">Paper</h3>
           <p class="section-description">
             <b>Gibson Env: Real-World Perception for Embodied Agents</b><br>
-            <b>CVPR 2018. [Spotlight]</b><br>
-            F. Xia*, A. R. Zamir*,  Z. He*, S. Sax, J. Malik, S. Savarese. <br>
+            <b>CVPR 2018. [Spotlight Oral][NVIDIA Pioneering Research Award]</b><br>
+            F. Xia*, A. Zamir*,  Z. He*, S. Sax, J. Malik, S. Savarese. <br>
             (*equal contribution)<br>
-				  	<a href="./Gibson_CVPR2018.pdf">[Paper]</a>
+				  	<a href="https://storage.googleapis.com/gibson_material/Gibson_CVPR2018.pdf">[Paper]</a>
 				  	<a href="./Gibson_supp_CVPR2018.pdf">[Supplementary]</a>
 				  	<a href="https://github.com/StanfordVL/GibsonEnv">[Code]</a>	
-				  	<a href="./bibtex.txt">[Bibtex]</a>	
+				  	<a href="./bibtex.txt">[Bibtex]</a>
+            <a href="https://storage.googleapis.com/gibson_material/Gibson_Environment_brief_slides.key 
+">[Slides]</a>             	
             <br>            
-          <img src="../public/img/gibson_paper_thumbnail.jpg"  width="20%">            
+          <a href="https://storage.googleapis.com/gibson_material/Gibson_CVPR2018.pdf"><img src="../public/img/gibson_paper_thumbnail.jpg"  width="20%">            
           </p>
         </div>
       </div>
