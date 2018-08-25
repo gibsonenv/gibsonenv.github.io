@@ -1,5 +1,37 @@
 /* Method Section
 --------------------------------*/
+
+.spotlight-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.spotlight {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+}
+
+
+.methodvid-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.methodvid {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+
+
 #method {
   background: #ffffff;
   padding: 50px 0;

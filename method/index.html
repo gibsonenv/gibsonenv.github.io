@@ -98,15 +98,19 @@
           <h3 class="section-title">Introduction</h3>
           <p class="section-description"> <b>Perception and being active</b> (i.e. having a certain level of motion freedom) are closely tied. Learning active perception and sensorimotor control in the physical world is cumbersome as existing algorithms are too slow to efficiently learn in real-time and robots are fragile and costly. This has given rise to learning in simulation which consequently casts a question on transferring to real-world. In this paper, we study learning perception for active agents in real-world, propose a virtual environment for this purpose, and demonstrate complex learned locomotion abilities. The primary characteristics of the learning environments, which transfer into the trained agents, are I) being from the real-world and reflecting its semantic complexity, II) having a mechanism to ensure no need to further domain adaptation prior to deployment of results in real-world, III) embodiment of the agent and making it subject to constraints of space and physics. </p>
         </div>
+      </div>
+    </div>
 
+    <div class="row" style="padding:30px 15% 0 15%">
+      <div class="col-xl-6 col-md-12 col-sm-12">
         <div class="section-header">
           <h3 class="section-title">Publication</h3>
             <p class="section-description">
               <div class="row" style="margin-left:10%; margin-right:10%">
-                <div class="col-sm-3 col-xs-3">
-                  <img class="img-responsive" width="10%" src="../public/img/gibson_paper_thumbnail.jpg" />      
+                <div class="col-xl-5 col-md-12">
+                    <a href="https://storage.googleapis.com/gibson_material/Gibson_CVPR2018.pdf"><img src="../public/img/gibson_paper_thumbnail.jpg" class="img-responsive" width="10%"></a>    
                 </div>
-                <div class="col-sm-9 col-xs-9">
+                <div class="col-xl-7 col-md-12">
                   <b>Gibson Env: Real-World Perception for Embodied Agents</b><br>
                   <b>CVPR 2018. [Spotlight Oral][NVIDIA Pioneering Research Award]</b><br>
                   F. Xia*, A. Zamir*, Z. He*, S. Sax, J. Malik, S. Savarese. <br>
@@ -123,7 +127,18 @@
             </p>
         </div>
       </div>
-    </div>
+
+      <div class="col-xl-6 col-md-12 col-sm-12">
+        <div class="section-header">
+          <h3 class="section-title">Spotlight Presentation</h3>
+        </div>
+        <br/>
+        <div class="spotlight-container">
+          <iframe class="spotlight" border="0" id="" src="https://www.youtube.com/embed/1T8-PLy5mVo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style=""></iframe>
+        </div>
+          </div>
+
+
   </section>
 
   <section id="platform-specs">
@@ -231,8 +246,9 @@
         <div class="section-header">
           <h2 class="section-second-title">Optimized for Speed</h2>
           <p class="section-description">Rendering speed is crucial for reinforcement learning. It is our guideline when building an environment to providevery high frame rate, such that we can simulate our envi-ronment at much faster speed than real time. We implemented our CUDA-optimized rendering pipeline for this purpose. We also offer different rendering resolutions, to account for different speed requirements.</p>
-          <div class="col-12 text-center">
-            <iframe width="560" height="315" class="autoplay-video" src="https://www.youtube.com/embed/h1_f_-zCOjU?version=3&autoplay=1&enablejsapi=1&loop=1&playlist=h1_f_-zCOjU&rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+          <div class="methodvid-container">
+            <iframe class="methodvid autoplay-video" border="0" src="https://www.youtube.com/embed/h1_f_-zCOjU?version=3&autoplay=1&enablejsapi=1&loop=1&playlist=h1_f_-zCOjU&rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -245,16 +261,16 @@
           <h3 class="section-title">Reinforcement Learning</h3>
           <p class="section-intro">The video shows some of the results of reinforcement learning policies trained in our environment. We choose (1) visual local planning and obstacle avoidance, (2) visual global planning and navigation, and (3) visuomotor control for complex locomotion as the three set of tasks we attempted.</p>
           <h3 class="section-second-title">Visual Local Planning</h3>
-          <div class="col-12 text-center">
-            <iframe width="560" height="315" class="autoplay-video" src="https://www.youtube.com/embed/3tLr3m9RiPU?version=3&autoplay=1&enablejsapi=1&loop=1&playlist=3tLr3m9RiPU&rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          <div class="methodvid-container">
+            <iframe class="methodvid autoplay-video" border="0" src="https://www.youtube.com/embed/3tLr3m9RiPU?version=3&autoplay=1&enablejsapi=1&loop=1&playlist=3tLr3m9RiPU&rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
           </div>
           <p class="section-description"> In this task we create an agent to do visual obstacle avoidance. The agent receives a continuous stream of Depth frames and decides where to move. 
 
           We trained two husky agents with PPO algorithm for 150 episodes (300 iterations, 150k frames). The average reward over 10 iterations are plotted. The agent with perception achieves a higher score and developed obstacle avoidance behavior to reach the goal faster, compared to a non-visial agent with standard proprioception.
           </p>
           <h3 class="section-second-title">Visual Navigation</h3>
-          <div class="col-12 text-center">
-            <iframe width="560" height="315" class="autoplay-video" src="https://www.youtube.com/embed/tWtcw91f2RE?version=3&autoplay=1&enablejsapi=1&loop=1&playlist=tWtcw91f2RE&rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          <div class="methodvid-container">
+            <iframe class="methodvid autoplay-video" border="0" src="https://www.youtube.com/embed/tWtcw91f2RE?version=3&autoplay=1&enablejsapi=1&loop=1&playlist=tWtcw91f2RE&rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
           </div>
           <p class="section-description"> In this task, we set a fixed target B, and train the agent to go to B from an arbitrary and far location A with random initialization. The agent receives RGB only input without any external odometry or GPS target information. This has useful applications in robotics such as auto-docking. 
 
@@ -263,8 +279,8 @@
           Furthermore, we do an active domain adaptation experiment using the trained policy and measure the policy discrepancy in terms of L2 distance of output logits across different domains. Our results (see paper) shows that the domain adaptation is effective when evaluated for an active task as well.
           </p>
           <h3 class="section-second-title">Complex Locomotion</h3>
-          <div class="col-12 text-center">
-            <iframe width="560" height="315" class="autoplay-video" src="https://www.youtube.com/embed/9uW1vjLqlvM?version=3&autoplay=1&enablejsapi=1&&loop=1&playlist=9uW1vjLqlvM&rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          <div class="methodvid-container">
+            <iframe class="methodvid autoplay-video" border="0" src="https://www.youtube.com/embed/9uW1vjLqlvM?version=3&autoplay=1&enablejsapi=1&&loop=1&playlist=9uW1vjLqlvM&rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
           </div>
           <p class="section-description"> In this task, we study the use of perception for the active agent in developing locomotion in complex environments. Locomotive agents trained with deep reinforcement learning are known to have difficulty generalizing to unseen environments and obstacles. We demonstrate that this difficulty can be reduced by adding perceptions.
 
