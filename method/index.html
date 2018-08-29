@@ -246,11 +246,180 @@
         <div class="section-header">
           <h2 class="section-second-title">Optimized for Speed</h2>
           <p class="section-description">Rendering speed is crucial for reinforcement learning. It is our guideline when building an environment to providevery high frame rate, such that we can simulate our envi-ronment at much faster speed than real time. We implemented our CUDA-optimized rendering pipeline for this purpose. We also offer different rendering resolutions, to account for different speed requirements.</p>
-
-          <div class="methodvid-container">
-            <iframe class="methodvid autoplay-video" border="0" src="https://www.youtube.com/embed/h1_f_-zCOjU?version=3&autoplay=1&enablejsapi=1&loop=1&playlist=h1_f_-zCOjU&rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-          </div>
         </div>
+      </div>
+    </div>
+    <div class="row fps-container" style="padding: 0 10% 0 10%">
+      <div class="col-xl-4 col-lg-12">
+        <p style="text-align:center">Tested on <code>E5-2697 v4 + NVIDIA Tesla V100</code></p>
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Resolution</th>
+              <th scope="col">128x128</th>
+              <th scope="col">256x256</th>
+              <th scope="col">512x512</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">RGBD, pre network<code>f</code></th>
+              <td>109.1</td>
+              <td>58.5</td>
+              <td>26.5</td>
+            </tr>
+            <tr>
+              <th scope="row">RGBD, post network<code>f</code></th>
+              <td>77.7</td>
+              <td>30.6</td>
+              <td>14.5</td>
+            </tr>
+            <tr>
+              <th scope="row">RGBD, post small network<code>f</code></th>
+              <td>87.4</td>
+              <td>40.5</td>
+              <td>21.2</td>
+            </tr>
+            <tr>
+              <th scope="row">Depth only</th>
+              <td>253.0</td>
+              <td>197.9</td>
+              <td>124.7</td>
+            </tr>
+            <tr>
+              <th scope="row">Surface Normal only</th>
+              <td>207.7</td>
+              <td>129.7</td>
+              <td>57.2</td>
+            </tr>
+            <tr>
+              <th scope="row">Semantic only</th>
+              <td>190.0</td>
+              <td>144.2</td>
+              <td>55.6</td>
+            </tr>
+            <tr>
+              <th scope="row">Non-Visual Sensory</th>
+              <td>396.1</td>
+              <td>396.1</td>
+              <td>396.1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-xl-4 col-lg-12">
+        <p style="text-align:center">Tested on <code>Intel I7 7700 + NVIDIA GeForce GTX 1070Ti</code></p>
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Resolution</th>
+              <th scope="col">128x128</th>
+              <th scope="col">256x256</th>
+              <th scope="col">512x512</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">RGBD, pre network<code>f</code></th>
+              <td>134.3</td>
+              <td>61.9</td>
+              <td>20.5</td>
+            </tr>
+            <tr>
+              <th scope="row">RGBD, post network<code>f</code></th>
+              <td>80.9</td>
+              <td>30.2</td>
+              <td>8.5</td>
+            </tr>
+            <tr>
+              <th scope="row">RGBD, post small network<code>f</code></th>
+              <td>128.1</td>
+              <td>61.9</td>
+              <td>25.1</td>
+            </tr>
+            <tr>
+              <th scope="row">Depth only</th>
+              <td>362.8</td>
+              <td>319.1</td>
+              <td>183.0</td>
+            </tr>
+            <tr>
+              <th scope="row">Surface Normal only</th>
+              <td>282.5</td>
+              <td>186.9</td>
+              <td>81.6</td>
+            </tr>
+            <tr>
+              <th scope="row">Semantic only</th>
+              <td>304.5</td>
+              <td>194.8</td>
+              <td>73.7</td>
+            </tr>
+            <tr>
+              <th scope="row">Non-Visual Sensory</th>
+              <td>511.3</td>
+              <td>495.6</td>
+              <td>540.0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-xl-4 col-lg-12">
+        <p style="text-align:center">Tested on <code>Intel I7 6580k + NVIDIA GeForce GTX 1080Ti</code></p>
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Resolution</th>
+              <th scope="col">128x128</th>
+              <th scope="col">256x256</th>
+              <th scope="col">512x512</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">RGBD, pre network<code>f</code></th>
+              <td>108.1</td>
+              <td>60.0</td>
+              <td>21.9</td>
+            </tr>
+            <tr>
+              <th scope="row">RGBD, post network<code>f</code></th>
+              <td>75.6</td>
+              <td>35.9</td>
+              <td>12.0</td>
+            </tr>
+            <tr>
+              <th scope="row">RGBD, post small network<code>f</code></th>
+              <td>98.8</td>
+              <td>63.3</td>
+              <td>27.3</td>
+            </tr>
+            <tr>
+              <th scope="row">Depth only</th>
+              <td>209.4</td>
+              <td>141.2</td>
+              <td>104.3</td>
+            </tr>
+            <tr>
+              <th scope="row">Surface Normal only</th>
+              <td>175.0</td>
+              <td>110.5</td>
+              <td>57.6</td>
+            </tr>
+            <tr>
+              <th scope="row">Semantic only</th>
+              <td>139.3</td>
+              <td>134.1</td>
+              <td>63.1</td>
+            </tr>
+            <tr>
+              <th scope="row">Non-Visual Sensory</th>
+              <td>260.3</td>
+              <td>264.8</td>
+              <td>250.0</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </section>
