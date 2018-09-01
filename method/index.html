@@ -250,8 +250,8 @@
       </div>
     </div>
     <div class="row fps-container" style="padding: 0 10% 0 10%">
-      <div class="col-xl-4 col-lg-12">
-        <p style="text-align:center">Tested on <code>E5-2697 v4 + NVIDIA Tesla V100</code></p>
+      <div class="col-xl-6 col-lg-12">
+        <p style="text-align:center">Single Process. Tested on <code>E5-2697 v4 + NVIDIA Tesla V100</code></p>
         <table class="table">
           <thead class="thead-dark">
             <tr>
@@ -306,8 +306,65 @@
             </tr>
           </tbody>
         </table>
+        <p style="text-align:center">We also tested on <code>Intel I7 7700 + NVIDIA GeForce GTX 1070Ti</code> and <code>Intel I7 6580k + NVIDIA GeForce GTX 1080Ti</code>, the framerates are within 10% difference</p>
       </div>
-      <div class="col-xl-4 col-lg-12">
+      <div class="col-xl-6 col-lg-12">
+        <p style="text-align:center">Multi-process. Tested on <code>E5-2697 v4 + NVIDIA Tesla V100</code></p>
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Configuration</th>
+              <th scope="col">512x512 episode sync</th>
+              <th scope="col">512x512 frame sync</th>
+              <th scope="col">256x256 episode sync</th>
+              <th scope="col">256x256 frame sync</th>
+              <th scope="col">128x128 episode sync</th>
+              <th scope="col">128x128 frame sync</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1 process</th>
+              <td>12.8</td>
+              <td>12.02</td>
+              <td>32.98</td>
+              <td>32.98</td>
+              <td>52</td>
+              <td>52</td>
+            </tr>
+            <tr>
+              <th scope="row">2 processes</th>
+              <td>23.4</td>
+              <td>20.9</td>
+              <td>60.89</td>
+              <td>53.63</td>
+              <td>86.1</td>
+              <td>101.8</td>
+            </tr>
+            <tr>
+              <th scope="row">4 processes</th>
+              <td>42.4</td>
+              <td>31.97</td>
+              <td>105.26</td>
+              <td>76.23</td>
+              <td>97.6</td>
+              <td>145.9</td>
+            </tr>
+            <tr>
+              <th scope="row">8 processes</th>
+              <td>72.5</td>
+              <td>48.1</td>
+              <td>138.5</td>
+              <td>97.72</td>
+              <td>113</td>
+              <td>151</td>
+            </tr>
+          </tbody>
+        </table>
+        <p style="text-align:center">Benchmarked for <code> RGBD, pose network </code> code, which is the most computation expensive.</p>
+      </div>
+    </div>
+      <!--div class="col-xl-4 col-lg-12">
         <p style="text-align:center">Tested on <code>Intel I7 7700 + NVIDIA GeForce GTX 1070Ti</code></p>
         <table class="table">
           <thead class="thead-light">
@@ -420,7 +477,7 @@
             </tr>
           </tbody>
         </table>
-      </div>
+      </div-->
     </div>
   </section>
   <section id="method">
