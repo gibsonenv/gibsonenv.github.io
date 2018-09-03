@@ -111,8 +111,7 @@
           <div class="video-foreground">
             <!--iframe id="background-video" src="https://www.youtube.com/embed/Zh1U-YqndME?start=142&controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=Zh1U-YqndME" frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe-->
             <iframe class="mobile-hide desk-show" border="0" id="background-video" src="https://www.youtube.com/embed/08fT_7VHSUQ?version=3&controls=0&enablejsapi=1&showinfo=0&autoplay=1&rel=0&modestbranding=1&loop=1&mute=1&playlist=08fT_7VHSUQ" frameborder="0" allow="autoplay; encrypted-media"></iframe>
-            <iframe class="mobile-show desk-hide" border="0" src="public/img/pull_2048.png" style="display: block;"></iframe>
-
+            <img class="mobile-show desk-hide" border="0" src="public/img/pull_2048.png" style="display: block; height: 150%; width: 100%; background-position: center; background-size: cover; object-fit: cover;"></img>
           </div>
         </div>
         <h1>Gibson Environment</h1>
@@ -145,11 +144,15 @@
               </span>
             </h2>
             <h2 class="title"></h2>
-            <div class="col-lg-12 content video-container embed-responsive embed-responsive-21by9">
-              <video playsinline autoplay center loop muted class="video-bg" id="video-bg" poster="public/img/loading.gif"> <!--this id is only used for the toggle function; can be removed if you don't need an event -->
-                <!-- whatever video you put here will be (effectively) cropped to fit container size; make sure you're okay with it shrinking to the top left corner of the video at your specified minimum dimensions -->
-                <source src="public/video/pull_square_wotitlecomp.mp4" type="video/mp4" alt="HTML5 background video">
-              </video>
+            <div class="row">
+              <div class="col-md-3"></div> 
+              <div class="col-md-6 col-sm-12 content video-container embed-responsive embed-responsive-1by1">
+                <video playsinline autoplay center loop muted class="video-bg" id="video-bg" poster="public/img/loading.gif"> <!--this id is only used for the toggle function; can be removed if you don't need an event -->
+                  <!-- whatever video you put here will be (effectively) cropped to fit container size; make sure you're okay with it shrinking to the top left corner of the video at your specified minimum dimensions -->
+                  <source src="public/video/pull_square_wotitlecomp.mp4" type="video/mp4" alt="HTML5 background video">
+                </video>
+              </div>
+              <div class="col-md-3"></div>
             </div>
             <p class="text visual">
               <b>You shouldn't play video games all day, so shouldn't your AI!</b> Gibson is a virtual environment based off of real-world, as opposed to games or artificial environments, to support learning perception. Gibson enables developing algorithms that explore both perception and action hand in hand.
