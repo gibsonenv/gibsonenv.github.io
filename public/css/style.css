@@ -559,11 +559,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 ------------------------------------------------------*/
 /*video as background; container element makes it responsive */
 video#video-bg.video-bg {
+  padding: 10px 0 10px 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  width: 80%;
-  height: auto;
+  width: 50%;
   background: transparent url('960x360.png') no-repeat;
   background-size: cover;
   margin-left: auto;
