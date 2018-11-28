@@ -16,5 +16,5 @@ jekyll serve --destination build	# go to http://localhost:4000
 ```
 3. Deploy on posenet vm
 ```bash
-scp -r build username@posenet.stanford.edu:/home/gibsonenv/build
+scp -r build/* username@posenet.stanford.edu:/home/gibsonenv/build/
 ```
