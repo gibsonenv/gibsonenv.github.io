@@ -30,7 +30,9 @@
     height: 80%;
 }
 
-
+.row {
+  margin: 0;
+}
 
 #method {
   background: #ffffff;
