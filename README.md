@@ -16,5 +16,11 @@ jekyll serve --destination build	# go to http://localhost:4000
 ```
 3. Deploy on posenet vm
 ```bash
-scp -r build username@posenet.stanford.edu:/home/gibsonenv/build
+scp -r build/* username@posenet.stanford.edu:/home/gibsonenv/build/
+```
+
+## Video Conversion
+Use the following script to convert mp4 to highres webm (browser compatible)
+```bash
+ffmpeg -i $name.mp4 -c:v libvpx -qmin 0 -qmax 10 -b:v 2M -c:a libvorbis $name.webm
 ```
