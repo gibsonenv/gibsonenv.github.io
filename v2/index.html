@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Gibson Environment V2</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Preview thumbnails -->
+  <meta property='og:title' content="Gibson Environment"/>
+  <meta property='og:image' content="https://i.imgur.com/TtwdVKx.png"/>
+  <meta property='og:description' content="Opensourced Environment for Embodied Real-World Active Perception. Developed by Stanford Vision and Learning Lab."/>
+  <meta property='og:url' content="http://gibson.vision" />
+
+  <!-- Favicons -->
+  <link href="../public/img/favicon-g.ico" rel="icon">
+  <link href="../public/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="../public/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="../public/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../public/lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Stylesheet File -->
+  <link href="../public/css/style.css" rel="stylesheet">
+  <link href="../public/css/platform.css" rel="stylesheet">
+  <link href="./v2.css" rel="stylesheet">
+
+  <!-- Javascript Font Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vissense/0.10.0/vissense.min.js"></script>
+  
+  <!-- =======================================================
+    Theme Name: Regna
+    Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!--<a href="http://ai.stanford.edu/"><img src="../public/img/stanford-logo2.png" height="50" alt="" title="" /></img></a> -->
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
+      <div id="logo" class="pull-left">
+        <!--<a href="http://bair.berkeley.edu/"><img src="../public/img/berkeley-logo.png" height="50" alt="" title="" /></img></a> -->
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
+
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class=""><a href="../">Home</a></li>
+          <li class=""><a href="../#services">Gibson</a></li>
+          <li class=""><a href="../agents">Agents</a></li>
+          <li class=""><a href="../database">Database <font color="red">(NEW!)</font></a></li>
+          <li class="menu-active"><a href="/">Method</a></li>
+          <!-- 
+          <li class="{{#is title 'Challenge'}}menu-active{{/is}}"><a href="challenge">Challenge</a></li>-->
+          <li class=""><a href="/#team">Team</a></li>
+          <li class=""><a href="/#paper">Paper</a></li>                    
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+<main id="main">
+  <!--==========================
+    About Us Section
+  ============================-->
+
+  <!--==========================
+    Services Section
+  ============================-->
+
+  <section id="method">
+    <div class = "container">
+      <div class="row method-container">
+
+         <div class="section-header">
+          <h2 class="section-title">Gibson Env V2</h2>
+          <p class="section-description"> 
+            Gibson Env V2 is a significantly improved version over Gibson Env. Gibson Env V2 has significantly faster rendering speed, which makes large-scale training possible. It also allows for more complicated interactions between the agent and the environment, such as picking up and placing objects, or opening doors and cabinets. This environment opens up new venues for jointly training base and arm policies, allowing researchers to explore the synergy between manipulation and navigation.
+            
+            
+
+          </p>
+
+          <p class="section-description">
+              <a href="https://github.com/fxia22/gibsonv2"> [Code] </a>  <a href="https://github.com/fxia22/gibsonv2"> [Download dataset] </a>  <a href="./gibsonv2.pdf"> [Tech report] </a>  
+          </p>
+          
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+  <section id="method">
+    <div class="container" id="method-RL">
+      <div class="row method-container">
+        <div class="section-header">
+          <h3 class="section-title">Demos</h3>
+          <h4 class="section-second-title">Multiple agent example</h4>
+          <div class="methodvid-container">
+            <iframe class="methodvid autoplay-video" border="0" src="https://www.youtube.com/embed/M0DUVxGZXI0?version=3&amp;autoplay=1&amp;enablejsapi=1&amp;loop=1&amp;rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+          </div>
+
+
+          <div class="methodvid-container">
+            <iframe class="methodvid autoplay-video" border="0" src="https://www.youtube.com/embed/elWvQz-kQoM?version=3&amp;autoplay=1&amp;enablejsapi=1&amp;loop=1&amp;rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+          </div>
+
+          <p class="section-description">  In this example we show Gibson Env V2 is able to handle multiple agents. It can render the camera view from each agent and simulate collisions between agents. 
+          </p>
+
+
+          <h4 class="section-second-title">Manipulation example</h4>
+          <div class="methodvid-container">
+            <iframe class="methodvid autoplay-video" border="0" src="https://www.youtube.com/embed/y80DWS70m1U?version=3&amp;autoplay=1&amp;enablejsapi=1&amp;loop=1&amp;rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+          </div>
+
+          <p class="section-description">  In this example we show a simulated <a href="http://svl.stanford.edu/projects/jackrabbot/"> JR </a> in Gibson Env V2. It can pull open the door in the environment. We show a third person view and the robot's view.
+          </p>
+         
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  
+  <section id="method">
+    <div class = "container">
+      
+      <div class="row method-container">
+
+        <div class="section-header">
+         <h2 class="section-title">Benchmarks</h2>
+        
+         <div class="row fps-container" style="padding: 0 10% 0 10%">
+           <div class="col-xl-12 col-lg-12">
+             <p style="text-align:center">The table shows rendering speed (frame per second) of our environment under different rendering modes  
+              at 256x256 resolution with full physical simulation enabled. Tested on <code> GTX 1080ti</code></p>
+             <table class="table">
+               <thead class="thead-dark">
+                 <tr>
+                   <th scope="col"></th>
+                   <th scope="col">Gibson V2</th>
+                   <th scope="col">Gibson V1</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <th scope="row">RGBD, pre network<code>f</code></th>
+                   <td>264.1</td>
+                   <td>58.5</td>
+                 </tr>
+                 <tr>
+                   <th scope="row">RGBD, post network<code>f</code></th>
+                   <td>61.7</td>
+                   <td>30.6</td>
+                 </tr>
+                 
+                 <tr>
+                   <th scope="row">Surface Normal only</th>
+                   <td>271.1</td>
+                   <td>129.7</td>
+                 </tr>
+                 <tr>
+                   <th scope="row">Semantic only</th>
+                   <td>279.1</td>
+                   <td>144.2</td>
+                 </tr>
+                 <tr>
+                   <th scope="row">Non-Visual Sensory</th>
+                   <td>1017.4</td>
+                   <td>396.1</td>
+                 </tr>
+               </tbody>
+             </table>
+           
+        </div>
+        
+     </div>
+
+
+
+     <div class="row fps-container" style="padding: 0 10% 0 10%">
+      <div class="col-xl-12 col-lg-12">
+        <p style="text-align:center"> The table shows the rendering only (no physics) speed of our environment compared with habitat-sim at 640x480 resolution. All benchmarks are run with a single <code>NVIDIA GeForce GTX 1080 Ti</code> Graphics Card</p>
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Gibson V2</th>
+              <th scope="col">Habitat-sim</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Hillsdale</th>
+              <td>620.4</td>
+              <td>752.9</td>
+            </tr>
+            <tr>
+              <th scope="row">Albertville</th>
+              <td>422.0</td>
+              <td>688.2</td>
+            </tr>
+            
+         
+          </tbody>
+        </table>
+      
+        </div>
+        
+      </div>
+
+   </div>
+
+ </div>
+
+    </div>
+
+  </section>
+
+
+
+</main>
+
+ <!--
+  <!-- Start of StatCounter Code for Default Guide -->
+  <script type="text/javascript">
+  var sc_project=11628934; 
+  var sc_invisible=1; 
+  var sc_security="8b943126"; 
+  </script>
+  <script type="text/javascript"
+  src="https://www.statcounter.com/counter/counter.js"
+  async></script>
+  <noscript><div class="statcounter"><a title="site stats"
+  href="http://statcounter.com/" target="_blank"><img
+  class="statcounter"
+  src="//c.statcounter.com/11628934/0/8b943126/1/" alt="site
+  stats"></a></div></noscript>
+  <!-- End of StatCounter Code for Default Guide -->
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Stanford University 2017-2018</strong>. All Rights Reserved. Patent Pending.
+      </div>
+      <div class="credits">
+
+        Bootstrap Templates by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="../public/lib/jquery/jquery.min.js"></script>
+  <script src="../public/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="../public/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../public/lib/easing/easing.min.js"></script>
+  <script src="../public/lib/wow/wow.min.js"></script>
+
+  <script src="../public/lib/waypoints/waypoints.min.js"></script>
+  <script src="../public/lib/counterup/counterup.min.js"></script>
+  <script src="../public/lib/superfish/hoverIntent.js"></script>
+  <script src="../public/lib/superfish/superfish.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="../public/contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="../public/js/main.js"></script>
+
+
+</body>
+</html>
