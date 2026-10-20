@@ -1,6 +1,6 @@
 # Gibson Env Website
 
-The repository for code supporting the Gibson Env [website](http://gibson.vision), for the paper *Gibson Env: Gibson Env: Real-World Perception for Embodied Agents*.
+The repository for code supporting the Gibson Env [website](http://gibsonenv.stanford.edu), for the paper *Gibson Env: Gibson Env: Real-World Perception for Embodied Agents*.
 
 
 ## How to update and deploy
